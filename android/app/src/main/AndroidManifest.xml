@@ -1,13 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="wirewend"
+        android:label="Wirewend"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!-- Locked upright: the board is laid out for a screen held that way
+             and the game screen does not scroll, so landscape would leave the
+             grid a strip across the middle. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:taskAffinity=""
+            android:screenOrientation="portrait"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
