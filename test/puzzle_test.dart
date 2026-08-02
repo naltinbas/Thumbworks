@@ -131,7 +131,7 @@ void main() {
 
     test('never hands over a picture it could not solve', () {
       // The property the whole maker exists for, on every size it makes.
-      for (final size in const [5, 8, 10, 12, 15]) {
+      for (final size in const [5, 8, 10]) {
         for (var seed = 0; seed < 12; seed++) {
           final puzzle =
               const Maker().make(seed: seed, width: size, height: size)!;
@@ -147,8 +147,9 @@ void main() {
     test('numbers puzzles from one and climbs', () {
       expect(Book.chapterOf(1).size, 5);
       expect(Book.chapterOf(1).leastPasses, 1);
-      expect(Book.chapterOf(100).size, 15);
-      expect(Book.chapterOf(100).leastPasses, 8);
+      expect(Book.chapterOf(100).size, 10);
+      expect(Book.chapterOf(100).leastPasses, 7);
+      expect(Book.chapterOf(500).size, 10, reason: 'the book does not run out');
       expect(Book.placeInChapter(1), 1);
       expect(Book.placeInChapter(12), 2);
     });

@@ -51,9 +51,15 @@ class Puzzle {
 /// Solvability by line logic alone also settles uniqueness for free: if every
 /// square is forced, no other picture fits the clues.
 class Maker {
-  const Maker({this.tries = 600});
+  const Maker({this.tries = 4000});
 
   /// How many pictures to try before giving up on a seed.
+  ///
+  /// Four thousand sounds enormous and costs nothing: a picture is drawn and
+  /// solved in tens of microseconds, and only the hardest chapter gets
+  /// anywhere near it. Measured on the deepest one, ten across needing eight
+  /// passes, the maker throws away about seven hundred pictures and takes
+  /// under forty milliseconds.
   final int tries;
 
   /// The puzzle for a seed at a size, or null if this seed had nothing.

@@ -33,15 +33,25 @@ class Chapter {
 class Book {
   const Book._();
 
+  /// Ten squares across is the biggest grid in the book, and the reason is
+  /// the smallest phone still sold rather than anything about the puzzles.
+  ///
+  /// A row of clues needs room beside the grid, so the width a phone has to
+  /// share out is the grid plus its deepest clue. On a 320 point screen that
+  /// leaves 23 point squares at ten across, 19 at twelve and 15 at fifteen.
+  /// Fifteen point squares are half a keyboard key: a thumb covers four of
+  /// them. So the grids stop at ten and the climb carries on through the
+  /// difficulty instead, which is the dial that was worth turning anyway.
   static const _chapters = <int, Chapter>{
     1: Chapter(size: 5, leastPasses: 1, title: 'the small ones'),
     6: Chapter(size: 5, leastPasses: 3, title: 'small and stubborn'),
     11: Chapter(size: 8, leastPasses: 3, title: 'room to work'),
-    21: Chapter(size: 10, leastPasses: 4, title: 'ten across'),
-    31: Chapter(size: 12, leastPasses: 5, title: 'the long lines'),
-    46: Chapter(size: 15, leastPasses: 6, title: 'full size'),
-    61: Chapter(size: 15, leastPasses: 7, title: 'no easy start'),
-    81: Chapter(size: 15, leastPasses: 8, title: 'the deep end'),
+    21: Chapter(size: 8, leastPasses: 4, title: 'eight across'),
+    31: Chapter(size: 10, leastPasses: 4, title: 'ten across'),
+    46: Chapter(size: 10, leastPasses: 5, title: 'the long lines'),
+    61: Chapter(size: 10, leastPasses: 6, title: 'nothing for free'),
+    81: Chapter(size: 10, leastPasses: 7, title: 'no easy start'),
+    101: Chapter(size: 10, leastPasses: 8, title: 'the deep end'),
   };
 
   /// Where puzzle [number] sits. Numbers start at one, because a book of
