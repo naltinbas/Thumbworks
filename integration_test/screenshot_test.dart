@@ -27,6 +27,14 @@ import '../test/support/tracing.dart';
 //     --target=integration_test/screenshot_test.dart -d DEVICE
 late final IntegrationTestWidgetsFlutterBinding binding;
 
+/// Whether the Flutter surface has already been turned into an image view.
+///
+/// Android hands back a black rectangle for a screenshot until it has been,
+/// and the call asserts if it is made twice — once per run, not once per
+/// test, which is a distinction that only shows up on a device and so only
+/// ever shows up in CI.
+var _surfaceConverted = false;
+
 /// The board the pictures are taken on.
 ///
 /// A round is a pure function of its seed, so this is the board a phone deals
@@ -143,7 +151,10 @@ Future<void> _open(WidgetTester tester) async {
   // Android hands back a black rectangle for a screenshot until the Flutter
   // surface is an image view. It is a no-op elsewhere, it may be done only
   // once in a test, and the binding puts it back afterwards.
-  await binding.convertFlutterSurfaceToImage();
+  if (!_surfaceConverted) {
+    await binding.convertFlutterSurfaceToImage();
+    _surfaceConverted = true;
+  }
 }
 
 /// Takes the picture, after a frame so that what is on screen is what the
