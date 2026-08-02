@@ -3,10 +3,14 @@
 export PATH := /opt/flutter/bin:$(PATH)
 export JAVA_HOME ?= /usr/lib/jvm/java-17-openjdk-arm64
 
-.PHONY: all deps analyze test apk shots clean
+.PHONY: all check deps analyze test apk shots clean
 
-# What CI's first job runs, and the pair worth running before a commit.
-all: analyze test
+# Everything that has to be green. What the pre-push hook runs, because there
+# is no CI here: nothing leaves this machine unless it analyzes and the tests
+# pass.
+check: analyze test
+
+all: check
 
 deps:
 	flutter pub get
