@@ -78,10 +78,11 @@ class Maker {
     required int width,
     required int height,
     int leastPasses = 1,
+    bool folds = true,
   }) {
     for (var attempt = 0; attempt < tries; attempt++) {
       final random = Random(seed * 1000003 + attempt);
-      final picture = _draw(random, width, height);
+      final picture = _draw(random, width, height, folds);
       if (!_worthPlaying(picture)) continue;
 
       final clues = Clues.of(picture);
@@ -120,22 +121,44 @@ class Maker {
   /// twos that pin nothing down. Growing a few blobs by walking gives runs of
   /// three and four, which is what the solver has to bite on and what makes
   /// the finished grid look like a shape somebody meant.
-  Picture _draw(Random random, int width, int height) {
+  Picture _draw(Random random, int width, int height, bool folds) {
+    // Which way this one folds, decided before anything is drawn.
+    //
+    // Symmetry is what makes a picture read as something somebody drew rather
+    // than as spilled ink; comparing the two settled it, because the mirrored
+    // ones come out looking like masks and butterflies and the rest look like
+    // nothing at all. Not every one, though, and not always the same way, or
+    // knowing the shape of the answer would be worth more than reading the
+    // clues.
+    final fold = random.nextInt(20);
+    final foldsAcross = folds && (fold < 9 || fold >= 17);
+    final foldsDown = folds && fold >= 13;
+
+    // Drawn inside the fold and then copied out, rather than drawn everywhere
+    // and folded afterwards. Folding afterwards moves the share of the grid
+    // that ends up filled — it copies one half over the other — so a picture
+    // drawn to a target and then folded misses it, and the check below throws
+    // it away. Which is how a maker that mirrors most of its pictures ends up
+    // handing over hardly any.
+    final drawWide = foldsAcross ? (width + 1) ~/ 2 : width;
+    final drawHigh = foldsDown ? (height + 1) ~/ 2 : height;
+
     final filled = List<bool>.filled(width * height, false);
     final target =
-        (width * height * (_leastFilled + random.nextDouble() * 0.18)).round();
+        (drawWide * drawHigh * (_leastFilled + random.nextDouble() * 0.18))
+            .round();
 
     var count = 0;
-    var row = random.nextInt(height);
-    var col = random.nextInt(width);
+    var row = random.nextInt(drawHigh);
+    var col = random.nextInt(drawWide);
     var stepsLeft = 0;
 
     while (count < target) {
       if (stepsLeft == 0) {
         // A new blob somewhere else, so the picture is not one snake.
-        row = random.nextInt(height);
-        col = random.nextInt(width);
-        stepsLeft = 4 + random.nextInt(2 + (width * height) ~/ 12);
+        row = random.nextInt(drawHigh);
+        col = random.nextInt(drawWide);
+        stepsLeft = 4 + random.nextInt(2 + (drawWide * drawHigh) ~/ 12);
       }
       if (!filled[row * width + col]) {
         filled[row * width + col] = true;
@@ -143,26 +166,31 @@ class Maker {
       }
       stepsLeft--;
 
-      // A step that favours going straight on would make longer runs still,
-      // but it also makes the blobs into lines. Four ways, evenly.
+      // A step that favoured going straight on would make longer runs still,
+      // but it would also turn the blobs into lines. Four ways, evenly.
       switch (random.nextInt(4)) {
         case 0:
-          row = (row - 1).clamp(0, height - 1);
+          row = (row - 1).clamp(0, drawHigh - 1);
         case 1:
-          row = (row + 1).clamp(0, height - 1);
+          row = (row + 1).clamp(0, drawHigh - 1);
         case 2:
-          col = (col - 1).clamp(0, width - 1);
+          col = (col - 1).clamp(0, drawWide - 1);
         default:
-          col = (col + 1).clamp(0, width - 1);
+          col = (col + 1).clamp(0, drawWide - 1);
       }
     }
 
-    // Half of them are mirrored, because a symmetrical picture reads as
-    // something drawn on purpose rather than something that happened.
-    if (random.nextBool()) {
+    if (foldsAcross) {
       for (var r = 0; r < height; r++) {
         for (var c = 0; c < width ~/ 2; c++) {
           filled[r * width + (width - 1 - c)] = filled[r * width + c];
+        }
+      }
+    }
+    if (foldsDown) {
+      for (var r = 0; r < height ~/ 2; r++) {
+        for (var c = 0; c < width; c++) {
+          filled[(height - 1 - r) * width + c] = filled[r * width + c];
         }
       }
     }
