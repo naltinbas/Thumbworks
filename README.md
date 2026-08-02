@@ -72,8 +72,13 @@ moment nothing gets told about.
 is no audio device on the machine this was built on. What is tested is that the
 file is a valid WAV, that it contains the notes the chart promises at the
 moments it promises them, that the file shipping in `assets/` is what the code
-renders now, and — in CI, on a real emulator — that the app starts the tune
-without erroring.
+renders now, and — on a real emulator, driven by hand — that the app starts
+the tune without erroring.
+
+That last one needs a device. No emulator is published for this machine's
+architecture and there is no CI here to borrow one from, so
+`integration_test/screenshot_test.dart` is driven by hand on a machine that
+has one — `.github/scripts/` holds the two scripts that do it.
 
 ## Running it
 
