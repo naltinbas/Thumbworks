@@ -1,0 +1,108 @@
+# Thumbworks
+
+Thirteen games for phones, in Flutter, for Android and iOS. One repository,
+one folder each, and every commit each of them was built with.
+
+They have almost nothing in common as games — a nonogram, a siege, a rhythm
+game, a minesweeper, a dice race — and one thing in common underneath, which
+is why they live together. **Each one proves the thing it promises.**
+
+| | | |
+|---|---|---|
+| <img src="Wirewend/assets/logo.png" width="64"> **[Wirewend](Wirewend)** | Turn the wire until the current reaches every lamp | Boards are built solvable rather than generated and hoped over |
+| <img src="Slingwell/assets/logo.png" width="64"> **[Slingwell](Slingwell)** | Swing round a gravity well, let go at the right moment | Every well is reachable from the last one, checked by flying it |
+| <img src="Latchword/assets/logo.png" width="64"> **[Latchword](Latchword)** | Drag a thumb across letters and spell what you can | A 44k word list, and a board that always holds enough of them |
+| <img src="Tallyloom/assets/logo.png" width="64"> **[Tallyloom](Tallyloom)** | A nonogram: the numbers say the runs, you find the squares | No puzzle ships that its line-logic solver could not finish |
+| <img src="Thornguard/assets/logo.png" width="64"> **[Thornguard](Thornguard)** | Twelve raiders against a king and four guards | The opening is balanced by self-play, not by feel |
+| <img src="Emberlane/assets/logo.png" width="64"> **[Emberlane](Emberlane)** | Twenty waves down one winding lane, and you build beside it | Three written-down plans must finish, struggle and fail |
+| <img src="Fanwright/assets/logo.png" width="64"> **[Fanwright](Fanwright)** | Patience with everything face up and four cells to park in | Every deal in the book has been solved before it shipped |
+| <img src="Vaultline/assets/logo.png" width="64"> **[Vaultline](Vaultline)** | One button. Tap to hop, hold to go higher | A search over the button proves every stretch is passable |
+| <img src="Chimefall/assets/logo.png" width="64"> **[Chimefall](Chimefall)** | Four lanes, notes falling, tap each one as it lands | The music and the chart are one list, and the audio is checked against it |
+| <img src="Chalkway/assets/logo.png" width="64"> **[Chalkway](Chalkway)** | Draw a line in chalk and let the ball go | Every level ships a drawing that solves it, and it survives being nudged |
+| <img src="Cinderplot/assets/logo.png" width="64"> **[Cinderplot](Cinderplot)** | Minesweeper | No board ever needs a guess, and the difficulty label is measured |
+| <img src="Haulyard/assets/logo.png" width="64"> **[Haulyard](Haulyard)** | Shove every crate onto a mark | The par on each yard is the proven fewest shoves there are |
+| <img src="Hazardwell/assets/logo.png" width="64"> **[Hazardwell](Hazardwell)** | Race to a hundred, roll as long as you dare | The house plays exactly optimally, and the table proves itself |
+
+## The idea they share
+
+A game that says "solvable" usually means somebody played a few and it seemed
+fine. Every game here means it, and the proof is a test rather than a
+paragraph:
+
+- **Cinderplot** lays a minefield out, plays it through with a solver that
+  only reasons, and throws it away if the reasoning ever runs out — *and*
+  throws it away if it needed less thinking than the difficulty on the label
+  promises. Nineteen boards in twenty go in the bin.
+- **Haulyard** searches every yard for the shortest way through it, and a test
+  fails if the par printed on the level is off by one.
+- **Hazardwell** works out the exact chance of winning from all million
+  positions in the game, then checks the answer is a fixed point of the rule
+  that made it. That is the only proof there is that an optimal opponent is
+  optimal.
+- **Chalkway** ships an actual drawing with each level, not a note saying one
+  exists — and requires it to still work when both ends move, because a line
+  that only works at one exact position is a coincidence rather than an
+  answer.
+- **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
+  same for their own shape of content: nothing reaches a player that a solver
+  has not finished first.
+
+The second half of that idea is that the proof is made the way a player would
+find it false. Every game plays itself through its own screen in the tests —
+real gestures, real widgets, real phone sizes — not just through its model.
+
+## Some things learned the hard way
+
+Written down because each one cost a rewrite:
+
+- **Balance is a bug class unit tests cannot see.** Thornguard's first opening
+  gave the raiders sixteen pieces and they won four games in five; the second
+  gave them eight and they lost every one. Only self-play over hundreds of
+  games found it.
+- **Check that a harness measures the game.** Emberlane's first scripted plan
+  bought one tower a wave and lost with twelve hundred embers unspent — it was
+  measuring the schedule, not the game.
+- **Ask the solver whether an option is ever right.** Hazardwell's two-dice
+  move turned out to be mathematically identical to rolling one die twice, to
+  fifteen decimal places, until a pair paid double. A button no correct player
+  would ever press is a design bug only a solver finds.
+- **Best-first beats depth-first badly on wide trees.** Fanwright's first
+  solver won five deals in forty; the same code with a three-term heuristic
+  wins ninety-nine in a hundred.
+- **An external fact is worth more than any self-consistent test.** Fanwright
+  checks deal 11982, the famously unwinnable FreeCell deal, which tests the
+  shuffle, the numbering, the rules and the solver in one bit. Hazardwell's
+  game value agrees with the published figure for the race it is based on;
+  Lockstead's four-peg lock comes out at five guesses, which is Knuth's result
+  from 1977.
+- **Hand-drawn levels need a machine before they need a player.** Four of
+  Haulyard's first twelve yards were impossible: a one-square doorway means
+  the crate plugs its own way out.
+
+## Running them
+
+```
+make check              # analyze and test every game; what the pre-push hook runs
+make one GAME=Chalkway  # just that one
+make deps               # flutter pub get, everywhere
+make shots              # redraw every game's screens and logo
+make list               # what each of them is
+```
+
+Each game's folder is a whole Flutter project and works on its own — `cd
+Chalkway && make check` does what you would expect, and every game has its own
+targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
+on) for the tool that generates or proves its content.
+
+There is no CI. Everything runs on the machine doing the work, and a pre-push
+hook refuses to push a tree where any of the thirteen is red. The device
+screenshot drives in each game's `.github/scripts/` are started by hand on a
+machine with a phone or a simulator attached.
+
+## Where the pictures come from
+
+Every image in this repository was drawn by the code it belongs to. The logos
+come from each game's own painter, run in a test that writes the PNG; the
+screenshots come from a test that renders the real screens at real phone sizes
+and photographs them. Nothing was made in an image editor, and nothing was
+downloaded.
