@@ -77,11 +77,17 @@ class Plan {
 
   /// Plays the whole game, carrying out what it can afford between waves and
   /// calling the next one when it can do no more.
-  Run play({int mostSteps = 400000}) {
+  ///
+  /// [until] stops it early. That is what the screenshots use: a position half
+  /// way through wave seven with six towers up and things walking is not
+  /// something worth posing by hand, and a posed one would be a position no
+  /// run ever reached.
+  Run play({int mostSteps = 400000, bool Function(Run)? until}) {
     var run = Run.fresh();
     var next = 0;
 
     while (!run.isOver && run.steps < mostSteps) {
+      if (until != null && until(run)) return run;
       if (run.waiting) {
         // Everything due by now that the embers will stretch to, in order,
         // stopping at the first thing they will not.
