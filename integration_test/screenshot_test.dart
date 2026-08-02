@@ -23,6 +23,14 @@ import 'package:wirewend/ui/board_view.dart';
 // away, because only the driver side of the run has a disk to write to.
 late final IntegrationTestWidgetsFlutterBinding binding;
 
+/// Whether the Flutter surface has already been turned into an image view.
+///
+/// Android hands back a black rectangle for a screenshot until it has been,
+/// and the call asserts if it is made twice — once per run, not once per
+/// test, which is a distinction that only shows up on a device and so only
+/// ever shows up in CI.
+var _surfaceConverted = false;
+
 Board boardOnScreen(WidgetTester tester) =>
     tester.widget<BoardView>(find.byType(BoardView)).board;
 
@@ -68,7 +76,10 @@ Future<void> turnBack(WidgetTester tester, int cells) async {
 /// itself when the test ends, so it belongs to one shot and cannot be made
 /// twice in the same test.
 Future<void> shoot(WidgetTester tester, String name) async {
-  await binding.convertFlutterSurfaceToImage();
+  if (!_surfaceConverted) {
+    await binding.convertFlutterSurfaceToImage();
+    _surfaceConverted = true;
+  }
   // Settling here also clears the ring the test binding draws where it
   // tapped, which fades over the next couple of frames.
   await tester.pumpAndSettle();
