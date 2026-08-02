@@ -2,13 +2,23 @@
 # there once rather than each one spelling out the full path.
 export PATH := /opt/flutter/bin:$(PATH)
 
+# Scratch goes on the container's own disk, not on the shared one this
+# repository lives on. Building fourteen Flutter projects writes a few
+# gigabytes of files that are gitignored anyway, and the disk under /work is
+# shared with whatever else is running on this machine — when it fills, every
+# command in the container stops, not just this one.
+export TMPDIR := /var/tmp
+
+# Where build output goes instead of into the games. See `make scratch`.
+SCRATCH := /var/cache/thumbworks
+
 # Every game in the collection, oldest first. Adding one means adding it here
 # and nowhere else.
 GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Fanwright Vaultline Chimefall Chalkway Cinderplot Haulyard \
          Hazardwell Lockstead
 
-.PHONY: check test analyze deps shots apk clean list one
+.PHONY: check test analyze deps shots apk clean list one scratch
 
 # Everything that has to be green, in every game. What the pre-push hook runs,
 # because there is no CI behind it: nothing leaves this machine unless all of
@@ -23,6 +33,21 @@ check:
 	  $(MAKE) --no-print-directory -C $$game check || exit 1; \
 	done
 	@printf '\nall %s games green\n' "$(words $(GAMES))"
+
+# Points every game's build/ at the container's own disk.
+#
+# Needs running once on a fresh container, and it is safe to run again: build
+# output is regenerable by definition, which is exactly what belongs on a disk
+# that does not survive a rebuild.
+scratch:
+	@for game in $(GAMES); do \
+	  if [ ! -L $$game/build ]; then \
+	    rm -rf $$game/build; \
+	    mkdir -p $(SCRATCH)/$$game; \
+	    ln -s $(SCRATCH)/$$game $$game/build; \
+	    echo "$$game/build -> $(SCRATCH)/$$game"; \
+	  fi; \
+	done
 
 # One game, for when only one of them has changed:  make one GAME=Chalkway
 one:
