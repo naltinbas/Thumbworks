@@ -22,6 +22,14 @@ import 'package:slingwell/ui/game_view.dart';
 //     --target=integration_test/screenshot_test.dart -d DEVICE
 late final IntegrationTestWidgetsFlutterBinding binding;
 
+/// Whether the Flutter surface has already been turned into an image view.
+///
+/// Android hands back a black rectangle for a screenshot until it has been,
+/// and the call asserts if it is made twice — once per run, not once per
+/// test, which is a distinction that only shows up on a device and so only
+/// ever shows up in CI.
+var _surfaceConverted = false;
+
 /// The run the pictures are taken out of: a good player's first thirteen
 /// releases on seed 5.
 ///
@@ -168,7 +176,11 @@ Future<World> _play(
 /// a test, so every later shot in the same test reuses it. It makes each frame
 /// more expensive, so it is left as late as it can be: after the climb, and
 /// before the first picture.
-Future<void> _prepareToShoot() => binding.convertFlutterSurfaceToImage();
+Future<void> _prepareToShoot() async {
+  if (_surfaceConverted) return;
+  await binding.convertFlutterSurfaceToImage();
+  _surfaceConverted = true;
+}
 
 /// Takes the picture.
 Future<void> _shoot(WidgetTester tester, String name) async {
