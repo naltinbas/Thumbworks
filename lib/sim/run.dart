@@ -85,13 +85,30 @@ class Built {
       );
 }
 
-/// A shot, for the view to draw. It lives one step and is gone.
+/// A shot, for the view to draw.
+///
+/// It hangs about for a tenth of a second rather than a single step. Damage is
+/// done the instant it is fired and nothing reads these back, so this is
+/// entirely about being seen: a line drawn for one frame out of sixty is a
+/// line a player does not see, and a tower that never visibly shoots is a
+/// tower they think is broken.
 class Shot {
-  const Shot(this.from, this.to, this.kind);
+  const Shot(this.from, this.to, this.kind, {this.age = 0});
 
   final Spot from;
   final Spot to;
   final Tower kind;
+
+  /// Steps since it was fired.
+  final int age;
+
+  /// How long one stays on screen.
+  static const showFor = 7;
+
+  /// How solid it should be drawn, fading as it goes.
+  double get strength => 1 - age / showFor;
+
+  Shot get older => Shot(from, to, kind, age: age + 1);
 }
 
 /// How a run ended.
@@ -351,13 +368,18 @@ class Run {
       after.add(tower.copyWith(since: 0, aimedAt: target.id));
     }
 
+    final lingering = [
+      for (final shot in shots)
+        if (shot.age + 1 < Shot.showFor) shot.older,
+    ];
+
     if (hurt.isEmpty && fired.isEmpty) {
-      return _copy(built: after, shots: const []);
+      return _copy(built: after, shots: lingering);
     }
 
     return _copy(
       built: after,
-      shots: fired,
+      shots: [...fired, ...lingering],
       walking: [
         for (final walker in walking)
           walker.copyWith(
