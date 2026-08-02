@@ -160,6 +160,6 @@ icon; there is no image in this repository that was not produced by it.
 
 `integration_test/screenshot_test.dart` does the same on a real emulator and a
 real simulator, with the strokes delivered as device pointer events so they go
-in the way a thumb does. CI runs it on the Run workflow button rather than on
-every push — a macOS minute costs ten Linux ones and the emulator drive takes
-a quarter of an hour, and device pictures do not change when a test does.
+in the way a thumb does. There is no CI here, so it is driven by hand
+on a machine with a phone or a simulator attached — `.github/scripts/` holds
+the two scripts that do it.
