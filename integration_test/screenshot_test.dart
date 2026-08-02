@@ -24,6 +24,14 @@ import 'package:thornguard/ui/game_screen.dart';
 //     --target=integration_test/screenshot_test.dart -d DEVICE
 late final IntegrationTestWidgetsFlutterBinding binding;
 
+/// Whether the Flutter surface has already been turned into an image view.
+///
+/// Android hands back a black rectangle for a screenshot until it has been,
+/// and the call asserts if it is made twice — once per run, not once per
+/// test, which is a distinction that only shows up on a device and so only
+/// ever shows up in CI.
+var _surfaceConverted = false;
+
 /// The side the pictures are taken from.
 const _playing = Side.guards;
 
@@ -95,7 +103,10 @@ Future<void> _open(WidgetTester tester, {Game? at}) async {
   // Android hands back a black rectangle for a screenshot until the Flutter
   // surface is an image view. It is a no-op elsewhere, it may be done only
   // once in a test, and the binding puts it back afterwards.
-  await binding.convertFlutterSurfaceToImage();
+  if (!_surfaceConverted) {
+    await binding.convertFlutterSurfaceToImage();
+    _surfaceConverted = true;
+  }
 }
 
 void main() {
