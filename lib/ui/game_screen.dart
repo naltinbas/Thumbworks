@@ -7,6 +7,7 @@ import '../game/lexicon.dart';
 import '../game/round.dart';
 import 'found_list.dart';
 import 'hud.dart';
+import 'away_cover.dart';
 import 'palette.dart';
 import 'play_area.dart';
 import 'summary_card.dart';
@@ -47,7 +48,7 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen>
-    with TickerProviderStateMixin {
+    with TickerProviderStateMixin, WidgetsBindingObserver {
   /// The round's clock. Its value is how much of the round has gone, which is
   /// what both the seconds and the line under them are drawn from.
   late final AnimationController _clock;
@@ -63,6 +64,16 @@ class _GameScreenState extends State<GameScreen>
   /// Whether the clock is what ended the last round, rather than the player.
   bool _ranOut = true;
 
+  /// Whether the round is waiting to be picked back up after the app was away.
+  ///
+  /// A round has to survive a phone call. Letting the clock run while the game
+  /// is not on screen costs a player their round for something that is not
+  /// their fault; stopping it and carrying on where they left off hands them
+  /// a way to stop the clock and study the board at leisure. So the clock
+  /// stops and the board is covered until they say they are ready, which
+  /// costs them nothing and shows them nothing.
+  bool _away = false;
+
   /// Counts the rounds played, and nothing else. It is the key on the play
   /// area, so a new round is a new state: no word left over in the line above
   /// the board from the round before, even when the board is the same one.
@@ -71,6 +82,7 @@ class _GameScreenState extends State<GameScreen>
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     // Built here rather than lazily on the first round: a game closed on the
     // title screen would otherwise make its first ticker while the tree it
     // belongs to was being taken down.
@@ -86,7 +98,23 @@ class _GameScreenState extends State<GameScreen>
   }
 
   @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) return;
+    if (_phase != Phase.playing || _away) return;
+    _clock.stop();
+    setState(() => _away = true);
+  }
+
+  /// Pick the round back up where the clock was left.
+  void _resume() {
+    if (!_away) return;
+    setState(() => _away = false);
+    if (_phase == Phase.playing) _clock.forward();
+  }
+
+  @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _reveal.dispose();
     _clock.dispose();
     _ending.dispose();
@@ -182,7 +210,7 @@ class _GameScreenState extends State<GameScreen>
                     // The board is still there under the card, and a thumb
                     // dragged across it after the clock stopped must not spell
                     // anything.
-                    ignoring: _phase != Phase.playing,
+                    ignoring: _phase != Phase.playing || _away,
                     child: PlayArea(
                       key: ValueKey(_go),
                       board: round.board,
@@ -196,6 +224,13 @@ class _GameScreenState extends State<GameScreen>
                       middle: FoundList(words: round.found),
                     ),
                   ),
+                  if (_away)
+                    AwayCover(
+                      onResume: _resume,
+                      score: round.board.score,
+                      found: round.found.length,
+                      left: widget.length * (1 - _clock.value),
+                    ),
                   if (_phase == Phase.over)
                     SummaryCard(
                       round: round,

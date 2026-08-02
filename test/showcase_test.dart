@@ -232,6 +232,25 @@ void main() {
     await capture(tester, 'summary');
   });
 
+  testWidgets('the round waiting to be picked back up', (tester) async {
+    await open(tester, phone);
+    await play(tester);
+    await findSome(tester, 3);
+
+    // Away and back, one state at a time, the way a phone takes an app there.
+    for (final state in const [
+      AppLifecycleState.inactive,
+      AppLifecycleState.hidden,
+      AppLifecycleState.paused,
+      AppLifecycleState.hidden,
+      AppLifecycleState.inactive,
+      AppLifecycleState.resumed,
+    ]) {
+      tester.binding.handleAppLifecycleStateChanged(state);
+      await tester.pump();
+    }
+    await capture(tester, 'paused');
+  });
 }
 
 /// The words on a board a picture wants found: the best ones, shortest first
