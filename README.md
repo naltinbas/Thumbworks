@@ -117,5 +117,7 @@ phone dimensions. The half played positions are a real deal taken part way down
 the solver's own line, so they are positions a player could be in rather than
 hands somebody arranged.
 
-Pictures of the game on an actual phone come from CI, which is where an
-emulator and a simulator can be booted.
+Pictures of the game on an actual phone need an actual phone. No emulator is
+published for this machine's architecture and there is no CI here to borrow
+one from, so `integration_test/screenshot_test.dart` is driven by hand on a
+machine that has one — `.github/scripts/` holds the two scripts that do it.
