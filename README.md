@@ -133,9 +133,9 @@ icon; there is no image in this repository that was not produced by it.
 
 `integration_test/screenshot_test.dart` does it again on a real emulator and
 a real simulator, laying the boards out on the device and tapping with device
-pointer events. CI runs it on the Run workflow button rather than on every
-push — a macOS minute costs ten Linux ones and the emulator drive takes a
-quarter of an hour, and device pictures do not change when a test does.
+pointer events. There is no CI here, so it is driven by hand
+on a machine with a phone or a simulator attached — `.github/scripts/` holds
+the two scripts that do it.
 
 | | |
 |---|---|
