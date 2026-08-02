@@ -1,0 +1,4 @@
+# Each game brings its own .gitignore, which git applies inside that game's
+# folder. This one is only for things that belong to the collection.
+.DS_Store
+*.swp
