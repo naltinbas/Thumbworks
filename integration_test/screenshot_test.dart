@@ -23,6 +23,14 @@ import 'package:fanwright/ui/table_painter.dart';
 //     --target=integration_test/screenshot_test.dart -d DEVICE
 late final IntegrationTestWidgetsFlutterBinding binding;
 
+/// Whether the Flutter surface has already been turned into an image view.
+///
+/// Android hands back a black rectangle for a screenshot until it has been,
+/// and the call asserts if it is made twice — once per run, not once per
+/// test, which is a distinction that only shows up on a device and so only
+/// ever shows up in CI.
+var _surfaceConverted = false;
+
 /// A real deal taken part way down the solver's own line, so the position in
 /// the pictures is one a player could be in.
 late final Game _partWay;
@@ -86,7 +94,10 @@ Future<void> _open(WidgetTester tester, {Game? at, bool playing = true}) async {
   // Android hands back a black rectangle for a screenshot until the Flutter
   // surface is an image view. It is a no-op elsewhere and may be done only
   // once in a test.
-  await binding.convertFlutterSurfaceToImage();
+  if (!_surfaceConverted) {
+    await binding.convertFlutterSurfaceToImage();
+    _surfaceConverted = true;
+  }
 }
 
 Future<void> _shoot(WidgetTester tester, String name) async {
