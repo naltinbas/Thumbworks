@@ -14,6 +14,23 @@ concurrency:
 permissions:
   contents: read
 
+# What runs when, and why.
+#
+# Analyze, test and the Android build run on every push. They are Linux
+# minutes, they take about nine between them, and they are what actually says
+# whether the game works.
+#
+# The other three — the iOS build and both screenshot drives — run only when
+# somebody asks, with the Run workflow button. A macOS minute is billed at ten
+# times a Linux one and the emulator drive takes a quarter of an hour, so one
+# push of one repository was costing around two hundred and twenty billable
+# minutes. Across nine games that is a month's allowance for a single round of
+# pushes, which is exactly what happened: everything went red with "the job was
+# not started because ... your spending limit needs to be increased".
+#
+# Nothing is lost by asking for them. Device pictures do not change when a test
+# does, and when they are wanted they are one button away.
+
 env:
   # Pinned rather than tracking stable, so a Flutter release cannot break a
   # build of code nobody touched.
@@ -80,6 +97,7 @@ jobs:
 
   ios:
     name: Simulator build
+    if: github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: macos-latest
     timeout-minutes: 45
@@ -100,6 +118,7 @@ jobs:
 
   shots-android:
     name: Android screenshots
+    if: github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 45
@@ -163,6 +182,7 @@ jobs:
 
   shots-ios:
     name: iOS screenshots
+    if: github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: macos-latest
     timeout-minutes: 45
