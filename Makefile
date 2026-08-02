@@ -6,7 +6,7 @@ export PATH := /opt/flutter/bin:$(PATH)
 # and nowhere else.
 GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Fanwright Vaultline Chimefall Chalkway Cinderplot Haulyard \
-         Hazardwell
+         Hazardwell Lockstead
 
 .PHONY: check test analyze deps shots apk clean list one
 

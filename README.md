@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirteen games for phones, in Flutter, for Android and iOS. One repository,
+Fourteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games — a nonogram, a siege, a rhythm
@@ -22,6 +22,7 @@ is why they live together. **Each one proves the thing it promises.**
 | <img src="Cinderplot/assets/logo.png" width="64"> **[Cinderplot](Cinderplot)** | Minesweeper | No board ever needs a guess, and the difficulty label is measured |
 | <img src="Haulyard/assets/logo.png" width="64"> **[Haulyard](Haulyard)** | Shove every crate onto a mark | The par on each yard is the proven fewest shoves there are |
 | <img src="Hazardwell/assets/logo.png" width="64"> **[Hazardwell](Hazardwell)** | Race to a hundred, roll as long as you dare | The house plays exactly optimally, and the table proves itself |
+| <img src="Lockstead/assets/logo.png" width="64"> **[Lockstead](Lockstead)** | Find the code: right peg, or right colour in the wrong place | Five guesses is always enough, and the whole strategy tree says so |
 
 ## The idea they share
 
@@ -43,6 +44,9 @@ paragraph:
   exists — and requires it to still work when both ends move, because a line
   that only works at one exact position is a coincidence rather than an
   answer.
+- **Lockstead** gives you exactly five guesses because every one of the 1296
+  codes can be found in five — walked as one tree rather than sampled, and
+  agreeing with Knuth's published result from 1977.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -95,7 +99,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirteen is red. The device
+hook refuses to push a tree where any of the fourteen is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
