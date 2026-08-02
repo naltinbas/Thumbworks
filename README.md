@@ -120,5 +120,7 @@ Screenshots come from `test/showcase_test.dart` — the real widget tree at real
 phone dimensions. The runs in them are real ones played by the stored proofs;
 nothing is posed.
 
-Pictures of the game on an actual phone come from CI, which is where an
-emulator and a simulator can be booted.
+Pictures of the game on an actual phone need an actual phone. No emulator is
+published for this machine's architecture and there is no CI here to borrow
+one from, so `integration_test/screenshot_test.dart` is driven by hand on a
+machine that has one — `.github/scripts/` holds the two scripts that do it.
