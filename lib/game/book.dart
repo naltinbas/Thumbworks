@@ -6,6 +6,7 @@ class Chapter {
     required this.size,
     required this.leastPasses,
     required this.title,
+    this.folds = true,
   });
 
   final int size;
@@ -16,6 +17,14 @@ class Chapter {
 
   /// What this stretch is called, for the line under the puzzle number.
   final String title;
+
+  /// Whether its pictures are drawn symmetrical.
+  ///
+  /// They are, everywhere but the last chapter, because a folded picture looks
+  /// like something and a scatter of blobs does not. The last chapter gives
+  /// that up: symmetrical clues solve each other, and a puzzle that will not
+  /// come out in under eight sweeps of the lines has to stop helping.
+  final bool folds;
 }
 
 /// The order the puzzles come in.
@@ -51,7 +60,7 @@ class Book {
     46: Chapter(size: 10, leastPasses: 5, title: 'the long lines'),
     61: Chapter(size: 10, leastPasses: 6, title: 'nothing for free'),
     81: Chapter(size: 10, leastPasses: 7, title: 'no easy start'),
-    101: Chapter(size: 10, leastPasses: 8, title: 'the deep end'),
+    101: Chapter(size: 10, leastPasses: 8, title: 'the deep end', folds: false),
   };
 
   /// Where puzzle [number] sits. Numbers start at one, because a book of
@@ -86,6 +95,7 @@ class Book {
       width: chapter.size,
       height: chapter.size,
       leastPasses: chapter.leastPasses,
+      folds: chapter.folds,
     );
     if (puzzle == null) {
       throw StateError('no puzzle at $number, which should not be possible');

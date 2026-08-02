@@ -150,6 +150,8 @@ void main() {
       expect(Book.chapterOf(100).size, 10);
       expect(Book.chapterOf(100).leastPasses, 7);
       expect(Book.chapterOf(500).size, 10, reason: 'the book does not run out');
+      expect(Book.chapterOf(500).folds, isFalse,
+          reason: 'and the deep end stays deep');
       expect(Book.placeInChapter(1), 1);
       expect(Book.placeInChapter(12), 2);
     });
@@ -159,7 +161,7 @@ void main() {
       // both solvable and hard enough, and "it always finds one" is a claim
       // about a search, which is the kind of claim that quietly stops being
       // true.
-      for (var number = 1; number <= 100; number++) {
+      for (var number = 1; number <= 250; number++) {
         final chapter = Book.chapterOf(number);
         final puzzle = Book.at(number);
         expect(puzzle.width, chapter.size, reason: 'puzzle $number');
@@ -170,7 +172,7 @@ void main() {
     });
 
     test('every puzzle is solvable without a guess', () {
-      for (var number = 1; number <= 100; number++) {
+      for (var number = 1; number <= 250; number++) {
         final puzzle = Book.at(number);
         final solved = solve(puzzle.clues);
         expect(solved.verdict, Verdict.solved, reason: 'puzzle $number');
