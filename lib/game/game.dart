@@ -19,6 +19,7 @@ enum Drawn {
 /// the going-nowhere rule are both about the past, so they live here.
 class Game {
   const Game._({
+    required this.start,
     required this.board,
     required this.history,
     required this.moves,
@@ -26,16 +27,25 @@ class Game {
     required this.sinceProgress,
   });
 
-  factory Game.fresh() {
-    final board = Board.opening();
-    return Game._(
-      board: board,
-      history: [board],
-      moves: const [],
-      drawn: Drawn.no,
-      sinceProgress: 0,
-    );
-  }
+  factory Game.fresh() => Game.at(Board.opening());
+
+  /// A game beginning from a position rather than from the opening.
+  ///
+  /// A player never wants this; a test or a screenshot that needs the board a
+  /// move from the end always does. A game made this way has no past, so
+  /// taking moves back goes no further than the position it began at.
+  factory Game.at(Board board) => Game._(
+        start: board,
+        board: board,
+        history: [board],
+        moves: const [],
+        drawn: Drawn.no,
+        sinceProgress: 0,
+      );
+
+  /// The position this game began at, which is the opening unless a test said
+  /// otherwise.
+  final Board start;
 
   final Board board;
 
@@ -87,6 +97,7 @@ class Game {
     }
 
     return Game._(
+      start: start,
       board: next,
       history: seen,
       moves: [...moves, move],
@@ -102,7 +113,7 @@ class Game {
   /// determined by its moves, so there is nothing else to restore.
   Game get back {
     if (moves.isEmpty) return this;
-    var game = Game.fresh();
+    var game = Game.at(start);
     for (final move in moves.take(moves.length - 1)) {
       game = game.play(move);
     }
@@ -111,7 +122,7 @@ class Game {
 
   /// Both moves back, which is what a player who wants their move back
   /// actually wants when the other side has already replied.
-  Game get backAPair => moves.length < 2 ? Game.fresh() : back.back;
+  Game get backAPair => moves.length < 2 ? Game.at(start) : back.back;
 
   static int _menOn(Board board) =>
       board.count(Piece.raider) + board.count(Piece.guard) + board.count(Piece.king);
