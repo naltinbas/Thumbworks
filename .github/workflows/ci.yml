@@ -1,0 +1,207 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# A newer push makes the older run's emulator a waste of a machine.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  # Pinned rather than tracking stable, so a Flutter release cannot break a
+  # build of code nobody touched.
+  FLUTTER_VERSION: 3.44.8
+
+jobs:
+  test:
+    name: Analyze and test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          # Keeps both the SDK and the pub cache, the second keyed on
+          # pubspec.lock.
+          cache: true
+
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+
+      # A tenth of a second a plan, and it is the only thing that notices a
+      # change which quietly makes the game unwinnable.
+      - run: dart run tool/dryrun.dart
+
+      # The suite renders the real screens at real phone sizes on its way
+      # past, so the pictures cost nothing extra and are the quickest way to
+      # see what a change did to the look of the game.
+      - uses: actions/upload-artifact@v7.0.1
+        if: always()
+        with:
+          name: emberlane-screens
+          path: build/showcase
+          if-no-files-found: warn
+
+  android:
+    name: Release APK
+    # Everything here takes minutes, and none of it is worth spending on code
+    # that does not analyze.
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-java@v5.7.0
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Keep the Gradle downloads between runs
+        uses: actions/cache@v6.1.0
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('android/**/*.gradle*', 'android/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: gradle-${{ runner.os }}-
+
+      - run: flutter pub get
+      - run: flutter build apk --release
+
+      - uses: actions/upload-artifact@v7.0.1
+        with:
+          name: emberlane-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+
+  ios:
+    name: Simulator build
+    needs: test
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      # A simulator build is never signed, which is what makes this job
+      # possible without an Apple account or a secret to keep.
+      - run: flutter build ios --simulator --debug
+
+  shots-android:
+    name: Android screenshots
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-java@v5.7.0
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Keep the Gradle downloads between runs
+        uses: actions/cache@v6.1.0
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-${{ runner.os }}-${{ hashFiles('android/**/*.gradle*', 'android/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: gradle-${{ runner.os }}-
+
+      - run: flutter pub get
+
+      # Without this the emulator falls back to software virtualisation and
+      # takes long enough to boot that the job times out.
+      - name: Let the emulator use KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' \
+            | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Play a run on an emulator
+        uses: reactivecircus/android-emulator-runner@v2.38.0
+        with:
+          api-level: 35
+          target: google_apis
+          arch: x86_64
+          # A phone-shaped screen, because a screenshot of a nine by thirteen
+          # field on a tablet says nothing about whether the cells are big
+          # enough for a thumb.
+          profile: pixel_6
+          ram-size: 3072
+          # Booting cold on a shared runner is slower than the ten minutes the
+          # action allows by default.
+          emulator-boot-timeout: 900
+          script: bash .github/scripts/android-screenshots.sh
+
+      - uses: actions/upload-artifact@v7.0.1
+        # A failed drive still leaves the frames it managed to take, and those
+        # are usually what says why it failed.
+        if: always()
+        with:
+          name: emberlane-screenshots-android
+          path: build/screenshots
+          if-no-files-found: warn
+
+  shots-ios:
+    name: iOS screenshots
+    needs: test
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      - name: Boot a simulator
+        id: simulator
+        run: bash .github/scripts/boot-simulator.sh
+
+      - name: Play a run on the simulator
+        run: bash .github/scripts/ios-screenshots.sh "${{ steps.simulator.outputs.udid }}"
+
+      - uses: actions/upload-artifact@v7.0.1
+        if: always()
+        with:
+          name: emberlane-screenshots-ios
+          path: build/screenshots
+          if-no-files-found: warn
