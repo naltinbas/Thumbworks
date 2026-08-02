@@ -1,5 +1,5 @@
 name: latchword
-description: "A new Flutter project."
+description: "Drag across touching letters to spell words against a clock."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,8 +35,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # The best score has to outlive the process, and this is the smallest way to
+  # do that on both phones without writing a file format and a path for each.
+  shared_preferences: ^2.5.5
+
 dev_dependencies:
   flutter_test:
+    sdk: flutter
+
+  # Drives the game on a real emulator and a real simulator in CI and hands
+  # the screenshots back. Part of the SDK rather than something new to pull in.
+  integration_test:
     sdk: flutter
 
   # The "flutter_lints" package below contains a set of recommended lints to

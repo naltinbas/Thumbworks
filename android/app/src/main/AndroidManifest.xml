@@ -1,13 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="latchword"
+        android:label="Latchword"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!-- Locked upright here as well as at runtime. The runtime lock is
+             asked for after the engine is up, so a phone held sideways when
+             the game is launched would show a landscape frame first. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:taskAffinity=""
+            android:screenOrientation="portrait"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
