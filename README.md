@@ -10,9 +10,15 @@ harder than finding four short ones. Two minutes a round.
 When the clock stops the game shows you the board's own answers: everything
 that was in there, longest first, next to what you actually found.
 
-| | | | |
-|---|---|---|---|
-| ![the title](docs/title.png) | ![part way along a word](docs/tracing.png) | ![a word counts](docs/counted.png) | ![the end of a round](docs/summary.png) |
+| | | | | |
+|---|---|---|---|---|
+| ![the title](docs/title.png) | ![part way along a word](docs/tracing.png) | ![a word counts](docs/counted.png) | ![the round paused](docs/paused.png) | ![the end of a round](docs/summary.png) |
+
+Leaving the game stops the clock and covers the board. A round has to survive
+a phone call, so the twenty seconds spent answering it are not the round's to
+lose; and a stopped clock over a board you can still read is a free think, so
+the cover is solid rather than a dark wash. What it does show is where the
+round stands, which is the thing you want to know coming back to it.
 
 ## How it is put together
 

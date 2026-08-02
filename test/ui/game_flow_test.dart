@@ -13,6 +13,7 @@ import 'package:latchword/ui/game_screen.dart';
 import 'package:latchword/ui/grid_geometry.dart';
 import 'package:latchword/ui/hud.dart';
 import 'package:latchword/ui/play_area.dart';
+import 'package:latchword/ui/away_cover.dart';
 import 'package:latchword/ui/summary_card.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -471,11 +472,11 @@ void main() {
     await _settleWord(tester);
   });
 
-  testWidgets('a phone put down and picked up again does not gain time',
+  testWidgets('a phone put down and picked up again keeps its round',
       (tester) async {
-    // The clock is the time that passed, not the frames that were drawn: a
-    // round left for twenty seconds has twenty seconds less in it, whether or
-    // not the game was on screen to see them go.
+    // A round has to survive a phone call, so the clock stops rather than
+    // running the round out in a pocket. What stops that being a free think is
+    // the cover: a stopped clock shows the player nothing.
     final best = await _Counted.open();
     await _open(tester, best);
     await _play(tester);
@@ -487,10 +488,15 @@ void main() {
     await _lifecycle(tester, AppLifecycleState.resumed);
     await tester.pump();
 
-    expect(find.text('0:05'), findsOneWidget);
+    expect(find.byType(AwayCover), findsOneWidget);
+    expect(find.text('0:25'), findsOneWidget,
+        reason: 'the twenty seconds away are not the round\'s to lose');
     expect(best.rounds, 0, reason: 'the round is not over yet');
 
-    await tester.pump(const Duration(seconds: 6));
+    // Picked back up, the round runs out the time it had left and no more.
+    await tester.tap(find.byType(AwayCover));
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 25));
     await tester.pump(const Duration(milliseconds: 400));
     expect(find.byType(SummaryCard), findsOneWidget);
     expect(best.rounds, 1);

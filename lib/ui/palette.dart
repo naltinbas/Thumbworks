@@ -40,4 +40,9 @@ abstract final class Palette {
   /// letters are still there behind the score, but only just, because the
   /// score is what there is to read.
   static const scrim = Color(0xF70D1017);
+
+  /// Laid over the board while the round is paused. Solid, unlike [scrim]:
+  /// this one is there to be unreadable through, and a board that can be made
+  /// out under it is a board being studied on a stopped clock.
+  static const blind = Color(0xFF0D1017);
 }
