@@ -11,6 +11,10 @@ The score is wells caught. The number beside it is how far up you got, which
 is the one players actually try to beat. Both are kept with the seed the run
 was played on, so a record is a run you can go back to.
 
+| | | |
+|---|---|---|
+| ![the title](docs/title.png) | ![climbing](docs/climbing.png) | ![a run ends](docs/game-over.png) |
+
 ## How it is put together
 
 The simulation is in `lib/sim/` and knows nothing about frames, clocks or
