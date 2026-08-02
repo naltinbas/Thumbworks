@@ -2,8 +2,10 @@
 library;
 
 import 'dart:io';
+import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -56,6 +58,8 @@ void main() {
     'pixel-7': Size(412, 915),
   };
 
+  const screen = Key('screen');
+
   Future<void> shoot(
     WidgetTester tester,
     String name,
@@ -68,10 +72,13 @@ void main() {
       ..devicePixelRatio = 3;
     addTearDown(tester.view.reset);
 
-    await tester.pumpWidget(MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(fontFamily: 'Roboto'),
-      home: child,
+    await tester.pumpWidget(RepaintBoundary(
+      key: screen,
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(fontFamily: 'Roboto'),
+        home: child,
+      ),
     ));
     await tester.pumpAndSettle();
 
@@ -85,10 +92,19 @@ void main() {
       }
     }
 
-    await expectLater(
-      find.byType(MaterialApp),
-      matchesGoldenFile('../$shots/$name.png'),
-    );
+    // Taken with a repaint boundary and written out, not compared against a
+    // golden. Nothing here should ever be able to fail on a pixel: these are
+    // pictures for somebody to look at, and a golden turns a change of shade
+    // into a red build. The first version did compare, and every one of these
+    // failed the moment it ran anywhere but the machine that made it.
+    final boundary =
+        tester.renderObject<RenderRepaintBoundary>(find.byKey(screen));
+    await tester.runAsync(() async {
+      final image = await boundary.toImage(pixelRatio: 3);
+      final png = await image.toByteData(format: ui.ImageByteFormat.png);
+      image.dispose();
+      File('$shots/$name.png').writeAsBytesSync(png!.buffer.asUint8List());
+    });
   }
 
   for (final entry in devices.entries) {

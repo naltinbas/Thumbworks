@@ -43,11 +43,12 @@ flutter drive \
 kill "$sampler" 2>/dev/null || true
 
 # The drive can pass while handing back nothing, so say so here rather than
-# let the job go green with an empty artifact.
-for name in 01-menu 02-playing 03-solved; do
-  if [ ! -s "$shots/$name.png" ]; then
-    echo "the drive finished without leaving $name.png" >&2
-    exit 1
-  fi
-done
+# let the job go green with an empty artifact. Counted rather than named: the
+# names differ from game to game and a list of them here is a list that goes
+# stale the moment a picture is renamed.
+count=$(find "$shots" -maxdepth 1 -name '*.png' | wc -l)
+if [ "$count" -lt 3 ]; then
+  echo "the drive finished leaving only $count pictures" >&2
+  exit 1
+fi
 ls -l "$shots"
