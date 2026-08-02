@@ -63,12 +63,10 @@ one. It needs no device and takes a couple of seconds, which makes it the
 fastest way to see what a change did to the look of the game. The suite writes
 them as it runs, so they are always of the code as it stands.
 
-Pictures of the game on a device come from CI, because taking one means
-running it on a phone and no emulator is published for this machine's
-architecture. The `shots-android` and `shots-ios` jobs in
-`.github/workflows/ci.yml` boot an emulator and a simulator, play a run to
-twelve wells, and upload what they photograph. On a machine with a device
-attached:
+Pictures of the game on a device need a device. No emulator is published for
+this machine's architecture and there is no CI here to borrow one from, so
+`integration_test/screenshot_test.dart` is driven by hand. On a machine with a
+phone or a simulator attached:
 
     flutter drive --driver=test_driver/integration_test.dart \
       --target=integration_test/screenshot_test.dart -d DEVICE

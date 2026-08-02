@@ -2,10 +2,14 @@
 # there once rather than each one spelling out the full path.
 export PATH := /opt/flutter/bin:$(PATH)
 
-.PHONY: all deps analyze test apk shots clean
+.PHONY: all check deps analyze test apk shots clean
 
-# What CI's first job runs, and the pair worth running before a commit.
-all: analyze test
+# Everything that has to be green. What the pre-push hook runs, because there
+# is no CI here: nothing leaves this machine unless it analyzes and the tests
+# pass.
+check: analyze test
+
+all: check
 
 deps:
 	flutter pub get
