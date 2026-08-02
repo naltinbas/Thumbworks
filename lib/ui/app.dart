@@ -41,7 +41,12 @@ class SlingwellApp extends StatelessWidget {
           // on the screen where the player is already tapping.
           minimumSize: const Size(220, 56),
           shape: const StadiumBorder(),
-          textStyle: const TextStyle(
+          // Built on the theme's own label style rather than written from
+          // nothing: a whole TextStyle here replaces that one instead of
+          // merging with it, and a style with no family in it falls back to
+          // whatever the platform hands out, which is a different face from
+          // the rest of the game.
+          textStyle: base.textTheme.labelLarge?.copyWith(
             fontSize: 17,
             fontWeight: FontWeight.w600,
             letterSpacing: 1.2,

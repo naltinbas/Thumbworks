@@ -1,12 +1,16 @@
 import 'dart:io';
 import 'dart:ui' as ui;
 
+import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:slingwell/best_run.dart';
 import 'package:slingwell/sim/world.dart';
+import 'package:slingwell/ui/app.dart';
 import 'package:slingwell/ui/game_loop.dart';
+import 'package:slingwell/ui/game_screen.dart';
 import 'package:slingwell/ui/game_view.dart';
 
 /// Renders the game at a real phone size and writes the frames out as PNGs.
@@ -45,11 +49,26 @@ void main() {
     await loader.load();
   });
 
-  Future<void> shoot(WidgetTester tester, String name, GameLoop loop) async {
+  void asPhone(WidgetTester tester) {
     tester.view
       ..physicalSize = size * ratio
       ..devicePixelRatio = ratio;
     addTearDown(tester.view.reset);
+  }
+
+  /// Writes whatever [of] is painting into build/showcase.
+  Future<void> capture(WidgetTester tester, String name, Finder of) async {
+    final boundary = tester.renderObject<RenderRepaintBoundary>(of);
+    await tester.runAsync(() async {
+      final image = await boundary.toImage(pixelRatio: ratio);
+      final png = await image.toByteData(format: ui.ImageByteFormat.png);
+      image.dispose();
+      File('$shots/$name.png').writeAsBytesSync(png!.buffer.asUint8List());
+    });
+  }
+
+  Future<void> shoot(WidgetTester tester, String name, GameLoop loop) async {
+    asPhone(tester);
 
     await tester.pumpWidget(
       Directionality(
@@ -61,18 +80,14 @@ void main() {
     // the view asks for another frame forever, the way a game does.
     await tester.pump();
 
-    final boundary = tester.renderObject<RenderRepaintBoundary>(
+    await capture(
+      tester,
+      name,
       find.descendant(
         of: find.byType(GameView),
         matching: find.byType(RepaintBoundary),
       ),
     );
-    await tester.runAsync(() async {
-      final image = await boundary.toImage(pixelRatio: ratio);
-      final png = await image.toByteData(format: ui.ImageByteFormat.png);
-      image.dispose();
-      File('$shots/$name.png').writeAsBytesSync(png!.buffer.asUint8List());
-    });
   }
 
   /// Releases when the craft is pointed at where the next well will be, which
@@ -152,5 +167,88 @@ void main() {
       'adrift',
       play(3, (loop) => loop.world.isOver, badly: true),
     );
+  });
+
+  // The screens around a run are the whole widget tree rather than the
+  // painter, so they are photographed under a boundary of the test's own and
+  // the picture has the words over the run in it.
+  const screen = Key('screen');
+  const thumb = Offset(195, 422);
+
+  GameLoop loopOf(WidgetTester tester) =>
+      tester.widget<GameView>(find.byType(GameView)).loop;
+
+  Future<void> openScreen(
+    WidgetTester tester, {
+    Map<String, Object> saved = const {},
+    int seed = 5,
+  }) async {
+    asPhone(tester);
+    SharedPreferences.setMockInitialValues(Map<String, Object>.from(saved));
+    final best = BestRun(await SharedPreferences.getInstance());
+    await tester.pumpWidget(
+      MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: SlingwellApp.theme,
+        home: RepaintBoundary(
+          key: screen,
+          child: GameScreen(best: best, seeds: () => seed),
+        ),
+      ),
+    );
+    await tester.pump();
+  }
+
+  /// A best worth beating, so both screens show what the numbers look like
+  /// once a player has been at it for a while.
+  const record = <String, Object>{'best.score': 31, 'best.seed': 4711};
+
+  testWidgets('the title, over a craft already swinging', (tester) async {
+    await openScreen(tester, saved: record);
+
+    // A frame at a time rather than one long jump: the prompt fades up on a
+    // real clock, and a jump photographs it wherever the jump happened to
+    // land.
+    for (var frame = 0; frame < 70; frame++) {
+      await tester.pump(const Duration(milliseconds: 16));
+    }
+
+    await capture(tester, 'title', find.byKey(screen));
+  });
+
+  testWidgets('a run on the glass, and the card that ends it', (tester) async {
+    await openScreen(tester, saved: record);
+
+    // Every tap here goes through the widget tree at a point on the glass,
+    // which is the whole reason these two are worth taking: it is the game
+    // being driven the way a thumb drives it. Finding something to tap by
+    // widget type would land on whatever else answers to that type.
+    await tester.tapAt(thumb);
+    await tester.pump();
+
+    var shot = false;
+    for (var frame = 0; frame < 3000; frame++) {
+      final world = loopOf(tester).world;
+      if (world.isOver) break;
+      // Aim until the climb is worth looking at, then let go at the first
+      // chance, which is how a run ends.
+      if (world.score < 9 ? aimed(world) : world.isHeld) {
+        await tester.tapAt(thumb);
+      }
+      await tester.pump(const Duration(milliseconds: 8));
+
+      final now = loopOf(tester).world;
+      if (!shot && now.score >= 9 && !now.isHeld) {
+        await capture(tester, 'playing', find.byKey(screen));
+        shot = true;
+      }
+    }
+
+    expect(shot, isTrue, reason: 'the run never got high enough to photograph');
+    expect(loopOf(tester).world.isOver, isTrue, reason: 'the run never ended');
+
+    // Long enough for the card to finish arriving over the wreck.
+    await tester.pump(const Duration(milliseconds: 500));
+    await capture(tester, 'game-over', find.byKey(screen));
   });
 }

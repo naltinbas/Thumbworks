@@ -22,10 +22,16 @@ class TitleCard extends StatelessWidget {
       onTap: onStart,
       child: Scrim(
         child: SafeArea(
-          child: Padding(
+          // Anchored at the bottom and scrollable above it. Reversed rather
+          // than a column ending at the bottom, because at the largest system
+          // text this is taller than a small phone and the words have to be
+          // reachable rather than cut off by an overflow stripe. With room to
+          // spare it looks the same as a column that ends at the bottom.
+          child: SingleChildScrollView(
+            reverse: true,
             padding: const EdgeInsets.symmetric(horizontal: 32),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const Text(

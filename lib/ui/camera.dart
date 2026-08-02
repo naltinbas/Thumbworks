@@ -1,3 +1,4 @@
+import 'dart:math' as math;
 import 'dart:ui' show Offset, Size;
 
 import '../sim/world.dart';
@@ -17,10 +18,21 @@ class Camera {
   });
 
   /// A camera that fills [size] and is looking at [focusY] metres up.
+  ///
+  /// The scale comes off the width, unless the screen is wide enough for its
+  /// height that doing so would push the bottom of the playfield past the
+  /// bottom of the glass. A tablet is: fourteen metres across 768 points is
+  /// fifty pixels a metre, and the fall that ends a run is then longer than
+  /// what is left under the focus line, so the craft would vanish off the
+  /// bottom a moment before the game said the run was over. On a screen like
+  /// that the height decides instead, and the leftover width becomes sky.
   factory Camera.forSize(Size size, double focusY) => Camera(
         size: size,
         focusY: focusY,
-        pxPerMetre: size.width / viewWidthMetres,
+        pxPerMetre: math.min(
+          size.width / viewWidthMetres,
+          size.height * (1 - focusShare) / viewBelowMetres,
+        ),
       );
 
   /// How much of the world is across the screen, in metres.
@@ -35,10 +47,18 @@ class Camera {
   /// How far down the screen the height being followed is drawn.
   ///
   /// Below the middle, because the interesting part of a climb is above the
-  /// craft. What is left underneath is enough to watch a fall play out: the
-  /// run ends nine metres below the high point, and on a phone that is still
-  /// on the glass.
+  /// craft. What is left underneath is enough to watch a fall play out.
   static const focusShare = 0.62;
+
+  /// How much world has to be drawable below the height being followed.
+  ///
+  /// The run ends nine metres below the high point, but the craft is drawn
+  /// lower than that before it does: the step it dies on carries it a little
+  /// past the line, and the nose of the craft is drawn ahead of where the
+  /// simulation says it is. Playing three thousand seeds two ways puts the
+  /// lowest pixel ever drawn 9.6 metres under the focus, so this is that with
+  /// room to spare. screen_fit_test.dart is what keeps it honest.
+  static const viewBelowMetres = 10.5;
 
   final Size size;
 

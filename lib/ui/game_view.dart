@@ -22,20 +22,30 @@ class GameView extends StatefulWidget {
 }
 
 class _GameViewState extends State<GameView>
-    with SingleTickerProviderStateMixin {
+    with SingleTickerProviderStateMixin, WidgetsBindingObserver {
   late final Ticker _ticker;
   Duration _previous = Duration.zero;
+
+  /// Whether the app has been away since the last frame.
+  bool _wasAway = false;
 
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _ticker = createTicker(_tick)..start();
   }
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _ticker.dispose();
     super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state != AppLifecycleState.resumed) _wasAway = true;
   }
 
   void _tick(Duration elapsed) {
@@ -43,6 +53,16 @@ class _GameViewState extends State<GameView>
     // Its first tick is always zero, which is worth nothing and costs nothing.
     final frame = elapsed - _previous;
     _previous = elapsed;
+
+    // A phone that went in a pocket hands back one frame that lasted as long
+    // as the pocket did. The clock caps how much of it can be played, but even
+    // a quarter of a second is enough to lose a run the player was not
+    // watching, so the frame the app comes back on is not played at all. The
+    // craft is exactly where they left it.
+    if (_wasAway) {
+      _wasAway = false;
+      return;
+    }
     widget.loop.advance(frame);
   }
 

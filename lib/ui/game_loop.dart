@@ -114,12 +114,31 @@ class GameLoop extends ChangeNotifier {
   static final double _followStep =
       1 - math.exp(-World.stepSeconds / _followSeconds);
 
+  /// How long the world takes to settle back down the glass when a lift comes
+  /// off. Slower than the camera's own follow, because this is not the view
+  /// keeping up with the craft: it is the game handing the screen over to the
+  /// player, and it should read as a move rather than a jump.
+  static const _liftSeconds = 0.28;
+
+  /// Below this the lift is treated as gone.
+  ///
+  /// Bigger than the camera's own threshold because a lift is ten metres
+  /// rather than a fraction of one, and an exponential ease that far out
+  /// spends seconds creeping through the last hundredth. Two centimetres is
+  /// under half a pixel on any screen the game runs on.
+  static const _liftSettled = 0.02;
+
+  static final double _liftStep =
+      1 - math.exp(-World.stepSeconds / _liftSeconds);
+
   final FixedStepClock _clock = FixedStepClock();
   final Trail trail = Trail();
 
   int _seed;
   late World _world;
   late double _focusY;
+  double _lift = 0;
+  double _liftTarget = 0;
   bool _tapPending = false;
   final List<int> _taps = <int>[];
   final List<_Mark> _marks = <_Mark>[];
@@ -135,7 +154,24 @@ class GameLoop extends ChangeNotifier {
   /// the run rather than the craft itself. The high point only ever goes up,
   /// so the view never drops back down the screen mid-run, and a craft that
   /// is falling is a craft the player can see falling behind.
-  double get focusY => _focusY;
+  ///
+  /// Less whatever the screen has asked to be lifted by: looking lower puts
+  /// the world higher on the glass.
+  double get focusY => _focusY - _lift;
+
+  /// Raise the world up the glass by [metres], easing there.
+  ///
+  /// The title screen owns the bottom of the screen, and a craft swinging
+  /// behind the words is a craft nobody can see. The run itself is played with
+  /// this at nought.
+  set lift(double metres) => _liftTarget = metres;
+
+  /// The same, arrived at rather than eased to, for a screen that is opening
+  /// rather than changing.
+  void settleLift(double metres) {
+    _lift = metres;
+    _liftTarget = metres;
+  }
 
   List<Flash> get flashes => _flashes;
 
@@ -178,7 +214,7 @@ class GameLoop extends ChangeNotifier {
     if (steps == 0) return;
 
     final before = _world;
-    final wasFocus = _focusY;
+    final wasFocus = focusY;
     final wasTrail = trail.revision;
     final wasFlashes = _flashes;
 
@@ -188,7 +224,7 @@ class GameLoop extends ChangeNotifier {
     _ageFlashes();
 
     if (!identical(before, _world) ||
-        _focusY != wasFocus ||
+        focusY != wasFocus ||
         trail.revision != wasTrail ||
         !listEquals(wasFlashes, _flashes)) {
       notifyListeners();
@@ -223,6 +259,11 @@ class GameLoop extends ChangeNotifier {
     final target = _world.cameraY;
     final gap = target - _focusY;
     _focusY = gap.abs() < _followSettled ? target : _focusY + gap * _followStep;
+
+    final lifting = _liftTarget - _lift;
+    _lift = lifting.abs() < _liftSettled
+        ? _liftTarget
+        : _lift + lifting * _liftStep;
   }
 
   void _ageFlashes() {

@@ -22,6 +22,19 @@ enum Phase { title, running, over }
 class GameScreen extends StatefulWidget {
   const GameScreen({super.key, required this.best, this.seeds});
 
+  /// How far the world is raised up the glass while the title is up, in
+  /// metres.
+  ///
+  /// The words own the bottom of the screen and the craft swings around the
+  /// first well, which is where the words are. Lifting it puts the swing in
+  /// the clear part of the screen, which is the whole reason the run is
+  /// running under the title. It settles back down when the player starts.
+  ///
+  /// The camera leaves at least seventeen metres above the height it is
+  /// following on any screen shape, and the craft rides two metres out from
+  /// the well, so this has room to spare. camera_test.dart holds that.
+  static const titleLift = 10.0;
+
   final BestRun best;
 
   /// Where a new run's seed comes from. The game picks a fresh one each go;
@@ -52,6 +65,7 @@ class _GameScreenState extends State<GameScreen>
   void initState() {
     super.initState();
     _loop = GameLoop(seed: (widget.seeds ?? _freshSeed)())
+      ..settleLift(GameScreen.titleLift)
       ..addListener(_onLoop);
     _ending = AnimationController(
       vsync: this,
@@ -93,7 +107,10 @@ class _GameScreenState extends State<GameScreen>
   /// The craft has been swinging round the first well since the app opened, so
   /// starting is not a matter of setting anything up: it is the same run, now
   /// being scored, and the player's next tap is a real release.
-  void _start() => setState(() => _phase = Phase.running);
+  void _start() {
+    _loop.lift = 0;
+    setState(() => _phase = Phase.running);
+  }
 
   void _again() {
     _loop.restart(seed: (widget.seeds ?? _freshSeed)());

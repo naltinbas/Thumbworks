@@ -78,6 +78,68 @@ void main() {
     expect(slow.world.steps, closeTo(fast.world.steps, 1));
   });
 
+  testWidgets('frames of any length are worth whole steps and no more', (
+    tester,
+  ) async {
+    // A phone hands over whatever it managed: a frame at a hundred and twenty
+    // hertz, one at thirty, a couple of stalls. What comes out has to be the
+    // time that went in, to the step.
+    const frames = <Duration>[
+      Duration(microseconds: 8333),
+      Duration(microseconds: 16667),
+      Duration(microseconds: 900),
+      Duration(milliseconds: 33),
+      Duration(microseconds: 4200),
+      Duration(milliseconds: 120),
+      Duration(microseconds: 16667),
+      Duration(milliseconds: 7),
+    ];
+    final loop = GameLoop(seed: 3);
+    await _start(tester, loop);
+    for (final frame in frames) {
+      await tester.pump(frame);
+    }
+
+    final micros = frames.fold<int>(0, (sum, f) => sum + f.inMicroseconds);
+    expect(loop.world.steps, micros * 120 ~/ Duration.microsecondsPerSecond);
+  });
+
+  testWidgets('a frame that lasted minutes plays a quarter second of it', (
+    tester,
+  ) async {
+    // Not thousands of steps in one frame, which would teleport the craft
+    // across the world and hold the app up while it did.
+    final loop = GameLoop(seed: 3);
+    await _start(tester, loop);
+    await tester.pump(const Duration(milliseconds: 100));
+    final before = loop.world.steps;
+
+    await tester.pump(const Duration(minutes: 4));
+
+    expect(loop.world.steps - before, 30, reason: 'a quarter of a second');
+  });
+
+  testWidgets('the frame the app comes back on is not played at all', (
+    tester,
+  ) async {
+    // A run left in mid-flight while the phone was in a pocket should be in
+    // mid-flight when it comes out, not a quarter of a second further on and
+    // possibly over.
+    final loop = GameLoop(seed: 3);
+    await _start(tester, loop);
+    await tester.pump(const Duration(milliseconds: 100));
+    final before = loop.world.steps;
+
+    tester.binding.handleAppLifecycleStateChanged(AppLifecycleState.paused);
+    tester.binding.handleAppLifecycleStateChanged(AppLifecycleState.resumed);
+    await tester.pump(const Duration(minutes: 4));
+    expect(loop.world.steps, before);
+
+    // And then carries on as before.
+    await tester.pump(const Duration(milliseconds: 100));
+    expect(loop.world.steps, before + 12);
+  });
+
   testWidgets('a tap anywhere on the glass reaches the simulation once', (
     tester,
   ) async {

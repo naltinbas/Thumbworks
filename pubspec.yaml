@@ -1,5 +1,5 @@
 name: slingwell
-description: "A new Flutter project."
+description: "A one-thumb arcade game about swinging round gravity wells."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -37,6 +37,11 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
+    sdk: flutter
+
+  # Drives the game on a real emulator and a real simulator in CI and hands
+  # the screenshots back. Part of the SDK rather than something new to pull in.
+  integration_test:
     sdk: flutter
 
   # The "flutter_lints" package below contains a set of recommended lints to

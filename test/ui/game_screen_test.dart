@@ -79,6 +79,28 @@ void main() {
     expect(_loop(tester).world.isHeld, isTrue);
   });
 
+  testWidgets('the title holds the world up above its own words', (
+    tester,
+  ) async {
+    await _open(tester, await _saved());
+    await tester.pump(const Duration(milliseconds: 250));
+
+    // The craft swinging behind the title is half of what makes it look like
+    // a game, and the first well is where the words are, so the world is
+    // lifted while they are up.
+    final lifted = _loop(tester);
+    expect(lifted.focusY, lessThan(lifted.world.cameraY - 5));
+
+    await tester.tapAt(_thumb);
+    for (var frame = 0; frame < 200; frame++) {
+      await tester.pump(const Duration(milliseconds: 16));
+    }
+
+    // And settles back where a run is played, without the player having been
+    // shown the world jumping.
+    expect(_loop(tester).focusY, _loop(tester).world.cameraY);
+  });
+
   testWidgets('the title says there is nothing to beat yet', (tester) async {
     await _open(tester, await _saved());
 
@@ -262,6 +284,20 @@ void main() {
 
     await _mashUntilOver(tester);
     expect(find.text('best $record wells on seed 3'), findsOneWidget);
+  });
+
+  testWidgets('the one word the player has to press is in the game\'s own face', (
+    tester,
+  ) async {
+    // A whole TextStyle handed to styleFrom replaces the theme's label style
+    // rather than merging into it, so a style written from nothing carries no
+    // family and the button ends up in whatever face the platform hands out.
+    final theme = SlingwellApp.theme;
+    final button = theme.filledButtonTheme.style!.textStyle!
+        .resolve(<WidgetState>{});
+
+    expect(button?.fontFamily, isNotNull);
+    expect(button?.fontFamily, theme.textTheme.labelLarge?.fontFamily);
   });
 
   testWidgets('the app opens the game on the best score it was handed', (

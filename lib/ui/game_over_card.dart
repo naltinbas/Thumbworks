@@ -89,9 +89,14 @@ class GameOverCard extends StatelessWidget {
                     const SizedBox(height: 8),
                     Text(note, style: noteStyle),
                     const SizedBox(height: 36),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.end,
+                    // Side by side while they fit and stacked when they do
+                    // not, which is what a narrow screen at a large system
+                    // text setting gives these two.
+                    Wrap(
+                      alignment: WrapAlignment.center,
+                      crossAxisAlignment: WrapCrossAlignment.end,
+                      spacing: 44,
+                      runSpacing: 24,
                       children: [
                         Readout(
                           value: '${world.score}',
@@ -100,7 +105,6 @@ class GameOverCard extends StatelessWidget {
                           size: 64,
                           align: CrossAxisAlignment.center,
                         ),
-                        const SizedBox(width: 44),
                         Readout(
                           value: '${world.cameraY.round()}',
                           label: 'metres up',

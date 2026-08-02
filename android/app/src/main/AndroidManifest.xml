@@ -1,12 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="slingwell"
+        android:label="Slingwell"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!-- Portrait is declared here as well as asked for at startup: without
+             it the launch screen turns with the phone for the moment before
+             Flutter is up to say otherwise. -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
+            android:screenOrientation="portrait"
             android:taskAffinity=""
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

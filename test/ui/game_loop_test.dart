@@ -147,6 +147,30 @@ void main() {
       expect(loop.focusY, loop.world.cameraY);
     });
 
+    test('is where a lift puts it the moment the lift is settled', () {
+      // A screen that is opening asks for the lift it wants and gets it, or
+      // the first frame of the title is drawn sliding into place.
+      final loop = GameLoop(seed: 5)..settleLift(10);
+      expect(loop.focusY, loop.world.cameraY - 10);
+    });
+
+    test('eases a lift off instead of dropping the world', () {
+      final loop = GameLoop(seed: 5)..settleLift(10);
+      loop.lift = 0;
+
+      final start = loop.focusY;
+      loop.advance(const Duration(milliseconds: 16));
+      final moved = loop.focusY;
+      expect(moved, greaterThan(start));
+      expect(moved, lessThan(loop.world.cameraY),
+          reason: 'a lift that comes off in one frame is a jump');
+
+      for (var i = 0; i < 40; i++) {
+        loop.advance(_frame);
+      }
+      expect(loop.focusY, loop.world.cameraY);
+    });
+
     test('never drops back down the screen', () {
       final loop = GameLoop(seed: 8);
       var last = loop.focusY;
