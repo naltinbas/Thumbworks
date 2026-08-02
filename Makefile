@@ -1,4 +1,13 @@
-.PHONY: deps test verify analyze shots book apk ios clean
+# Flutter is not on the shell's path in this container, so the targets put it
+# there once rather than each one spelling out the full path.
+export PATH := /opt/flutter/bin:$(PATH)
+
+.PHONY: check deps test verify analyze shots book apk ios clean
+
+# Everything that has to be green. What the pre-push hook runs, because there
+# is no CI here: nothing leaves this machine unless it analyzes and the tests
+# pass.
+check: analyze test
 
 deps:
 	flutter pub get

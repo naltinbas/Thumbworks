@@ -146,5 +146,7 @@ boards in them are genuine positions: every square shown is one the solver
 settled from the clues, so nothing in the pictures is filled in that a player
 could not have reasoned out by then.
 
-Pictures of the game on an actual phone come from CI, which is where an
-emulator and a simulator can be booted.
+Pictures of the game on an actual phone need an actual phone. No emulator is
+published for this machine's architecture and there is no CI here to borrow
+one from, so `integration_test/screenshot_test.dart` is driven by hand on a
+machine that has one — `.github/scripts/` holds the two scripts that do it.
