@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirty one games for phones, in Flutter, for Android and iOS. One repository,
+Thirty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -40,6 +40,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Marchcombe/assets/logo.png" width="64"> **[Marchcombe](Marchcombe)** | Paint the estate, nothing matching across a hedge | Every map carries a set of fields that proves its own number |
 | <img src="Quayfleet/assets/logo.png" width="64"> **[Quayfleet](Quayfleet)** | One berth, more ships than it holds. Take the most you can | The obvious rule is right here, and the game hands you the proof |
 | <img src="Churnwick/assets/logo.png" width="64"> **[Churnwick](Churnwick)** | Measure an exact churn out of churns that are the wrong sizes | Which amounts are impossible is arithmetic, and it is checked by walking |
+| <img src="Handfast/assets/logo.png" width="64"> **[Handfast](Handfast)** | Give out the day work to the hands who can take it on | The set of jobs that cannot be covered falls out of the failed search |
 
 ## The idea they share
 
@@ -159,6 +160,14 @@ paragraph:
   arithmetic and again by walking every arrangement of milk they can be in,
   and the two lists always match. The fewest goes is settled twice as well,
   once by the walk and once by a rule for two churns that looks at nothing.
+- **Handfast** hands over the obstruction rather than the number. When the
+  walk that gives out the work runs out of hands, the jobs it walked through
+  are a set with fewer people between them than there are jobs, and that is
+  the only thing that can ever stop a board being covered. It is Hall's
+  condition from 1935, it costs nothing because it is what the failed search
+  left behind, and a player can check it by eye: every cross in the shaded
+  rows falls inside the ringed columns. Four hundred random fairs are settled
+  by the walk and by a search over every way of handing the work out.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -213,7 +222,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirty one is red. The device
+hook refuses to push a tree where any of the thirty two is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
