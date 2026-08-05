@@ -61,10 +61,9 @@ mostly the dice. Playing well is not, and it can be measured exactly.
 
 ## Two dice are not one die twice
 
-That is not a slogan, it is why the rules are the way they are.
-
-Two dice where either one ends the turn is *precisely* one die rolled twice
-with no choice in between, with the same outcomes, the same odds and the same
+That heading is why the rules are the way they are rather than a slogan. Two
+dice where either one ends the turn is *precisely* one die rolled twice with
+no choice in between, with the same outcomes, the same odds and the same
 payouts. It could
 never beat rolling one and then deciding, so it would never be worth picking,
 and the first version of this game had a third button that no correct player

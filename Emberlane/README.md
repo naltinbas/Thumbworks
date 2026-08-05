@@ -80,7 +80,7 @@ could never be carried out, a tower on a lane cell, silently stalled the queue
 for the rest of the run, so cannot-yet and cannot-ever are now told apart and
 the second one throws.
 
-**A frame is not a step.** The simulation advances a sixtieth of a second at a
+A frame is not a step. The simulation advances a sixtieth of a second at a
 time whatever the phone manages to draw, and the leftover is kept between
 frames rather than rounded away, because rounding it away is how a game runs
 at a different speed on a different phone. A frame will catch up at most a quarter

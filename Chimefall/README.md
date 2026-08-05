@@ -68,7 +68,7 @@ happened. Judging taps against a clock that is *not* the music is judging them
 against something that has already drifted, since starting a sound takes a
 moment nothing gets told about.
 
-**What is not tested here:** that sound actually comes out of a speaker. There
+One thing is not tested here: that sound actually comes out of a speaker. There
 is no audio device on the machine this was built on. What is tested is that the
 file is a valid WAV, that it contains the notes the chart promises at the
 moments it promises them, that the file shipping in `assets/` is what the code

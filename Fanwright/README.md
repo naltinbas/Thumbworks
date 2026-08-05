@@ -17,10 +17,8 @@ run from there goes together.
 
 ## Every deal in here can be won
 
-Not most of them. Every one.
-
-There are 487 deals in the book and each was played to a finish by the solver
-in `lib/game/solver.dart` before it went in the list. See
+There are 487 deals in the book, not most of them, and each was played to a
+finish by the solver in `lib/game/solver.dart` before it went in the list. See
 `tool/build_book.dart`, which is what wrote `lib/game/deals.dart`. It searches
 the first five hundred deals, keeps the ones it wins inside a hundred thousand
 positions, and drops the rest: some of those are winnable by a longer search

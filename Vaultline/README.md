@@ -75,7 +75,7 @@ but pressing it again halfway up is not a second jump. That is what stops the
 game being played by mashing, and it is why the search only branches on the
 ground.
 
-**A frame is not a step.** The runner advances a fixed step whatever the phone
+A frame is not a step. The runner advances a fixed step whatever the phone
 manages to draw, and the leftover is kept between frames rather than rounded
 away, because rounding it away is how a jump clears a gap on one phone and not
 another. A frame catches up at most a tenth of a second, because a phone that
