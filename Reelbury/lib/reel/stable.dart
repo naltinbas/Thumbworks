@@ -21,7 +21,7 @@ class Blocking {
 
 /// Pairing the two sides up so that nobody wants to swap.
 ///
-/// A pairing holds — is *stable* — when there is no pair on opposite sides
+/// A pairing holds, or is *stable*, when there is no pair on opposite sides
 /// who would both rather have each other than what they have got. That is
 /// the whole rule, and it is the only rule: nobody is asked to be happy, only
 /// to have no better offer that would be taken.
@@ -136,9 +136,10 @@ class Stable {
   /// Whether there is only one pairing that holds.
   ///
   /// Two ways of asking that: both sides ask and get the same answer, or
-  /// count them all. The first is a theorem — the pairings that hold have a
-  /// best one for each side, and one pairing when those two are the same —
-  /// and the second is a search. A test holds them against each other.
+  /// count them all. The first is a theorem: the pairings that hold have a
+  /// best one for each side, and there is one pairing exactly when those two
+  /// are the same. The second is a search. A test holds them against each
+  /// other.
   static bool isOnlyOne(Hall hall) {
     final asked = byAsking(hall);
     final answered = byAsking(hall, callersAsk: false);

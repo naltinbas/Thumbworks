@@ -2,7 +2,7 @@
 /// everybody on the other side.
 ///
 /// The people are numbers on each side. Their liking is written down as an
-/// order — first choice first — because that is all the game ever asks about
+/// order, first choice first, because that is all the game ever asks about
 /// them: not how much somebody is liked, only whether they are liked more
 /// than somebody else.
 class Hall {
