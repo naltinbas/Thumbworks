@@ -16,7 +16,7 @@ SCRATCH := /var/cache/thumbworks
 # and nowhere else.
 GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Fanwright Vaultline Chimefall Chalkway Cinderplot Haulyard \
-         Hazardwell Lockstead Rungwick
+         Hazardwell Lockstead Rungwick Cairnfall
 
 .PHONY: check test analyze deps shots apk clean list one scratch
 
