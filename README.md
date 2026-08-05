@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventeen games for phones, in Flutter, for Android and iOS. One repository,
+Eighteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games — a nonogram, a siege, a rhythm
@@ -26,6 +26,7 @@ is why they live together. **Each one proves the thing it promises.**
 | <img src="Rungwick/assets/logo.png" width="64"> **[Rungwick](Rungwick)** | One word to another, a letter at a time, every rung a word | The rungs are the shortest path across the whole word graph |
 | <img src="Cairnfall/assets/logo.png" width="64"> **[Cairnfall](Cairnfall)** | Take stones off the cairns; take the last one and win | The opponent is a theorem, and a brute-force search checks it |
 | <img src="Rookvale/assets/logo.png" width="64"> **[Rookvale](Rookvale)** | Every move a capture; leave one piece standing | Exactly one way through each board, and the whole tree says so |
+| <img src="Wickfell/assets/logo.png" width="64"> **[Wickfell](Wickfell)** | Press a lamp; it and its neighbours turn. Put them all out | The fewest presses comes out of linear algebra, not a search |
 
 ## The idea they share
 
@@ -59,6 +60,10 @@ paragraph:
 - **Rookvale** walks the entire tree of every board and throws away any with
   two ways through, so every capture is forced by something — and the same
   walk tells you the moment a capture has left no way through at all.
+- **Wickfell** turns pressing lamps into a system of equations over two
+  values, solves it, and tries the null space to get the *fewest* presses
+  rather than merely some — then checks the whole thing against brute force on
+  a board small enough to try every set of presses there is.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -111,7 +116,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the seventeen is red. The device
+hook refuses to push a tree where any of the eighteen is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
