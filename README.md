@@ -9,28 +9,28 @@ is why they live together. **Each one proves the thing it promises.**
 
 | | | |
 |---|---|---|
-| <img src="Wirewend/assets/logo.png" width="64"> **[Wirewend](Wirewend)** | Turn the wire until the current reaches every lamp | Boards are built solvable rather than generated and hoped over |
-| <img src="Slingwell/assets/logo.png" width="64"> **[Slingwell](Slingwell)** | Swing round a gravity well, let go at the right moment | Every well is reachable from the last one, checked by flying it |
-| <img src="Latchword/assets/logo.png" width="64"> **[Latchword](Latchword)** | Drag a thumb across letters and spell what you can | A 44k word list, and a board that always holds enough of them |
-| <img src="Tallyloom/assets/logo.png" width="64"> **[Tallyloom](Tallyloom)** | A nonogram: the numbers say the runs, you find the squares | No puzzle ships that its line-logic solver could not finish |
-| <img src="Thornguard/assets/logo.png" width="64"> **[Thornguard](Thornguard)** | Twelve raiders against a king and four guards | The opening is balanced by self-play, not by feel |
-| <img src="Emberlane/assets/logo.png" width="64"> **[Emberlane](Emberlane)** | Twenty waves down one winding lane, and you build beside it | Three written-down plans must finish, struggle and fail |
-| <img src="Fanwright/assets/logo.png" width="64"> **[Fanwright](Fanwright)** | Patience with everything face up and four cells to park in | Every deal in the book has been solved before it shipped |
-| <img src="Vaultline/assets/logo.png" width="64"> **[Vaultline](Vaultline)** | One button. Tap to hop, hold to go higher | A search over the button proves every stretch is passable |
-| <img src="Chimefall/assets/logo.png" width="64"> **[Chimefall](Chimefall)** | Four lanes, notes falling, tap each one as it lands | The music and the chart are one list, and the audio is checked against it |
-| <img src="Chalkway/assets/logo.png" width="64"> **[Chalkway](Chalkway)** | Draw a line in chalk and let the ball go | Every level ships a drawing that solves it, and it survives being nudged |
-| <img src="Cinderplot/assets/logo.png" width="64"> **[Cinderplot](Cinderplot)** | Minesweeper | No board ever needs a guess, and the difficulty label is measured |
-| <img src="Haulyard/assets/logo.png" width="64"> **[Haulyard](Haulyard)** | Shove every crate onto a mark | The par on each yard is the proven fewest shoves there are |
-| <img src="Hazardwell/assets/logo.png" width="64"> **[Hazardwell](Hazardwell)** | Race to a hundred, roll as long as you dare | The house plays exactly optimally, and the table proves itself |
-| <img src="Lockstead/assets/logo.png" width="64"> **[Lockstead](Lockstead)** | Find the code: right peg, or right colour in the wrong place | Five guesses is always enough, and the whole strategy tree says so |
-| <img src="Rungwick/assets/logo.png" width="64"> **[Rungwick](Rungwick)** | One word to another, a letter at a time, every rung a word | The rungs are the shortest path across the whole word graph |
-| <img src="Cairnfall/assets/logo.png" width="64"> **[Cairnfall](Cairnfall)** | Take stones off the cairns; take the last one and win | The opponent is a theorem, and a brute-force search checks it |
-| <img src="Rookvale/assets/logo.png" width="64"> **[Rookvale](Rookvale)** | Every move a capture; leave one piece standing | Exactly one way through each board, and the whole tree says so |
-| <img src="Wickfell/assets/logo.png" width="64"> **[Wickfell](Wickfell)** | Press a lamp; it and its neighbours turn. Put them all out | The fewest presses comes out of linear algebra, not a search |
-| <img src="Skeinmoor/assets/logo.png" width="64"> **[Skeinmoor](Skeinmoor)** | Join each pair of ends, cross nothing, leave no cell bare | Exactly one way of filling each board, orderings and all |
-| <img src="Packwold/assets/logo.png" width="64"> **[Packwold](Packwold)** | Fit the pentominoes into the ground you are given | Dancing links, and the published rectangle counts to prove it |
-| <img src="Hollowmarch/assets/logo.png" width="64"> **[Hollowmarch](Hollowmarch)** | Jump a peg over its neighbour; leave one standing | An invariant rules out where you cannot finish, without searching |
-| <img src="Warrenshaw/assets/logo.png" width="64"> **[Warrenshaw](Warrenshaw)** | You move along a path, then it does. Corner it | A theorem about maps and a table of every position agree exactly |
+| <div align="center"><img src="Wirewend/assets/logo.png" width="64"><br><b><a href="Wirewend">Wirewend</a></b></div> | Turn the wire until the current reaches every lamp | Boards are built solvable rather than generated and hoped over |
+| <div align="center"><img src="Slingwell/assets/logo.png" width="64"><br><b><a href="Slingwell">Slingwell</a></b></div> | Swing round a gravity well, let go at the right moment | Every well is reachable from the last one, checked by flying it |
+| <div align="center"><img src="Latchword/assets/logo.png" width="64"><br><b><a href="Latchword">Latchword</a></b></div> | Drag a thumb across letters and spell what you can | A 44k word list, and a board that always holds enough of them |
+| <div align="center"><img src="Tallyloom/assets/logo.png" width="64"><br><b><a href="Tallyloom">Tallyloom</a></b></div> | A nonogram: the numbers say the runs, you find the squares | No puzzle ships that its line-logic solver could not finish |
+| <div align="center"><img src="Thornguard/assets/logo.png" width="64"><br><b><a href="Thornguard">Thornguard</a></b></div> | Twelve raiders against a king and four guards | The opening is balanced by self-play, not by feel |
+| <div align="center"><img src="Emberlane/assets/logo.png" width="64"><br><b><a href="Emberlane">Emberlane</a></b></div> | Twenty waves down one winding lane, and you build beside it | Three written-down plans must finish, struggle and fail |
+| <div align="center"><img src="Fanwright/assets/logo.png" width="64"><br><b><a href="Fanwright">Fanwright</a></b></div> | Patience with everything face up and four cells to park in | Every deal in the book has been solved before it shipped |
+| <div align="center"><img src="Vaultline/assets/logo.png" width="64"><br><b><a href="Vaultline">Vaultline</a></b></div> | One button. Tap to hop, hold to go higher | A search over the button proves every stretch is passable |
+| <div align="center"><img src="Chimefall/assets/logo.png" width="64"><br><b><a href="Chimefall">Chimefall</a></b></div> | Four lanes, notes falling, tap each one as it lands | The music and the chart are one list, and the audio is checked against it |
+| <div align="center"><img src="Chalkway/assets/logo.png" width="64"><br><b><a href="Chalkway">Chalkway</a></b></div> | Draw a line in chalk and let the ball go | Every level ships a drawing that solves it, and it survives being nudged |
+| <div align="center"><img src="Cinderplot/assets/logo.png" width="64"><br><b><a href="Cinderplot">Cinderplot</a></b></div> | Minesweeper | No board ever needs a guess, and the difficulty label is measured |
+| <div align="center"><img src="Haulyard/assets/logo.png" width="64"><br><b><a href="Haulyard">Haulyard</a></b></div> | Shove every crate onto a mark | The par on each yard is the proven fewest shoves there are |
+| <div align="center"><img src="Hazardwell/assets/logo.png" width="64"><br><b><a href="Hazardwell">Hazardwell</a></b></div> | Race to a hundred, roll as long as you dare | The house plays exactly optimally, and the table proves itself |
+| <div align="center"><img src="Lockstead/assets/logo.png" width="64"><br><b><a href="Lockstead">Lockstead</a></b></div> | Find the code: right peg, or right colour in the wrong place | Five guesses is always enough, and the whole strategy tree says so |
+| <div align="center"><img src="Rungwick/assets/logo.png" width="64"><br><b><a href="Rungwick">Rungwick</a></b></div> | One word to another, a letter at a time, every rung a word | The rungs are the shortest path across the whole word graph |
+| <div align="center"><img src="Cairnfall/assets/logo.png" width="64"><br><b><a href="Cairnfall">Cairnfall</a></b></div> | Take stones off the cairns; take the last one and win | The opponent is a theorem, and a brute-force search checks it |
+| <div align="center"><img src="Rookvale/assets/logo.png" width="64"><br><b><a href="Rookvale">Rookvale</a></b></div> | Every move a capture; leave one piece standing | Exactly one way through each board, and the whole tree says so |
+| <div align="center"><img src="Wickfell/assets/logo.png" width="64"><br><b><a href="Wickfell">Wickfell</a></b></div> | Press a lamp; it and its neighbours turn. Put them all out | The fewest presses comes out of linear algebra, not a search |
+| <div align="center"><img src="Skeinmoor/assets/logo.png" width="64"><br><b><a href="Skeinmoor">Skeinmoor</a></b></div> | Join each pair of ends, cross nothing, leave no cell bare | Exactly one way of filling each board, orderings and all |
+| <div align="center"><img src="Packwold/assets/logo.png" width="64"><br><b><a href="Packwold">Packwold</a></b></div> | Fit the pentominoes into the ground you are given | Dancing links, and the published rectangle counts to prove it |
+| <div align="center"><img src="Hollowmarch/assets/logo.png" width="64"><br><b><a href="Hollowmarch">Hollowmarch</a></b></div> | Jump a peg over its neighbour; leave one standing | An invariant rules out where you cannot finish, without searching |
+| <div align="center"><img src="Warrenshaw/assets/logo.png" width="64"><br><b><a href="Warrenshaw">Warrenshaw</a></b></div> | You move along a path, then it does. Corner it | A theorem about maps and a table of every position agree exactly |
 
 ## The idea they share
 
