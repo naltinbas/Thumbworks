@@ -18,7 +18,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Fanwright Vaultline Chimefall Chalkway Cinderplot Haulyard \
          Hazardwell Lockstead Rungwick Cairnfall Rookvale Wickfell \
          Skeinmoor Packwold Hollowmarch Warrenshaw Reelbury Weirbank \
-         Winnowmere
+         Winnowmere Carterfen
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
