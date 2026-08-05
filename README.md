@@ -3,9 +3,9 @@
 Twenty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
-They have almost nothing in common as games — a nonogram, a siege, a rhythm
-game, a minesweeper, a dice race — and one thing in common underneath, which
-is why they live together. **Each one proves the thing it promises.**
+They have almost nothing in common as games. There is a nonogram, a siege, a
+rhythm game, a minesweeper, a dice race. What they share is underneath, and it
+is why they live together: **each one proves the thing it promises.**
 
 | | | |
 |---|---|---|
@@ -39,88 +39,89 @@ fine. Every game here means it, and the proof is a test rather than a
 paragraph:
 
 - **Cinderplot** lays a minefield out, plays it through with a solver that
-  only reasons, and throws it away if the reasoning ever runs out — *and*
-  throws it away if it needed less thinking than the difficulty on the label
-  promises. Nineteen boards in twenty go in the bin.
+  only reasons, and throws it away if the reasoning ever runs out. It throws
+  it away as well if it needed *less* thinking than the difficulty on the
+  label promises. Nineteen boards in twenty go in the bin.
 - **Haulyard** searches every yard for the shortest way through it, and a test
   fails if the par printed on the level is off by one.
 - **Hazardwell** works out the exact chance of winning from all million
   positions in the game, then checks the answer is a fixed point of the rule
   that made it. That is the only proof there is that an optimal opponent is
   optimal.
-- **Chalkway** ships an actual drawing with each level, not a note saying one
-  exists — and requires it to still work when both ends move, because a line
-  that only works at one exact position is a coincidence rather than an
+- **Chalkway** ships an actual drawing with each level rather than a note
+  saying one exists, and the drawing has to still work when both ends move. A
+  line that only works at one exact position is a coincidence rather than an
   answer.
 - **Lockstead** gives you exactly five guesses because every one of the 1296
-  codes can be found in five — walked as one tree rather than sampled, and
-  agreeing with Knuth's published result from 1977.
+  codes can be found in five. That was walked as one tree rather than sampled,
+  and it agrees with Knuth's published result from 1977.
 - **Rungwick** walks every four-letter word in the language outwards from the
-  far end of each climb, so the number of rungs is the shortest path there is
-  — and the same distances tell you the moment you have stepped off it.
+  far end of each climb, so the number of rungs is the shortest path there is.
+  The same distances tell you the moment you have stepped off it.
 - **Cairnfall** settles a row of cairns by one exclusive-or, and proves the
   theorem it rests on by walking the entire game tree of every small position
   and checking the two answers agree.
 - **Rookvale** walks the entire tree of every board and throws away any with
-  two ways through, so every capture is forced by something — and the same
-  walk tells you the moment a capture has left no way through at all.
+  two ways through, so every capture is forced by something. The same walk
+  tells you the moment a capture has left no way through at all.
 - **Wickfell** turns pressing lamps into a system of equations over two
   values, solves it, and tries the null space to get the *fewest* presses
-  rather than merely some — then checks the whole thing against brute force on
-  a board small enough to try every set of presses there is.
-- **Skeinmoor** counts every way of filling a board — every route and every
-  order of drawing them — and ships only the boards with one. Two boards in
-  two hundred thousand survive it, and the count is taken under the rules the
+  rather than merely some. Then it checks the whole thing against brute force
+  on a board small enough to try every set of presses there is.
+- **Skeinmoor** counts every way of filling a board, every route and every
+  order of drawing them, and ships only the boards with one. Two boards in two
+  hundred thousand survive it, and the count is taken under the rules the
   screen obeys rather than the cheaper ones the search would have preferred.
 - **Packwold** is an exact cover problem, so its solver is Algorithm X with
-  dancing links — and the check on it is that the twelve pentominoes come out
-  at 2, 368, 1010 and 2339 packings of the four rectangles they fit, which are
-  the figures everybody else has had for decades.
+  dancing links. The check on it is that the twelve pentominoes come out at 2,
+  368, 1010 and 2339 packings of the four rectangles they fit, which are the
+  figures everybody else has had for decades.
 - **Hollowmarch** adds up the pegs in a field of four values, where three in a
   row carry a^k, a^(k+1) and a^(k+2) and a^k + a^(k+1) = a^(k+2). The sum is
   therefore the same after every jump ever made, so a hollow whose own sum
-  does not match is a hollow no sequence of jumps can end in — proved rather
-  than searched. On the 33 hole board it rules out 28 of the 33, and the
-  search then reaches all five that are left.
+  does not match is a hollow no sequence of jumps can end in. That is proved
+  rather than searched. On the 33 hole board it rules out 28 of the 33, and
+  the search then reaches all five that are left.
 - **Warrenshaw** settles every position of the chase backwards from the end,
   so the runner is the table read the other way up rather than an opponent
   somebody wrote. Then it answers the same question a second way that never
-  looks at a move — rubbing places off the map until it does or does not come
-  apart, which is a theorem from the early eighties — and holds the two
-  against each other on three hundred maps made up at random.
+  looks at a move: rub places off the map until it does or does not come
+  apart, which is a theorem from the early eighties. The two are held against
+  each other on three hundred maps made up at random.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
 
 The second half of that idea is that the proof is made the way a player would
-find it false. Every game plays itself through its own screen in the tests —
-real gestures, real widgets, real phone sizes — not just through its model.
+find it false. Every game plays itself through its own screen in the tests,
+with real gestures and real widgets at real phone sizes, rather than only
+through its model.
 
 ## Some things learned the hard way
 
 Written down because each one cost a rewrite:
 
-- **Balance is a bug class unit tests cannot see.** Thornguard's first opening
+- Balance is a bug class unit tests cannot see. Thornguard's first opening
   gave the raiders sixteen pieces and they won four games in five; the second
   gave them eight and they lost every one. Only self-play over hundreds of
   games found it.
-- **Check that a harness measures the game.** Emberlane's first scripted plan
-  bought one tower a wave and lost with twelve hundred embers unspent — it was
+- Check that a harness measures the game. Emberlane's first scripted plan
+  bought one tower a wave and lost with twelve hundred embers unspent. It was
   measuring the schedule, not the game.
-- **Ask the solver whether an option is ever right.** Hazardwell's two-dice
-  move turned out to be mathematically identical to rolling one die twice, to
+- Ask the solver whether an option is ever right. Hazardwell's two-dice move
+  turned out to be mathematically identical to rolling one die twice, to
   fifteen decimal places, until a pair paid double. A button no correct player
   would ever press is a design bug only a solver finds.
-- **Best-first beats depth-first badly on wide trees.** Fanwright's first
-  solver won five deals in forty; the same code with a three-term heuristic
-  wins ninety-nine in a hundred.
-- **An external fact is worth more than any self-consistent test.** Fanwright
+- Best-first beats depth-first badly on wide trees. Fanwright's first solver
+  won five deals in forty; the same code with a three-term heuristic wins
+  ninety-nine in a hundred.
+- An external fact is worth more than any self-consistent test. Fanwright
   checks deal 11982, the famously unwinnable FreeCell deal, which tests the
   shuffle, the numbering, the rules and the solver in one bit. Hazardwell's
   game value agrees with the published figure for the race it is based on;
   Lockstead's four-peg lock comes out at five guesses, which is Knuth's result
   from 1977.
-- **Hand-drawn levels need a machine before they need a player.** Four of
+- Hand-drawn levels need a machine before they need a player. Four of
   Haulyard's first twelve yards were impossible: a one-square doorway means
   the crate plugs its own way out.
 
@@ -131,10 +132,11 @@ make check              # analyze and test every game; what the pre-push hook ru
 make one GAME=Chalkway  # just that one
 make deps               # flutter pub get, everywhere
 make shots              # redraw every game's screens and logo
+make images             # check every picture a README points at is there
 make list               # what each of them is
 ```
 
-Each game's folder is a whole Flutter project and works on its own — `cd
+Each game's folder is a whole Flutter project and works on its own. `cd
 Chalkway && make check` does what you would expect, and every game has its own
 targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.

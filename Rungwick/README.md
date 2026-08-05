@@ -16,7 +16,7 @@ The number on a climb is the fewest rungs there are.
 
 Not a good score somebody once got. Every four-letter word in the list is a
 point on a graph, joined to the ones a letter away from it, and the number on
-a climb is the shortest path across it — found by walking outwards from the
+a climb is the shortest path across it, found by walking outwards from the
 far end. `test/ladder_test.dart` fails if the number printed on a climb is not
 that:
 
@@ -41,7 +41,7 @@ rungs and a growing suspicion:
 
 Because the distance from every word to the end is already known, this is one
 subtraction: rungs climbed plus rungs still needed, against the number on the
-climb. You can carry on — any ladder that gets there wins — but you will
+climb. You can carry on, and any ladder that gets there wins, but you will
 finish over par and the game will say by how much.
 
 ## Changing one letter is the interaction, not a rule
@@ -62,7 +62,7 @@ nothing left in it.
 Both games are in this collection, and two word games disagreeing about
 whether something is a word is worse than either of them being wrong. So
 `tool/build_words.dart` reads the list Latchword ships and keeps the four and
-five letter words out of it — 2442 and 4667 of them.
+five letter words out of it, 2442 and 4667 of them.
 
 Choosing the climbs is the part a machine cannot do. `make ladders` finds
 pairs and prints the shortest way through each:
@@ -78,12 +78,12 @@ $ make ladders
 What the tool cannot judge is whether every rung is a word anybody would think
 of. A ladder whose shortest way through goes by a word nobody knows reads as
 impossible however short it is, so the ten that ship were picked by eye out of
-what it turned up — written by hand, checked by machine.
+what it turned up: written by hand, checked by machine.
 
 ## The graph
 
 Finding a word's neighbours by comparing it against all 2442 others is 2442
-comparisons a step. Bucketing on patterns — `?ake`, `r?ke`, `ra?e`, `rak?` —
+comparisons a step. Bucketing on patterns (`?ake`, `r?ke`, `ra?e`, `rak?`)
 finds them in four lookups, because two words in the same bucket are one
 letter apart by construction.
 
@@ -111,13 +111,13 @@ make ios     # release iOS build, unsigned
 graph (that every neighbour really is one letter away and that being
 neighbours goes both ways, checked by hand against the definition), the walk
 outwards (nought steps to itself, agreeing with the ladder walked from the
-other end, and −1 for what it cannot reach — some words have no neighbour at
-all), and every climb against its number, twice: that the shortest way through
+other end, and -1 for what it cannot reach, since some words have no
+neighbour at all), and every climb against its number, twice: that the shortest way through
 is that many rungs, and that every rung of it is a word.
 
 Then the game through the screen: the two taps that change a letter, a word
 the list does not have, a word already on the ladder, taking a rung back, and
-the warning when a rung goes nowhere — plus every climb finished in par by
+the warning when a rung goes nowhere, plus every climb finished in par by
 following what **Show me** says, which is the claim the game is sold on made
 the way a player would find it false.
 

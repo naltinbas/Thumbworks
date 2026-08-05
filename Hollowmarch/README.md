@@ -24,14 +24,14 @@ a² = a + 1,  so  a^k + a^(k+1) = a^k(1 + a) = a^k · a² = a^(k+2)
 Label the hollow in row r and column c with a^(r+c), and add up the labels of
 every hollow that has a peg in it. Three hollows in a row carry a^k, a^(k+1)
 and a^(k+2). A jump takes the pegs off the first two and puts one on the
-third — and by that identity **the sum does not change**. Not for that jump:
+third, and by that identity **the sum does not change**. Not for that jump:
 for every jump, in every direction, from any position whatever. Do it again
 with a^(r−c) and there are two such sums.
 
 So a position can only ever become a position with the same pair of sums. One
 peg left in a hollow is a position whose pair is that hollow's own pair. Which
 means: *if the sums on the board do not match a hollow's, no sequence of jumps
-however long ends there* — and no searching was done to find that out.
+however long ends there*, and no searching was done to find that out.
 
 A test plays a hundred positions on every shipped board and checks the sums
 against every jump available from each of them. If that ever failed, every
@@ -58,9 +58,9 @@ and the search reaches:
 
 The sums rule out twenty eight of the thirty three hollows in no time at all.
 The search then reaches every one of the five that are left. Neither half is
-worth much alone — the rule allows hollows that cannot be reached on other
+worth much alone. The rule allows hollows that cannot be reached on other
 boards, and a search that finds five says nothing about the twenty eight it
-did not try — and together there is nothing left to wonder about.
+did not try. Together there is nothing left to wonder about.
 
 Thirty one jumps every time, and that is not a result: every jump takes
 exactly one peg off, so a board of thirty two pegs always takes thirty one of
@@ -70,8 +70,8 @@ them whoever plays it.
 
 A move is one peg jumping, **once or several times running**. That is how the
 game has always been counted, and it is the only count that can be beaten. So
-a peg that lands somewhere it can jump again stays on the move — nothing else
-may go until it is let go — and the game says so.
+a peg that lands somewhere it can jump again stays on the move, nothing else
+may go until it is let go, and the game says so.
 
 Every par here is the fewest moves there are, found by a breadth-first walk
 over positions with one step of the walk being a whole run. A test works each
@@ -93,7 +93,7 @@ rather than printing a number somebody might take for one.
 > From here it can no longer come down to one peg. Take that jump back.
 
 Two things answer that and the cheap one goes first: the sums settle half of
-the dead positions on their own, and only then is the search asked — with a
+the dead positions on their own, and only then is the search asked, with a
 budget, so that on the big board it says *"I cannot see a way from here"*
 rather than a "no" it has not earned.
 
@@ -127,7 +127,7 @@ almost nothing to look at).
 Then the game through the screen: picking a peg up, jumping it, carrying on,
 letting go, taking back, the warning when a board can no longer be finished,
 the warning when nothing can jump at all, and every board played down to one
-peg — in its par, where there is one.
+peg, in its par where there is one.
 
 Screenshots come from `test/showcase_test.dart`, and every peg that has gone
 in them went by being jumped over. `test/mark_test.dart` draws the logo, the

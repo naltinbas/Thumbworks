@@ -29,9 +29,9 @@ cannot tell a hard puzzle from a broken one, and the game has lost them either
 way.
 
 So every candidate picture goes through a solver that reasons the way a person
-does — one line at a time, taking only what that line's own clue forces, going
+does, one line at a time, taking only what that line's own clue forces, going
 round again because a square settled in a row changes what the column through
-it forces — and which never tries a square to see what happens. Anything it
+it forces, and which never tries a square to see what happens. Anything it
 cannot finish is thrown away. What is left has a guaranteed route through it,
 made of nothing but deductions a player could make.
 
@@ -42,28 +42,28 @@ picture fits the clues.
 
 `lib/game/` is the game and knows nothing about screens.
 
-- `picture.dart` — an answer. Always the thing a puzzle was made *from*.
-- `clues.dart` — the numbers, read off a picture and never written by hand, so
-  a puzzle always has at least the answer it came from.
-- `grid.dart` — what the player has worked out, which includes knowing where
+- `picture.dart` is an answer. Always the thing a puzzle was made *from*.
+- `clues.dart` holds the numbers, read off a picture and never written by hand,
+  so a puzzle always has at least the answer it came from.
+- `grid.dart` is what the player has worked out, which includes knowing where
   the picture is *not*. A grid matches a picture on the filled squares only:
   crossing off empties is a way of working, not part of the answer, so
   finishing does not mean clearing them.
-- `line.dart` — the whole of nonogram reasoning, in one class. A clue and a
+- `line.dart` is the whole of nonogram reasoning, in one class. A clue and a
   partly known line permit some set of arrangements; any square that is the
   same in all of them is settled.
-- `solver.dart` — line logic until it finishes or runs out of ideas.
-- `maker.dart` — draws a picture, reads its clues, solves it, and throws it
+- `solver.dart` runs line logic until it finishes or runs out of ideas.
+- `maker.dart` draws a picture, reads its clues, solves it, and throws it
   away unless the solver got it out.
-- `book.dart` — puzzle number to puzzle. The book stores nothing: a number is
+- `book.dart` turns a puzzle number into a puzzle. The book stores nothing: a number is
   its own seed, so puzzle forty one is the same grid on every phone that asks
   for it, worked out in a few milliseconds when it is wanted.
 
 `lib/ui/` draws it. There is no art to load: a nonogram is squares and two
 digit numbers, so every pixel is painted and it is sharp at whatever size a
 phone gives it. That includes the logo and the app icon, which are drawn by
-the same painter as the board — the mark is a real seven by seven nonogram,
-and there is a test that solves it.
+the same painter as the board. The mark is a real seven by seven nonogram, and
+there is a test that solves it.
 
 ## Things worth knowing
 
@@ -76,8 +76,8 @@ the number of runs.
 
 Alongside it in the tests sits the slow obvious version that really does write
 down every arrangement. The two are compared on **every clue and every state of
-knowledge** a line up to eight squares wide can be in — not a sample, all of
-them: fifty five clues against six and a half thousand states, in about three
+knowledge** a line up to eight squares wide can be in. Not a sample, but all
+of them: fifty five clues against six and a half thousand states, in about three
 seconds. `make verify` takes it to eleven wide.
 
 **The grids stop at ten across**, and the reason is the smallest phone still
@@ -98,7 +98,7 @@ shape of the answer would be worth more than reading the clues.
 
 Folding is drawn *into* rather than applied afterwards, because applying it
 afterwards copies one half of the grid over the other and moves the share of
-squares that end up filled — so a picture drawn to a target and then folded
+squares that end up filled, so a picture drawn to a target and then folded
 misses it and gets thrown away, and a maker that mirrors most of its pictures
 ends up handing over hardly any.
 
@@ -107,7 +107,7 @@ folded pictures are easier. The last chapter therefore does not fold.
 
 **Leaving the game stops the clock and covers the puzzle.** The times are worth
 keeping honest, so a puzzle put down at a bus stop should not read as forty
-minutes — and a stopped clock over a puzzle that can still be read is dishonest
+minutes. A stopped clock over a puzzle that can still be read is dishonest
 the other way, because every number is already on the screen and thinking is
 the entire game. Coming back does not start the clock either; you do, by
 tapping.
@@ -136,7 +136,7 @@ drawn and thrown away to find that one.
 
 `flutter test` runs everything: the line logic against brute force, the maker's
 promises across every size, two hundred and fifty puzzles of the book checked
-for size, difficulty, solvability without a guess and — for the small ones —
+for size, difficulty, solvability without a guess and (for the small ones)
 uniqueness found by an independent exhaustive search, and the game itself
 played with a thumb on three phone sizes.
 
@@ -149,4 +149,4 @@ could not have reasoned out by then.
 Pictures of the game on an actual phone need an actual phone. No emulator is
 published for this machine's architecture and there is no CI here to borrow
 one from, so `integration_test/screenshot_test.dart` is driven by hand on a
-machine that has one — `.github/scripts/` holds the two scripts that do it.
+machine that has one. `.github/scripts/` holds the two scripts that do it.

@@ -4,8 +4,8 @@
 
 A dice game for phones, in Flutter, for Android and iOS.
 
-Race to a hundred. Roll as long as you dare, then bank what the turn has made
-— a one takes the lot, and two ones take your score with it. You are playing
+Race to a hundred. Roll as long as you dare, then bank what the turn has made.
+A one takes the lot, and two ones take your score with it. You are playing
 the house, and the house has worked the whole game out.
 
 | | | | |
@@ -15,8 +15,8 @@ the house, and the house has worked the whole game out.
 ## The house is not an opponent, it is the answer
 
 There is no difficulty slider and nothing to tune. When the app starts it
-works out the exact chance of winning from **every position in the game** — a
-million of them — and the house plays the best move every time.
+works out the exact chance of winning from **every position in the game**, a
+million of them, and the house plays the best move every time.
 
 That table cannot be filled in one square at a time, because the value of a
 position depends on positions that depend back on it: you bank, they play,
@@ -39,21 +39,21 @@ final moved = (odds.winning(mine, theirs, turn) -
 expect(worst, lessThan(1e-9));
 ```
 
-If that holds everywhere then the table is the answer — the sweeps were only a
-way of finding it. There is no other proof available and none needed.
+If that holds everywhere then the table is the answer, and the sweeps were
+only a way of finding it. There is no other proof available and none needed.
 
 ## It will show you the odds, and tell you what you cost yourself
 
 ![the odds on show](docs/turn.png)
 
 Turn the odds on and every move carries the number the house is using. Not a
-hint, not a nudge, not a difficulty setting — the same table, put where you
+hint, not a nudge, not a difficulty setting: the same table, put where you
 can see it. The whole difference between the two of you is meant to be that
 the house always takes the best one.
 
 At the end it adds up the difference:
 
-> 14 of 17 decisions were the best there was. On 24 at 88–74 you threw two.
+> 14 of 17 decisions were the best there was. On 24 at 88 to 74 you threw two.
 > Banking was worth 6.1% more.
 
 That is what makes this game learnable rather than only lucky. Winning is
@@ -64,7 +64,8 @@ mostly the dice. Playing well is not, and it can be measured exactly.
 That is not a slogan, it is why the rules are the way they are.
 
 Two dice where either one ends the turn is *precisely* one die rolled twice
-with no choice in between — same outcomes, same odds, same payouts. It could
+with no choice in between, with the same outcomes, the same odds and the same
+payouts. It could
 never beat rolling one and then deciding, so it would never be worth picking,
 and the first version of this game had a third button that no correct player
 would ever press. The solver said so: the two moves came out equal to fifteen
@@ -80,7 +81,7 @@ turn 28  bank 0.6304  one 0.6248  two 0.6242  -> bank
 ```
 
 `test/game_test.dart` checks all three are clearly best in hundreds of
-positions — by a margin, not by a rounding error.
+positions, by a margin rather than by a rounding error.
 
 ## What the table knows that folk wisdom does not
 
@@ -101,8 +102,8 @@ table does.
 ## Worked out here, not shipped in a tin
 
 The table is a second of arithmetic and eight megabytes, so it is worked out
-on an isolate of its own while the way in is on screen — not shipped in a file
-you would have to take on trust. By the time anybody has read the rules it is
+on an isolate of its own while the way in is on screen, rather than shipped in
+a file you would have to take on trust. By the time anybody has read the rules it is
 done, and the button says so.
 
 `integration_test/screenshot_test.dart` does it on a real device and prints
@@ -131,7 +132,7 @@ falls with theirs, that banking nothing is never the best move anywhere in the
 game, and that all three moves are clearly right somewhere.
 
 Then the game through the screen: throwing, banking, the house taking its
-turn, the odds strip, the review — and a whole game played out by the table's
+turn, the odds strip, the review, and a whole game played out by the table's
 own advice, which must end with the review finding no mistake in it.
 
 Screenshots come from `test/showcase_test.dart` with dice that have been told

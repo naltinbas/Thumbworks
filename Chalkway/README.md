@@ -13,7 +13,7 @@ watch where gravity takes it. Eight levels, and never quite enough chalk.
 
 ## Every level ships with a line that solves it
 
-Not a note saying it can be done. An actual drawing — a list of points, in
+Not a note saying it can be done. An actual drawing, a list of points, in
 `lib/sim/levels.dart`, next to the level it belongs to:
 
 ```dart
@@ -42,7 +42,7 @@ gesture handling, and watches the ring catch it.
 replayed four times with both ends nudged six hundredths of a unit each way,
 and at least three of the four have to still work. That is not a nicety. The
 first set of answers was written out rounded to a tenth of a unit and two of
-the eight stopped working — they were knife-edge, and a line that only works
+the eight stopped working. They were knife-edge, and a line that only works
 at one exact position is not an answer, it is a coincidence. A player would
 have found those two levels impossible.
 
@@ -51,7 +51,7 @@ have found those two levels impossible.
 `lib/sim/` knows nothing about screens, frames or phones. A `World` is a ball,
 a list of lines, a ring, some spikes and gravity, and it advances one fixed
 step at a time. Nothing in it is random, so the same drawing gives the same
-run every time and on every phone — which is the whole reason a level can ship
+run every time and on every phone, which is the whole reason a level can ship
 with a drawing that solves it and a test can check that it does.
 
 The step is a two hundred and fortieth of a second, and that is not fussiness.
@@ -60,7 +60,7 @@ safe while the ball cannot cross something thin in a single step, so the speed
 is capped at fourteen units a second, and at that step the ball moves a sixth
 of its own radius at a time. There is nothing for it to pass through. The
 alternative is sweeping every move against every line, which is the same
-answer for ten times the code — and there is a test that drops the ball the
+answer for ten times the code, and there is a test that drops the ball the
 whole height of the board onto one thin line near the bottom to say so.
 
 Pushing the ball out of one line can push it into another, so the resolve runs
@@ -80,7 +80,7 @@ the player has to draw all over again, and stopping where the chalk stopped is
 the same information without the loss.
 
 Strokes are thinned as they are drawn. A finger reports a hundred times a
-second, which across a screen is several hundred points a millimetre apart —
+second, which across a screen is several hundred points a millimetre apart,
 and every one of them is a line the physics checks the ball against, every
 step, for the rest of the run. A point has to be a sixth of a unit from the
 last one to be kept, which is close enough that a curve still reads as a
@@ -112,7 +112,7 @@ $ make answer LEVEL=4
 ```
 
 Both columns matter. A level nobody can solve is broken, and so is one that
-solves itself — three of the first eight did, and had to be redrawn.
+solves itself, and three of the first eight did, and had to be redrawn.
 
 ## What the ball does when it wins
 
@@ -122,7 +122,7 @@ overlap well before the ball is anywhere near going in, and ending a run there
 would look like a bad call. There are tests either side of that line.
 
 One presentational liberty follows from it. Since the run stops the moment the
-ball crosses in, the ball would otherwise be drawn perched on the rim — a
+ball crosses in, the ball would otherwise be drawn perched on the rim: a
 picture of a near miss at the end of the one run that was not one. So a won
 ball is drawn in the middle of the ring. The trail behind it still ends where
 the ball actually was.
@@ -161,5 +161,5 @@ icon; there is no image in this repository that was not produced by it.
 `integration_test/screenshot_test.dart` does the same on a real emulator and a
 real simulator, with the strokes delivered as device pointer events so they go
 in the way a thumb does. There is no CI here, so it is driven by hand
-on a machine with a phone or a simulator attached — `.github/scripts/` holds
+on a machine with a phone or a simulator attached. `.github/scripts/` holds
 the two scripts that do it.

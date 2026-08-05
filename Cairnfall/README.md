@@ -14,19 +14,19 @@ has already worked the whole thing out.
 
 ## Three rules, one arithmetic
 
-- **Open** — take as many as you like, down to the last stone.
-- **Up to three** — take one, two or three.
-- **One or half** — take one stone, or exactly half of them when there is an
+- **Open.** Take as many as you like, down to the last stone.
+- **Up to three.** Take one, two or three.
+- **One or half.** Take one stone, or exactly half of them when there is an
   even number.
 
 A row of open cairns is Nim, and Nim is a game people either know the trick to
-or do not. Mix three rules and the position is one nobody has seen — and the
+or do not. Mix three rules and the position is one nobody has seen, and the
 whole point of what this game will show you is that *the same arithmetic still
 settles it*.
 
 Every cairn is worth a number: the size of the plain heap it could be swapped
 for without changing who wins. That is a fact about the cairn rather than a
-judgement of it, and it is worked out the only way it can be — the value of a
+judgement of it, and it is worked out the only way it can be. The value of a
 cairn is the smallest number that is not the value of anything it can turn
 into. Every cairn is smaller than the one it came from, so the table fills in
 from nothing upwards and never asks about itself.
@@ -39,7 +39,7 @@ makes it nothing.
 
 Everything above rests on Sprague and Grundy's result, and this repository
 does not take it on trust. `test/stones_test.dart` works out who wins by
-walking the entire game tree — a search that knows nothing about values — and
+walking the entire game tree, a search that knows nothing about values, and
 checks it against the arithmetic:
 
 ```dart
@@ -48,7 +48,7 @@ expect(winsByBruteForce(play, seen), worth.ofAll(cairns) != 0,
 ```
 
 Four hundred random positions, and then every position of three cairns of up
-to six stones, one of each rule — exhaustively, not sampled. If the theorem
+to six stones, one of each rule, exhaustively rather than sampled. If the theorem
 did not hold for these rules, that test would say so before a player ever did.
 
 ## It will show you what it is doing
@@ -56,8 +56,9 @@ did not hold for these rules, that test would say so before a player ever did.
 ![the numbers on show](docs/numbers.png)
 
 Turn the numbers on and every cairn carries its value, with the row's total
-underneath and what that total means. Not a hint and not a difficulty setting
-— it is the same table the other player is using, put where you can see it.
+underneath and what that total means. It is not a hint and not a difficulty
+setting: it is the same table the other player is using, put where you can see
+it.
 
 The other player never slips. From a position that can be won it wins; from
 one that cannot it takes one stone and waits. There is nothing to tune,
@@ -67,7 +68,7 @@ correctly.
 ## Every round starts winnable
 
 You move first, and each of the eight rounds is worth something other than
-nothing — a test says so. That is not a courtesy. A round worth nothing is one
+nothing, and a test says so. That is not a courtesy. A round worth nothing is one
 where nothing the player does matters, and this game is only about what they
 do.
 
@@ -109,7 +110,7 @@ rule does not allow, the last stone, and that perfect play wins every game
 that can be won).
 
 Then the game through the screen: picking a cairn, the takes each rule offers,
-the other player's reply, the numbers going on and off — and every round
+the other player's reply, the numbers going on and off, and every round
 played out by the arithmetic, which has to win all eight without once giving
 one away.
 

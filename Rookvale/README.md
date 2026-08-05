@@ -14,7 +14,7 @@ exactly one way to do it.
 
 ## Exactly one way through
 
-Not a way that was found — the only one there is. `test/board_test.dart`
+Not a way that was found: the only one there is. `test/board_test.dart`
 walks the whole tree of every board that ships and fails if there are two:
 
 ```dart
@@ -24,8 +24,8 @@ expect(ways.count, 1, reason: '${puzzle.name} has ${ways.count} ways through');
 
 That is the difference between a puzzle and an exercise. With one way through,
 every capture is forced by something, and there is always a reason to find. It
-also means the game can tell you the moment you have gone wrong — not by
-guessing, but by walking the tree from where you are standing:
+also means the game can tell you the moment you have gone wrong, not by
+guessing but by walking the tree from where you are standing:
 
 > That leaves it with no way through. Take it back.
 
@@ -71,7 +71,7 @@ more than two.
 
 ![a piece picked](docs/picked.png)
 
-Every piece is the same colour, because they are all yours — so the only thing
+Every piece is the same colour, because they are all yours, so the only thing
 telling a bishop from a rook is its shape. Six of them, chosen to be different
 at a glance and at a quarter of an inch: a disc, a triangle, a diamond, a
 square, a square with its corners out, and a ring with a cross on it. Nothing
@@ -96,9 +96,9 @@ make ios     # release iOS build, unsigned
 
 ## Tests
 
-`flutter test` runs how each piece takes — a pawn forwards and only forwards,
+`flutter test` runs how each piece takes (a pawn forwards and only forwards,
 a knight two one way and one the other, a king one square anywhere, and the
-three sliding pieces taking the first thing on a line and nothing behind it —
+three sliding pieces taking the first thing on a line and nothing behind it),
 then a capture (the taker ends up where it took, and a move that is not a
 capture changes nothing), then every puzzle: exactly one way through, as many
 captures as it says, a way through that really works when it is played, and

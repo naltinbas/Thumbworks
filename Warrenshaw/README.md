@@ -5,9 +5,9 @@
 A chase for phones, in Flutter, for Android and iOS.
 
 You move along a path, then it does. Corner it. The number on each map is the
-fewest moves that can beat a runner playing as well as anything could — and
-the last map cannot be won by anybody, which is a theorem rather than a
-difficulty setting.
+fewest moves that can beat a runner playing as well as anything could. The
+last map cannot be won by anybody, which is a theorem rather than a difficulty
+setting.
 
 | | | | |
 |---|---|---|---|
@@ -21,8 +21,8 @@ search anything while somebody is playing: every position is settled when the
 map opens, and the game reads.
 
 It is settled backwards. Everything starts at *never*, and a position only
-ever comes down — a seeker's turn takes the best of what it can reach, a
-runner's turn takes the worst — until nothing changes. A position still at
+ever comes down, because a seeker's turn takes the best of what it can reach
+and a runner's turn takes the worst, until nothing changes. A position still at
 *never* when that stops is one the runner really does get away with: if there
 were a way to catch it, that way would have brought it down.
 
@@ -40,7 +40,7 @@ There is another way to answer "can the seeker win this map?", and it never
 looks at a single move.
 
 Call a place **covered** when everywhere you could go from it, you could also
-go from some one neighbour — its own place included. Standing on a covered
+go from some one neighbour, its own place included. Standing on a covered
 place is worth nothing to a runner: whatever it could do from there it could
 do from the place that covers it, and the seeker is no nearer. So rub covered
 places off the map. Keep rubbing. **If the map comes down to a single place
@@ -49,7 +49,7 @@ runner gets away for ever.**
 
 That is Quilliot, and Nowakowski and Winkler, in the early eighties. It has
 nothing in common with the table but the answer, so the two are held against
-each other — on every map that ships, and on three hundred made up at random:
+each other on every map that ships, and on three hundred made up at random:
 
 ```dart
 expect(Dismantle.comesApart(chart), table.isSeekerWin, reason: 'disagreed on $paths');
@@ -71,7 +71,7 @@ insists on at least twenty of each.
 ![the map nobody can win](docs/hopeless.png)
 
 The last one is four gates in a ring. Whatever the seeker does, the runner
-steps to the far side and waits — and no amount of playing would ever tell you
+steps to the far side and waits, and no amount of playing would ever tell you
 whether that is a fact or a failure of imagination. Taking the map apart tells
 you: nothing on a ring of four covers anything else, so it does not come
 apart, so there is no winning it. Ever. By anybody.
@@ -106,8 +106,8 @@ wastes time saying so, and taking one back).
 
 Then the game through the screen: tapping a place, being refused one, the
 warning that a move went off the quickest way, **Take back**, **Again**,
-**Show me** naming a place — and on the unwinnable map, saying why there is
-none — and every map that can be won being won in its par.
+**Show me** naming a place (and on the unwinnable map, saying why there is
+none), and every map that can be won being won in its par.
 
 Screenshots come from `test/showcase_test.dart`, and every move in them was
 made by tapping a place. `test/mark_test.dart` draws the logo, the launcher

@@ -42,8 +42,8 @@ $ make pars
 ## Walking is free
 
 The search is over **shoves**, not steps. Walking about cannot make a yard
-worse, so it is not counted, not searched over, and not worth thinking about —
-tap anywhere you can reach and you are there.
+worse, so it is not counted, not searched over, and not worth thinking about.
+Tap anywhere you can reach and you are there.
 
 That is also what keeps the search small. Two positions count as the same when
 the crates match and the hauler is shut into the same pocket by them, because
@@ -66,22 +66,22 @@ Two more things keep it honest and quick:
 
 The worst thing about this kind of puzzle is playing on for five minutes after
 the position became impossible. Here the two checks above run after every
-shove — they are instant, no search involved — and the yard says so:
+shove. They are instant, with no search involved, and the yard says so:
 
 > That crate cannot reach a mark any more. Undo.
 
 Ask **Show me** and it searches from where the yard actually stands, which is
 the only honest answer: a hint read off the shortest way through from the
 start is advice about a yard nobody is playing. It points at a crate, draws an
-arrow off it, and tells you how many shoves are left from here — and whether
+arrow off it, and tells you how many shoves are left from here and whether
 that is still par.
 
 If nothing can finish the yard, it says that instead.
 
 ## Yards are written by hand
 
-A yard is one idea — a corner you can only come at from behind, a crate that
-has to be moved before another one can be — and nothing that generates yards
+A yard is one idea: a corner you can only come at from behind, a crate that
+has to be moved before another one can be. Nothing that generates yards
 generates ideas. They are pictures in `lib/yard/levels.dart`:
 
 ```dart
@@ -105,9 +105,9 @@ Level(
 ```
 
 Written by hand and checked by machine. Four of the first twelve were
-impossible when they were first drawn — a crate could reach the room but the
-hauler could not get round behind it — and the search said so before anybody
-played them.
+impossible when they were first drawn, because a crate could reach the room
+but the hauler could not get round behind it. The search said so before
+anybody played them.
 
 ## Running it
 
@@ -130,8 +130,8 @@ every yard against its par twice over, the deadlock checks either side of the
 line, and the pocket rule that makes two positions one.
 
 Then the game through the screen: swiping, tapping to walk, tapping to shove,
-undo, starting again, the warning when a yard is ruined, and — the one that
-matters — **every yard worked through to the end by pressing Show me and doing
+undo, starting again, the warning when a yard is ruined, and the one that
+matters: **every yard worked through to the end by pressing Show me and doing
 what it says**, finishing each one in exactly par.
 
 Screenshots come from `test/showcase_test.dart`, which shoves the crates in
@@ -142,5 +142,5 @@ by it.
 `integration_test/screenshot_test.dart` does it again on a real emulator and a
 real simulator, running the search on the device and tapping with device
 pointer events. There is no CI here, so it is driven by hand
-on a machine with a phone or a simulator attached — `.github/scripts/` holds
+on a machine with a phone or a simulator attached. `.github/scripts/` holds
 the two scripts that do it.

@@ -14,7 +14,7 @@ is good, and a run of them is worth more than the same notes scattered.
 ## The music and the notes are one list
 
 A rhythm game normally has two things: an audio file, and a chart of when to
-tap. Two things that can drift apart — and the drift is exactly what makes one
+tap. Two things that can drift apart, and the drift is exactly what makes one
 unplayable.
 
 Here there is one. A tune is a list of notes, each with a moment, a lane and a
@@ -23,18 +23,18 @@ pitch. The falling notes come from that list, and so does the sound:
 nothing to keep in step because there is nothing to keep in step *with*.
 
 **And it is checked.** `test/sound_test.dart` reads the rendered audio back
-with a WAV parser written from the specification — not by undoing the writer,
-because a reader that mirrors the writer agrees with it however wrong they both
-are — and then, for every note the chart promises, asks the audio whether that
-note's own pitch appears at that moment. It uses a Goertzel filter, which
+with a WAV parser written from the specification, rather than by undoing the
+writer, because a reader that mirrors the writer agrees with it however wrong
+they both are. Then, for every note the chart promises, it asks the audio
+whether that note's own pitch appears at that moment. It uses a Goertzel filter, which
 answers about one frequency rather than all of them:
 
 > at the time the chart says a note sounds, does the sound gain energy at that
 > note's frequency?
 
 Asked that way rather than by looking for onsets, because an onset detector
-finds nothing in a dense passage — the sound never drops between notes — while
-a note's own pitch arriving is plain however busy the music is. There is a test
+finds nothing in a dense passage, because the sound never drops between notes,
+while a note's own pitch arriving is plain however busy the music is. There is a test
 the other way round too: a pitch nothing in the tune plays stays quiet all the
 way through.
 
@@ -47,9 +47,9 @@ metal bar rings at ratios that are not whole numbers, which is why a bell
 sounds like a bell and a plucked string does not.
 
 Nothing in this repository is a file somebody downloaded. The tunes are written
-as bars of text in `lib/tune/tunes.dart` — sixteen characters to a bar, a digit
-for a step of the scale — and the lane a note falls in comes out of how high it
-is, so the falling notes are the shape of the melody rather than a pattern laid
+as bars of text in `lib/tune/tunes.dart`, sixteen characters to a bar and a
+digit for a step of the scale. The lane a note falls in comes out of how high
+it is, so the falling notes are the shape of the melody rather than a pattern laid
 over it.
 
 ## Judging a tap
@@ -62,8 +62,8 @@ at all, and mashed, and checks what each is worth.
 The number of seconds itself comes from the music. The player reports its
 position a few times a second, which is nowhere near often enough to fall a
 note by, so `lib/play/beat.dart` carries the last reading forward with the wall
-clock and corrects when the next arrives — easing small differences away so
-nothing visibly hops, and believing a big jump at once because something real
+clock and corrects when the next arrives. Small differences are eased away so
+nothing visibly hops, and a big jump is believed at once because something real
 happened. Judging taps against a clock that is *not* the music is judging them
 against something that has already drifted, since starting a sound takes a
 moment nothing gets told about.
@@ -72,13 +72,13 @@ moment nothing gets told about.
 is no audio device on the machine this was built on. What is tested is that the
 file is a valid WAV, that it contains the notes the chart promises at the
 moments it promises them, that the file shipping in `assets/` is what the code
-renders now, and — on a real emulator, driven by hand — that the app starts
-the tune without erroring.
+renders now, and (on a real emulator, driven by hand) that the app starts the
+tune without erroring.
 
 That last one needs a device. No emulator is published for this machine's
 architecture and there is no CI here to borrow one from, so
 `integration_test/screenshot_test.dart` is driven by hand on a machine that
-has one — `.github/scripts/` holds the two scripts that do it.
+has one. `.github/scripts/` holds the two scripts that do it.
 
 ## Running it
 

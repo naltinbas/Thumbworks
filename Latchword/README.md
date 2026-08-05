@@ -26,16 +26,16 @@ round stands, which is the thing you want to know coming back to it.
 
 `lib/game/` is the game and knows nothing about screens.
 
-- `board.dart` — a `Board` is immutable. `judge` says what it thinks of a
+- `board.dart`: a `Board` is immutable. `judge` says what it thinks of a
   trace and `take` gives back a new board with the word in it. `everyWord`
   walks the grid and returns everything on it, which is what the end of a
   round shows.
-- `lexicon.dart` — the words, and the set of prefixes that makes the walk
-  practical: a path stops the moment its letters cannot begin anything.
-- `maker.dart` — boards are counted, not hoped for. A board is laid out
+- `lexicon.dart`: the words, and the set of prefixes that makes the walk
+  practical, since a path stops the moment its letters cannot begin anything.
+- `maker.dart`: boards are counted, not hoped for. A board is laid out
   around a real word, filled from English letter frequencies, and thrown away
   unless it holds at least twenty five findable words.
-- `round.dart` — one go: the board a seed deals, everything on it, the score
+- `round.dart`: one go, which is the board a seed deals, everything on it, the score
   and what was missed. A round is a pure function of its seed, so a board can
   be played again, passed on to someone else, or photographed on a build
   server and still be the board a phone deals.

@@ -15,7 +15,7 @@ somewhere else. You get five guesses, because five is always enough.
 ## Five is not a difficulty setting
 
 Every one of the 1296 codes in the first lock can be found in five guesses.
-Not most of them, not on average — all of them. So five is what you get.
+Not most of them, not on average, but all of them. So five is what you get.
 
 That number is not somebody's estimate. `test/lock_test.dart` walks the whole
 strategy tree and fails if the number printed on the board is not the deepest
@@ -33,9 +33,9 @@ makes it the one number here that can be checked against somebody else's work
 rather than only against itself.
 
 **The tree, not a sample.** Replaying the game against each of 1296 codes in
-turn would be 1296 searches. But the strategy *is* a tree — one guess at the
-top, a branch for every mark it can come back with, the same question down
-each branch — and every code in the lock is a leaf of it. Walking it once
+turn would be 1296 searches. But the strategy *is* a tree, with one guess at
+the top, a branch for every mark it can come back with and the same question
+down each branch, and every code in the lock is a leaf of it. Walking it once
 answers for all of them, which is why the proof is a test that takes half a
 second rather than a tool you run overnight.
 
@@ -62,7 +62,7 @@ its worst case against all 1296 codes, one at a time.
 ## Marking a guess is where this game is usually wrong
 
 Repeated colours are the whole difficulty. If the code has one red and you
-guess three, exactly one can be credited — and walking the pegs left to right
+guess three, exactly one can be credited, and walking the pegs left to right
 crossing off matches gets that wrong in a way nobody notices until they are
 already annoyed. Here the blacks come out first, and the whites are whatever
 is left over on both sides:
@@ -74,7 +74,7 @@ whites += leftInCode[colour] < leftInGuess[colour]
 ```
 
 There are tests either side of it, including one that four thousand random
-pairs never come back as "three right and one in the wrong place" — a mark
+pairs never come back as "three right and one in the wrong place", a mark
 that cannot happen, because there is nowhere for the odd peg to go. A game
 that offers it as a possible answer is a game that can lie to you.
 
@@ -82,7 +82,7 @@ that offers it as a possible answer is a game that can lie to you.
 
 ![a lock part way in](docs/picking.png)
 
-Every peg carries a shape as well as a hue — a dot, a ring, a bar, a cross, a
+Every peg carries a shape as well as a hue: a dot, a ring, a bar, a cross, a
 triangle, a chevron, a square, a slash. Either would do for most people and
 neither on its own does for everybody, and a code game that can only be played
 by people who see colour the way whoever made it does is a code game half the
@@ -91,9 +91,9 @@ world cannot play.
 ## Cutting the key
 
 Everything after the first moment is a table lookup. Marking every code
-against every other is a few million pairs — half a second for the biggest
-lock — and it happens once, on an isolate of its own, while the screen says
-what it is doing. After that the solver, the count of what still fits and the
+against every other is a few million pairs, which is half a second for the
+biggest lock, and it happens once, on an isolate of its own, while the screen
+says what it is doing. After that the solver, the count of what still fits and the
 proof are all reading a byte out of an array.
 
 The table is symmetric, so only half of it is worked out and the other half
@@ -122,7 +122,7 @@ the code is never ruled out of what still fits).
 
 Then the game through the screen: filling a row a peg at a time, taking one
 back, a guess coming back marked, the count of what still fits going down, the
-code being shown when the lock beats you — and every lock picked to the end by
+code being shown when the lock beats you, and every lock picked to the end by
 pressing **Show me**, which has to open each one inside its promise without
 the test ever being told the code.
 

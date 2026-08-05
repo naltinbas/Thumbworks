@@ -4,7 +4,7 @@
 
 A lamp puzzle for phones, in Flutter, for Android and iOS.
 
-Press a lamp and it turns — and so does everything it touches. Put them all
+Press a lamp and it turns, and so does everything it touches. Put them all
 out. The number on each board is the fewest presses there are, and it is not
 found by searching.
 
@@ -16,15 +16,15 @@ found by searching.
 
 Two facts about pressing lamps decide everything else. Pressing the same lamp
 twice puts it back exactly as it was, and the order of the presses makes no
-difference at all. So a set of presses is not a sequence — it is a yes or no
+difference at all. So a set of presses is not a sequence. It is a yes or no
 for each lamp, and turning the board off means choosing the presses whose
 effects add up to exactly what is lit.
 
 That is a system of linear equations where every value is a nought or a one,
 and it is solved the way linear equations are solved: work down the lamps
 putting the system into a triangle, then read the answer back. Whatever is
-left over at the bottom is the null space — the sets of presses that change
-nothing at all — and every solution is one solution plus one of those.
+left over at the bottom is the null space, the sets of presses that change
+nothing at all, and every solution is one solution plus one of those.
 
 Trying all of those is what gives the *fewest* presses rather than merely
 some. There are four of them on a five by five, so it is four sums rather than
@@ -42,7 +42,7 @@ $ make sizes
 ```
 
 Those numbers were worked out long before this code was, and a test asserts
-them — which makes them the one thing here that is checked against somebody
+them, which makes them the one thing here that is checked against somebody
 else's work rather than against itself.
 
 They also decide which boards can ship. On a five by five, three boards in
@@ -61,8 +61,9 @@ holds the answer against the sums:
 expect(answer.fewest, fewest, reason: 'board $board');
 ```
 
-If the linear algebra were subtly wrong — a pivot in the wrong place, a row
-not cleared — that test would find it on a board a person could check by hand.
+If the linear algebra were subtly wrong, with a pivot in the wrong place or a
+row not cleared, that test would find it on a board a person could check by
+hand.
 
 ## It tells you the moment you have wandered off
 
@@ -70,7 +71,7 @@ not cleared — that test would find it on a board a person could check by hand.
 
 Because the fewest presses from *anywhere* is one solve, the game knows at
 every moment how many are left. Presses made plus presses still needed,
-against the number on the board — one subtraction, and it says so at once:
+against the number on the board. One subtraction, and it says so at once:
 
 > That press is not on any shortest way to put them out.
 
@@ -96,8 +97,8 @@ make ios     # release iOS build, unsigned
 five; pressing twice changes nothing; the order of presses makes no
 difference), the sums (the known null spaces for five sizes, that a set of
 presses that changes nothing really changes nothing, that the presses given
-really put the lamps out, that nothing shorter does — checked by trying every
-set there is on a three by three — and that a board it calls impossible
+really put the lamps out, that nothing shorter does (checked by trying every
+set there is on a three by three), and that a board it calls impossible
 survives two hundred random attempts), every shipped board against its number,
 and a game (pressing, taking back, knowing at once when a press has gone
 nowhere, and finishing).

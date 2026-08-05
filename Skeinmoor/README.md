@@ -18,7 +18,7 @@ Join the two ends of each thread. Cross nothing. **Leave no cell bare.**
 
 Drop the third rule and there is nothing here: any board can be joined up a
 dozen ways, and joining it up is a straight line and a shrug. Keep it, and the
-board stops being a set of separate little mazes — a thread that takes the
+board stops being a set of separate little mazes. A thread that takes the
 short way round leaves cells nobody else can reach, so where one thread goes
 is decided by where all the others have to go.
 
@@ -31,7 +31,7 @@ That is the mistake the game exists to catch, and it says so:
 
 ## Exactly one way of being filled
 
-Not a way that was found — the only one there is. `test/thread_test.dart`
+Not a way that was found: the only one there is. `test/thread_test.dart`
 walks every way of filling each board that ships and fails if there are two:
 
 ```dart
@@ -54,9 +54,9 @@ drawing elsewhere will help.
 
 ## Finding them is nearly all throwing them away
 
-`make find` works backwards. Filling a board is easy — grow threads at random
-until every cell is taken — and the ends of those threads are a puzzle whose
-answer is known before it is asked. Whether it is the *only* answer is what
+`make find` works backwards. Filling a board is easy, since threads can be
+grown at random until every cell is taken, and the ends of those threads are a
+puzzle whose answer is known before it is asked. Whether it is the *only* answer is what
 the solver is for, and almost nothing survives it:
 
 ```
@@ -96,7 +96,7 @@ out, and it is what the boards are ordered by.
 ## A thread may run alongside itself
 
 There is no fourth rule. A thread that doubles back and lies against its own
-line is allowed, and half these boards need it — the logo is one.
+line is allowed, and half these boards need it. The logo is one of them.
 
 It would be cheaper not to allow it. Refusing it cuts the search down by an
 order of magnitude, and the first version did refuse it. But then what the
@@ -110,7 +110,7 @@ are the rules the screen obeys, and that is worth the extra searching.
 
 Eight threads is more colours than anybody should have to tell apart, so the
 ends carry shapes as well: a disc, a ring, a square, a diamond, a triangle, a
-cross, a bar and a star. The pairing — which end goes with which — is a shape
+cross, a bar and a star. The pairing, which end goes with which, is a shape
 match. Nothing in the game depends on seeing colour.
 
 ## Running it
@@ -129,7 +129,7 @@ make ios     # release iOS build, unsigned
 ## Tests
 
 `flutter test` runs the board (reading a picture into pairs of ends, which
-cells touch), the solver (a small board it can fill, one it cannot — with a
+cells touch), the solver (a small board it can fill, one it cannot, with a
 draughtsboard argument for why, one with room to wander and so several ways,
 and every shipped board: exactly one way, a way that really covers every cell
 once, and no thread short enough to join itself on sight), and the drawing
@@ -140,8 +140,8 @@ drawing from either end, and finishing only when nothing is left over).
 Then the game through the screen: taking hold of a thread, drawing with a
 finger, dragging back, one thread cutting another, joining up, **Rub out**,
 **Again**, **Show me** pointing at the next cell and at the wrong one, the
-warning when every thread is joined and cells are bare — reached by really
-joining them all the short way — and every board filled to the last cell.
+warning when every thread is joined and cells are bare, reached by really
+joining them all the short way, and every board filled to the last cell.
 
 Screenshots come from `test/showcase_test.dart`, and every cell with wool on
 it in them was drawn there through the screen. `test/mark_test.dart` draws the

@@ -5,14 +5,14 @@
 A minesweeper for phones, in Flutter, for Android and iOS.
 
 Numbers, flags, and squares you have not turned over yet. What is different is
-the promise: **no board here ever needs a guess.** Not usually — always, and
-the game can show you why.
+the promise: **no board here ever needs a guess.** Not usually, but always,
+and the game can show you why.
 
 | | | | |
 |---|---|---|---|
 | ![the plots](docs/plots.png) | ![part way in](docs/digging.png) | ![an answer](docs/why.png) | ![cleared](docs/cleared.png) |
 
-## No guessing, and it is not a claim about the odds
+## Never a guess, and that is not a claim about the odds
 
 The thing that ruins minesweeper is the position where two squares are left,
 one of them is a mine, and nothing on the board says which. You lose a board
@@ -36,7 +36,7 @@ pre-baked and nothing needs to be: the maker cannot hand back a board it did
 not finish.
 
 **And the first square is on the house.** The board arrives with one region
-already open — the one the proof starts from. A first tap that can hit a mine
+already open, the one the proof starts from. A first tap that can hit a mine
 is a coin toss, and moving the mines out of the way after the tap is a
 different board from the one that was tested.
 
@@ -48,7 +48,7 @@ Three rules, and a plot is named for the one it needs:
    they are found the rest of its neighbours are clear, and when it has only
    that many squares left they are all mines.
 2. **Two numbers against each other.** Everything one of them can see, the
-   other can see too — so the difference between what they want goes in the
+   other can see too, so the difference between what they want goes in the
    squares only the second one can see.
 3. **Every way the mines could lie.** The unknown squares along the numbers
    are split into groups that share no number, each group is walked through by
@@ -58,7 +58,7 @@ Three rules, and a plot is named for the one it needs:
 
 A plot needs its rule *and no more*: the quarry is kept only if the third rule
 was actually needed, the paddock only if counting was enough. So the label on
-the plot is measured, not guessed at — `{whole: 100}` above is a hundred
+the plot is measured, not guessed at. `{whole: 100}` above is a hundred
 quarries out of a hundred that really did need the third rule.
 
 ## Being told why
@@ -71,8 +71,8 @@ read it off, and says it in a sentence:
 > Both mines round this 2 have been found already, so the rest of its
 > neighbours are clear.
 
-Ask again and it does it. It only ever uses the rules the plot promised —
-being shown reasoning the plot said it would not ask for is not help, it is a
+Ask again and it does it. It only ever uses the rules the plot promised.
+Being shown reasoning the plot said it would not ask for is not help, it is a
 different game.
 
 The hint does take your flags at face value, and the solver never does. That
@@ -82,8 +82,8 @@ ignored them would keep answering the question you have already answered.
 
 ## The solver cannot be wrong
 
-Being an incomplete solver is safe — it decides which boards exist, so the
-boards it cannot finish are the boards that never get made. Being an
+Being an incomplete solver is safe, because it decides which boards exist, so
+the boards it cannot finish are the boards that never get made. Being an
 *unsound* one is not, and that is what `test/game_test.dart` checks. It plays
 three hundred boards and holds every single deduction up against where the
 mines actually are:
@@ -127,14 +127,14 @@ plot promises, the same board from the same seed), and then the game through
 the screen on three phone sizes.
 
 Screenshots come from `test/showcase_test.dart`, which plays the boards it
-photographs by asking the game why — the only way to open squares without
-knowing where the mines are. `test/mark_test.dart` draws the logo and the app
+photographs by asking the game why, which is the only way to open squares
+without knowing where the mines are. `test/mark_test.dart` draws the logo and the app
 icon; there is no image in this repository that was not produced by it.
 
 `integration_test/screenshot_test.dart` does it again on a real emulator and
 a real simulator, laying the boards out on the device and tapping with device
 pointer events. There is no CI here, so it is driven by hand
-on a machine with a phone or a simulator attached — `.github/scripts/` holds
+on a machine with a phone or a simulator attached. `.github/scripts/` holds
 the two scripts that do it.
 
 | | |
