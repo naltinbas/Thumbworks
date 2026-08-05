@@ -1,6 +1,6 @@
 # Thumbworks
 
-Twenty seven games for phones, in Flutter, for Android and iOS. One repository,
+Twenty eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -36,6 +36,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Winnowmere/assets/logo.png" width="64"> **[Winnowmere](Winnowmere)** | Put comparators on lines until every row comes out sorted | Noughts and ones settle it, and the fewest is worked out here |
 | <img src="Carterfen/assets/logo.png" width="64"> **[Carterfen](Carterfen)** | Call at every farm on the fen and get the cart home | The shortest round of twelve, without trying forty million orders |
 | <img src="Beaconholt/assets/logo.png" width="64"> **[Beaconholt](Beaconholt)** | Light beacons until every hill is watched by one | The fewest there are, and the obvious way is one beacon worse |
+| <img src="Rimeworth/assets/logo.png" width="64"> **[Rimeworth](Rimeworth)** | Salt every lane in the parish, no lane twice | Count the odd junctions and you have the answer, no search at all |
 
 ## The idea they share
 
@@ -126,6 +127,13 @@ paragraph:
   too many on every country here but the teaching one. A test insists on that
   gap, and a hundred random countries are each checked by trying every set one
   smaller than the answer.
+- **Rimeworth** does not search for its answer at all. A lorry drives out of
+  a junction as often as it drives in, so a junction with an odd number of
+  lanes has to be where a run starts or finishes, and a run has two ends:
+  count the odd junctions, halve it, and that is the fewest runs there are.
+  That is Euler on the bridges of Königsberg, and it is checked here against
+  a search over every way the lorry could actually drive, on two hundred
+  parishes made up at random and on all seven that ship.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -180,7 +188,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the twenty seven is red. The device
+hook refuses to push a tree where any of the twenty eight is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
