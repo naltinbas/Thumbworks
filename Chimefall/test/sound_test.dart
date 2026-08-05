@@ -156,12 +156,12 @@ void main() {
         final name = tune.name.toLowerCase().replaceAll(' ', '-');
         final file = File('assets/$name.wav');
         expect(file.existsSync(), isTrue,
-            reason: 'assets/$name.wav is missing — run make audio');
+            reason: 'assets/$name.wav is missing. Run make audio');
 
         final shipped = Heard.of(file.readAsBytesSync());
         final fresh = Heard.of(Render.wav(tune));
         expect(shipped.samples.length, fresh.samples.length,
-            reason: 'assets/$name.wav is stale — run make audio');
+            reason: 'assets/$name.wav is stale. Run make audio');
         expect(shipped.peak, fresh.peak);
       }
     });

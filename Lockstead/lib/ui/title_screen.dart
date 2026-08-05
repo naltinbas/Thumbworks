@@ -179,7 +179,7 @@ class _Pick extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    opened ? '$guesses' : '—',
+                    opened ? '$guesses' : '-',
                     style: TextStyle(
                       color: opened ? Palette.brass : Palette.inkDim,
                       fontSize: 15,

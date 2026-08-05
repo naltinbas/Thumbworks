@@ -95,7 +95,7 @@ class _Rules extends StatelessWidget {
                 'everything the turn made goes with it.'),
             SizedBox(height: 8),
             _Line('Two dice', 'Adds both, and double that if they match. '
-                'Either of them a one ends the turn — and two ones take '
+                'Either of them a one ends the turn, and two ones take '
                 'your score down to nothing.'),
             SizedBox(height: 8),
             _Line('Bank', 'Puts the turn in your score, where nothing can '
@@ -175,7 +175,7 @@ class _Note extends StatelessWidget {
                     'the best move every time, it will show you what that is, '
                     'and at the end it will tell you what your mistakes cost.'
                 : 'A million positions, each one the exact chance of winning '
-                    'from there. It is being worked out now — it takes a '
+                    'from there. It is being worked out now, and it takes a '
                     'moment, and it is worked out here rather than shipped in '
                     'a table you would have to take on trust.',
             textAlign: TextAlign.center,

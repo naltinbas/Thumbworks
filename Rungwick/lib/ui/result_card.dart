@@ -57,7 +57,7 @@ class ResultCard extends StatelessWidget {
             perfect
                 ? '${play.taken} rungs, which is the fewest there are.'
                     '${best ? ' Your best yet.' : ''}'
-                : '${play.taken} rungs. It can be done in ${climb.rungs} — '
+                : '${play.taken} rungs. It can be done in ${climb.rungs}, '
                     '$over more than it had to be.'
                     '${best ? ' Still your best yet.' : ''}',
             textAlign: TextAlign.center,

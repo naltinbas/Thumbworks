@@ -108,7 +108,7 @@ class _Note extends StatelessWidget {
             Text(
               'Not a good score somebody once got. Every four letter word in '
               'the list is walked outwards from the far end of the climb, so '
-              'the number is the shortest way there is — and the game can '
+              'the number is the shortest way there is, and the game can '
               'tell you the moment you step off it.',
               textAlign: TextAlign.center,
               style: TextStyle(

@@ -71,7 +71,7 @@ class ResultCard extends StatelessWidget {
                         '${wrong == 1 ? 'time' : 'times'} and they did not '
                         'take it. It will not always be so forgiving.'
                 : wrong == 0
-                    ? 'Which should not have happened — turn the numbers on '
+                    ? 'Which should not have happened. Turn the numbers on '
                         'and see where it went.'
                     : 'You had it $wrong '
                         '${wrong == 1 ? 'time' : 'times'} and let it go. '

@@ -194,7 +194,7 @@ class _Pick extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    done ? '$moves' : '—',
+                    done ? '$moves' : '-',
                     style: TextStyle(
                       color: perfect
                           ? Palette.good

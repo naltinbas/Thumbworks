@@ -100,7 +100,7 @@ class _Note extends StatelessWidget {
             ),
             SizedBox(height: 6),
             Text(
-              'Not a note that says it can be done — an actual drawing, which '
+              'Not a note that says it can be done: an actual drawing, which '
               'the tests draw and then watch the ball arrive. Nothing here is '
               'possible only in theory.',
               textAlign: TextAlign.center,

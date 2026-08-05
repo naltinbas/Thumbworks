@@ -44,7 +44,7 @@ void main(List<String> args) {
       // writes down a line it has not played is a tool nobody should trust.
       final replay = playWith(stretch.ground, stretch.holds);
       if (replay.ending != Ending.through) {
-        print('  seed $seed: the line does not play out — dropped');
+        print('  seed $seed: the line does not play out, so it is dropped');
         continue;
       }
 

@@ -73,8 +73,8 @@ class TitleScreen extends StatelessWidget {
                 value: playing,
                 onPick: onSide,
                 options: const {
-                  Side.guards: 'Guards — get the king to a corner',
-                  Side.raiders: 'Raiders — take the king',
+                  Side.guards: 'Guards: get the king to a corner',
+                  Side.raiders: 'Raiders: take the king',
                 },
                 tints: const {
                   Side.guards: Palette.guard,
@@ -88,7 +88,7 @@ class TitleScreen extends StatelessWidget {
                 onPick: onStrength,
                 options: {
                   for (final one in Strength.values)
-                    one: '${one.label} — ${_says(one)}',
+                    one: '${one.label}: ${_says(one)}',
                 },
                 tints: {for (final one in Strength.values) one: Palette.inkDim},
               ),

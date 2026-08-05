@@ -39,7 +39,7 @@ class ResultCard extends StatelessWidget {
       return 'One peg, in ${play.moves} moves, left standing at $at.';
     }
     if (perfect) {
-      return 'One peg, in ${play.moves} moves — and there is no shorter way.';
+      return 'One peg, in ${play.moves} moves, and there is no shorter way.';
     }
     return 'One peg, in ${play.moves} moves. The fewest is ${board.par}.';
   }

@@ -97,7 +97,7 @@ class _Note extends StatelessWidget {
             ),
             SizedBox(height: 6),
             Text(
-              'Not one that was found — the only one there is. Each board was '
+              'Not one that was found: the only one there is. Each board was '
               'handed to a solver that walks every way of filling it, and any '
               'board with a second way was thrown out. So nothing here is '
               'guesswork: whatever you work out is the answer.',
@@ -193,7 +193,7 @@ class _Pick extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    done ? 'filled' : '—',
+                    done ? 'filled' : '-',
                     style: TextStyle(
                       color: alone
                           ? Palette.good

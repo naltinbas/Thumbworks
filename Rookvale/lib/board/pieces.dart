@@ -23,7 +23,7 @@ extension PieceWords on Piece {
       };
 
   String get says => switch (this) {
-        Piece.pawn => 'One square diagonally forwards — and up the board is '
+        Piece.pawn => 'One square diagonally forwards, and up the board is '
             'forwards for everything here.',
         Piece.knight => 'Two squares one way and one the other.',
         Piece.bishop => 'Any distance diagonally, over nothing.',

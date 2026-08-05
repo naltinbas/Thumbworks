@@ -27,7 +27,7 @@ class ResultCard extends StatelessWidget {
 
   String get _line {
     if (hints == 0) {
-      return 'Filled, and the only way there was — found without asking.';
+      return 'Filled, and the only way there was, found without asking.';
     }
     if (hints == 1) return 'Filled, with one look at the answer.';
     return 'Filled, with $hints looks at the answer.';

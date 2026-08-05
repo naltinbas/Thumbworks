@@ -379,7 +379,7 @@ class _Total extends StatelessWidget {
         Text(
           worth == 0
               ? 'Nothing. Whoever moves from here loses, played properly.'
-              : 'Not nothing, so there is a move that wins — the one that '
+              : 'Not nothing, so there is a move that wins: the one that '
                     'makes this nought.',
           textAlign: TextAlign.center,
           style: const TextStyle(

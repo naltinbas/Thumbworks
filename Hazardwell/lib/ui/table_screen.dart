@@ -101,7 +101,7 @@ class TableScreenState extends State<TableScreen> {
     if (rolled.wipes) return '$who threw two ones. Everything goes.';
     if (rolled.bust) return '$who threw a one. The turn goes.';
     if (rolled.doubled) {
-      return '$who threw a pair of ${rolled.faces.first}s — ${rolled.paid}, '
+      return '$who threw a pair of ${rolled.faces.first}s, worth ${rolled.paid}, '
           'double.';
     }
     if (move == Move.two) return '$who threw $rolled. ${rolled.paid}.';

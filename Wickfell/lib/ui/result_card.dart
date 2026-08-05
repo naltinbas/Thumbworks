@@ -58,7 +58,7 @@ class ResultCard extends StatelessWidget {
                 ? '${play.pressed} presses, which is the fewest there are.'
                     '${best ? ' Your best yet.' : ''}'
                 : '${play.pressed} presses. It can be done in '
-                    '${level.presses} — $over more than it had to be.'
+                    '${level.presses}, which is $over more than it had to be.'
                     '${best ? ' Still your best yet.' : ''}',
             textAlign: TextAlign.center,
             style: const TextStyle(

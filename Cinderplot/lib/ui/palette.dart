@@ -29,7 +29,7 @@ class Palette {
   /// decoration: at a glance a board of numbers is a board of colours, and
   /// the pair a rule wants is a pair you can see without reading.
   static const numbers = <Color>[
-    Color(0xFF000000), // never drawn — a nought is drawn as nothing at all
+    Color(0xFF000000), // never drawn, since a nought is drawn as nothing at all
     Color(0xFF6FA8DC),
     Color(0xFF83C77A),
     Color(0xFFE8776E),

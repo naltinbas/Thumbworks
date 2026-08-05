@@ -99,7 +99,7 @@ class _Note extends StatelessWidget {
               'Every position of every chase is worked out before you start, '
               'so the runner always takes the move that keeps it out of reach '
               'the longest. The number on a map is the fewest moves that can '
-              'beat it — and the last map cannot be won by anybody, which is '
+              'beat it, and the last map cannot be won by anybody, which is '
               'not a difficulty setting but a theorem.',
               textAlign: TextAlign.center,
               style: TextStyle(
@@ -197,7 +197,7 @@ class _Pick extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    done ? '$moves' : '—',
+                    done ? '$moves' : '-',
                     style: TextStyle(
                       color: perfect
                           ? Palette.good

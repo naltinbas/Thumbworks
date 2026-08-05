@@ -27,7 +27,7 @@ class ResultCard extends StatelessWidget {
 
   String get _line {
     if (hints == 0) {
-      return 'Packed, and the only packing there is — found without asking.';
+      return 'Packed, and the only packing there is, found without asking.';
     }
     if (hints == 1) return 'Packed, with one look at the answer.';
     return 'Packed, with $hints looks at the answer.';

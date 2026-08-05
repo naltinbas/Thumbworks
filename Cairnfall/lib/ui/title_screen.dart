@@ -96,7 +96,7 @@ class _Note extends StatelessWidget {
             ),
             SizedBox(height: 6),
             Text(
-              'You move first and every round starts winnable — a test says '
+              'You move first and every round starts winnable, and a test says '
               'so. The other player never slips. Turn the numbers on and you '
               'can see exactly what it is doing: each cairn is worth a '
               'number, and the move that wins is the one that makes them all '

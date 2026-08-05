@@ -96,7 +96,7 @@ class _Note extends StatelessWidget {
             ),
             SizedBox(height: 6),
             Text(
-              'Not one that was found — one that is all there is. Every board '
+              'Not one that was found: one that is all there is. Every board '
               'here has had its whole tree walked, and any with two ways '
               'through was thrown away. So every capture is forced by '
               'something, and there is always a reason to find.',

@@ -98,7 +98,7 @@ class _Note extends StatelessWidget {
             SizedBox(height: 6),
             Text(
               'Pressing twice undoes it and the order never matters, so a set '
-              'of presses is a choice for each lamp — which makes this a set '
+              'of presses is a choice for each lamp, which makes this a set '
               'of equations rather than a search. Every number here is what '
               'solving them gives, and so is the line that says the moment '
               'you have wandered off it.',
@@ -193,7 +193,7 @@ class _Pick extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
-                    done ? '$presses' : '—',
+                    done ? '$presses' : '-',
                     style: TextStyle(
                       color: perfect
                           ? Palette.good

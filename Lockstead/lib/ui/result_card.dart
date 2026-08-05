@@ -80,7 +80,7 @@ class ResultCard extends StatelessWidget {
                         '${took < board.inside ? ' The lock is only good for ${board.inside}, and you did not need them.' : ''}'
                         '${best ? ' Your fewest yet.' : ''}'
                 : 'The lock always opens in ${board.inside}. This one could '
-                    'have been worked out — press Show me next time and it '
+                    'have been worked out. Press Show me next time and it '
                     'will tell you which guess leaves the least behind.',
             textAlign: TextAlign.center,
             style: const TextStyle(

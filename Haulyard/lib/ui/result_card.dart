@@ -56,7 +56,7 @@ class ResultCard extends StatelessWidget {
           Text(
             perfect
                 ? '${yard.pushes} shoves, which is the fewest there are.'
-                : '${yard.pushes} shoves. It can be done in ${level.par} — '
+                : '${yard.pushes} shoves. It can be done in ${level.par}, '
                     '$over more than it had to be.'
                     '${best ? ' Your best yet.' : ''}',
             textAlign: TextAlign.center,

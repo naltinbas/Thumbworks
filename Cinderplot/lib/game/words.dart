@@ -27,7 +27,7 @@ String saying(Play play, Finding step) {
       final big = number(step.clue);
       final small = number(step.other);
       if (step.safe.isNotEmpty) {
-        return 'Everything the $small can see, this $big can see too — and '
+        return 'Everything the $small can see, this $big can see too, and '
             'between them they want the same number of mines. So the squares '
             'only the $big can see are clear.';
       }

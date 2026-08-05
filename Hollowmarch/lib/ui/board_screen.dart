@@ -145,7 +145,7 @@ class BoardScreenState extends State<BoardScreen> {
   String? _note(Play play) {
     if (play.isDone) return null;
     if (play.isStuck) {
-      return 'Nothing can jump. That is as far as this goes — take some back, '
+      return 'Nothing can jump. That is as far as this goes, so take some back, '
           'or start again.';
     }
     final alive = _guide.canStillFinish(play.pegs);

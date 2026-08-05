@@ -46,11 +46,15 @@ images:
 # Needs running once on a fresh container, and it is safe to run again: build
 # output is regenerable by definition, which is exactly what belongs on a disk
 # that does not survive a rebuild.
+# The directory is made every time, not only when the link is. The link lives
+# in this repository and survives a rebuilt container; what it points at lives
+# on the container's own disk and does not. A link left pointing at nothing
+# fails every build with a path error that says nothing about why.
 scratch:
 	@for game in $(GAMES); do \
+	  mkdir -p $(SCRATCH)/$$game; \
 	  if [ ! -L $$game/build ]; then \
 	    rm -rf $$game/build; \
-	    mkdir -p $(SCRATCH)/$$game; \
 	    ln -s $(SCRATCH)/$$game $$game/build; \
 	    echo "$$game/build -> $(SCRATCH)/$$game"; \
 	  fi; \

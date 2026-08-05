@@ -54,7 +54,7 @@ class ResultCard extends StatelessWidget {
                 ? 'In ${puzzle.takes} captures, first time through. There was '
                     'only ever one way to do it.'
                 : 'In ${puzzle.takes} captures. There was only ever one way '
-                    'to do it — worth another go without the help.',
+                    'to do it. Worth another go without the help.',
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: Palette.ink,

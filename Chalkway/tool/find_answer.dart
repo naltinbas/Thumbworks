@@ -38,7 +38,7 @@ void main(List<String> args) {
     final bare = level.worldWith(empty);
 
     if (bare.played.ending == Ending.home) {
-      print('${i + 1} ${level.name}: solves itself — the level needs changing');
+      print('${i + 1} ${level.name}: solves itself, so the level needs changing');
       continue;
     }
 

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-import '../chase/maps.dart';
-import '../chase/play.dart';
+import '../reel/play.dart';
+import '../reel/rounds.dart';
 import 'palette.dart';
 
-/// The card under a chase that is over.
+/// The card under a round that holds.
 class ResultCard extends StatelessWidget {
   const ResultCard({
     super.key,
-    required this.warren,
+    required this.round,
     required this.play,
     required this.best,
     required this.onAgain,
@@ -16,7 +16,7 @@ class ResultCard extends StatelessWidget {
     required this.onLeave,
   });
 
-  final Warren warren;
+  final Round round;
   final Play play;
 
   /// Whether this run beat what was written down before.
@@ -26,13 +26,15 @@ class ResultCard extends StatelessWidget {
   final VoidCallback onNext;
   final VoidCallback onLeave;
 
-  bool get perfect => warren.par != null && play.moves == warren.par;
+  /// Nobody made a couple they had to break again.
+  bool get clean => play.changes == round.count;
 
   String get _line {
-    if (perfect) {
-      return 'Caught in ${play.moves} moves, and there is no quicker way.';
+    if (clean) {
+      return 'Nobody wants to swap, and you did not pair anybody twice.';
     }
-    return 'Caught in ${play.moves} moves. The fewest is ${warren.par}.';
+    return 'Nobody wants to swap. ${play.changes} couples made or broken '
+        'along the way.';
   }
 
   @override
@@ -41,10 +43,10 @@ class ResultCard extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.fromLTRB(14, 13, 14, 12),
           decoration: BoxDecoration(
-            color: Palette.field,
+            color: Palette.floor,
             borderRadius: BorderRadius.circular(13),
             border: Border.all(
-              color: perfect ? Palette.good : Palette.edge,
+              color: clean ? Palette.good : Palette.edge,
               width: 1.2,
             ),
           ),
@@ -52,10 +54,10 @@ class ResultCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Semantics(
-                label: 'chase over',
+                label: 'it holds',
                 child: ExcludeSemantics(
                   child: Text(
-                    warren.name,
+                    round.name,
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       color: Palette.ink,
@@ -70,7 +72,7 @@ class ResultCard extends StatelessWidget {
                 _line,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: perfect ? Palette.good : Palette.inkDim,
+                  color: clean ? Palette.good : Palette.inkDim,
                   fontSize: 13,
                   height: 1.3,
                 ),
@@ -78,7 +80,7 @@ class ResultCard extends StatelessWidget {
               if (best) ...[
                 const SizedBox(height: 3),
                 const Text(
-                  'Better than last time.',
+                  'Fewer than last time.',
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Palette.inkDim, fontSize: 12),
                 ),
@@ -88,7 +90,7 @@ class ResultCard extends StatelessWidget {
                 children: [
                   Expanded(child: _Button(label: 'Again', onTap: onAgain)),
                   const SizedBox(width: 9),
-                  Expanded(child: _Button(label: 'Maps', onTap: onLeave)),
+                  Expanded(child: _Button(label: 'Rounds', onTap: onLeave)),
                   const SizedBox(width: 9),
                   Expanded(
                     child: _Button(label: 'Next', onTap: onNext, lit: true),

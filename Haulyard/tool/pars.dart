@@ -22,7 +22,7 @@ void main() {
 
     print('${(i + 1).toString().padLeft(2)} ${level.name.padRight(18)} '
         '${level.start.crates.length} crates  '
-        'par ${haul.pushes?.toString().padLeft(3) ?? ' — '}  '
+        'par ${haul.pushes?.toString().padLeft(3) ?? '  - '}  '
         '(says ${level.par})  '
         '${haul.looked.toString().padLeft(6)} positions  '
         '${took.toStringAsFixed(1)}ms');

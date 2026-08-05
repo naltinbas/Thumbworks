@@ -36,7 +36,7 @@ void main() {
   });
 
   group('the rule of three', () {
-    test('does not change when a peg jumps — on any board, any jump', () {
+    test('does not change when a peg jumps, on any board, any jump', () {
       // The whole claim. If this ever failed, everything else here that
       // rules a finish out would be ruling it out for no reason.
       for (var which = 0; which < Boards.count; which++) {

@@ -66,7 +66,7 @@ class ResultCard extends StatelessWidget {
           Text(
             cleared
                 ? '${Ledger.clock(seconds)}'
-                    '${best ? ' — your quickest' : ''}'
+                    '${best ? ', your quickest' : ''}'
                     '${asked == 0 ? '' : ', $asked ${asked == 1 ? 'answer' : 'answers'} asked for'}'
                 : 'That one was there to be worked out. Every square on this '
                     'board could be settled without a guess.',
