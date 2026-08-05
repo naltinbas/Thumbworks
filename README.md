@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirty two games for phones, in Flutter, for Android and iOS. One repository,
+Thirty three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -41,6 +41,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Quayfleet/assets/logo.png" width="64"> **[Quayfleet](Quayfleet)** | One berth, more ships than it holds. Take the most you can | The obvious rule is right here, and the game hands you the proof |
 | <img src="Churnwick/assets/logo.png" width="64"> **[Churnwick](Churnwick)** | Measure an exact churn out of churns that are the wrong sizes | Which amounts are impossible is arithmetic, and it is checked by walking |
 | <img src="Handfast/assets/logo.png" width="64"> **[Handfast](Handfast)** | Give out the day work to the hands who can take it on | The set of jobs that cannot be covered falls out of the failed search |
+| <img src="Pyxholm/assets/logo.png" width="64"> **[Pyxholm](Pyxholm)** | One coin is the wrong weight. Find it on a balance | Three answers a weighing sets the floor, and the beam plays against you |
 
 ## The idea they share
 
@@ -168,6 +169,14 @@ paragraph:
   left behind, and a player can check it by eye: every cross in the shaded
   rows falls inside the ringed columns. Four hundred random fairs are settled
   by the walk and by a search over every way of handing the work out.
+- **Pyxholm** gets its floor from counting and its answer from searching, and
+  ships a box where the two disagree. A weighing has three answers, so k of
+  them tell at most 3^k things apart, and a dozen coins each of which might be
+  heavy or light is twenty four things: three weighings might do and two
+  cannot. On four coins the same counting says two might do, and it cannot be
+  done in two, which only a search over every weighing there is can show. The
+  beam is adversarial as well, answering with whatever leaves the most to do,
+  so a number that comes out of a round is a promise rather than luck.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -222,7 +231,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirty two is red. The device
+hook refuses to push a tree where any of the thirty three is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
