@@ -1,6 +1,6 @@
 # Thumbworks
 
-Twenty four games for phones, in Flutter, for Android and iOS. One repository,
+Twenty five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -33,6 +33,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Warrenshaw/assets/logo.png" width="64"> **[Warrenshaw](Warrenshaw)** | You move along a path, then it does. Corner it | A theorem about maps and a table of every position agree exactly |
 | <img src="Reelbury/assets/logo.png" width="64"> **[Reelbury](Reelbury)** | Pair two sides up so that nobody would rather swap | There is always such a pairing, and here there is exactly one |
 | <img src="Weirbank/assets/logo.png" width="64"> **[Weirbank](Weirbank)** | Send as much water down the pipes as the works will carry | The answer comes with the cut that proves nothing more fits |
+| <img src="Winnowmere/assets/logo.png" width="64"> **[Winnowmere](Winnowmere)** | Put comparators on lines until every row comes out sorted | Noughts and ones settle it, and the fewest is worked out here |
 
 ## The idea they share
 
@@ -102,6 +103,13 @@ paragraph:
   pipes take between them is the same number. A test checks the two against
   each other on three hundred works made up at random, and then cuts the
   pipes it named to make sure nothing gets through what is left.
+- **Winnowmere** turns "does this sort every row of numbers there is" into
+  2^n rows of noughts and ones, which is the old result that a network sorting
+  those sorts anything. So the game can check a network after every tap and
+  hand over the row it still gets wrong. The number of comparators on each
+  puzzle is worked out here rather than looked up, by walking every network
+  there is with the ones leaving the same rows behind counted once: 1, 3, 5,
+  9, 12, 16 for two lines up to seven.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -156,7 +164,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the twenty four is red. The device
+hook refuses to push a tree where any of the twenty five is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
