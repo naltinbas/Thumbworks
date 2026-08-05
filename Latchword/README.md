@@ -1,3 +1,5 @@
+<img src="assets/logo.png" width="120" align="right" alt="Latchword">
+
 # Latchword
 
 A word game for phones, in Flutter, for Android and iOS.

@@ -1,3 +1,5 @@
+<img src="assets/logo.png" width="120" align="right" alt="Wirewend">
+
 # Wirewend
 
 A wire-turning puzzle for phones, in Flutter, for Android and iOS.

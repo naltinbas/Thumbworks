@@ -19,7 +19,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Hazardwell Lockstead Rungwick Cairnfall Rookvale Wickfell \
          Skeinmoor Packwold
 
-.PHONY: check test analyze deps shots apk clean list one scratch
+.PHONY: check test analyze deps shots apk clean list one scratch images
 
 # Everything that has to be green, in every game. What the pre-push hook runs,
 # because there is no CI behind it: nothing leaves this machine unless all of
@@ -28,12 +28,18 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
 # It stops at the first game that fails rather than carrying on, because a
 # wall of output from twelve games that were fine is not how anybody finds the
 # one that was not.
-check:
+check: images
 	@for game in $(GAMES); do \
 	  printf '\n=== %s ===\n' "$$game"; \
 	  $(MAKE) --no-print-directory -C $$game check || exit 1; \
 	done
 	@printf '\nall %s games green\n' "$(words $(GAMES))"
+
+# Every picture any README points at, checked for being there and committed.
+# A broken image never shows up locally — the file is sitting in the working
+# copy and the page on GitHub has a hole in it — so it is part of `check`.
+images:
+	@dart tool/images.dart
 
 # Points every game's build/ at the container's own disk.
 #

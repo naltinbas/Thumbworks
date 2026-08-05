@@ -1,3 +1,5 @@
+<img src="assets/logo.png" width="120" align="right" alt="Slingwell">
+
 # Slingwell
 
 A one-thumb arcade game for phones, in Flutter, for Android and iOS.
