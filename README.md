@@ -1,6 +1,6 @@
 # Thumbworks
 
-Nineteen games for phones, in Flutter, for Android and iOS. One repository,
+Twenty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games — a nonogram, a siege, a rhythm
@@ -28,6 +28,7 @@ is why they live together. **Each one proves the thing it promises.**
 | <img src="Rookvale/assets/logo.png" width="64"> **[Rookvale](Rookvale)** | Every move a capture; leave one piece standing | Exactly one way through each board, and the whole tree says so |
 | <img src="Wickfell/assets/logo.png" width="64"> **[Wickfell](Wickfell)** | Press a lamp; it and its neighbours turn. Put them all out | The fewest presses comes out of linear algebra, not a search |
 | <img src="Skeinmoor/assets/logo.png" width="64"> **[Skeinmoor](Skeinmoor)** | Join each pair of ends, cross nothing, leave no cell bare | Exactly one way of filling each board, orderings and all |
+| <img src="Packwold/assets/logo.png" width="64"> **[Packwold](Packwold)** | Fit the pentominoes into the ground you are given | Dancing links, and the published rectangle counts to prove it |
 
 ## The idea they share
 
@@ -69,6 +70,10 @@ paragraph:
   order of drawing them — and ships only the boards with one. Two boards in
   two hundred thousand survive it, and the count is taken under the rules the
   screen obeys rather than the cheaper ones the search would have preferred.
+- **Packwold** is an exact cover problem, so its solver is Algorithm X with
+  dancing links — and the check on it is that the twelve pentominoes come out
+  at 2, 368, 1010 and 2339 packings of the four rectangles they fit, which are
+  the figures everybody else has had for decades.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -121,7 +126,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the nineteen is red. The device
+hook refuses to push a tree where any of the twenty is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
