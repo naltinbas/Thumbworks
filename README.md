@@ -1,6 +1,6 @@
 # Thumbworks
 
-Twenty six games for phones, in Flutter, for Android and iOS. One repository,
+Twenty seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -35,6 +35,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Weirbank/assets/logo.png" width="64"> **[Weirbank](Weirbank)** | Send as much water down the pipes as the works will carry | The answer comes with the cut that proves nothing more fits |
 | <img src="Winnowmere/assets/logo.png" width="64"> **[Winnowmere](Winnowmere)** | Put comparators on lines until every row comes out sorted | Noughts and ones settle it, and the fewest is worked out here |
 | <img src="Carterfen/assets/logo.png" width="64"> **[Carterfen](Carterfen)** | Call at every farm on the fen and get the cart home | The shortest round of twelve, without trying forty million orders |
+| <img src="Beaconholt/assets/logo.png" width="64"> **[Beaconholt](Beaconholt)** | Light beacons until every hill is watched by one | The fewest there are, and the obvious way is one beacon worse |
 
 ## The idea they share
 
@@ -117,6 +118,14 @@ paragraph:
   because two orders that call at the same farms and end at the same one are
   competing for the same journey home. Twenty five random maps are solved both
   that way and by measuring every order, and the two always agree.
+- **Beaconholt** has nothing clever to offer, which is the point. It tries
+  every set of one hill, then every set of two, and the first size that
+  watches the whole country is the fewest there is, because nothing smaller
+  was left untried. The obvious method, light the hill that adds the most dark
+  hills and repeat, gets a country watched perfectly well and uses one beacon
+  too many on every country here but the teaching one. A test insists on that
+  gap, and a hundred random countries are each checked by trying every set one
+  smaller than the answer.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -171,7 +180,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the twenty six is red. The device
+hook refuses to push a tree where any of the twenty seven is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
