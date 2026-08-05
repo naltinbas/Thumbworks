@@ -12,7 +12,7 @@ always more than one way to join things up.
 |---|---|---|---|
 | ![the parishes](docs/parishes.png) | ![part cut](docs/cutting.png) | ![the line a path crosses](docs/why.png) | ![joined up](docs/joined.png) |
 
-## The game explains every path, not just the total
+## The game explains every path it picks, and why
 
 Put some hamlets on one side of a line and the rest on the other. Every network
 that joins the parish has to cross that line somewhere. So if one crossing path
