@@ -5,8 +5,8 @@ import 'stable.dart';
 /// A round being paired up.
 ///
 /// Which dancer each caller has, and nothing else. Everything the game says
-/// about a pairing — whether it holds, who would rather have whom, how far
-/// off it is — comes out of that and the hall, so there is no second copy of
+/// about a pairing (whether it holds, who would rather have whom, how far off
+/// it is) comes out of that and the hall, so there is no second copy of
 /// anything to go stale.
 class Play {
   const Play._(this.round, this.hall, this._with, this.changes);

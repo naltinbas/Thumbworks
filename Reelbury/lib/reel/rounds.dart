@@ -50,8 +50,8 @@ class Round {
 /// The rounds, in the order they are met.
 ///
 /// Every one of them has exactly one pairing that holds, and that is checked
-/// rather than hoped: a test tries all of them — every way of pairing the two
-/// sides up — and fails if a second one holds. Two answers and there is
+/// rather than hoped: a test tries all of them, every way of pairing the two
+/// sides up, and fails if a second one holds. Two answers and there is
 /// nothing to work out, because a guess can be as right as a reason.
 class Rounds {
   const Rounds._();
