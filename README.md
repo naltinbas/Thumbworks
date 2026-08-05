@@ -1,6 +1,6 @@
 # Thumbworks
 
-Twenty one games for phones, in Flutter, for Android and iOS. One repository,
+Twenty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games — a nonogram, a siege, a rhythm
@@ -30,6 +30,7 @@ is why they live together. **Each one proves the thing it promises.**
 | <img src="Skeinmoor/assets/logo.png" width="64"> **[Skeinmoor](Skeinmoor)** | Join each pair of ends, cross nothing, leave no cell bare | Exactly one way of filling each board, orderings and all |
 | <img src="Packwold/assets/logo.png" width="64"> **[Packwold](Packwold)** | Fit the pentominoes into the ground you are given | Dancing links, and the published rectangle counts to prove it |
 | <img src="Hollowmarch/assets/logo.png" width="64"> **[Hollowmarch](Hollowmarch)** | Jump a peg over its neighbour; leave one standing | An invariant rules out where you cannot finish, without searching |
+| <img src="Warrenshaw/assets/logo.png" width="64"> **[Warrenshaw](Warrenshaw)** | You move along a path, then it does. Corner it | A theorem about maps and a table of every position agree exactly |
 
 ## The idea they share
 
@@ -81,6 +82,12 @@ paragraph:
   does not match is a hollow no sequence of jumps can end in — proved rather
   than searched. On the 33 hole board it rules out 28 of the 33, and the
   search then reaches all five that are left.
+- **Warrenshaw** settles every position of the chase backwards from the end,
+  so the runner is the table read the other way up rather than an opponent
+  somebody wrote. Then it answers the same question a second way that never
+  looks at a move — rubbing places off the map until it does or does not come
+  apart, which is a theorem from the early eighties — and holds the two
+  against each other on three hundred maps made up at random.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -133,7 +140,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the twenty one is red. The device
+hook refuses to push a tree where any of the twenty two is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
