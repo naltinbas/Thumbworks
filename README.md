@@ -1,6 +1,6 @@
 # Thumbworks
 
-Twenty eight games for phones, in Flutter, for Android and iOS. One repository,
+Twenty nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -37,6 +37,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Carterfen/assets/logo.png" width="64"> **[Carterfen](Carterfen)** | Call at every farm on the fen and get the cart home | The shortest round of twelve, without trying forty million orders |
 | <img src="Beaconholt/assets/logo.png" width="64"> **[Beaconholt](Beaconholt)** | Light beacons until every hill is watched by one | The fewest there are, and the obvious way is one beacon worse |
 | <img src="Rimeworth/assets/logo.png" width="64"> **[Rimeworth](Rimeworth)** | Salt every lane in the parish, no lane twice | Count the odd junctions and you have the answer, no search at all |
+| <img src="Marchcombe/assets/logo.png" width="64"> **[Marchcombe](Marchcombe)** | Paint the estate, nothing matching across a hedge | Every map carries a set of fields that proves its own number |
 
 ## The idea they share
 
@@ -134,6 +135,12 @@ paragraph:
   That is Euler on the bridges of Königsberg, and it is checked here against
   a search over every way the lorry could actually drive, on two hundred
   parishes made up at random and on all seven that ship.
+- **Marchcombe** ships only maps that prove their own answer. A set of fields
+  that all share a hedge with one another needs a dye each, so it settles the
+  fewest from below, and every map here was kept because such a set is exactly
+  as big as the answer. The answer itself is worked out twice, once by
+  painting and once by splitting the map into sets of fields that keep out of
+  each other's way, and the two agree on three hundred maps made up at random.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -188,7 +195,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the twenty eight is red. The device
+hook refuses to push a tree where any of the twenty nine is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
