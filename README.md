@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighteen games for phones, in Flutter, for Android and iOS. One repository,
+Nineteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games — a nonogram, a siege, a rhythm
@@ -27,6 +27,7 @@ is why they live together. **Each one proves the thing it promises.**
 | <img src="Cairnfall/assets/logo.png" width="64"> **[Cairnfall](Cairnfall)** | Take stones off the cairns; take the last one and win | The opponent is a theorem, and a brute-force search checks it |
 | <img src="Rookvale/assets/logo.png" width="64"> **[Rookvale](Rookvale)** | Every move a capture; leave one piece standing | Exactly one way through each board, and the whole tree says so |
 | <img src="Wickfell/assets/logo.png" width="64"> **[Wickfell](Wickfell)** | Press a lamp; it and its neighbours turn. Put them all out | The fewest presses comes out of linear algebra, not a search |
+| <img src="Skeinmoor/assets/logo.png" width="64"> **[Skeinmoor](Skeinmoor)** | Join each pair of ends, cross nothing, leave no cell bare | Exactly one way of filling each board, orderings and all |
 
 ## The idea they share
 
@@ -64,6 +65,10 @@ paragraph:
   values, solves it, and tries the null space to get the *fewest* presses
   rather than merely some — then checks the whole thing against brute force on
   a board small enough to try every set of presses there is.
+- **Skeinmoor** counts every way of filling a board — every route and every
+  order of drawing them — and ships only the boards with one. Two boards in
+  two hundred thousand survive it, and the count is taken under the rules the
+  screen obeys rather than the cheaper ones the search would have preferred.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -116,7 +121,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the eighteen is red. The device
+hook refuses to push a tree where any of the nineteen is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
