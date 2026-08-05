@@ -2,3 +2,9 @@
 # folder. This one is only for things that belong to the collection.
 .DS_Store
 *.swp
+
+# `make scratch` points every game's build/ at the container's own disk with a
+# symlink. A symlink named build is a file, not a directory, so each game's own
+# /build/ rule does not catch it — and a path into /var/cache on this machine
+# is no use to anybody else.
+build
