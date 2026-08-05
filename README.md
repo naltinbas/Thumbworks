@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirty three games for phones, in Flutter, for Android and iOS. One repository,
+Thirty four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -42,6 +42,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Churnwick/assets/logo.png" width="64"> **[Churnwick](Churnwick)** | Measure an exact churn out of churns that are the wrong sizes | Which amounts are impossible is arithmetic, and it is checked by walking |
 | <img src="Handfast/assets/logo.png" width="64"> **[Handfast](Handfast)** | Give out the day work to the hands who can take it on | The set of jobs that cannot be covered falls out of the failed search |
 | <img src="Pyxholm/assets/logo.png" width="64"> **[Pyxholm](Pyxholm)** | One coin is the wrong weight. Find it on a balance | Three answers a weighing sets the floor, and the beam plays against you |
+| <img src="Trestlewick/assets/logo.png" width="64"> **[Trestlewick](Trestlewick)** | Raise a timber frame in the fewest days, with the crews you have | Two floors under it, and every frame ships only if one of them is tight |
 
 ## The idea they share
 
@@ -177,6 +178,12 @@ paragraph:
   done in two, which only a search over every weighing there is can show. The
   beam is adversarial as well, answering with whatever leaves the most to do,
   so a number that comes out of a round is a promise rather than luck.
+- **Trestlewick** has two floors under every answer and neither of them
+  searches. A run of timbers each resting on the one before cannot be spread
+  over fewer days than there are timbers in it, whatever the crews; and a crew
+  raises one timber a day, so the work alone is the timbers over the crews. A
+  frame ships only when one of those two is exactly the answer, and the game
+  draws the run straight up the frame when the run is the tight one.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -231,7 +238,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirty three is red. The device
+hook refuses to push a tree where any of the thirty four is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
