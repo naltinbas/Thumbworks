@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirty games for phones, in Flutter, for Android and iOS. One repository,
+Thirty one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -39,6 +39,7 @@ is why they live together: **each one proves the thing it promises.**
 | <img src="Rimeworth/assets/logo.png" width="64"> **[Rimeworth](Rimeworth)** | Salt every lane in the parish, no lane twice | Count the odd junctions and you have the answer, no search at all |
 | <img src="Marchcombe/assets/logo.png" width="64"> **[Marchcombe](Marchcombe)** | Paint the estate, nothing matching across a hedge | Every map carries a set of fields that proves its own number |
 | <img src="Quayfleet/assets/logo.png" width="64"> **[Quayfleet](Quayfleet)** | One berth, more ships than it holds. Take the most you can | The obvious rule is right here, and the game hands you the proof |
+| <img src="Churnwick/assets/logo.png" width="64"> **[Churnwick](Churnwick)** | Measure an exact churn out of churns that are the wrong sizes | Which amounts are impossible is arithmetic, and it is checked by walking |
 
 ## The idea they share
 
@@ -150,6 +151,14 @@ paragraph:
   handful that every ship in the book wants, and two ships wanting the same
   hour cannot both have it. The game draws them, and five hundred random days
   are settled by the rule and by trying every set of ships to make sure.
+- **Churnwick** knows which amounts cannot be measured at all without looking
+  for them. Filling puts a churnful in, emptying takes one out and pouring
+  loses none, so whatever stands anywhere is a whole number of churnfuls added
+  and taken away: out of a six and a fourteen, nothing odd can ever stand in a
+  churn. A hundred and twenty random dairies are asked that question by
+  arithmetic and again by walking every arrangement of milk they can be in,
+  and the two lists always match. The fewest goes is settled twice as well,
+  once by the walk and once by a rule for two churns that looks at nothing.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -204,7 +213,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirty is red. The device
+hook refuses to push a tree where any of the thirty one is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
