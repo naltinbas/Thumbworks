@@ -8,7 +8,7 @@ import 'palette.dart';
 
 /// The mark: a round of three, paired the one way that holds.
 ///
-/// It is not a drawing of the game — it is a round, put together through the
+/// It is not a drawing of the game. It is a round, put together through the
 /// same code a finger goes through and drawn by the painter the screen uses,
 /// so the three lines in the logo are three couples nobody would swap out of.
 class Mark extends StatelessWidget {
@@ -56,16 +56,9 @@ class Mark extends StatelessWidget {
                         play: paired,
                         holding: -1,
                         showSwaps: false,
-                        // No words in the mark: at forty eight points they
-                        // are a smudge, and the picture is the pairing.
-                        names: const TextStyle(
-                          color: Color(0x00000000),
-                          fontSize: 1,
-                        ),
-                        lists: const TextStyle(
-                          color: Color(0x00000000),
-                          fontSize: 1,
-                        ),
+                        showWords: false,
+                        names: const TextStyle(fontSize: 1),
+                        lists: const TextStyle(fontSize: 1),
                       ),
                     ),
                   ),

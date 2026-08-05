@@ -139,9 +139,9 @@ class RoundScreenState extends State<RoundScreen> {
     });
   }
 
-  /// Asked. Names one couple of the pairing that holds — and the game has
-  /// that pairing because asking in turn always finds one, whatever the
-  /// lists say.
+  /// Asked. Names one couple of the pairing that holds. The game has that
+  /// pairing because asking in turn always finds one, whatever the lists
+  /// say.
   void _showMe() {
     if (_play.isDone) return;
     final answer = _play.answer;

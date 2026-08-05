@@ -52,6 +52,7 @@ class Floor extends CustomPainter {
     required this.showSwaps,
     required this.names,
     required this.lists,
+    this.showWords = true,
   });
 
   final Play play;
@@ -68,6 +69,10 @@ class Floor extends CustomPainter {
   /// ask.
   final TextStyle names;
   final TextStyle lists;
+
+  /// Whether to write anybody's name or list at all. Off for the logo, where
+  /// at forty eight points a name is a smudge and the picture is the pairing.
+  final bool showWords;
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -145,6 +150,8 @@ class Floor extends CustomPainter {
         ..strokeWidth = held ? 2.4 : 1.2,
     );
 
+    if (!showWords) return;
+
     final label = TextPainter(
       text: TextSpan(text: name, style: names.copyWith(color: colour)),
       textDirection: TextDirection.ltr,
@@ -196,5 +203,6 @@ class Floor extends CustomPainter {
   bool shouldRepaint(Floor old) =>
       old.play != play ||
       old.holding != holding ||
-      old.showSwaps != showSwaps;
+      old.showSwaps != showSwaps ||
+      old.showWords != showWords;
 }

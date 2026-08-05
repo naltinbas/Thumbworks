@@ -2,9 +2,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 /// Which rounds have been paired up, and in how few changes.
 ///
-/// A change is a couple made or broken. It is the only thing that varies —
-/// the answer is the answer — so it is what the record is: how much fiddling
-/// it took to find.
+/// A change is a couple made or broken. It is the only thing that varies,
+/// since the answer is the answer, so it is what the record is: how much
+/// fiddling it took to find.
 ///
 /// Keyed on the round's name rather than its place in the list, so putting a
 /// new one in the middle does not hand somebody else's record to a round they
