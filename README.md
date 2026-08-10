@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty one games for phones, in Flutter, for Android and iOS. One repository,
+Forty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -50,6 +50,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Shardlow/assets/logo.png" width="64"><br><b><a href="Shardlow">Shardlow</a></b></div> | Find the highest rung a pot survives, in certain drops | A morning of drops is a word, and counting the words is exactly the answer |
 | <div align="center"><img src="Staddlestone/assets/logo.png" width="64"><br><b><a href="Staddlestone">Staddlestone</a></b></div> | Move the millstones, never a bigger on a smaller | The doubling argument and a walk of every arrangement agree to nine stones |
 | <div align="center"><img src="Lampwath/assets/logo.png" width="64"><br><b><a href="Lampwath">Lampwath</a></b></div> | Everybody over the bridge by lantern light | The slow should cross together, except when the trade buys nothing |
+| <div align="center"><img src="Treblesway/assets/logo.png" width="64"><br><b><a href="Treblesway">Treblesway</a></b></div> | Ring every change on the bells and come round again | One tower cannot, and the reason is an invariant you can watch working |
 
 ## The idea they share
 
@@ -248,6 +249,15 @@ paragraph:
   the same trade buys exactly nothing, with Why working the sum both ways in
   the bridge's own numbers. A brute force over every night agrees on all six
   bridges and a hundred random ones.
+- **Treblesway** is change ringing on four bells: every row once and rounds
+  home, which is a walk through all twenty four orders under the bells' own
+  rule that nothing moves more than one place a change. The full tower has
+  10,792 ways, counted here rather than cited; keep only two changes and
+  exactly two survive, the plain hunt both ways round; and one tower ships
+  that cannot ring the extent at all, because none of its changes crosses
+  the middle, an invariant the player can watch holding. The game keeps a
+  live answer to whether the peal can still come round, so a stranded row is
+  known the moment it is stranded.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -302,7 +312,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the forty one is red. The device
+hook refuses to push a tree where any of the forty two is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
