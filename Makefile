@@ -19,7 +19,8 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Hazardwell Lockstead Rungwick Cairnfall Rookvale Wickfell \
          Skeinmoor Packwold Hollowmarch Warrenshaw Reelbury Weirbank \
          Winnowmere Carterfen Beaconholt Rimeworth Marchcombe Quayfleet \
-         Churnwick Handfast Pyxholm Trestlewick Trodstow Chasegarth
+         Churnwick Handfast Pyxholm Trestlewick Trodstow Chasegarth \
+         Groatsworth
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
