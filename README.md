@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirty five games for phones, in Flutter, for Android and iOS. One repository,
+Thirty six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -44,6 +44,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Pyxholm/assets/logo.png" width="64"><br><b><a href="Pyxholm">Pyxholm</a></b></div> | One coin is the wrong weight. Find it on a balance | Three answers a weighing sets the floor, and the beam plays against you |
 | <div align="center"><img src="Trestlewick/assets/logo.png" width="64"><br><b><a href="Trestlewick">Trestlewick</a></b></div> | Raise a timber frame in the fewest days, with the crews you have | Two floors under it, and every frame ships only if one of them is tight |
 | <div align="center"><img src="Trodstow/assets/logo.png" width="64"><br><b><a href="Trodstow">Trodstow</a></b></div> | Cut the fewest yards of path that join every hamlet up | It explains every single path, in the answer or not |
+| <div align="center"><img src="Chasegarth/assets/logo.png" width="64"><br><b><a href="Chasegarth">Chasegarth</a></b></div> | Slide loose type about until the line reads right | Half of all arrangements are impossible, and the game proves both halves |
 
 ## The idea they share
 
@@ -194,6 +195,15 @@ paragraph:
   cheapest network at all. Between them they account for every path on the
   map, and no two paths in a parish cost the same, so every reason is exactly
   true rather than nearly.
+- **Chasegarth** proves both halves of its own claim. The pairs of letters
+  out of order carry an odd or even that no slide can change, so half of all
+  arrangements can never be made to read right, and that is arithmetic. The
+  other half is a walk: every arrangement sliding can reach, outwards from the
+  finished frame, so every par is the fewest there is and the hint reads
+  straight off the table. A test makes the two agree on all 362,880
+  arrangements of the three by three, which is what caught the parity being
+  wrong on odd widths. One forme ships impossible on purpose, says so on the
+  label, and lets you swap the dropped pair back and finish it.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -248,7 +258,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirty five is red. The device
+hook refuses to push a tree where any of the thirty six is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
