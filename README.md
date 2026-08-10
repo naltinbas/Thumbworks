@@ -1,6 +1,6 @@
 # Thumbworks
 
-Thirty nine games for phones, in Flutter, for Android and iOS. One repository,
+Forty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -48,6 +48,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Groatsworth/assets/logo.png" width="64"><br><b><a href="Groatsworth">Groatsworth</a></b></div> | Count out old money in the fewest coins | The real coinage made the obvious way wrong, and the decimal till never does |
 | <div align="center"><img src="Linacre/assets/logo.png" width="64"><br><b><a href="Linacre">Linacre</a></b></div> | Cut the telegraph line, or hold it, against perfect play | Two disjoint webs settle the game before it starts, and the game draws them |
 | <div align="center"><img src="Shardlow/assets/logo.png" width="64"><br><b><a href="Shardlow">Shardlow</a></b></div> | Find the highest rung a pot survives, in certain drops | A morning of drops is a word, and counting the words is exactly the answer |
+| <div align="center"><img src="Staddlestone/assets/logo.png" width="64"><br><b><a href="Staddlestone">Staddlestone</a></b></div> | Move the millstones, never a bigger on a smaller | The doubling argument and a walk of every arrangement agree to nine stones |
 
 ## The idea they share
 
@@ -230,6 +231,14 @@ paragraph:
   every ladder to two hundred rungs and four pots, checked against a search
   that tries every plan, and the referee breaks pots as awkwardly as pots can
   break, so par is a promise rather than luck.
+- **Staddlestone** is the tower puzzle everybody knows, built the way this
+  repository builds things: the doubling argument gives the pars, a walk of
+  every arrangement confirms them out to nine stones, and the walk also makes
+  the hint exact from anywhere and catches the moment a move is wasted. The
+  walk corrected the tests once already: a wasted move here costs one, not
+  two, because the single stone moves form a triangle. The game calls out the
+  half way moment, the biggest stone crossing with exactly half the work
+  spent, which is the argument made visible.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -284,7 +293,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the thirty nine is red. The device
+hook refuses to push a tree where any of the forty is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
