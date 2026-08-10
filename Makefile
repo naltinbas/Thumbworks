@@ -20,7 +20,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Skeinmoor Packwold Hollowmarch Warrenshaw Reelbury Weirbank \
          Winnowmere Carterfen Beaconholt Rimeworth Marchcombe Quayfleet \
          Churnwick Handfast Pyxholm Trestlewick Trodstow Chasegarth \
-         Groatsworth Linacre Shardlow Staddlestone
+         Groatsworth Linacre Shardlow Staddlestone Lampwath
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

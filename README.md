@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty games for phones, in Flutter, for Android and iOS. One repository,
+Forty one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -49,6 +49,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Linacre/assets/logo.png" width="64"><br><b><a href="Linacre">Linacre</a></b></div> | Cut the telegraph line, or hold it, against perfect play | Two disjoint webs settle the game before it starts, and the game draws them |
 | <div align="center"><img src="Shardlow/assets/logo.png" width="64"><br><b><a href="Shardlow">Shardlow</a></b></div> | Find the highest rung a pot survives, in certain drops | A morning of drops is a word, and counting the words is exactly the answer |
 | <div align="center"><img src="Staddlestone/assets/logo.png" width="64"><br><b><a href="Staddlestone">Staddlestone</a></b></div> | Move the millstones, never a bigger on a smaller | The doubling argument and a walk of every arrangement agree to nine stones |
+| <div align="center"><img src="Lampwath/assets/logo.png" width="64"><br><b><a href="Lampwath">Lampwath</a></b></div> | Everybody over the bridge by lantern light | The slow should cross together, except when the trade buys nothing |
 
 ## The idea they share
 
@@ -239,6 +240,14 @@ paragraph:
   two, because the single stone moves form a triangle. The game calls out the
   half way moment, the biggest stone crossing with exactly half the work
   spent, which is the argument made visible.
+- **Lampwath** is the bridge and torch puzzle, and the first game here where
+  the shortest way is weighed in minutes rather than counted in moves, so the
+  settling behind it is cheapest first over every state a night can be in.
+  Ferrying with the quickest walker loses the famous four two whole minutes
+  to sending the slow pair together, and the Even Pace bridge is chosen so
+  the same trade buys exactly nothing, with Why working the sum both ways in
+  the bridge's own numbers. A brute force over every night agrees on all six
+  bridges and a hundred random ones.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
@@ -293,7 +302,7 @@ targets besides (`make levels`, `make odds`, `make pars`, `make audit`, and so
 on) for the tool that generates or proves its content.
 
 There is no CI. Everything runs on the machine doing the work, and a pre-push
-hook refuses to push a tree where any of the forty is red. The device
+hook refuses to push a tree where any of the forty one is red. The device
 screenshot drives in each game's `.github/scripts/` are started by hand on a
 machine with a phone or a simulator attached.
 
