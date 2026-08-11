@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty five games for phones, in Flutter, for Android and iOS. One repository,
+Sixty six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -74,6 +74,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Tilthway/assets/logo.png" width="64"><br><b><a href="Tilthway">Tilthway</a></b></div> | Sow the numbered furrows until every seed is home in the barn | One board a size can win, the suite grows it backwards and plays all the rest |
 | <div align="center"><img src="Wickfield/assets/logo.png" width="64"><br><b><a href="Wickfield">Wickfield</a></b></div> | Press the lamps dark, every press flipping a cross of five | A walk and an elimination agree on all 66,048 small boards, and quiet patterns kill the dead one |
 | <div align="center"><img src="Shuntley/assets/logo.png" width="64"><br><b><a href="Shuntley">Shuntley</a></b></div> | Slide the numbered tiles home through the one gap | A walk of all 362,880 arrangements meets the reversed-pair parity on every one, and Loyd's swindle ships labelled |
+| <div align="center"><img src="Bannford/assets/logo.png" width="64"><br><b><a href="Bannford">Bannford</a></b></div> | Wed the party so that no two people would both rather have each other | Every pairing of every party is swept, the asking-round agrees, and the odd house ships unsettleable |
 
 ## The idea they share
 
@@ -494,6 +495,14 @@ paragraph:
   bottom of the eight, and Sam Loyd's thousand-dollar swindle ships
   labelled, its odd pair rimmed red when you ask why. A shunt that
   raises the live fewest is called out as it lands.
+- **Bannford** is stable matching played by hand: eloping pairs are
+  computed live and strung in red the moment two weddings betray each
+  other, a sweep of every pairing of every party grounds every count,
+  and the asking-round is run against that sweep on the two-sided
+  parties. The Odd House is the smallest one-sided party with no
+  settled pairing, shipped labelled, its three break-ups watched one
+  by one, each by the person wedded to the unwanted housemate running
+  off with whoever puts them first.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
