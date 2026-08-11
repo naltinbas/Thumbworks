@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty one games for phones, in Flutter, for Android and iOS. One repository,
+Sixty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -70,6 +70,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Frankmoor/assets/logo.png" width="64"><br><b><a href="Frankmoor">Frankmoor</a></b></div> | Two stamps only, and the postage to the penny | Some amounts can never be paid; the largest has a formula, and the proof fits the counter |
 | <div align="center"><img src="Turnstead/assets/logo.png" width="64"><br><b><a href="Turnstead">Turnstead</a></b></div> | Write the fixture card: everyone plays everyone once | The pigeonhole sets the floor in one breath, and the turning wheel reaches it |
 | <div align="center"><img src="Posygarth/assets/logo.png" width="64"><br><b><a href="Posygarth">Posygarth</a></b></div> | Each line fair, no pairing twice: two Latin squares in one garden | The plantings write themselves, and the impossible size is swept while you watch |
+| <div align="center"><img src="Fairhold/assets/logo.png" width="64"><br><b><a href="Fairhold">Fairhold</a></b></div> | Stack four painted crates, all four paints on every side | Posts and ropes do the thinking, and the turning is walked, not waved at |
 
 ## The idea they share
 
@@ -461,6 +462,15 @@ paragraph:
   officers refusal, is honestly left unshipped rather than asserted
   unswept. Clashes are refused in their own words, and stranding posies
   go red as they land.
+- **Fairhold** is Instant Insanity by its right reduction: paints as
+  posts, opposite-face pairs as ropes, one rope of each crate to each
+  line so every post holds two ends. The turning is implemented, a fair
+  line's loops walked nose to tail, and the suite sweeps every fair
+  line of four ropes to check it never fails; when both lines come fair
+  the game turns the crates and stands the stack on screen. The Short
+  of Madder ships impossible by counting one paint's faces, and the
+  Tight Consignment's two ways are proved to be one stacking with the
+  lines swapped.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.

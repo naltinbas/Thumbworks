@@ -24,7 +24,8 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Treblesway Foldbury Staplemere Pinderwell Shroveham \
          Smithwaite Dipthorne Rindhope Colthorpe Tallowfield \
          Pennygill Spanham Lockhithe Filberthow Ellmarsh \
-         Withyshaw Millgreave Frankmoor Turnstead Posygarth
+         Withyshaw Millgreave Frankmoor Turnstead Posygarth \
+         Fairhold
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
