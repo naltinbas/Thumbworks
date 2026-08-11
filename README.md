@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty eight games for phones, in Flutter, for Android and iOS. One repository,
+Fifty nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -67,6 +67,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Ellmarsh/assets/logo.png" width="64"><br><b><a href="Ellmarsh">Ellmarsh</a></b></div> | Cut lengths of the short bolt from the long; last cut keeps the bench | The golden ratio decides it, in whole numbers, with the gap ticked on the cloth |
 | <div align="center"><img src="Withyshaw/assets/logo.png" width="64"><br><b><a href="Withyshaw">Withyshaw</a></b></div> | Cut your withies, never theirs; who cannot cut has lost | Every stalk is worth an exact fraction, written in gold, and the sum is the game |
 | <div align="center"><img src="Millgreave/assets/logo.png" width="64"><br><b><a href="Millgreave">Millgreave</a></b></div> | Raise a mill in every file; no two share the wind | The counts land to the digit, and a setting can be written down with no search at all |
+| <div align="center"><img src="Frankmoor/assets/logo.png" width="64"><br><b><a href="Frankmoor">Frankmoor</a></b></div> | Two stamps only, and the postage to the penny | Some amounts can never be paid; the largest has a formula, and the proof fits the counter |
 
 ## The idea they share
 
@@ -431,6 +432,15 @@ paragraph:
   and checked plot against plot to twelve. The Three Mills ships
   impossible with its cases walked by hand, refusals name their thief,
   and stranding mills go red the moment they stand.
+- **Frankmoor** is the Frobenius stamp problem: two coprime stamps, pay
+  the postage exactly. Payability is a remainder walk short enough to do
+  at the counter, and Why lays it out in chips, lighting the divisible
+  one; twenty three against fives and sevens walks 23, 16, 9, 2 and
+  never a five, four lines of proof. The old rules are swept true, the
+  largest gap at ab less a less b with everything above it payable
+  forever, and the gap count at half of (a-1)(b-1). Two letters ship as
+  their stamps' own largest gaps, and the Odd Parcel teaches stranding,
+  four sevens and a single five being the only way to thirty three.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
