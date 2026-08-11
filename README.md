@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy six games for phones, in Flutter, for Android and iOS. One repository,
+Seventy seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -85,6 +85,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Hirebeck/assets/logo.png" width="64"><br><b><a href="Hirebeck">Hirebeck</a></b></div> | Book the hall for as many hirings as will share it without a clash | Sweep, early-finish rule and piercing o'clocks name one ceiling, and the extra guest ships one over it |
 | <div align="center"><img src="Skittlemere/assets/logo.png" width="64"><br><b><a href="Skittlemere">Skittlemere</a></b></div> | Knock one skittle or two neighbours; the last knock takes the alley | The skittle arithmetic and a search of 507 shapes never part, and the even alley ships lost to the mirror |
 | <div align="center"><img src="Notchfield/assets/logo.png" width="64"><br><b><a href="Notchfield">Notchfield</a></b></div> | Notch the ruler so no length is measured twice | A sweep of every placing counts the Golomb cuttings, and the perfect ten ships uncuttable with no slack to hide in |
+| <div align="center"><img src="Boardleigh/assets/logo.png" width="64"><br><b><a href="Boardleigh">Boardleigh</a></b></div> | Lay two-cell planks until the whole room is floored | A count of every laying meets the staircase rule on the strips, and the clipped parlour ships unfloorable by its colours |
 
 ## The idea they share
 
@@ -592,6 +593,14 @@ paragraph:
   unable to hold five notches at all, and The Perfect Ten ships
   dead: ten pairs, ten lengths, no slack, and all 462 placings
   repeat something.
+- **Boardleigh** is domino tiling with the mutilated chessboard at
+  its heart: a count of every laying gives the strips their
+  staircase numbers, verified against the rule itself at every
+  length, and the live remainder-check calls out any plank that
+  strands the rest. The Clipped Parlour ships unfloorable, two
+  same-coloured corners gone and the two-colour count told in tint,
+  with The Fair Clip beside it flooring twelve ways because its
+  missing corners differ: which corners go is the whole story.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
