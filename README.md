@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty six games for phones, in Flutter, for Android and iOS. One repository,
+Fifty seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -65,6 +65,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Lockhithe/assets/logo.png" width="64"><br><b><a href="Lockhithe">Lockhithe</a></b></div> | Every sailor hunts their own chit, half the lockers each | Follow the chit you find: the loops decide, drawn as ropes over the doors |
 | <div align="center"><img src="Filberthow/assets/logo.png" width="64"><br><b><a href="Filberthow">Filberthow</a></b></div> | Take up to twice the last take; the last hazelnut wins | The winning move is the smallest Fibonacci cluster, ringed on the hoard |
 | <div align="center"><img src="Ellmarsh/assets/logo.png" width="64"><br><b><a href="Ellmarsh">Ellmarsh</a></b></div> | Cut lengths of the short bolt from the long; last cut keeps the bench | The golden ratio decides it, in whole numbers, with the gap ticked on the cloth |
+| <div align="center"><img src="Withyshaw/assets/logo.png" width="64"><br><b><a href="Withyshaw">Withyshaw</a></b></div> | Cut your withies, never theirs; who cannot cut has lost | Every stalk is worth an exact fraction, written in gold, and the sum is the game |
 
 ## The idea they share
 
@@ -412,6 +413,15 @@ paragraph:
   alternate across the edge by a single ell, and the Near Run and the
   Golden Bench ship as that pair of pairs, one yours, one labelled the
   mercer's.
+- **Withyshaw** is Blue-Red Hackenbush, the game the surreal numbers
+  grew out of: cut only your withies, everything above falls, who cannot
+  cut loses. Every stalk is worth an exact dyadic fraction, whole while
+  its colour holds then halving, and the sum decides the hedge before a
+  cut is made: positive yours, negative the hedger's, nought a loss for
+  whoever moves. The worth is laid over a full game search on every
+  small hedge both turn orders round, the classic values are pinned by
+  name, and the Even Hedge ships as the famous nought, half plus half
+  less one, every losing first cut verified.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
