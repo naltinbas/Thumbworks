@@ -26,7 +26,8 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Pennygill Spanham Lockhithe Filberthow Ellmarsh \
          Withyshaw Millgreave Frankmoor Turnstead Posygarth \
          Fairhold Tilthway Wickfield Shuntley Bannford \
-         Bridgeholm Riddlecombe Spindlewood Ringmarsh Shadewell
+         Bridgeholm Riddlecombe Spindlewood Ringmarsh Shadewell \
+         Pailsworth
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

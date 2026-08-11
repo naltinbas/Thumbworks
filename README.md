@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy one games for phones, in Flutter, for Android and iOS. One repository,
+Seventy two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -80,6 +80,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Spindlewood/assets/logo.png" width="64"><br><b><a href="Spindlewood">Spindlewood</a></b></div> | Raise the tower on the last spindle, never a round on a smaller one | Doubling rule, executed iteration and a walk of every board agree, and the wager of fourteen ships lost |
 | <div align="center"><img src="Ringmarsh/assets/logo.png" width="64"><br><b><a href="Ringmarsh">Ringmarsh</a></b></div> | Turn the lanterns until every run round the ring spells a different word | A sweep counts the de Bruijn rings and the shift-walk builds one, and the seven-lantern ring ships short by pigeonhole |
 | <div align="center"><img src="Shadewell/assets/logo.png" width="64"><br><b><a href="Shadewell">Shadewell</a></b></div> | Shade the plot until every row and column keeps its tally | The stacking counts every fitting picture and the line-solver reaches it cold, with a two-picture plot and a miscounted one shipped labelled |
+| <div align="center"><img src="Pailsworth/assets/logo.png" width="64"><br><b><a href="Pailsworth">Pailsworth</a></b></div> | Fill, tip and empty the pails until one holds the errand's ask | A walk of every waterline gives the famous fewest, and the third pint ships impossible by the shared measure |
 
 ## The idea they share
 
@@ -550,6 +551,14 @@ paragraph:
   cannot tell apart, outlined in gold when you ask why. Overfilled
   lines fall red as they fall, and Show me offers only what honest
   deduction settles.
+- **Pailsworth** is the decanting puzzles with the walk in charge: a
+  breadth-first walk of every waterline gives the famous answers,
+  four from a three and a five in six pours, the eight-five-three
+  halving, fourteen stubborn pours for two pints from a seven and an
+  eleven, and the live ledger counts pours-to-go from the same walk.
+  The Third Pint asks four of a six and a nine, and every pour keeps
+  every pail a multiple of three: dead by the shared measure, with
+  the sweep of every reachable waterline behind the label.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
