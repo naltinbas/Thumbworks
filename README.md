@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy four games for phones, in Flutter, for Android and iOS. One repository,
+Seventy five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -83,6 +83,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Pailsworth/assets/logo.png" width="64"><br><b><a href="Pailsworth">Pailsworth</a></b></div> | Fill, tip and empty the pails until one holds the errand's ask | A walk of every waterline gives the famous fewest, and the third pint ships impossible by the shared measure |
 | <div align="center"><img src="Charmstead/assets/logo.png" width="64"><br><b><a href="Charmstead">Charmstead</a></b></div> | Lay the nine coins so every row, column and crossway counts fifteen | The counting proves the fifteen and the five-hearted middle, and a sweep of all 362,880 fillings finds the eight charms |
 | <div align="center"><img src="Hirebeck/assets/logo.png" width="64"><br><b><a href="Hirebeck">Hirebeck</a></b></div> | Book the hall for as many hirings as will share it without a clash | Sweep, early-finish rule and piercing o'clocks name one ceiling, and the extra guest ships one over it |
+| <div align="center"><img src="Skittlemere/assets/logo.png" width="64"><br><b><a href="Skittlemere">Skittlemere</a></b></div> | Knock one skittle or two neighbours; the last knock takes the alley | The skittle arithmetic and a search of 507 shapes never part, and the even alley ships lost to the mirror |
 
 ## The idea they share
 
@@ -575,6 +576,13 @@ paragraph:
   book-earliest trap on purpose, and The Extra Guest asks five
   bookings of a four-o'clock day, dead by piercing with the sweep
   behind the label. Clashes rim red by name as they stand.
+- **Skittlemere** is Kayles against a house that never blunders: each
+  standing run carries its count, the alley adds them the carry-less
+  way, and a search of all 507 small shapes agrees with the
+  arithmetic everywhere, the famous limping table and its period of
+  twelve recounted besides. The Even Alley ships lost, two rows of
+  six and the mirror strategy told to your face, and Why chips every
+  run's count in gold on the lane.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
