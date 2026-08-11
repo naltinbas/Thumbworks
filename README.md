@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty five games for phones, in Flutter, for Android and iOS. One repository,
+Forty six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -54,6 +54,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Foldbury/assets/logo.png" width="64"><br><b><a href="Foldbury">Foldbury</a></b></div> | Post the fewest shepherds that leave no lane unwatched | The proof is a set of blue lanes on the map, checkable by eye |
 | <div align="center"><img src="Staplemere/assets/logo.png" width="64"><br><b><a href="Staplemere">Staplemere</a></b></div> | Pile the wool as it comes, in the fewest piles it takes | The answer is the longest rising run, drawn in gold through the yard |
 | <div align="center"><img src="Pinderwell/assets/logo.png" width="64"><br><b><a href="Pinderwell">Pinderwell</a></b></div> | Drive the stray ewe to the pen before the pinder does | The safe squares climb by the golden ratio, proved twice and marked on the grass |
+| <div align="center"><img src="Shroveham/assets/logo.png" width="64"><br><b><a href="Shroveham">Shroveham</a></b></div> | Flip the cakes until they sit in order, counting every flip | The gap count is a floor you check on the stack, and one batch ships where it falls short |
 
 ## The idea they share
 
@@ -293,6 +294,16 @@ paragraph:
   moment his answer lands on the ladder. One field starts the ewe on a
   rung and ships labelled unwinnable, because the way to believe a safe
   square is to stand on one and lose.
+- **Shroveham** is pancake sorting on a griddle: slide the slice under a
+  cake, turn everything above it, serve smallest to biggest in the fewest
+  flips. The referee is a breadth-first walk of every arrangement, and the
+  floor is the gap count marked on the stack itself, neighbours whose sizes
+  are not next in order, with the sweep checking at every size it can hold
+  that no flip ever mends two gaps. The floor is honestly a floor: one
+  shipped batch needs a flip more than its gaps say, and Why owns the
+  shortfall instead of hiding it. The griddle hand's two-flips-a-cake
+  routine is simulated, bounded, and beaten by three flips on the batch
+  named for it, with every wasted flip called out live.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
