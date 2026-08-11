@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty seven games for phones, in Flutter, for Android and iOS. One repository,
+Sixty eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -76,6 +76,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Shuntley/assets/logo.png" width="64"><br><b><a href="Shuntley">Shuntley</a></b></div> | Slide the numbered tiles home through the one gap | A walk of all 362,880 arrangements meets the reversed-pair parity on every one, and Loyd's swindle ships labelled |
 | <div align="center"><img src="Bannford/assets/logo.png" width="64"><br><b><a href="Bannford">Bannford</a></b></div> | Wed the party so that no two people would both rather have each other | Every pairing of every party is swept, the asking-round agrees, and the odd house ships unsettleable |
 | <div align="center"><img src="Bridgeholm/assets/logo.png" width="64"><br><b><a href="Bridgeholm">Bridgeholm</a></b></div> | Walk every bridge of a little town exactly once | Landing tallies and a search of every trail agree town by town, and old Königsberg ships unwalkable beside its mend |
+| <div align="center"><img src="Riddlecombe/assets/logo.png" width="64"><br><b><a href="Riddlecombe">Riddlecombe</a></b></div> | Weave combs between strands until every mixed grist riddles clean | The nought-one principle is earned on all 1,296 short weaves, and every optimal floor is walked fresh |
 
 ## The idea they share
 
@@ -512,6 +513,15 @@ paragraph:
   Bridge is history's own mend, walkable between the two landings
   left odd, 208 walks from each end and none from anywhere else. A
   crossing that strands the walk is called out as it lands.
+- **Riddlecombe** is sorting networks built by hand: combs drop heavy
+  grain to the lower strand, and the live check runs every nought-one
+  grist while a permutation sweep stands second voice, the two never
+  parting on any of the 1,296 four-comb weaves. The optimal floors,
+  three, five, nine and twelve combs, are each proved by a search
+  that follows everything the shorter frame can leave, and The Short
+  Weave ships those four combs as a labelled impossibility with two
+  proofs that share nothing. Why runs the first foul grist down your
+  weave in beads.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
