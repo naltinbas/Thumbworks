@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty three games for phones, in Flutter, for Android and iOS. One repository,
+Fifty four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -62,6 +62,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Tallowfield/assets/logo.png" width="64"><br><b><a href="Tallowfield">Tallowfield</a></b></div> | Read three hedge tallies and name the changed lantern | Hamming's code with its geometry showing, and the night it must be wrong |
 | <div align="center"><img src="Pennygill/assets/logo.png" width="64"><br><b><a href="Pennygill">Pennygill</a></b></div> | Call three flips; the house calls after you | Better-than runs in a ring, drawn whole, with the odds proved two ways |
 | <div align="center"><img src="Spanham/assets/logo.png" width="64"><br><b><a href="Spanham">Spanham</a></b></div> | Set the paired blocks each their own number apart | One shelf is impossible by arithmetic done on your fingers, and Why does it for you |
+| <div align="center"><img src="Lockhithe/assets/logo.png" width="64"><br><b><a href="Lockhithe">Lockhithe</a></b></div> | Every sailor hunts their own chit, half the lockers each | Follow the chit you find: the loops decide, drawn as ropes over the doors |
 
 ## The idea they share
 
@@ -379,6 +380,17 @@ paragraph:
   the mod-four shape swept to twenty. The counts land where the books
   put them, 52 and 300 with mirrors checked present, stranding placements
   go red as they land, and the five-pair shelf ships odd on purpose.
+- **Lockhithe** is the hundred-prisoners puzzle at harbour scale: every
+  sailor hunts their own chit, half the lockers each, all or nothing.
+  The theorem is walked rather than told, a sailor following the chits
+  treads exactly their own loop, so the crew comes through exactly when
+  no loop outruns the half, and Why ropes the loops over the doors and
+  says whether the crew was safe or sunk before a door opened. The odds
+  come out three ways, exact counting, a grind of all 40,320 stowings of
+  eight, and the luck baseline, agreeing to the digit: one in a thousand
+  guessing at ten sailors, better than one in three following. Rounds
+  are dealt outside the game so the tests see exactly the stowings they
+  mean.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.

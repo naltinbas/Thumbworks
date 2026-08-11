@@ -23,7 +23,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Groatsworth Linacre Shardlow Staddlestone Lampwath \
          Treblesway Foldbury Staplemere Pinderwell Shroveham \
          Smithwaite Dipthorne Rindhope Colthorpe Tallowfield \
-         Pennygill Spanham
+         Pennygill Spanham Lockhithe
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
