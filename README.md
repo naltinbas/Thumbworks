@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty seven games for phones, in Flutter, for Android and iOS. One repository,
+Forty eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -56,6 +56,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Pinderwell/assets/logo.png" width="64"><br><b><a href="Pinderwell">Pinderwell</a></b></div> | Drive the stray ewe to the pen before the pinder does | The safe squares climb by the golden ratio, proved twice and marked on the grass |
 | <div align="center"><img src="Shroveham/assets/logo.png" width="64"><br><b><a href="Shroveham">Shroveham</a></b></div> | Flip the cakes until they sit in order, counting every flip | The gap count is a floor you check on the stack, and one batch ships where it falls short |
 | <div align="center"><img src="Smithwaite/assets/logo.png" width="64"><br><b><a href="Smithwaite">Smithwaite</a></b></div> | Work the rings off the smith's bar, two moves at most | The ring pattern read as figures is exactly the distance, checkable over every state |
+| <div align="center"><img src="Dipthorne/assets/logo.png" width="64"><br><b><a href="Dipthorne">Dipthorne</a></b></div> | Pick where to stand before the rhyme starts | The safe seat is the binary turn on two beats, and the reckoning on the rest |
 
 ## The idea they share
 
@@ -315,6 +316,16 @@ paragraph:
   to free, laid over the walk on every state of three to nine rings. The
   Tangle ships with one ring on, looking nearly done and farther than the
   whole puzzle, because fewer rings on does not mean nearer the end.
+- **Dipthorne** is the Josephus count as schoolyard dipping: a rhyme
+  chanted round the ring, one child a beat, whoever it lands on steps out,
+  and you choose where to stand before it starts. The count run out loud
+  and the renumbering recurrence agree on 1,440 rings, and for two-beat
+  rhymes the famous binary turn joins them on 500 more: the ring's size
+  with its front figure moved to the back is the safe seat, done in front
+  of you by Why. Ip Dip ships at eight children because the powers of two
+  are exactly the rings where the turn changes nothing and the dip stone
+  seat itself survives, swept and proved. Longer rhymes get the honest
+  answer: no trick, the reckoning climbed ring by ring.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
