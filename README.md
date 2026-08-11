@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty two games for phones, in Flutter, for Android and iOS. One repository,
+Fifty three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -61,6 +61,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Colthorpe/assets/logo.png" width="64"><br><b><a href="Colthorpe">Colthorpe</a></b></div> | Ride the colt through every paddock exactly once | Two yards cannot be ridden, one provable on the grass, one only by the walk |
 | <div align="center"><img src="Tallowfield/assets/logo.png" width="64"><br><b><a href="Tallowfield">Tallowfield</a></b></div> | Read three hedge tallies and name the changed lantern | Hamming's code with its geometry showing, and the night it must be wrong |
 | <div align="center"><img src="Pennygill/assets/logo.png" width="64"><br><b><a href="Pennygill">Pennygill</a></b></div> | Call three flips; the house calls after you | Better-than runs in a ring, drawn whole, with the odds proved two ways |
+| <div align="center"><img src="Spanham/assets/logo.png" width="64"><br><b><a href="Spanham">Spanham</a></b></div> | Set the paired blocks each their own number apart | One shelf is impossible by arithmetic done on your fingers, and Why does it for you |
 
 ## The idea they share
 
@@ -370,6 +371,14 @@ paragraph:
   chairs so calling second finally pays, one holds you to the sucker's
   call, and every settled match owns its odds on the card, luck
   included.
+- **Spanham** is Langford's problem: two blocks of each number on a
+  shelf, the pair of k holding exactly k seats between. The impossibility
+  certificate is finger arithmetic, the seat sum minus the span sum must
+  be even, and Why performs it live for the shelf in front of you; the
+  search knows nothing of parity and agrees at every size to twelve, with
+  the mod-four shape swept to twenty. The counts land where the books
+  put them, 52 and 300 with mirrors checked present, stranding placements
+  go red as they land, and the five-pair shelf ships odd on purpose.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
