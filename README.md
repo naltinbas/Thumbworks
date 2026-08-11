@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty three games for phones, in Flutter, for Android and iOS. One repository,
+Sixty four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -72,6 +72,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Posygarth/assets/logo.png" width="64"><br><b><a href="Posygarth">Posygarth</a></b></div> | Each line fair, no pairing twice: two Latin squares in one garden | The plantings write themselves, and the impossible size is swept while you watch |
 | <div align="center"><img src="Fairhold/assets/logo.png" width="64"><br><b><a href="Fairhold">Fairhold</a></b></div> | Stack four painted crates, all four paints on every side | Posts and ropes do the thinking, and the turning is walked, not waved at |
 | <div align="center"><img src="Tilthway/assets/logo.png" width="64"><br><b><a href="Tilthway">Tilthway</a></b></div> | Sow the numbered furrows until every seed is home in the barn | One board a size can win, the suite grows it backwards and plays all the rest |
+| <div align="center"><img src="Wickfield/assets/logo.png" width="64"><br><b><a href="Wickfield">Wickfield</a></b></div> | Press the lamps dark, every press flipping a cross of five | A walk and an elimination agree on all 66,048 small boards, and quiet patterns kill the dead one |
 
 ## The idea they share
 
@@ -478,6 +479,13 @@ paragraph:
   is. A furrow overfilled past its number is trapped for good and rims
   red as it happens, and the Dead Furrows ships that way from the first
   touch, in the house tradition of maps nobody can win.
+- **Wickfield** is Lights Out with its algebra in the open: a
+  breadth-first walk from dark and a matrix elimination agree on the
+  fewest for all 66,048 boards of nine and sixteen, every shipped
+  answer is executed before it ships, and the ring's sixteen ways are
+  counted off its four quiet patterns. The Unquenchable is one lamp
+  standing odd on a quiet pattern, odd through every press there is,
+  and Why rims the pattern violet in front of you.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
