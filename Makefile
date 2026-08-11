@@ -21,7 +21,8 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Winnowmere Carterfen Beaconholt Rimeworth Marchcombe Quayfleet \
          Churnwick Handfast Pyxholm Trestlewick Trodstow Chasegarth \
          Groatsworth Linacre Shardlow Staddlestone Lampwath \
-         Treblesway Foldbury Staplemere Pinderwell Shroveham
+         Treblesway Foldbury Staplemere Pinderwell Shroveham \
+         Smithwaite
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

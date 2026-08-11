@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty six games for phones, in Flutter, for Android and iOS. One repository,
+Forty seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -55,6 +55,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Staplemere/assets/logo.png" width="64"><br><b><a href="Staplemere">Staplemere</a></b></div> | Pile the wool as it comes, in the fewest piles it takes | The answer is the longest rising run, drawn in gold through the yard |
 | <div align="center"><img src="Pinderwell/assets/logo.png" width="64"><br><b><a href="Pinderwell">Pinderwell</a></b></div> | Drive the stray ewe to the pen before the pinder does | The safe squares climb by the golden ratio, proved twice and marked on the grass |
 | <div align="center"><img src="Shroveham/assets/logo.png" width="64"><br><b><a href="Shroveham">Shroveham</a></b></div> | Flip the cakes until they sit in order, counting every flip | The gap count is a floor you check on the stack, and one batch ships where it falls short |
+| <div align="center"><img src="Smithwaite/assets/logo.png" width="64"><br><b><a href="Smithwaite">Smithwaite</a></b></div> | Work the rings off the smith's bar, two moves at most | The ring pattern read as figures is exactly the distance, checkable over every state |
 
 ## The idea they share
 
@@ -304,6 +305,16 @@ paragraph:
   shortfall instead of hiding it. The griddle hand's two-flips-a-cake
   routine is simulated, bounded, and beaten by three flips on the batch
   named for it, with every wasted flip called out live.
+- **Smithwaite** is the tavern rings, the blacksmith's puzzle: the first
+  ring moves freely, any other only when the ring before it is on and the
+  rest before that off. The suite counts the moves of every state to prove
+  the whole puzzle is one path with two ends, which is why the single
+  wrong move costs exactly two and is called out at once. The second voice
+  is the smith's count: write figures over the rings, flip where a ring is
+  on, copy where it is off, read them as binary, and that is the distance
+  to free, laid over the walk on every state of three to nine rings. The
+  Tangle ships with one ring on, looking nearly done and farther than the
+  whole puzzle, because fewer rings on does not mean nearer the end.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
