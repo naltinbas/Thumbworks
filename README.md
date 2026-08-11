@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty nine games for phones, in Flutter, for Android and iOS. One repository,
+Seventy games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -78,6 +78,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Bridgeholm/assets/logo.png" width="64"><br><b><a href="Bridgeholm">Bridgeholm</a></b></div> | Walk every bridge of a little town exactly once | Landing tallies and a search of every trail agree town by town, and old Königsberg ships unwalkable beside its mend |
 | <div align="center"><img src="Riddlecombe/assets/logo.png" width="64"><br><b><a href="Riddlecombe">Riddlecombe</a></b></div> | Weave combs between strands until every mixed grist riddles clean | The nought-one principle is earned on all 1,296 short weaves, and every optimal floor is walked fresh |
 | <div align="center"><img src="Spindlewood/assets/logo.png" width="64"><br><b><a href="Spindlewood">Spindlewood</a></b></div> | Raise the tower on the last spindle, never a round on a smaller one | Doubling rule, executed iteration and a walk of every board agree, and the wager of fourteen ships lost |
+| <div align="center"><img src="Ringmarsh/assets/logo.png" width="64"><br><b><a href="Ringmarsh">Ringmarsh</a></b></div> | Turn the lanterns until every run round the ring spells a different word | A sweep counts the de Bruijn rings and the shift-walk builds one, and the seven-lantern ring ships short by pigeonhole |
 
 ## The idea they share
 
@@ -531,6 +532,14 @@ paragraph:
   full hand in fourteen when the walk of all 81 boards holds no road
   shorter than fifteen: the house tradition's first bet that plays
   out to the end and hands you the proof you walked.
+- **Ringmarsh** is de Bruijn rings set lantern by lantern: every run
+  of the watch round the ring must spell a different word, clashes
+  chord themselves red, and the two voices are a sweep counting the
+  full rings, 4, 16 and 256 at the shipped sizes, and the shift-walk
+  building one from the words alone. The Locked Watch holds four
+  lanterns fast against a unique completion, and The Short Ring asks
+  seven lanterns for eight words, dead by pigeonhole with the sweep
+  of all 128 behind the label.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
