@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty games for phones, in Flutter, for Android and iOS. One repository,
+Sixty one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -69,6 +69,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Millgreave/assets/logo.png" width="64"><br><b><a href="Millgreave">Millgreave</a></b></div> | Raise a mill in every file; no two share the wind | The counts land to the digit, and a setting can be written down with no search at all |
 | <div align="center"><img src="Frankmoor/assets/logo.png" width="64"><br><b><a href="Frankmoor">Frankmoor</a></b></div> | Two stamps only, and the postage to the penny | Some amounts can never be paid; the largest has a formula, and the proof fits the counter |
 | <div align="center"><img src="Turnstead/assets/logo.png" width="64"><br><b><a href="Turnstead">Turnstead</a></b></div> | Write the fixture card: everyone plays everyone once | The pigeonhole sets the floor in one breath, and the turning wheel reaches it |
+| <div align="center"><img src="Posygarth/assets/logo.png" width="64"><br><b><a href="Posygarth">Posygarth</a></b></div> | Each line fair, no pairing twice: two Latin squares in one garden | The plantings write themselves, and the impossible size is swept while you watch |
 
 ## The idea they share
 
@@ -451,6 +452,15 @@ paragraph:
   breath; free pairing can strand a card with every rule obeyed, and the
   live search, pigeonhole-pruned from thirty seconds to nine
   milliseconds, calls it as it lands.
+- **Posygarth** is Euler's officers as a show garden: a Latin square of
+  flowers and a Latin square of colours in the same beds, every pairing
+  fresh. The plantings write themselves, two lines of arithmetic for odd
+  sizes and the doubled square for four, proved sound by a checker that
+  is itself tested by breaking a good planting. The Pair of Pairs ships
+  impossible with its sweep watchable in a blink; six, the famous
+  officers refusal, is honestly left unshipped rather than asserted
+  unswept. Clashes are refused in their own words, and stranding posies
+  go red as they land.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
