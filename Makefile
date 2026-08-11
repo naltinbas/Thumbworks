@@ -25,7 +25,8 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Smithwaite Dipthorne Rindhope Colthorpe Tallowfield \
          Pennygill Spanham Lockhithe Filberthow Ellmarsh \
          Withyshaw Millgreave Frankmoor Turnstead Posygarth \
-         Fairhold Tilthway Wickfield Shuntley Bannford
+         Fairhold Tilthway Wickfield Shuntley Bannford \
+         Bridgeholm
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

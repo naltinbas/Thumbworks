@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty six games for phones, in Flutter, for Android and iOS. One repository,
+Sixty seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -75,6 +75,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wickfield/assets/logo.png" width="64"><br><b><a href="Wickfield">Wickfield</a></b></div> | Press the lamps dark, every press flipping a cross of five | A walk and an elimination agree on all 66,048 small boards, and quiet patterns kill the dead one |
 | <div align="center"><img src="Shuntley/assets/logo.png" width="64"><br><b><a href="Shuntley">Shuntley</a></b></div> | Slide the numbered tiles home through the one gap | A walk of all 362,880 arrangements meets the reversed-pair parity on every one, and Loyd's swindle ships labelled |
 | <div align="center"><img src="Bannford/assets/logo.png" width="64"><br><b><a href="Bannford">Bannford</a></b></div> | Wed the party so that no two people would both rather have each other | Every pairing of every party is swept, the asking-round agrees, and the odd house ships unsettleable |
+| <div align="center"><img src="Bridgeholm/assets/logo.png" width="64"><br><b><a href="Bridgeholm">Bridgeholm</a></b></div> | Walk every bridge of a little town exactly once | Landing tallies and a search of every trail agree town by town, and old Königsberg ships unwalkable beside its mend |
 
 ## The idea they share
 
@@ -503,6 +504,14 @@ paragraph:
   settled pairing, shipped labelled, its three break-ups watched one
   by one, each by the person wedded to the unwanted housemate running
   off with whoever puts them first.
+- **Bridgeholm** is the bridges of Königsberg made playable: landing
+  tallies carry Euler's argument while a search tries every trail and
+  counts the complete ones, the two agreeing on every town that
+  ships. The Seven Bridges is the founding map of the house tradition
+  of maps nobody can win, all four landings odd, and The Eighth
+  Bridge is history's own mend, walkable between the two landings
+  left odd, 208 walks from each end and none from anywhere else. A
+  crossing that strands the walk is called out as it lands.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
