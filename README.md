@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty nine games for phones, in Flutter, for Android and iOS. One repository,
+Sixty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -68,6 +68,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Withyshaw/assets/logo.png" width="64"><br><b><a href="Withyshaw">Withyshaw</a></b></div> | Cut your withies, never theirs; who cannot cut has lost | Every stalk is worth an exact fraction, written in gold, and the sum is the game |
 | <div align="center"><img src="Millgreave/assets/logo.png" width="64"><br><b><a href="Millgreave">Millgreave</a></b></div> | Raise a mill in every file; no two share the wind | The counts land to the digit, and a setting can be written down with no search at all |
 | <div align="center"><img src="Frankmoor/assets/logo.png" width="64"><br><b><a href="Frankmoor">Frankmoor</a></b></div> | Two stamps only, and the postage to the penny | Some amounts can never be paid; the largest has a formula, and the proof fits the counter |
+| <div align="center"><img src="Turnstead/assets/logo.png" width="64"><br><b><a href="Turnstead">Turnstead</a></b></div> | Write the fixture card: everyone plays everyone once | The pigeonhole sets the floor in one breath, and the turning wheel reaches it |
 
 ## The idea they share
 
@@ -441,6 +442,15 @@ paragraph:
   forever, and the gap count at half of (a-1)(b-1). Two letters ship as
   their stamps' own largest gaps, and the Odd Parcel teaches stranding,
   four sevens and a single five being the only way to thirty three.
+- **Turnstead** is round-robin scheduling on a village green: pair the
+  sides round by round until every pair has met exactly once. The
+  pigeonhole floor is one breath, sides-less-one rounds at the least,
+  and the circle method's turning wheel reaches it at every size, swept
+  pair by pair to twelve and strung across the green as gold ghosts by
+  Why. The Short Card ships one round too short, impossible in that same
+  breath; free pairing can strand a card with every rule obeyed, and the
+  live search, pigeonhole-pruned from thirty seconds to nine
+  milliseconds, calls it as it lands.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
