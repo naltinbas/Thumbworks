@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty five games for phones, in Flutter, for Android and iOS. One repository,
+Fifty six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -64,6 +64,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Spanham/assets/logo.png" width="64"><br><b><a href="Spanham">Spanham</a></b></div> | Set the paired blocks each their own number apart | One shelf is impossible by arithmetic done on your fingers, and Why does it for you |
 | <div align="center"><img src="Lockhithe/assets/logo.png" width="64"><br><b><a href="Lockhithe">Lockhithe</a></b></div> | Every sailor hunts their own chit, half the lockers each | Follow the chit you find: the loops decide, drawn as ropes over the doors |
 | <div align="center"><img src="Filberthow/assets/logo.png" width="64"><br><b><a href="Filberthow">Filberthow</a></b></div> | Take up to twice the last take; the last hazelnut wins | The winning move is the smallest Fibonacci cluster, ringed on the hoard |
+| <div align="center"><img src="Ellmarsh/assets/logo.png" width="64"><br><b><a href="Ellmarsh">Ellmarsh</a></b></div> | Cut lengths of the short bolt from the long; last cut keeps the bench | The golden ratio decides it, in whole numbers, with the gap ticked on the cloth |
 
 ## The idea they share
 
@@ -400,6 +401,17 @@ paragraph:
   hoards, one of which ships labelled and machine-proven across twenty
   openings; the Thirty teaches the coldest case, a winning first take of
   one single nut.
+- **Ellmarsh** is Euclid's game on a mercer's bench: cut whole lengths
+  of the short bolt from the long, last cut wins. The cutter holds the
+  bench exactly when the long bolt passes the golden ratio times the
+  short, decided in whole numbers, long squared against long-times-short
+  plus short squared, and Why drops a golden tick on the cloth where the
+  gap ends. The gap and the search agree on all 11,325 pairs to a
+  hundred and fifty ells; choice exists exactly where a quotient reaches
+  two, and choice is always winning. Consecutive Fibonacci pairs
+  alternate across the edge by a single ell, and the Near Run and the
+  Golden Bench ship as that pair of pairs, one yours, one labelled the
+  mercer's.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
