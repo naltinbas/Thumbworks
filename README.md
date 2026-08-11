@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty one games for phones, in Flutter, for Android and iOS. One repository,
+Fifty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -60,6 +60,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Rindhope/assets/logo.png" width="64"><br><b><a href="Rindhope">Rindhope</a></b></div> | Bite the cheese, leave the mouse the mouldy crumb | The first mouse provably wins every block, and the proof cannot name the bite |
 | <div align="center"><img src="Colthorpe/assets/logo.png" width="64"><br><b><a href="Colthorpe">Colthorpe</a></b></div> | Ride the colt through every paddock exactly once | Two yards cannot be ridden, one provable on the grass, one only by the walk |
 | <div align="center"><img src="Tallowfield/assets/logo.png" width="64"><br><b><a href="Tallowfield">Tallowfield</a></b></div> | Read three hedge tallies and name the changed lantern | Hamming's code with its geometry showing, and the night it must be wrong |
+| <div align="center"><img src="Pennygill/assets/logo.png" width="64"><br><b><a href="Pennygill">Pennygill</a></b></div> | Call three flips; the house calls after you | Better-than runs in a ring, drawn whole, with the odds proved two ways |
 
 ## The idea they share
 
@@ -359,6 +360,16 @@ paragraph:
   confidence, mended into a sound garden that is not the gardener's. One
   evening ships that way on purpose, and reading its tallies right while
   they lie is the lesson.
+- **Pennygill** is Penney's nontransitive coin game, the old bar bet.
+  Every call has a beater, drawn as a ring of eight with its arrows, so
+  there is no best call and calling first is the whole mistake. The odds
+  are computed by Conway's overlap counts and by an exact rational walk
+  of the flipping's states, laid over each other on all 56 pairs; the
+  house reply beats all eight calls, three heads loses seven in eight,
+  and the turned-over reply is proved exactly even. One table swaps the
+  chairs so calling second finally pays, one holds you to the sucker's
+  call, and every settled match owns its odds on the card, luck
+  included.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
