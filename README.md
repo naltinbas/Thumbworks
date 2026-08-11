@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty eight games for phones, in Flutter, for Android and iOS. One repository,
+Sixty nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -77,6 +77,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Bannford/assets/logo.png" width="64"><br><b><a href="Bannford">Bannford</a></b></div> | Wed the party so that no two people would both rather have each other | Every pairing of every party is swept, the asking-round agrees, and the odd house ships unsettleable |
 | <div align="center"><img src="Bridgeholm/assets/logo.png" width="64"><br><b><a href="Bridgeholm">Bridgeholm</a></b></div> | Walk every bridge of a little town exactly once | Landing tallies and a search of every trail agree town by town, and old Königsberg ships unwalkable beside its mend |
 | <div align="center"><img src="Riddlecombe/assets/logo.png" width="64"><br><b><a href="Riddlecombe">Riddlecombe</a></b></div> | Weave combs between strands until every mixed grist riddles clean | The nought-one principle is earned on all 1,296 short weaves, and every optimal floor is walked fresh |
+| <div align="center"><img src="Spindlewood/assets/logo.png" width="64"><br><b><a href="Spindlewood">Spindlewood</a></b></div> | Raise the tower on the last spindle, never a round on a smaller one | Doubling rule, executed iteration and a walk of every board agree, and the wager of fourteen ships lost |
 
 ## The idea they share
 
@@ -522,6 +523,14 @@ paragraph:
   Weave ships those four combs as a labelled impossibility with two
   proofs that share nothing. Why runs the first foul grist down your
   weave in beads.
+- **Spindlewood** is the Tower of Hanoi with its numbers walked, not
+  recited: the doubling rule, the old iteration executed move by
+  legal move, and a breadth-first walk of every board all name the
+  same fewest, and the four-spindle jobs hold the leapfrog reckoning
+  against walks of 1,024 and 4,096 boards. The Wager asks for the
+  full hand in fourteen when the walk of all 81 boards holds no road
+  shorter than fifteen: the house tradition's first bet that plays
+  out to the end and hands you the proof you walked.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
