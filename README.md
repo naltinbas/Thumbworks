@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty games for phones, in Flutter, for Android and iOS. One repository,
+Fifty one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -59,6 +59,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Dipthorne/assets/logo.png" width="64"><br><b><a href="Dipthorne">Dipthorne</a></b></div> | Pick where to stand before the rhyme starts | The safe seat is the binary turn on two beats, and the reckoning on the rest |
 | <div align="center"><img src="Rindhope/assets/logo.png" width="64"><br><b><a href="Rindhope">Rindhope</a></b></div> | Bite the cheese, leave the mouse the mouldy crumb | The first mouse provably wins every block, and the proof cannot name the bite |
 | <div align="center"><img src="Colthorpe/assets/logo.png" width="64"><br><b><a href="Colthorpe">Colthorpe</a></b></div> | Ride the colt through every paddock exactly once | Two yards cannot be ridden, one provable on the grass, one only by the walk |
+| <div align="center"><img src="Tallowfield/assets/logo.png" width="64"><br><b><a href="Tallowfield">Tallowfield</a></b></div> | Read three hedge tallies and name the changed lantern | Hamming's code with its geometry showing, and the night it must be wrong |
 
 ## The idea they share
 
@@ -347,6 +348,17 @@ paragraph:
   can the round still be finished, is a pruned Warnsdorff search fast
   enough to watch every jump, stranding called out as it happens, and the
   Full Round comes home closed on six by six.
+- **Tallowfield** is Hamming's seven-four code as a lantern garden: seven
+  lamps in the seven beds three round hedges cut, planted so every hedge
+  counts even. A draught turns exactly its lamp's hedges odd, so the
+  complaints cut out one bed and the bed names the lamp, a decoding you
+  do by looking at a picture. The tallies are held against flipping every
+  lamp on all 128 patterns, the sixteen plantings are checked pairwise
+  three apart, and the boundary is swept whole: every two-lamp draught on
+  every planting makes the tallies point at a third lamp with perfect
+  confidence, mended into a sound garden that is not the gardener's. One
+  evening ships that way on purpose, and reading its tallies right while
+  they lie is the lesson.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
