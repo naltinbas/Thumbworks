@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty three games for phones, in Flutter, for Android and iOS. One repository,
+Forty four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -52,6 +52,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Lampwath/assets/logo.png" width="64"><br><b><a href="Lampwath">Lampwath</a></b></div> | Everybody over the bridge by lantern light | The slow should cross together, except when the trade buys nothing |
 | <div align="center"><img src="Treblesway/assets/logo.png" width="64"><br><b><a href="Treblesway">Treblesway</a></b></div> | Ring every change on the bells and come round again | One tower cannot, and the reason is an invariant you can watch working |
 | <div align="center"><img src="Foldbury/assets/logo.png" width="64"><br><b><a href="Foldbury">Foldbury</a></b></div> | Post the fewest shepherds that leave no lane unwatched | The proof is a set of blue lanes on the map, checkable by eye |
+| <div align="center"><img src="Staplemere/assets/logo.png" width="64"><br><b><a href="Staplemere">Staplemere</a></b></div> | Pile the wool as it comes, in the fewest piles it takes | The answer is the longest rising run, drawn in gold through the yard |
 
 ## The idea they share
 
@@ -269,6 +270,18 @@ paragraph:
   it, which is where Konig's theorem stops and says so. A greedy post at the
   busiest gate ends one over on every big fold, and the ledger goes red the
   moment the walk becomes the reason.
+- **Staplemere** sets bales down as they come, lighter on heavier only,
+  which is patience sorting. The fewest piles equals the longest run of
+  bales arriving in rising weight, Dilworth's theorem in a wool yard, and
+  both directions are played rather than cited: the gold thread drawn
+  through the yard is the floor, one pile forced per marked bale, and the
+  snuggest legal top each time meets it exactly. Brute force over pile tops
+  agrees with both on every ordering of six and hundreds of random
+  mornings, and the live could-still-be is checked against brute force from
+  part-played positions too. The trap is hoarding the snug top for a closer
+  weight, which costs a pile on every deal built for it, and one deal holds
+  both runs at exactly three, the nine-bale boundary that ten bales always
+  break.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
