@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty eight games for phones, in Flutter, for Android and iOS. One repository,
+Forty nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -57,6 +57,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Shroveham/assets/logo.png" width="64"><br><b><a href="Shroveham">Shroveham</a></b></div> | Flip the cakes until they sit in order, counting every flip | The gap count is a floor you check on the stack, and one batch ships where it falls short |
 | <div align="center"><img src="Smithwaite/assets/logo.png" width="64"><br><b><a href="Smithwaite">Smithwaite</a></b></div> | Work the rings off the smith's bar, two moves at most | The ring pattern read as figures is exactly the distance, checkable over every state |
 | <div align="center"><img src="Dipthorne/assets/logo.png" width="64"><br><b><a href="Dipthorne">Dipthorne</a></b></div> | Pick where to stand before the rhyme starts | The safe seat is the binary turn on two beats, and the reckoning on the rest |
+| <div align="center"><img src="Rindhope/assets/logo.png" width="64"><br><b><a href="Rindhope">Rindhope</a></b></div> | Bite the cheese, leave the mouse the mouldy crumb | The first mouse provably wins every block, and the proof cannot name the bite |
 
 ## The idea they share
 
@@ -326,6 +327,16 @@ paragraph:
   are exactly the rings where the turn changes nothing and the dip stone
   seat itself survives, swept and proved. Longer rhymes get the honest
   answer: no trick, the reckoning climbed ring by ring.
+- **Rindhope** is Chomp on a block of cheese, and it carries the shelf's
+  strangest lesson: existence without construction. The stealing argument
+  runs as code, biting-after-the-nibble proved identical to biting the
+  whole block on every bite to six by six, so the first mouse wins every
+  block; which bite wins, only the search can say, and the game says so
+  out loud. Where shapes exist they are played: the mirror wins every
+  square and the one-crumb-longer bottom row wins every strip, both swept
+  against random mice and best resistance. One block gives the grey mouse
+  the first bite and ships labelled, the theorem felt from the wrong
+  side.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
