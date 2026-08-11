@@ -1,6 +1,6 @@
 # Thumbworks
 
-Sixty two games for phones, in Flutter, for Android and iOS. One repository,
+Sixty three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -71,6 +71,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Turnstead/assets/logo.png" width="64"><br><b><a href="Turnstead">Turnstead</a></b></div> | Write the fixture card: everyone plays everyone once | The pigeonhole sets the floor in one breath, and the turning wheel reaches it |
 | <div align="center"><img src="Posygarth/assets/logo.png" width="64"><br><b><a href="Posygarth">Posygarth</a></b></div> | Each line fair, no pairing twice: two Latin squares in one garden | The plantings write themselves, and the impossible size is swept while you watch |
 | <div align="center"><img src="Fairhold/assets/logo.png" width="64"><br><b><a href="Fairhold">Fairhold</a></b></div> | Stack four painted crates, all four paints on every side | Posts and ropes do the thinking, and the turning is walked, not waved at |
+| <div align="center"><img src="Tilthway/assets/logo.png" width="64"><br><b><a href="Tilthway">Tilthway</a></b></div> | Sow the numbered furrows until every seed is home in the barn | One board a size can win, the suite grows it backwards and plays all the rest |
 
 ## The idea they share
 
@@ -471,6 +472,12 @@ paragraph:
   of Madder ships impossible by counting one paint's faces, and the
   Tight Consignment's two ways are proved to be one stacking with the
   lines swapped.
+- **Tilthway** is Tchoukaillon with its uniqueness on the table: for
+  every count of seeds exactly one board plays home, grown backwards by
+  unsowing, and the suite proves it to ten by playing every board there
+  is. A furrow overfilled past its number is trapped for good and rims
+  red as it happens, and the Dead Furrows ships that way from the first
+  touch, in the house tradition of maps nobody can win.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
