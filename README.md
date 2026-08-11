@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty two games for phones, in Flutter, for Android and iOS. One repository,
+Forty three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -51,6 +51,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Staddlestone/assets/logo.png" width="64"><br><b><a href="Staddlestone">Staddlestone</a></b></div> | Move the millstones, never a bigger on a smaller | The doubling argument and a walk of every arrangement agree to nine stones |
 | <div align="center"><img src="Lampwath/assets/logo.png" width="64"><br><b><a href="Lampwath">Lampwath</a></b></div> | Everybody over the bridge by lantern light | The slow should cross together, except when the trade buys nothing |
 | <div align="center"><img src="Treblesway/assets/logo.png" width="64"><br><b><a href="Treblesway">Treblesway</a></b></div> | Ring every change on the bells and come round again | One tower cannot, and the reason is an invariant you can watch working |
+| <div align="center"><img src="Foldbury/assets/logo.png" width="64"><br><b><a href="Foldbury">Foldbury</a></b></div> | Post the fewest shepherds that leave no lane unwatched | The proof is a set of blue lanes on the map, checkable by eye |
 
 ## The idea they share
 
@@ -258,6 +259,16 @@ paragraph:
   the middle, an invariant the player can watch holding. The game keeps a
   live answer to whether the peal can still come round, so a stranded row is
   known the moment it is stranded.
+- **Foldbury** posts shepherds at gates until no lane between them is dark,
+  which is minimum vertex cover. The fewest is brute force, and under it
+  stand two floors the player can check: a set of lanes no two of which
+  share a gate, drawn in blue on the fold itself, and the plain count of
+  lanes against the busiest gate. On every fold past the triangle the
+  matching floor is exactly the answer, kept so by the generator; the
+  triangle ships because there pairing proves nothing and the count carries
+  it, which is where Konig's theorem stops and says so. A greedy post at the
+  busiest gate ends one over on every big fold, and the ledger goes red the
+  moment the walk becomes the reason.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
