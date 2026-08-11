@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy seven games for phones, in Flutter, for Android and iOS. One repository,
+Seventy eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -86,6 +86,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Skittlemere/assets/logo.png" width="64"><br><b><a href="Skittlemere">Skittlemere</a></b></div> | Knock one skittle or two neighbours; the last knock takes the alley | The skittle arithmetic and a search of 507 shapes never part, and the even alley ships lost to the mirror |
 | <div align="center"><img src="Notchfield/assets/logo.png" width="64"><br><b><a href="Notchfield">Notchfield</a></b></div> | Notch the ruler so no length is measured twice | A sweep of every placing counts the Golomb cuttings, and the perfect ten ships uncuttable with no slack to hide in |
 | <div align="center"><img src="Boardleigh/assets/logo.png" width="64"><br><b><a href="Boardleigh">Boardleigh</a></b></div> | Lay two-cell planks until the whole room is floored | A count of every laying meets the staircase rule on the strips, and the clipped parlour ships unfloorable by its colours |
+| <div align="center"><img src="Ferrydale/assets/logo.png" width="64"><br><b><a href="Ferrydale">Ferrydale</a></b></div> | Row everyone across without leaving the wrong company ashore | A walk of every arrangement gives the famous crossings, and the four-and-four ferry never fills its far bank |
 
 ## The idea they share
 
@@ -601,6 +602,13 @@ paragraph:
   same-coloured corners gone and the two-colour count told in tint,
   with The Fair Clip beside it flooring twelve ways because its
   missing corners differ: which corners go is the whole story.
+- **Ferrydale** is the river crossings walked whole: the keeper's
+  seven, the three-and-three's eleven, four-and-four in nine given a
+  bigger boat, all from a walk of every arrangement each river
+  allows, with refusals naming the wolf, the goat or the outnumbered
+  before any crossing goes wrong. The Four and Four ships dead: a
+  boat of two, all 98 reachable arrangements walked, and the far
+  bank never full.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
