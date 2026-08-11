@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty four games for phones, in Flutter, for Android and iOS. One repository,
+Forty five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -53,6 +53,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Treblesway/assets/logo.png" width="64"><br><b><a href="Treblesway">Treblesway</a></b></div> | Ring every change on the bells and come round again | One tower cannot, and the reason is an invariant you can watch working |
 | <div align="center"><img src="Foldbury/assets/logo.png" width="64"><br><b><a href="Foldbury">Foldbury</a></b></div> | Post the fewest shepherds that leave no lane unwatched | The proof is a set of blue lanes on the map, checkable by eye |
 | <div align="center"><img src="Staplemere/assets/logo.png" width="64"><br><b><a href="Staplemere">Staplemere</a></b></div> | Pile the wool as it comes, in the fewest piles it takes | The answer is the longest rising run, drawn in gold through the yard |
+| <div align="center"><img src="Pinderwell/assets/logo.png" width="64"><br><b><a href="Pinderwell">Pinderwell</a></b></div> | Drive the stray ewe to the pen before the pinder does | The safe squares climb by the golden ratio, proved twice and marked on the grass |
 
 ## The idea they share
 
@@ -282,6 +283,16 @@ paragraph:
   weight, which costs a pile on every deal built for it, and one deal holds
   both runs at exactly three, the nine-bale boundary that ten bales always
   break.
+- **Pinderwell** is Wythoff's game as a ewe driven to the pen: push her
+  west, south, or evenly both, last push wins. The safe squares are built
+  two ways that know nothing of each other, a backwards sweep of the game
+  and the pair-by-pair ladder, laid over each other on all 3,721 squares of
+  a sixty-pace field, with the golden ratio checked on top rung by rung.
+  The pinder plays perfectly from the same table, pars are worked out
+  against his most stubborn delay, and a wrong push is called out the
+  moment his answer lands on the ladder. One field starts the ewe on a
+  rung and ships labelled unwinnable, because the way to believe a safe
+  square is to stand on one and lose.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
