@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy two games for phones, in Flutter, for Android and iOS. One repository,
+Seventy three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -81,6 +81,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Ringmarsh/assets/logo.png" width="64"><br><b><a href="Ringmarsh">Ringmarsh</a></b></div> | Turn the lanterns until every run round the ring spells a different word | A sweep counts the de Bruijn rings and the shift-walk builds one, and the seven-lantern ring ships short by pigeonhole |
 | <div align="center"><img src="Shadewell/assets/logo.png" width="64"><br><b><a href="Shadewell">Shadewell</a></b></div> | Shade the plot until every row and column keeps its tally | The stacking counts every fitting picture and the line-solver reaches it cold, with a two-picture plot and a miscounted one shipped labelled |
 | <div align="center"><img src="Pailsworth/assets/logo.png" width="64"><br><b><a href="Pailsworth">Pailsworth</a></b></div> | Fill, tip and empty the pails until one holds the errand's ask | A walk of every waterline gives the famous fewest, and the third pint ships impossible by the shared measure |
+| <div align="center"><img src="Charmstead/assets/logo.png" width="64"><br><b><a href="Charmstead">Charmstead</a></b></div> | Lay the nine coins so every row, column and crossway counts fifteen | The counting proves the fifteen and the five-hearted middle, and a sweep of all 362,880 fillings finds the eight charms |
 
 ## The idea they share
 
@@ -559,6 +560,13 @@ paragraph:
   The Third Pint asks four of a six and a nine, and every pour keeps
   every pail a multiple of three: dead by the shared measure, with
   the sweep of every reachable waterline behind the label.
+- **Charmstead** is the three-by-three magic square with its counting
+  on the table: the rows share forty five so each line carries
+  fifteen, the four heart lines force the five, and a sweep of all
+  362,880 fillings finds exactly eight charms, one square eight ways
+  round. Pins carve the eight down to two, one, or none: The Heart
+  of One and The Heavy Row ship dead, each impossible in three
+  sentences of arithmetic with the sweep standing behind them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
