@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy eight games for phones, in Flutter, for Android and iOS. One repository,
+Seventy nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -87,6 +87,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Notchfield/assets/logo.png" width="64"><br><b><a href="Notchfield">Notchfield</a></b></div> | Notch the ruler so no length is measured twice | A sweep of every placing counts the Golomb cuttings, and the perfect ten ships uncuttable with no slack to hide in |
 | <div align="center"><img src="Boardleigh/assets/logo.png" width="64"><br><b><a href="Boardleigh">Boardleigh</a></b></div> | Lay two-cell planks until the whole room is floored | A count of every laying meets the staircase rule on the strips, and the clipped parlour ships unfloorable by its colours |
 | <div align="center"><img src="Ferrydale/assets/logo.png" width="64"><br><b><a href="Ferrydale">Ferrydale</a></b></div> | Row everyone across without leaving the wrong company ashore | A walk of every arrangement gives the famous crossings, and the four-and-four ferry never fills its far bank |
+| <div align="center"><img src="Pegbourne/assets/logo.png" width="64"><br><b><a href="Pegbourne">Pegbourne</a></b></div> | Set the four pegs the way every marked guess allows | All 256 codes are swept against every riddle, the rows judge your code live, and the liar's riddle fits none |
 
 ## The idea they share
 
@@ -609,6 +610,13 @@ paragraph:
   before any crossing goes wrong. The Four and Four ships dead: a
   boat of two, all 98 reachable arrangements walked, and the far
   bank never full.
+- **Pegbourne** turns the pegs-and-marks game inside out: the
+  guesses and their marks are the clues, and the pegs must be set
+  the one way every row allows, judged live by the same marking
+  arithmetic that made the clues. A sweep of all 256 codes counts
+  each riddle's answers; The Two Minds honestly holds two, and The
+  Liar's Riddle none, three red pegs and three green unable to share
+  four slots, the irreconcilable pair found by the checker.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
