@@ -1,6 +1,6 @@
 # Thumbworks
 
-Forty nine games for phones, in Flutter, for Android and iOS. One repository,
+Fifty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -58,6 +58,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Smithwaite/assets/logo.png" width="64"><br><b><a href="Smithwaite">Smithwaite</a></b></div> | Work the rings off the smith's bar, two moves at most | The ring pattern read as figures is exactly the distance, checkable over every state |
 | <div align="center"><img src="Dipthorne/assets/logo.png" width="64"><br><b><a href="Dipthorne">Dipthorne</a></b></div> | Pick where to stand before the rhyme starts | The safe seat is the binary turn on two beats, and the reckoning on the rest |
 | <div align="center"><img src="Rindhope/assets/logo.png" width="64"><br><b><a href="Rindhope">Rindhope</a></b></div> | Bite the cheese, leave the mouse the mouldy crumb | The first mouse provably wins every block, and the proof cannot name the bite |
+| <div align="center"><img src="Colthorpe/assets/logo.png" width="64"><br><b><a href="Colthorpe">Colthorpe</a></b></div> | Ride the colt through every paddock exactly once | Two yards cannot be ridden, one provable on the grass, one only by the walk |
 
 ## The idea they share
 
@@ -337,6 +338,15 @@ paragraph:
   against random mice and best resistance. One block gives the grey mouse
   the first bite and ships labelled, the theorem felt from the wrong
   side.
+- **Colthorpe** is the knight's tour, ridden by a colt. The certificate is
+  laid into the board: two grasses, every jump swapping colour, so the
+  Wrong Gate's impossibility is countable on the field, thirteen dark and
+  twelve light against a round that needs thirteen of its starting
+  colour. The Cross Paddocks are the twin lesson: colours level, no named
+  argument, impossible only by the walk of every ride. The live answer,
+  can the round still be finished, is a pruned Warnsdorff search fast
+  enough to watch every jump, stranding called out as it happens, and the
+  Full Round comes home closed on six by six.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
