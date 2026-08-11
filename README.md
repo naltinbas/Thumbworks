@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy games for phones, in Flutter, for Android and iOS. One repository,
+Seventy one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -79,6 +79,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Riddlecombe/assets/logo.png" width="64"><br><b><a href="Riddlecombe">Riddlecombe</a></b></div> | Weave combs between strands until every mixed grist riddles clean | The nought-one principle is earned on all 1,296 short weaves, and every optimal floor is walked fresh |
 | <div align="center"><img src="Spindlewood/assets/logo.png" width="64"><br><b><a href="Spindlewood">Spindlewood</a></b></div> | Raise the tower on the last spindle, never a round on a smaller one | Doubling rule, executed iteration and a walk of every board agree, and the wager of fourteen ships lost |
 | <div align="center"><img src="Ringmarsh/assets/logo.png" width="64"><br><b><a href="Ringmarsh">Ringmarsh</a></b></div> | Turn the lanterns until every run round the ring spells a different word | A sweep counts the de Bruijn rings and the shift-walk builds one, and the seven-lantern ring ships short by pigeonhole |
+| <div align="center"><img src="Shadewell/assets/logo.png" width="64"><br><b><a href="Shadewell">Shadewell</a></b></div> | Shade the plot until every row and column keeps its tally | The stacking counts every fitting picture and the line-solver reaches it cold, with a two-picture plot and a miscounted one shipped labelled |
 
 ## The idea they share
 
@@ -540,6 +541,15 @@ paragraph:
   lanterns fast against a unique completion, and The Short Ring asks
   seven lanterns for eight words, dead by pigeonhole with the sweep
   of all 128 behind the label.
+- **Shadewell** is nonograms held to the claim most sets never write
+  down: the tallies must name one picture. A stacking tries every
+  filling the tallies allow while a line-solver reaches the picture
+  by deduction alone, and the two flawed plots ship labelled: The
+  Short Tally asks nine cells of its rows and eight of its columns,
+  dead by counting, and The Two Gardens fits two pictures the clues
+  cannot tell apart, outlined in gold when you ask why. Overfilled
+  lines fall red as they fall, and Show me offers only what honest
+  deduction settles.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
