@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty four games for phones, in Flutter, for Android and iOS. One repository,
+Fifty five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -63,6 +63,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Pennygill/assets/logo.png" width="64"><br><b><a href="Pennygill">Pennygill</a></b></div> | Call three flips; the house calls after you | Better-than runs in a ring, drawn whole, with the odds proved two ways |
 | <div align="center"><img src="Spanham/assets/logo.png" width="64"><br><b><a href="Spanham">Spanham</a></b></div> | Set the paired blocks each their own number apart | One shelf is impossible by arithmetic done on your fingers, and Why does it for you |
 | <div align="center"><img src="Lockhithe/assets/logo.png" width="64"><br><b><a href="Lockhithe">Lockhithe</a></b></div> | Every sailor hunts their own chit, half the lockers each | Follow the chit you find: the loops decide, drawn as ropes over the doors |
+| <div align="center"><img src="Filberthow/assets/logo.png" width="64"><br><b><a href="Filberthow">Filberthow</a></b></div> | Take up to twice the last take; the last hazelnut wins | The winning move is the smallest Fibonacci cluster, ringed on the hoard |
 
 ## The idea they share
 
@@ -391,6 +392,14 @@ paragraph:
   guessing at ten sailors, better than one in three following. Rounds
   are dealt outside the game so the tests see exactly the stowings they
   mean.
+- **Filberthow** is Fibonacci nim over a squirrel hoard: take up to
+  twice the last take, last nut wins. The winning move is the smallest
+  cluster of the Zeckendorf split, ringed on the hoard by Why with each
+  count chipped above it, and the rule is held against a full search on
+  all 1,830 standings to sixty nuts. Openers lose exactly the Fibonacci
+  hoards, one of which ships labelled and machine-proven across twenty
+  openings; the Thirty teaches the coldest case, a winning first take of
+  one single nut.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
