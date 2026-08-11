@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy five games for phones, in Flutter, for Android and iOS. One repository,
+Seventy six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -84,6 +84,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Charmstead/assets/logo.png" width="64"><br><b><a href="Charmstead">Charmstead</a></b></div> | Lay the nine coins so every row, column and crossway counts fifteen | The counting proves the fifteen and the five-hearted middle, and a sweep of all 362,880 fillings finds the eight charms |
 | <div align="center"><img src="Hirebeck/assets/logo.png" width="64"><br><b><a href="Hirebeck">Hirebeck</a></b></div> | Book the hall for as many hirings as will share it without a clash | Sweep, early-finish rule and piercing o'clocks name one ceiling, and the extra guest ships one over it |
 | <div align="center"><img src="Skittlemere/assets/logo.png" width="64"><br><b><a href="Skittlemere">Skittlemere</a></b></div> | Knock one skittle or two neighbours; the last knock takes the alley | The skittle arithmetic and a search of 507 shapes never part, and the even alley ships lost to the mirror |
+| <div align="center"><img src="Notchfield/assets/logo.png" width="64"><br><b><a href="Notchfield">Notchfield</a></b></div> | Notch the ruler so no length is measured twice | A sweep of every placing counts the Golomb cuttings, and the perfect ten ships uncuttable with no slack to hide in |
 
 ## The idea they share
 
@@ -583,6 +584,14 @@ paragraph:
   twelve recounted besides. The Even Alley ships lost, two rows of
   six and the mirror strategy told to your face, and Why chips every
   run's count in gold on the lane.
+- **Notchfield** is Golomb rulers with the census in view: every
+  pair of notches measures its distance, chips run grey, green and
+  red as lengths go unmeasured, measured and doubled, and a sweep of
+  every placing counts the cuttings, the old perfect six-length
+  among them. The Eleven carries its own optimality, a ten proved
+  unable to hold five notches at all, and The Perfect Ten ships
+  dead: ten pairs, ten lengths, no slack, and all 462 placings
+  repeat something.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
