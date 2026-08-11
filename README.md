@@ -1,6 +1,6 @@
 # Thumbworks
 
-Fifty seven games for phones, in Flutter, for Android and iOS. One repository,
+Fifty eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -66,6 +66,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Filberthow/assets/logo.png" width="64"><br><b><a href="Filberthow">Filberthow</a></b></div> | Take up to twice the last take; the last hazelnut wins | The winning move is the smallest Fibonacci cluster, ringed on the hoard |
 | <div align="center"><img src="Ellmarsh/assets/logo.png" width="64"><br><b><a href="Ellmarsh">Ellmarsh</a></b></div> | Cut lengths of the short bolt from the long; last cut keeps the bench | The golden ratio decides it, in whole numbers, with the gap ticked on the cloth |
 | <div align="center"><img src="Withyshaw/assets/logo.png" width="64"><br><b><a href="Withyshaw">Withyshaw</a></b></div> | Cut your withies, never theirs; who cannot cut has lost | Every stalk is worth an exact fraction, written in gold, and the sum is the game |
+| <div align="center"><img src="Millgreave/assets/logo.png" width="64"><br><b><a href="Millgreave">Millgreave</a></b></div> | Raise a mill in every file; no two share the wind | The counts land to the digit, and a setting can be written down with no search at all |
 
 ## The idea they share
 
@@ -422,6 +423,14 @@ paragraph:
   small hedge both turn orders round, the classic values are pinned by
   name, and the Even Hedge ships as the famous nought, half plus half
   less one, every losing first cut verified.
+- **Millgreave** is the queens problem as windmills stealing wind along
+  rows, files and slants. Both faces are played: the counts by full
+  backtracking land the classic numbers, ninety two on eight and the
+  spiky four on six, while the staircase constructions write a setting
+  straight down for every size past three, raised as gold ghosts by Why
+  and checked plot against plot to twelve. The Three Mills ships
+  impossible with its cases walked by hand, refusals name their thief,
+  and stranding mills go red the moment they stand.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
