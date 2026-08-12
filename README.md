@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixteen games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventeen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -125,6 +125,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Hamperfen/assets/logo.png" width="64"><br><b><a href="Hamperfen">Hamperfen</a></b></div> | Take baskets from the hamper so no basket swallows another | Sperner's antichain over sixteen baskets: the middle shelf of six is the one and only six, every five is that shelf less a basket, and the LYM twelfths spend the dozen whole exactly when a shelf is taken entire |
 | <div align="center"><img src="Beamsworth/assets/logo.png" width="64"><br><b><a href="Beamsworth">Beamsworth</a></b></div> | Hang weights whose parcels all read different on the beam | Distinct subset sums on a rack of twelve: two hundred and six clean threes narrow to a single clean six, and any seven weights hang a hundred and twenty-seven parcels on readings that stop at a hundred and twenty-five |
 | <div align="center"><img src="Noughtsmill/assets/logo.png" width="64"><br><b><a href="Noughtsmill">Noughtsmill</a></b></div> | Wind the mill till the factorial ends in the asked noughts | Legendre's count held against the factorial itself, wound nought to two hundred: the noughts jump four to six at twenty-five, and the skipped counts run five, eleven, seventeen, twenty-three and twenty-nine, six apart, one for each twenty-five |
+| <div align="center"><img src="Matchcote/assets/logo.png" width="64"><br><b><a href="Matchcote">Matchcote</a></b></div> | Pair the players round by round till every pair has met once | Round-robin fixtures counted whole: the six of four players are one schedule worn six ways, the 720 of six are six bare schedules times the orders of their rounds, and five players never fill a single round |
 
 ## The idea they share
 
@@ -934,6 +935,14 @@ paragraph:
   is never milled: the count jumps four to six where
   twenty-five pays twice, and The Fifth Nought ships
   hopeless.
+- **Matchcote** is the round-robin's 1-factorization: the
+  cover checks a finished fixture pair by pair, the sweep
+  builds every fixture from whatever rounds are given and
+  counts 6, 48, 6 and 720, with the 720 asserted equal to
+  six bare schedules times the hundred and twenty orders of
+  their rounds. An odd crowd is barred at once, since a
+  round pairs everyone and five is odd: The Fifth Player
+  ships hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
