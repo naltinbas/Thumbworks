@@ -31,7 +31,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Boardleigh Ferrydale Pegbourne Tanglemere Mottlemoor Mousewold \
          Quirebeck Hurdlecote Marrowden Leystone Peckhollow \
          Knuckleby Farthingford Tussockmere Beadlow \
-         Braidfell Copestone Wardhall
+         Braidfell Copestone Wardhall Scoreham
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

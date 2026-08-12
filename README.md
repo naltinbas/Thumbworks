@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety four games for phones, in Flutter, for Android and iOS. One repository,
+Ninety five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -103,6 +103,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Braidfell/assets/logo.png" width="64"><br><b><a href="Braidfell">Braidfell</a></b></div> | Braid the fleeces into one skein for the least work | Lightest-first meets the sweep of every braid order to the pound, and the fifty-nine ships a pound below everything there is |
 | <div align="center"><img src="Copestone/assets/logo.png" width="64"><br><b><a href="Copestone">Copestone</a></b></div> | Raise a drystone wall with no run of courses laid twice over | Two kinds of stone die at the third course, three climb forever, and the palindrome wall stands sound yet pens itself in |
 | <div align="center"><img src="Wardhall/assets/logo.png" width="64"><br><b><a href="Wardhall">Wardhall</a></b></div> | Post wards at the corners until every flag of the floor is lit | The three-colouring builds a watch from a third of the corners, the sweep finds the true fewest beneath it, and the comb watched short ships dark |
+| <div align="center"><img src="Scoreham/assets/logo.png" width="64"><br><b><a href="Scoreham">Scoreham</a></b></div> | Walk the tally round the ring and find the starts that never ground | A ring holds exactly as many good starts as it runs ahead, the ebb names one without trying, and the tied vote holds none at all |
 
 ## The idea they share
 
@@ -746,6 +747,13 @@ paragraph:
   watch and finds the true fewest, sometimes under that roof, and
   The Comb Short ships hopeless: sixty-six pairs posted, every one
   leaving a tooth dark.
+- **Scoreham** is the cycle lemma walked out loud: a ring of
+  notches and wipes holds exactly as many good starts as it runs
+  ahead, every tried start draws its whole tally-walk with the
+  dips marked, and the start just past the last lowest ebb is
+  always good when anything is, found without trying. Three voices
+  agree over all 8,190 rings to a dozen marks, and The Tied Vote
+  ships hopeless, running nothing ahead.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
