@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and three games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -112,6 +112,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Stackholt/assets/logo.png" width="64"><br><b><a href="Stackholt">Stackholt</a></b></div> | Spin and tip the painted boxes until every wall shows every paint once | The old four-box puzzle counted honest: 24 settlings wearing down to three, five fair picks pairing into three pencil factorings, and a red stack doomed by thirteen faces where a stack carries twelve |
 | <div align="center"><img src="Brackenside/assets/logo.png" width="64"><br><b><a href="Brackenside">Brackenside</a></b></div> | Plant the hillside and land the asked number of three-plant patches | Sperner's lemma with the rim showing: one bracken-gorse edge on the boundary forces every patch count odd, swept over all 759 plantings, and one planting in 729 shows eleven |
 | <div align="center"><img src="Tetherdown/assets/logo.png" width="64"><br><b><a href="Tetherdown">Tetherdown</a></b></div> | Rope the posts and knot no triangle | Mantel's fence line at a quarter of the square, matched by pasture arithmetic on every down, with every fullest tethering splitting into two pastures and the seventh rope on five posts knotting all 120 ways |
+| <div align="center"><img src="Stitchfen/assets/logo.png" width="64"><br><b><a href="Stitchfen">Stitchfen</a></b></div> | Thread the sampler row with no three evenly spaced stitches sharing a colour | Van der Waerden's wall made playable: 20, 16 and 6 threadings survive at six, seven and eight stitches, every three-stitch beginning finishes at most one way, and the ninth stitch ladders all 512 |
 
 ## The idea they share
 
@@ -828,6 +829,14 @@ paragraph:
   every crossing roped. The Seventh Rope ships hopeless: five
   posts carry six, and the sweep found a triangle in all 120
   tetherings of seven.
+- **Stitchfen** is van der Waerden's theorem at its first wall:
+  two threads, rows of stitches, and never three evenly spaced
+  sharing a colour. The census brackets every ladder on the
+  cloth, the sweep threads every row from 64 to 512, and the
+  prefix ledger re-adds each count in eight parts. The six
+  surviving eights pair off under a thread-swap, and The One Way
+  fixes three stitches that force the other five. The Ninth
+  Stitch ships hopeless: all 512 rows of nine ladder.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
