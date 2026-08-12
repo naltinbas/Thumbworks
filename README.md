@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety six games for phones, in Flutter, for Android and iOS. One repository,
+Ninety seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -105,6 +105,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wardhall/assets/logo.png" width="64"><br><b><a href="Wardhall">Wardhall</a></b></div> | Post wards at the corners until every flag of the floor is lit | The three-colouring builds a watch from a third of the corners, the sweep finds the true fewest beneath it, and the comb watched short ships dark |
 | <div align="center"><img src="Scoreham/assets/logo.png" width="64"><br><b><a href="Scoreham">Scoreham</a></b></div> | Walk the tally round the ring and find the starts that never ground | A ring holds exactly as many good starts as it runs ahead, the ebb names one without trying, and the tied vote holds none at all |
 | <div align="center"><img src="Gapstile/assets/logo.png" width="64"><br><b><a href="Gapstile">Gapstile</a></b></div> | Dial a stride and peg the hoop until the asked number of gap lengths shows | Pegs at a stride's multiples cut a hoop into gaps of at most three lengths, the longest is the other two put together, and a fourth has never once shown |
+| <div align="center"><img src="Borrowfen/assets/logo.png" width="64"><br><b><a href="Borrowfen">Borrowfen</a></b></div> | Lend and borrow over the roads until no house in the village owes | Whether a debt can settle is decided by a burning before a move is made, the tidy spreads number exactly the spanning trees, and one short pound can never be got clear |
 
 ## The idea they share
 
@@ -763,6 +764,15 @@ paragraph:
   fences, and pins The Three of Seven to the only two dials that
   land it. The Fourth Gap ships hopeless: it asks for what the
   sweep has never seen.
+- **Borrowfen** is the dollar game with its verdicts showing:
+  Dhar's burning tidies any spread and reads settleability off
+  the bank, the census counts each village's tidy spreads against
+  Kirchhoff's spanning trees, 1, 4, 8, 8 and 3, and a plain
+  search proves every fewest. The Charity opens at its village's
+  genus, where every class of spread settles. The Short Pound
+  ships hopeless: one pound of debt, one of coin, and no run of
+  moves ever gets the village clear, because no move changes a
+  spread's class.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
