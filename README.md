@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -114,6 +114,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Tetherdown/assets/logo.png" width="64"><br><b><a href="Tetherdown">Tetherdown</a></b></div> | Rope the posts and knot no triangle | Mantel's fence line at a quarter of the square, matched by pasture arithmetic on every down, with every fullest tethering splitting into two pastures and the seventh rope on five posts knotting all 120 ways |
 | <div align="center"><img src="Stitchfen/assets/logo.png" width="64"><br><b><a href="Stitchfen">Stitchfen</a></b></div> | Thread the sampler row with no three evenly spaced stitches sharing a colour | Van der Waerden's wall made playable: 20, 16 and 6 threadings survive at six, seven and eight stitches, every three-stitch beginning finishes at most one way, and the ninth stitch ladders all 512 |
 | <div align="center"><img src="Crookmarsh/assets/logo.png" width="64"><br><b><a href="Crookmarsh">Crookmarsh</a></b></div> | Stand posts, none three to a line, and land the asked number of true frames | The happy ending theorem swept: every clear five of the 1,668 holds one, three or five frames and never none, judged by a tuck test and a hull walk that agree on every four |
+| <div align="center"><img src="Wirecombe/assets/logo.png" width="64"><br><b><a href="Wirecombe">Wirecombe</a></b></div> | Wire the cottages into one connected run | Cayley's count made playable: 3, 16 and 125 runs by size, every run coding to its Prufer word and back, every run keeping two lane's ends lit, and a run with none two line-ends short by arithmetic |
 
 ## The idea they share
 
@@ -845,6 +846,13 @@ paragraph:
   or five frames, odd every time, and The One Frame is the
   needle: twelve settings. The Frameless Five ships hopeless:
   five clear posts never go without a frame.
+- **Wirecombe** is Cayley's formula wired cottage to cottage:
+  the sweep counts 3, 16 and 125 runs exactly as n to the n
+  minus two says, the Prufer code writes every run down as a
+  word and reads it back, and the standing arithmetic keeps at
+  least two lane's ends lit on every run. The Ring Round ships
+  hopeless: every cottage on two lines wants ten line-ends and
+  four lines carry eight.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
