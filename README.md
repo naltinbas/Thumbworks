@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety five games for phones, in Flutter, for Android and iOS. One repository,
+Ninety six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -104,6 +104,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Copestone/assets/logo.png" width="64"><br><b><a href="Copestone">Copestone</a></b></div> | Raise a drystone wall with no run of courses laid twice over | Two kinds of stone die at the third course, three climb forever, and the palindrome wall stands sound yet pens itself in |
 | <div align="center"><img src="Wardhall/assets/logo.png" width="64"><br><b><a href="Wardhall">Wardhall</a></b></div> | Post wards at the corners until every flag of the floor is lit | The three-colouring builds a watch from a third of the corners, the sweep finds the true fewest beneath it, and the comb watched short ships dark |
 | <div align="center"><img src="Scoreham/assets/logo.png" width="64"><br><b><a href="Scoreham">Scoreham</a></b></div> | Walk the tally round the ring and find the starts that never ground | A ring holds exactly as many good starts as it runs ahead, the ebb names one without trying, and the tied vote holds none at all |
+| <div align="center"><img src="Gapstile/assets/logo.png" width="64"><br><b><a href="Gapstile">Gapstile</a></b></div> | Dial a stride and peg the hoop until the asked number of gap lengths shows | Pegs at a stride's multiples cut a hoop into gaps of at most three lengths, the longest is the other two put together, and a fourth has never once shown |
 
 ## The idea they share
 
@@ -754,6 +755,14 @@ paragraph:
   always good when anything is, found without trying. Three voices
   agree over all 8,190 rings to a dozen marks, and The Tied Vote
   ships hopeless, running nothing ahead.
+- **Gapstile** is the three-distance theorem on a dial: pegs at a
+  stride's multiples cut the hoop into gaps of one, two, or three
+  lengths, never four, and the longest of three is the other two
+  put together. The sweep checks every stride of every round to
+  twelfths against every count of pegs to thirty, all 1,980
+  fences, and pins The Three of Seven to the only two dials that
+  land it. The Fourth Gap ships hopeless: it asks for what the
+  sweep has never seen.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
