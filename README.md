@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty seven games for phones, in Flutter, for Android and iOS. One repository,
+Eighty eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -96,6 +96,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Marrowden/assets/logo.png" width="64"><br><b><a href="Marrowden">Marrowden</a></b></div> | Judge the marrows one at a time against only the seen | The wave-them-by rule's counts are the ceiling of every rule swept, and the sure pick ships hopeless by a fork of two lookalike sittings |
 | <div align="center"><img src="Leystone/assets/logo.png" width="64"><br><b><a href="Leystone">Leystone</a></b></div> | Raise standing stones with no three on any straight line | The search raises every ring and plain row-counting bars the odd stone, with the offending ley drawn edge to edge at every refusal |
 | <div align="center"><img src="Peckhollow/assets/logo.png" width="64"><br><b><a href="Peckhollow">Peckhollow</a></b></div> | Turn the pecking arrows and crown the kings the task asks | Every yard has a king and none crowns exactly two, swept over all 1,096 yards of three to five birds, and the crowns move as the arrows turn |
+| <div align="center"><img src="Knuckleby/assets/logo.png" width="64"><br><b><a href="Knuckleby">Knuckleby</a></b></div> | Recut blank dice until every throw falls like the standard pair | The sweep of every pair meets the factor-trade to the last pip, Sicherman's bones wait on the bench, and all-even pips never land a three |
 
 ## The idea they share
 
@@ -686,6 +687,13 @@ paragraph:
   dragging a third out of its own peckers. All of it is swept over
   every yard of three, four and five birds, and The Two Kings
   ships hopeless on the strength of it.
+- **Knuckleby** is Sicherman's dice cut by hand: the sweep recuts
+  every pair of dice there is and the factor-trade builds the
+  matching pairs from the standard product's factors without
+  rolling once, the two roads meeting to the last pip. Every
+  matching die keeps exactly one ace, the four-and-six bench falls
+  alike four ways, and The Even Bones ships hopeless because the
+  table asks for a three and two even pips only ever land even.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
