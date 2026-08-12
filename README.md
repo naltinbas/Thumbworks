@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety two games for phones, in Flutter, for Android and iOS. One repository,
+Ninety three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -101,6 +101,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Tussockmere/assets/logo.png" width="64"><br><b><a href="Tussockmere">Tussockmere</a></b></div> | Link your banks across the marsh before the mere links its own | Every filling carries exactly one crossing, the house plays the solved game, the pie rule is judged for real, and the second chair ships lost |
 | <div align="center"><img src="Beadlow/assets/logo.png" width="64"><br><b><a href="Beadlow">Beadlow</a></b></div> | Dye the beads and shelve every necklace the ring can make | What each turn fixes, summed and divided, agrees with the shelf of every string folded by turning, and the seventh necklace was never there |
 | <div align="center"><img src="Braidfell/assets/logo.png" width="64"><br><b><a href="Braidfell">Braidfell</a></b></div> | Braid the fleeces into one skein for the least work | Lightest-first meets the sweep of every braid order to the pound, and the fifty-nine ships a pound below everything there is |
+| <div align="center"><img src="Copestone/assets/logo.png" width="64"><br><b><a href="Copestone">Copestone</a></b></div> | Raise a drystone wall with no run of courses laid twice over | Two kinds of stone die at the third course, three climb forever, and the palindrome wall stands sound yet pens itself in |
 
 ## The idea they share
 
@@ -727,6 +728,15 @@ paragraph:
   recomputed after every braid and a costly one is called out, and
   The Fifty-Nine ships hopeless, asked a pound below the bottom of
   the whole sweep.
+- **Copestone** is the study of square-free words laid as drystone
+  walling: no run of courses twice over, the sweep laying every
+  wall there is. Two kinds of stone die at the third course, all
+  sixteen walls of four carrying a doubled run; three kinds climb
+  past any height asked; and the palindrome
+  flag-sand-flag-slate-flag-sand-flag stands sound at seven yet
+  pens itself in, no eighth course of any kind surviving. The
+  sweep also proved the walk's own crutch: a sound wall here never
+  limps, it climbs or is penned outright.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
