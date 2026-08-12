@@ -29,7 +29,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Bridgeholm Riddlecombe Spindlewood Ringmarsh Shadewell \
          Pailsworth Charmstead Hirebeck Skittlemere Notchfield \
          Boardleigh Ferrydale Pegbourne Tanglemere Mottlemoor Mousewold \
-         Quirebeck Hurdlecote Marrowden Leystone
+         Quirebeck Hurdlecote Marrowden Leystone Peckhollow
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

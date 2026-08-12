@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty six games for phones, in Flutter, for Android and iOS. One repository,
+Eighty seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -95,6 +95,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Hurdlecote/assets/logo.png" width="64"><br><b><a href="Hurdlecote">Hurdlecote</a></b></div> | Raise hurdles on the green and pen exactly what the task asks | Pick's crossing count and the shoelace agree on all 18,934 fences swept, and the third acre ships beyond every fence there is |
 | <div align="center"><img src="Marrowden/assets/logo.png" width="64"><br><b><a href="Marrowden">Marrowden</a></b></div> | Judge the marrows one at a time against only the seen | The wave-them-by rule's counts are the ceiling of every rule swept, and the sure pick ships hopeless by a fork of two lookalike sittings |
 | <div align="center"><img src="Leystone/assets/logo.png" width="64"><br><b><a href="Leystone">Leystone</a></b></div> | Raise standing stones with no three on any straight line | The search raises every ring and plain row-counting bars the odd stone, with the offending ley drawn edge to edge at every refusal |
+| <div align="center"><img src="Peckhollow/assets/logo.png" width="64"><br><b><a href="Peckhollow">Peckhollow</a></b></div> | Turn the pecking arrows and crown the kings the task asks | Every yard has a king and none crowns exactly two, swept over all 1,096 yards of three to five birds, and the crowns move as the arrows turn |
 
 ## The idea they share
 
@@ -678,6 +679,13 @@ paragraph:
   The Odd Stone ships hopeless by the same counting, seven on three
   rows putting three in a row, and every refusal draws the ley it
   would stand on clear across the green.
+- **Peckhollow** is tournament theory in a hen yard, three little
+  theorems carried whole: every yard has a king, the biggest winner
+  is always one because whatever pecked it was pecked by something
+  it pecked, and no yard crowns exactly two, a second crown always
+  dragging a third out of its own peckers. All of it is swept over
+  every yard of three, four and five birds, and The Two Kings
+  ships hopeless on the strength of it.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
