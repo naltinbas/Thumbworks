@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifteen games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -124,6 +124,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Marklow/assets/logo.png" width="64"><br><b><a href="Marklow">Marklow</a></b></div> | Number the posts so the lines wear every gap once, one up to the count of lines | Graceful numberings counted whole: four for the path of four, twelve for the star, sixteen for the square, the mirror of a graceful numbering always graceful, and the five-ring barred by parity, asking an odd sum where every ring pays even |
 | <div align="center"><img src="Hamperfen/assets/logo.png" width="64"><br><b><a href="Hamperfen">Hamperfen</a></b></div> | Take baskets from the hamper so no basket swallows another | Sperner's antichain over sixteen baskets: the middle shelf of six is the one and only six, every five is that shelf less a basket, and the LYM twelfths spend the dozen whole exactly when a shelf is taken entire |
 | <div align="center"><img src="Beamsworth/assets/logo.png" width="64"><br><b><a href="Beamsworth">Beamsworth</a></b></div> | Hang weights whose parcels all read different on the beam | Distinct subset sums on a rack of twelve: two hundred and six clean threes narrow to a single clean six, and any seven weights hang a hundred and twenty-seven parcels on readings that stop at a hundred and twenty-five |
+| <div align="center"><img src="Noughtsmill/assets/logo.png" width="64"><br><b><a href="Noughtsmill">Noughtsmill</a></b></div> | Wind the mill till the factorial ends in the asked noughts | Legendre's count held against the factorial itself, wound nought to two hundred: the noughts jump four to six at twenty-five, and the skipped counts run five, eleven, seventeen, twenty-three and twenty-nine, six apart, one for each twenty-five |
 
 ## The idea they share
 
@@ -925,6 +926,14 @@ paragraph:
   barred by pigeonhole, a hundred and twenty-seven parcels
   against readings that stop at a hundred and twenty-five.
   The Seventh Weight ships hopeless.
+- **Noughtsmill** is Legendre's formula at a windmill: the
+  ledger sums the fives and twenty-fives in the wound count,
+  the whole factorial is multiplied out in big numbers and
+  its noughts read straight off the tail, and the two agree
+  at every stop from nought to two hundred. A fifth nought
+  is never milled: the count jumps four to six where
+  twenty-five pays twice, and The Fifth Nought ships
+  hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
