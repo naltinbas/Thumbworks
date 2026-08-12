@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventeen games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -126,6 +126,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Beamsworth/assets/logo.png" width="64"><br><b><a href="Beamsworth">Beamsworth</a></b></div> | Hang weights whose parcels all read different on the beam | Distinct subset sums on a rack of twelve: two hundred and six clean threes narrow to a single clean six, and any seven weights hang a hundred and twenty-seven parcels on readings that stop at a hundred and twenty-five |
 | <div align="center"><img src="Noughtsmill/assets/logo.png" width="64"><br><b><a href="Noughtsmill">Noughtsmill</a></b></div> | Wind the mill till the factorial ends in the asked noughts | Legendre's count held against the factorial itself, wound nought to two hundred: the noughts jump four to six at twenty-five, and the skipped counts run five, eleven, seventeen, twenty-three and twenty-nine, six apart, one for each twenty-five |
 | <div align="center"><img src="Matchcote/assets/logo.png" width="64"><br><b><a href="Matchcote">Matchcote</a></b></div> | Pair the players round by round till every pair has met once | Round-robin fixtures counted whole: the six of four players are one schedule worn six ways, the 720 of six are six bare schedules times the orders of their rounds, and five players never fill a single round |
+| <div align="center"><img src="Coursewell/assets/logo.png" width="64"><br><b><a href="Coursewell">Coursewell</a></b></div> | Brick the yard with dominoes and land the asked count of seams | Domino fault lines counted whole: five by six lays sound exactly six ways, the smallest yard two cells wide both ways that does, and the six-square never lays sound, ten lines wanting twenty crossings where eighteen bricks carry eighteen |
 
 ## The idea they share
 
@@ -943,6 +944,14 @@ paragraph:
   their rounds. An odd crowd is barred at once, since a
   round pairs everyone and five is odd: The Fifth Player
   ships hopeless.
+- **Coursewell** is the domino fault-line theorem in a
+  brickyard: seams read straight off the laying with every
+  line's crossing count on the wall, the sweep lays all 36,
+  1,183 and 6,728 layings with the crossings held even
+  throughout, and the six-square is barred by counting,
+  every brick crossing one line, a crossed line crossed
+  twice at least, ten lines wanting twenty where eighteen
+  bricks carry eighteen. The Seamless Six ships hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
