@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety three games for phones, in Flutter, for Android and iOS. One repository,
+Ninety four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -102,6 +102,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Beadlow/assets/logo.png" width="64"><br><b><a href="Beadlow">Beadlow</a></b></div> | Dye the beads and shelve every necklace the ring can make | What each turn fixes, summed and divided, agrees with the shelf of every string folded by turning, and the seventh necklace was never there |
 | <div align="center"><img src="Braidfell/assets/logo.png" width="64"><br><b><a href="Braidfell">Braidfell</a></b></div> | Braid the fleeces into one skein for the least work | Lightest-first meets the sweep of every braid order to the pound, and the fifty-nine ships a pound below everything there is |
 | <div align="center"><img src="Copestone/assets/logo.png" width="64"><br><b><a href="Copestone">Copestone</a></b></div> | Raise a drystone wall with no run of courses laid twice over | Two kinds of stone die at the third course, three climb forever, and the palindrome wall stands sound yet pens itself in |
+| <div align="center"><img src="Wardhall/assets/logo.png" width="64"><br><b><a href="Wardhall">Wardhall</a></b></div> | Post wards at the corners until every flag of the floor is lit | The three-colouring builds a watch from a third of the corners, the sweep finds the true fewest beneath it, and the comb watched short ships dark |
 
 ## The idea they share
 
@@ -737,6 +738,14 @@ paragraph:
   pens itself in, no eighth course of any kind surviving. The
   sweep also proved the walk's own crutch: a sound wall here never
   limps, it climbs or is penned outright.
+- **Wardhall** is the art gallery theorem walked by lantern light:
+  ear-clip the hall into triangles, colour the corners three ways
+  with no triangle repeating one, and the scarcest colour is a
+  watch that lights the whole floor from at most a third of the
+  corners, built without counting a flag. The sweep posts every
+  watch and finds the true fewest, sometimes under that roof, and
+  The Comb Short ships hopeless: sixty-six pairs posted, every one
+  leaving a tooth dark.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
