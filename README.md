@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -110,6 +110,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Sashmoor/assets/logo.png" width="64"><br><b><a href="Sashmoor">Sashmoor</a></b></div> | Glaze the sash without four panes ever framing a window | Nine panes is the four-by-four's proven limit with every row-pair spent exactly once, and the tenth is barred by finger-counting: ten panes spend eight row-pairs where the sash owns six |
 | <div align="center"><img src="Wickthorn/assets/logo.png" width="64"><br><b><a href="Wickthorn">Wickthorn</a></b></div> | Rope lanterns three at a time until every pair shares exactly one | Seven lanterns close in seven ropes exactly thirty ways, all of them the Fano plane, and six lanterns never close: each would need two and a half ropes |
 | <div align="center"><img src="Stackholt/assets/logo.png" width="64"><br><b><a href="Stackholt">Stackholt</a></b></div> | Spin and tip the painted boxes until every wall shows every paint once | The old four-box puzzle counted honest: 24 settlings wearing down to three, five fair picks pairing into three pencil factorings, and a red stack doomed by thirteen faces where a stack carries twelve |
+| <div align="center"><img src="Brackenside/assets/logo.png" width="64"><br><b><a href="Brackenside">Brackenside</a></b></div> | Plant the hillside and land the asked number of three-plant patches | Sperner's lemma with the rim showing: one bracken-gorse edge on the boundary forces every patch count odd, swept over all 759 plantings, and one planting in 729 shows eleven |
 
 ## The idea they share
 
@@ -810,6 +811,14 @@ paragraph:
   identical boxes still settle 96 ways. The Red Stack ships
   hopeless by a count on one hand: thirteen faces wear red, and
   a standing stack of four carries twelve at most.
+- **Brackenside** is Sperner's lemma planted in bracken, gorse
+  and heather: the census reads the three-plant patches off the
+  hill, the rim walk's single bracken-gorse edge forces every
+  count odd, and the sweep plants every inside there is, 3, 27
+  and 729 by size, finding the counts climb 1, 3, 5, 7, 9, 11
+  with never an even step. The Eleven is the needle: one
+  planting in 729. The Even Hill ships hopeless: it asks for
+  two.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
