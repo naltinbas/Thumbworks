@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty nine games for phones, in Flutter, for Android and iOS. One repository,
+Ninety games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -98,6 +98,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Peckhollow/assets/logo.png" width="64"><br><b><a href="Peckhollow">Peckhollow</a></b></div> | Turn the pecking arrows and crown the kings the task asks | Every yard has a king and none crowns exactly two, swept over all 1,096 yards of three to five birds, and the crowns move as the arrows turn |
 | <div align="center"><img src="Knuckleby/assets/logo.png" width="64"><br><b><a href="Knuckleby">Knuckleby</a></b></div> | Recut blank dice until every throw falls like the standard pair | The sweep of every pair meets the factor-trade to the last pip, Sicherman's bones wait on the bench, and all-even pips never land a three |
 | <div align="center"><img src="Farthingford/assets/logo.png" width="64"><br><b><a href="Farthingford">Farthingford</a></b></div> | Wade the stream by mediants and cross at the ford named | The banks' Ford circles kiss exactly while the crossing number holds at one, and no ford ever runs shallower than the mediant between them |
+| <div align="center"><img src="Tussockmere/assets/logo.png" width="64"><br><b><a href="Tussockmere">Tussockmere</a></b></div> | Link your banks across the marsh before the mere links its own | Every filling carries exactly one crossing, the house plays the solved game, the pie rule is judged for real, and the second chair ships lost |
 
 ## The idea they share
 
@@ -703,6 +704,13 @@ paragraph:
   kissing banks the one shallowest ford is the mediant, which is
   why The Shallow Ford ships hopeless: a half and two thirds put
   together already make fifths.
+- **Tussockmere** is Hex on a small marsh with its honest
+  furniture: the no-draw theorem swept over every filling of both
+  boards, exactly one crossing each; the game solved to its end,
+  with only the short diagonal's openings surviving a perfect
+  reply on the four-field; the pie rule as a judgment with a right
+  answer the solve can name, strong pie and humble pie both; and
+  The Second Chair shipping lost before it sits.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
