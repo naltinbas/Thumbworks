@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -113,6 +113,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Brackenside/assets/logo.png" width="64"><br><b><a href="Brackenside">Brackenside</a></b></div> | Plant the hillside and land the asked number of three-plant patches | Sperner's lemma with the rim showing: one bracken-gorse edge on the boundary forces every patch count odd, swept over all 759 plantings, and one planting in 729 shows eleven |
 | <div align="center"><img src="Tetherdown/assets/logo.png" width="64"><br><b><a href="Tetherdown">Tetherdown</a></b></div> | Rope the posts and knot no triangle | Mantel's fence line at a quarter of the square, matched by pasture arithmetic on every down, with every fullest tethering splitting into two pastures and the seventh rope on five posts knotting all 120 ways |
 | <div align="center"><img src="Stitchfen/assets/logo.png" width="64"><br><b><a href="Stitchfen">Stitchfen</a></b></div> | Thread the sampler row with no three evenly spaced stitches sharing a colour | Van der Waerden's wall made playable: 20, 16 and 6 threadings survive at six, seven and eight stitches, every three-stitch beginning finishes at most one way, and the ninth stitch ladders all 512 |
+| <div align="center"><img src="Crookmarsh/assets/logo.png" width="64"><br><b><a href="Crookmarsh">Crookmarsh</a></b></div> | Stand posts, none three to a line, and land the asked number of true frames | The happy ending theorem swept: every clear five of the 1,668 holds one, three or five frames and never none, judged by a tuck test and a hull walk that agree on every four |
 
 ## The idea they share
 
@@ -837,6 +838,13 @@ paragraph:
   surviving eights pair off under a thread-swap, and The One Way
   fixes three stitches that force the other five. The Ninth
   Stitch ships hopeless: all 512 rows of nine ladder.
+- **Crookmarsh** is the happy ending theorem on a four-by-four
+  marsh: a frame is four posts standing true, judged by the tuck
+  test and the hull walk, two convexity voices that agree on
+  every four of the sweep. The 1,668 clear fives hold one, three
+  or five frames, odd every time, and The One Frame is the
+  needle: twelve settings. The Frameless Five ships hopeless:
+  five clear posts never go without a frame.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
