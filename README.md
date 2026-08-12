@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighteen games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and nineteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -127,6 +127,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Noughtsmill/assets/logo.png" width="64"><br><b><a href="Noughtsmill">Noughtsmill</a></b></div> | Wind the mill till the factorial ends in the asked noughts | Legendre's count held against the factorial itself, wound nought to two hundred: the noughts jump four to six at twenty-five, and the skipped counts run five, eleven, seventeen, twenty-three and twenty-nine, six apart, one for each twenty-five |
 | <div align="center"><img src="Matchcote/assets/logo.png" width="64"><br><b><a href="Matchcote">Matchcote</a></b></div> | Pair the players round by round till every pair has met once | Round-robin fixtures counted whole: the six of four players are one schedule worn six ways, the 720 of six are six bare schedules times the orders of their rounds, and five players never fill a single round |
 | <div align="center"><img src="Coursewell/assets/logo.png" width="64"><br><b><a href="Coursewell">Coursewell</a></b></div> | Brick the yard with dominoes and land the asked count of seams | Domino fault lines counted whole: five by six lays sound exactly six ways, the smallest yard two cells wide both ways that does, and the six-square never lays sound, ten lines wanting twenty crossings where eighteen bricks carry eighteen |
+| <div align="center"><img src="Acreford/assets/logo.png" width="64"><br><b><a href="Acreford">Acreford</a></b></div> | Fence the paddock post by post and read the acres two ways | Pick's theorem held on every paddock there is: the rails' crossing sum agrees with the post count on all 2,274, a bare rim of four posts writes only the even half-acres two through ten, and two acres and a half always drops a post onto a rail |
 
 ## The idea they share
 
@@ -952,6 +953,13 @@ paragraph:
   every brick crossing one line, a crossed line crossed
   twice at least, ten lines wanting twenty where eighteen
   bricks carry eighteen. The Seamless Six ships hopeless.
+- **Acreford** is Pick's theorem walked on a post grid:
+  twice the acres is twice the posts within plus the rim
+  less two, held against the rails' own crossing sum across
+  all 516 triangles and 1,758 quads, inside posts glowing
+  gold and mid-rail posts ringed rust. The Even Rim asks two
+  acres and a half of a bare four-post rim, whose arithmetic
+  writes even counts alone: it ships hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
