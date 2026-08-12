@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety eight games for phones, in Flutter, for Android and iOS. One repository,
+Ninety nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -107,6 +107,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Gapstile/assets/logo.png" width="64"><br><b><a href="Gapstile">Gapstile</a></b></div> | Dial a stride and peg the hoop until the asked number of gap lengths shows | Pegs at a stride's multiples cut a hoop into gaps of at most three lengths, the longest is the other two put together, and a fourth has never once shown |
 | <div align="center"><img src="Borrowfen/assets/logo.png" width="64"><br><b><a href="Borrowfen">Borrowfen</a></b></div> | Lend and borrow over the roads until no house in the village owes | Whether a debt can settle is decided by a burning before a move is made, the tidy spreads number exactly the spanning trees, and one short pound can never be got clear |
 | <div align="center"><img src="Chainhurst/assets/logo.png" width="64"><br><b><a href="Chainhurst">Chainhurst</a></b></div> | Set stones on the field and land the asked number of bare chains | Stones not all in one row always show a chain through exactly two, counted by strung lines and by thirds over all 68,080 placings, and four stones only ever show nought, three or six |
+| <div align="center"><img src="Sashmoor/assets/logo.png" width="64"><br><b><a href="Sashmoor">Sashmoor</a></b></div> | Glaze the sash without four panes ever framing a window | Nine panes is the four-by-four's proven limit with every row-pair spent exactly once, and the tenth is barred by finger-counting: ten panes spend eight row-pairs where the sash owns six |
 
 ## The idea they share
 
@@ -783,6 +784,15 @@ paragraph:
   six bare chains, with four the proven floor for five off-row
   stones. The Bare-less Field ships hopeless: only the twelve
   rows of five ever go bare-less, and the asking bars them.
+- **Sashmoor** is the Zarankiewicz problem glazed: windows are
+  counted down the columns and across the rows, held equal over
+  all 32,564 placings on the two sashes, with an arithmetic voice
+  besides. Six panes fill the three-by-three and nine the
+  four-by-four, where every window-free nine spends the sash's
+  six row-pairs exactly once, a design with no slack. The Tenth
+  Pane ships hopeless: ten panes must spend eight row-pairs, the
+  sash owns six, and the sweep of 8,008 placings found a window
+  in every one.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
