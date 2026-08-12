@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty one games for phones, in Flutter, for Android and iOS. One repository,
+Eighty two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -90,6 +90,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Pegbourne/assets/logo.png" width="64"><br><b><a href="Pegbourne">Pegbourne</a></b></div> | Set the four pegs the way every marked guess allows | All 256 codes are swept against every riddle, the rows judge your code live, and the liar's riddle fits none |
 | <div align="center"><img src="Tanglemere/assets/logo.png" width="64"><br><b><a href="Tanglemere">Tanglemere</a></b></div> | Weave threads and never close a triangle of your own colour | All 32,768 six-post paintings hold a triangle, the counting argument finds it as code, and the search knows whose the win is |
 | <div align="center"><img src="Mottlemoor/assets/logo.png" width="64"><br><b><a href="Mottlemoor">Mottlemoor</a></b></div> | Meet the herds until the moor wears one colour | The remainders by three and a walk of every herding agree on all 815 small moors, and the famous thirteen-fifteen-seventeen ships dead |
+| <div align="center"><img src="Mousewold/assets/logo.png" width="64"><br><b><a href="Mousewold">Mousewold</a></b></div> | Step the cat along the paths and corner the mouse | The folding rule and a search of every chase agree on all 27,475 small grounds, and the ring fence ships with no corner to fold |
 
 ## The idea they share
 
@@ -634,6 +635,13 @@ paragraph:
   seventeen, dead on its label with the walk of every herding of
   forty five behind it, and The Little Mismatch is the same refusal
   at pocket size.
+- **Mousewold** is cops-and-robbers with one cat, and its founding
+  theorem carried whole: a ground folds up corner by corner exactly
+  when the cat can win, held against a search of every chase on all
+  27,475 connected grounds of six posts or fewer. Why numbers the
+  folding in gold on the ground in front of you, and The Ring Fence
+  ships labelled hopeless, six posts round and not a corner among
+  them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
