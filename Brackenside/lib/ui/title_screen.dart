@@ -1,0 +1,93 @@
+import 'package:flutter/material.dart';
+
+import '../best.dart';
+import '../hill/hills.dart';
+import 'hill_screen.dart';
+import 'mark.dart';
+import 'palette.dart';
+
+/// The fence, stile by hill.
+class TitleScreen extends StatefulWidget {
+  const TitleScreen({super.key});
+
+  @override
+  State<TitleScreen> createState() => _TitleScreenState();
+}
+
+class _TitleScreenState extends State<TitleScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Best.ready().then((_) {
+      if (mounted) setState(() {});
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+        backgroundColor: Palette.night,
+        body: SafeArea(
+          child: Column(
+            children: [
+              const SizedBox(height: 12),
+              const SizedBox(height: 150, child: Mark()),
+              const Text(
+                'Brackenside',
+                style: TextStyle(
+                  color: Palette.ink,
+                  fontSize: 30,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(24, 4, 24, 8),
+                child: Text(
+                  'Plant the hillside; the three-plant patches '
+                  'come out odd however you sow it.',
+                  textAlign: TextAlign.center,
+                  style:
+                      TextStyle(color: Palette.inkDim, fontSize: 14),
+                ),
+              ),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: Hills.count,
+                  itemBuilder: (context, number) {
+                    final hill = Hills.at(number);
+                    final fewest = Best.fewest(hill.name);
+                    return ListTile(
+                      leading: Text(
+                        '${number + 1}',
+                        style: const TextStyle(
+                            color: Palette.inkDim, fontSize: 18),
+                      ),
+                      title: Text(
+                        hill.name,
+                        style: const TextStyle(
+                          color: Palette.ink,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      subtitle: Text(
+                        '${hill.task}'
+                        '${fewest == null ? '' : '. Fewest: $fewest'}',
+                        style: const TextStyle(
+                            color: Palette.inkDim, fontSize: 13),
+                      ),
+                      onTap: () async {
+                        await Navigator.of(context).push(
+                          MaterialPageRoute<void>(
+                            builder: (_) => HillScreen(hill: hill),
+                          ),
+                        );
+                        if (mounted) setState(() {});
+                      },
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+}
