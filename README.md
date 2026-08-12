@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eight games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -117,6 +117,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wirecombe/assets/logo.png" width="64"><br><b><a href="Wirecombe">Wirecombe</a></b></div> | Wire the cottages into one connected run | Cayley's count made playable: 3, 16 and 125 runs by size, every run coding to its Prufer word and back, every run keeping two lane's ends lit, and a run with none two line-ends short by arithmetic |
 | <div align="center"><img src="Pigeonwick/assets/logo.png" width="64"><br><b><a href="Pigeonwick">Pigeonwick</a></b></div> | Post every letter to the wrong pigeonhole | Derangements counted three ways that never part, sweep, recurrence and the figure by e: 2, 9 and 44, with exactly three home of four nobody's round since the fourth would hold only its own hole |
 | <div align="center"><img src="Greetley/assets/logo.png" width="64"><br><b><a href="Greetley">Greetley</a></b></div> | Shake hands on the lawn until the asked number of guests are odd-handed | The handshake lemma at a fete: every shake hands out two, so the odd-handed always pair off, the all-even lawns number a power of two, and one lone hand up is nobody's lawn |
+| <div align="center"><img src="Shelfham/assets/logo.png" width="64"><br><b><a href="Shelfham">Shelfham</a></b></div> | Shelve the books with exactly the asked number of steps down | Euler's numbers on a bookshelf: the rows run 1, 11, 11, 1 and 1, 26, 66, 26, 1, read the same both ways by the reversal, and a fourth step wants a gap no shelf of four owns |
 
 ## The idea they share
 
@@ -868,6 +869,13 @@ paragraph:
   because even-handedness is a loop of shakes and loops stack.
   The Odd Guest ships hopeless: exactly one hand up would make
   an odd hand total, which no count of shakes can pay.
+- **Shelfham** is the Eulerian triangle shelved: the sweep reads
+  the steps down off all 24 and 120 orderings, Euler's
+  recurrence rebuilds each row from the shelf one book shorter,
+  and the reversal pairs every ordering with its mirror, which
+  is why the rows read the same both ways. The Stair Down has
+  exactly one answer. The Fourth Step ships hopeless: four
+  steps want four gaps and four books own three.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
