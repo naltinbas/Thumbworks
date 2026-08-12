@@ -1,6 +1,6 @@
 # Thumbworks
 
-Ninety nine games for phones, in Flutter, for Android and iOS. One repository,
+One hundred games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -108,6 +108,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Borrowfen/assets/logo.png" width="64"><br><b><a href="Borrowfen">Borrowfen</a></b></div> | Lend and borrow over the roads until no house in the village owes | Whether a debt can settle is decided by a burning before a move is made, the tidy spreads number exactly the spanning trees, and one short pound can never be got clear |
 | <div align="center"><img src="Chainhurst/assets/logo.png" width="64"><br><b><a href="Chainhurst">Chainhurst</a></b></div> | Set stones on the field and land the asked number of bare chains | Stones not all in one row always show a chain through exactly two, counted by strung lines and by thirds over all 68,080 placings, and four stones only ever show nought, three or six |
 | <div align="center"><img src="Sashmoor/assets/logo.png" width="64"><br><b><a href="Sashmoor">Sashmoor</a></b></div> | Glaze the sash without four panes ever framing a window | Nine panes is the four-by-four's proven limit with every row-pair spent exactly once, and the tenth is barred by finger-counting: ten panes spend eight row-pairs where the sash owns six |
+| <div align="center"><img src="Wickthorn/assets/logo.png" width="64"><br><b><a href="Wickthorn">Wickthorn</a></b></div> | Rope lanterns three at a time until every pair shares exactly one | Seven lanterns close in seven ropes exactly thirty ways, all of them the Fano plane, and six lanterns never close: each would need two and a half ropes |
 
 ## The idea they share
 
@@ -793,6 +794,14 @@ paragraph:
   Pane ships hopeless: ten panes must spend eight row-pairs, the
   sash owns six, and the sweep of 8,008 placings found a window
   in every one.
+- **Wickthorn** is the hundredth game and it ropes the Fano
+  plane: string ropes three lanterns at a time until every pair
+  shares exactly one. The pair ledger cries doublings in rust,
+  the lantern arithmetic divides (n - 1) by two, and the search
+  counts every closing: 30 from a bare seven, one and two from
+  the part-strung greens. The Six Lanterns ships hopeless:
+  fifteen pairs divide into five ropes cleanly, and still every
+  lantern would need to stand in two and a half.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
