@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -129,6 +129,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Coursewell/assets/logo.png" width="64"><br><b><a href="Coursewell">Coursewell</a></b></div> | Brick the yard with dominoes and land the asked count of seams | Domino fault lines counted whole: five by six lays sound exactly six ways, the smallest yard two cells wide both ways that does, and the six-square never lays sound, ten lines wanting twenty crossings where eighteen bricks carry eighteen |
 | <div align="center"><img src="Acreford/assets/logo.png" width="64"><br><b><a href="Acreford">Acreford</a></b></div> | Fence the paddock post by post and read the acres two ways | Pick's theorem held on every paddock there is: the rails' crossing sum agrees with the post count on all 2,274, a bare rim of four posts writes only the even half-acres two through ten, and two acres and a half always drops a post onto a rail |
 | <div align="center"><img src="Peckthorne/assets/logo.png" width="64"><br><b><a href="Peckthorne">Peckthorne</a></b></div> | Flip who pecks whom and crown exactly the asked kings | Tournament kings held over every pecking there is: the busiest pecker is always crowned, a lone king is always an emperor, four chickens never crown all four, and no yard of any size crowns exactly two |
+| <div align="center"><img src="Wantley/assets/logo.png" width="64"><br><b><a href="Wantley">Wantley</a></b></div> | Tread footpaths till every farm gets the count it wished for | Degree sequences settled three ways at once: the sweep of every treading, Erdos and Gallai's arithmetic, and Havel and Hakimi's build agree on every wish list of four and five farms, and an even wish sum still fails where the top wishes overreach |
 
 ## The idea they share
 
@@ -969,6 +970,14 @@ paragraph:
   The Pair of Kings asks exactly two crowns of four
   chickens, which no pecking anywhere grants: it ships
   hopeless.
+- **Wantley** is the degree-sequence law on a village green:
+  the sweep treads every yard of paths, Erdos and Gallai's
+  arithmetic holds the top k wishes under what the rest can
+  spare, and Havel and Hakimi's biggest-wish-first build
+  lands or dies, all three agreeing on every wish list
+  there is. The Three Threes ships hopeless with an even
+  sum: three farms wanting every neighbour hand the last
+  one three paths against its wished one.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
