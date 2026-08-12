@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty two games for phones, in Flutter, for Android and iOS. One repository,
+Eighty three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -91,6 +91,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Tanglemere/assets/logo.png" width="64"><br><b><a href="Tanglemere">Tanglemere</a></b></div> | Weave threads and never close a triangle of your own colour | All 32,768 six-post paintings hold a triangle, the counting argument finds it as code, and the search knows whose the win is |
 | <div align="center"><img src="Mottlemoor/assets/logo.png" width="64"><br><b><a href="Mottlemoor">Mottlemoor</a></b></div> | Meet the herds until the moor wears one colour | The remainders by three and a walk of every herding agree on all 815 small moors, and the famous thirteen-fifteen-seventeen ships dead |
 | <div align="center"><img src="Mousewold/assets/logo.png" width="64"><br><b><a href="Mousewold">Mousewold</a></b></div> | Step the cat along the paths and corner the mouse | The folding rule and a search of every chase agree on all 27,475 small grounds, and the ring fence ships with no corner to fold |
+| <div align="center"><img src="Quirebeck/assets/logo.png" width="64"><br><b><a href="Quirebeck">Quirebeck</a></b></div> | Weave a stack of leaves with the binder's two perfect shuffles | The shortest weaving to any seat is the seat's figure in binary, proved against a walk of every weaving, and one turned pair ships unmendable |
 
 ## The idea they share
 
@@ -642,6 +643,15 @@ paragraph:
   folding in gold on the ground in front of you, and The Ring Fence
   ships labelled hopeless, six posts round and not a corner among
   them.
+- **Quirebeck** is the faro shuffle with its two famous answers
+  carried whole: the shortest weaving that carries the top leaf to
+  any seat is the seat's own figure written in binary, held against
+  a walk of every weaving on every seat of eight leaves and
+  sixteen, and a single turned pair is beyond mending because every
+  weave is an even count of swaps and the walked world of a quire
+  of eight is twenty-four stacks with the mended one missing. The
+  famous pack rides along: out-weaves bring fifty-two cards round
+  in eight.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
