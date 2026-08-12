@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and nineteen games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -128,6 +128,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Matchcote/assets/logo.png" width="64"><br><b><a href="Matchcote">Matchcote</a></b></div> | Pair the players round by round till every pair has met once | Round-robin fixtures counted whole: the six of four players are one schedule worn six ways, the 720 of six are six bare schedules times the orders of their rounds, and five players never fill a single round |
 | <div align="center"><img src="Coursewell/assets/logo.png" width="64"><br><b><a href="Coursewell">Coursewell</a></b></div> | Brick the yard with dominoes and land the asked count of seams | Domino fault lines counted whole: five by six lays sound exactly six ways, the smallest yard two cells wide both ways that does, and the six-square never lays sound, ten lines wanting twenty crossings where eighteen bricks carry eighteen |
 | <div align="center"><img src="Acreford/assets/logo.png" width="64"><br><b><a href="Acreford">Acreford</a></b></div> | Fence the paddock post by post and read the acres two ways | Pick's theorem held on every paddock there is: the rails' crossing sum agrees with the post count on all 2,274, a bare rim of four posts writes only the even half-acres two through ten, and two acres and a half always drops a post onto a rail |
+| <div align="center"><img src="Peckthorne/assets/logo.png" width="64"><br><b><a href="Peckthorne">Peckthorne</a></b></div> | Flip who pecks whom and crown exactly the asked kings | Tournament kings held over every pecking there is: the busiest pecker is always crowned, a lone king is always an emperor, four chickens never crown all four, and no yard of any size crowns exactly two |
 
 ## The idea they share
 
@@ -960,6 +961,14 @@ paragraph:
   gold and mid-rail posts ringed rust. The Even Rim asks two
   acres and a half of a bare four-post rim, whose arithmetic
   writes even counts alone: it ships hopeless.
+- **Peckthorne** is the king chicken theorem in a pecking
+  yard: a king reaches every bird in two pecks at most,
+  crowns are counted by the middleman walk and the squared
+  table both, and the sweeps of all 8, 64 and 1,024 peckings
+  hold Landau's law, the lone-king law and Moon's law whole.
+  The Pair of Kings asks exactly two crowns of four
+  chickens, which no pecking anywhere grants: it ships
+  hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
