@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ten games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eleven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -119,6 +119,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Greetley/assets/logo.png" width="64"><br><b><a href="Greetley">Greetley</a></b></div> | Shake hands on the lawn until the asked number of guests are odd-handed | The handshake lemma at a fete: every shake hands out two, so the odd-handed always pair off, the all-even lawns number a power of two, and one lone hand up is nobody's lawn |
 | <div align="center"><img src="Shelfham/assets/logo.png" width="64"><br><b><a href="Shelfham">Shelfham</a></b></div> | Shelve the books with exactly the asked number of steps down | Euler's numbers on a bookshelf: the rows run 1, 11, 11, 1 and 1, 26, 66, 26, 1, read the same both ways by the reversal, and a fourth step wants a gap no shelf of four owns |
 | <div align="center"><img src="Pursewell/assets/logo.png" width="64"><br><b><a href="Pursewell">Pursewell</a></b></div> | Pay every price in Fibonacci coins with no two neighbouring denominations | Zeckendorf's theorem at the counter: every purse from one to a hundred pays exactly one way, the greedy coin finds it every time, and the second way does not exist to find |
+| <div align="center"><img src="Fanleigh/assets/logo.png" width="64"><br><b><a href="Fanleigh">Fanleigh</a></b></div> | Fold the paddock into pens with hurdles that never cross | Catalan's counts and the two-ears theorem: five and fourteen foldings, no two of the hexagon's wearing the same crown, and every one keeping at least two posts on a single pen |
 
 ## The idea they share
 
@@ -884,6 +885,12 @@ paragraph:
   the Forty-Seven pays with far coins, and The Second Way ships
   hopeless: twelve pays as 8 and 3 and 1, and that is the end
   of it.
+- **Fanleigh** is the triangulated paddock: Catalan counts the
+  foldings, the pen census reads every crown, and the sweep
+  finds no two hexagon foldings sharing one, every crown
+  summing to three pens a fold, and never fewer than two ears.
+  The Zigzag's two foldings are the only three-eared ones. The
+  Earless ships hopeless by the two-ears theorem.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
