@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty three games for phones, in Flutter, for Android and iOS. One repository,
+Eighty four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -92,6 +92,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Mottlemoor/assets/logo.png" width="64"><br><b><a href="Mottlemoor">Mottlemoor</a></b></div> | Meet the herds until the moor wears one colour | The remainders by three and a walk of every herding agree on all 815 small moors, and the famous thirteen-fifteen-seventeen ships dead |
 | <div align="center"><img src="Mousewold/assets/logo.png" width="64"><br><b><a href="Mousewold">Mousewold</a></b></div> | Step the cat along the paths and corner the mouse | The folding rule and a search of every chase agree on all 27,475 small grounds, and the ring fence ships with no corner to fold |
 | <div align="center"><img src="Quirebeck/assets/logo.png" width="64"><br><b><a href="Quirebeck">Quirebeck</a></b></div> | Weave a stack of leaves with the binder's two perfect shuffles | The shortest weaving to any seat is the seat's figure in binary, proved against a walk of every weaving, and one turned pair ships unmendable |
+| <div align="center"><img src="Hurdlecote/assets/logo.png" width="64"><br><b><a href="Hurdlecote">Hurdlecote</a></b></div> | Raise hurdles on the green and pen exactly what the task asks | Pick's crossing count and the shoelace agree on all 18,934 fences swept, and the third acre ships beyond every fence there is |
 
 ## The idea they share
 
@@ -652,6 +653,14 @@ paragraph:
   of eight is twenty-four stacks with the mended one missing. The
   famous pack rides along: out-weaves bring fifty-two cards round
   in eight.
+- **Hurdlecote** is Pick's theorem worked with a sheep fence:
+  acreage is the swallowed crossings plus half the walked ones less
+  one, held against the shoelace's coordinate count on every simple
+  fence of four hurdles or fewer the green holds, 18,934 of them,
+  with the sweep itself pinned against a second enumeration in
+  another language. Every closed fence is told its own numbers, and
+  The Third Acre ships hopeless: twice an acreage is whole, and two
+  thirds is not.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
