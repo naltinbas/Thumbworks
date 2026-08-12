@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eleven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twelve games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -120,6 +120,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Shelfham/assets/logo.png" width="64"><br><b><a href="Shelfham">Shelfham</a></b></div> | Shelve the books with exactly the asked number of steps down | Euler's numbers on a bookshelf: the rows run 1, 11, 11, 1 and 1, 26, 66, 26, 1, read the same both ways by the reversal, and a fourth step wants a gap no shelf of four owns |
 | <div align="center"><img src="Pursewell/assets/logo.png" width="64"><br><b><a href="Pursewell">Pursewell</a></b></div> | Pay every price in Fibonacci coins with no two neighbouring denominations | Zeckendorf's theorem at the counter: every purse from one to a hundred pays exactly one way, the greedy coin finds it every time, and the second way does not exist to find |
 | <div align="center"><img src="Fanleigh/assets/logo.png" width="64"><br><b><a href="Fanleigh">Fanleigh</a></b></div> | Fold the paddock into pens with hurdles that never cross | Catalan's counts and the two-ears theorem: five and fourteen foldings, no two of the hexagon's wearing the same crown, and every one keeping at least two posts on a single pen |
+| <div align="center"><img src="Addlemoor/assets/logo.png" width="64"><br><b><a href="Addlemoor">Addlemoor</a></b></div> | Paint the stones so no stone is the sum of two sharing its paint | Schur's walls exactly where he left them: two paints die at the fifth stone, three at the fourteenth, eighteen paintings survive at thirteen and not one of them stretches a stone further |
 
 ## The idea they share
 
@@ -891,6 +892,13 @@ paragraph:
   summing to three pens a fold, and never fewer than two ears.
   The Zigzag's two foldings are the only three-eared ones. The
   Earless ships hopeless by the two-ears theorem.
+- **Addlemoor** is Schur's problem painted on numbered stones:
+  the census rings every monochrome x plus y equals z, and the
+  pruned sweep stands for every painting there is, finding 288,
+  186 and 18 survivors at eight, eleven and thirteen stones and
+  none at fourteen, with none of the eighteen thirteens taking
+  a fourteenth stone in any paint. The Fourteenth Stone ships
+  hopeless: the wall is sheer.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
