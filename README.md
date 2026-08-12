@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty eight games for phones, in Flutter, for Android and iOS. One repository,
+Eighty nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -97,6 +97,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Leystone/assets/logo.png" width="64"><br><b><a href="Leystone">Leystone</a></b></div> | Raise standing stones with no three on any straight line | The search raises every ring and plain row-counting bars the odd stone, with the offending ley drawn edge to edge at every refusal |
 | <div align="center"><img src="Peckhollow/assets/logo.png" width="64"><br><b><a href="Peckhollow">Peckhollow</a></b></div> | Turn the pecking arrows and crown the kings the task asks | Every yard has a king and none crowns exactly two, swept over all 1,096 yards of three to five birds, and the crowns move as the arrows turn |
 | <div align="center"><img src="Knuckleby/assets/logo.png" width="64"><br><b><a href="Knuckleby">Knuckleby</a></b></div> | Recut blank dice until every throw falls like the standard pair | The sweep of every pair meets the factor-trade to the last pip, Sicherman's bones wait on the bench, and all-even pips never land a three |
+| <div align="center"><img src="Farthingford/assets/logo.png" width="64"><br><b><a href="Farthingford">Farthingford</a></b></div> | Wade the stream by mediants and cross at the ford named | The banks' Ford circles kiss exactly while the crossing number holds at one, and no ford ever runs shallower than the mediant between them |
 
 ## The idea they share
 
@@ -694,6 +695,14 @@ paragraph:
   matching die keeps exactly one ace, the four-and-six bench falls
   alike four ways, and The Even Bones ships hopeless because the
   table asks for a three and two even pips only ever land even.
+- **Farthingford** is the Stern-Brocot walk waded one mediant at a
+  time, with Ford circles resting on the water: two fords' circles
+  kiss exactly when their crossing number is one, checked longhand
+  on all 253 pairs of the stream, and the crossing number holds at
+  one down every wade so the banks' circles never part. Between
+  kissing banks the one shallowest ford is the mediant, which is
+  why The Shallow Ford ships hopeless: a half and two thirds put
+  together already make fifths.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
