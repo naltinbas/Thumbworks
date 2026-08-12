@@ -1,6 +1,6 @@
 # Thumbworks
 
-Seventy nine games for phones, in Flutter, for Android and iOS. One repository,
+Eighty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -88,6 +88,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Boardleigh/assets/logo.png" width="64"><br><b><a href="Boardleigh">Boardleigh</a></b></div> | Lay two-cell planks until the whole room is floored | A count of every laying meets the staircase rule on the strips, and the clipped parlour ships unfloorable by its colours |
 | <div align="center"><img src="Ferrydale/assets/logo.png" width="64"><br><b><a href="Ferrydale">Ferrydale</a></b></div> | Row everyone across without leaving the wrong company ashore | A walk of every arrangement gives the famous crossings, and the four-and-four ferry never fills its far bank |
 | <div align="center"><img src="Pegbourne/assets/logo.png" width="64"><br><b><a href="Pegbourne">Pegbourne</a></b></div> | Set the four pegs the way every marked guess allows | All 256 codes are swept against every riddle, the rows judge your code live, and the liar's riddle fits none |
+| <div align="center"><img src="Tanglemere/assets/logo.png" width="64"><br><b><a href="Tanglemere">Tanglemere</a></b></div> | Weave threads and never close a triangle of your own colour | All 32,768 six-post paintings hold a triangle, the counting argument finds it as code, and the search knows whose the win is |
 
 ## The idea they share
 
@@ -617,6 +618,13 @@ paragraph:
   each riddle's answers; The Two Minds honestly holds two, and The
   Liar's Riddle none, three red pegs and three green unable to share
   four slots, the irreconcilable pair found by the checker.
+- **Tanglemere** is the game of Sim with Ramsey theory run in full:
+  all 32,768 six-post paintings hold a one-colour triangle, the
+  pigeonhole argument finds it on any of them as executable code,
+  and five posts keep exactly twelve safe webs, every one two rings.
+  A full search of every weave reads the standings, second seat
+  winning the six posts, and The First Thread ships lost before it
+  is woven, the house sitting in the winning chair.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
