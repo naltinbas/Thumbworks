@@ -28,7 +28,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Fairhold Tilthway Wickfield Shuntley Bannford \
          Bridgeholm Riddlecombe Spindlewood Ringmarsh Shadewell \
          Pailsworth Charmstead Hirebeck Skittlemere Notchfield \
-         Boardleigh Ferrydale Pegbourne Tanglemere
+         Boardleigh Ferrydale Pegbourne Tanglemere Mottlemoor
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

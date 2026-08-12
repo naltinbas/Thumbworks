@@ -1,6 +1,6 @@
 # Thumbworks
 
-Eighty games for phones, in Flutter, for Android and iOS. One repository,
+Eighty one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -89,6 +89,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Ferrydale/assets/logo.png" width="64"><br><b><a href="Ferrydale">Ferrydale</a></b></div> | Row everyone across without leaving the wrong company ashore | A walk of every arrangement gives the famous crossings, and the four-and-four ferry never fills its far bank |
 | <div align="center"><img src="Pegbourne/assets/logo.png" width="64"><br><b><a href="Pegbourne">Pegbourne</a></b></div> | Set the four pegs the way every marked guess allows | All 256 codes are swept against every riddle, the rows judge your code live, and the liar's riddle fits none |
 | <div align="center"><img src="Tanglemere/assets/logo.png" width="64"><br><b><a href="Tanglemere">Tanglemere</a></b></div> | Weave threads and never close a triangle of your own colour | All 32,768 six-post paintings hold a triangle, the counting argument finds it as code, and the search knows whose the win is |
+| <div align="center"><img src="Mottlemoor/assets/logo.png" width="64"><br><b><a href="Mottlemoor">Mottlemoor</a></b></div> | Meet the herds until the moor wears one colour | The remainders by three and a walk of every herding agree on all 815 small moors, and the famous thirteen-fifteen-seventeen ships dead |
 
 ## The idea they share
 
@@ -625,6 +626,14 @@ paragraph:
   A full search of every weave reads the standings, second seat
   winning the six posts, and The First Thread ships lost before it
   is woven, the house sitting in the winning chair.
+- **Mottlemoor** is the chameleons puzzle with its invariant earned:
+  a meeting moves every herd difference by nought or three, so a
+  moor settles only where two herds share a remainder, and a walk of
+  every herding agrees across all 815 small moors before anything
+  ships. The Famous Herd is the classic thirteen, fifteen and
+  seventeen, dead on its label with the walk of every herding of
+  forty five behind it, and The Little Mismatch is the same refusal
+  at pocket size.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
