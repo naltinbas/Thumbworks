@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -111,6 +111,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wickthorn/assets/logo.png" width="64"><br><b><a href="Wickthorn">Wickthorn</a></b></div> | Rope lanterns three at a time until every pair shares exactly one | Seven lanterns close in seven ropes exactly thirty ways, all of them the Fano plane, and six lanterns never close: each would need two and a half ropes |
 | <div align="center"><img src="Stackholt/assets/logo.png" width="64"><br><b><a href="Stackholt">Stackholt</a></b></div> | Spin and tip the painted boxes until every wall shows every paint once | The old four-box puzzle counted honest: 24 settlings wearing down to three, five fair picks pairing into three pencil factorings, and a red stack doomed by thirteen faces where a stack carries twelve |
 | <div align="center"><img src="Brackenside/assets/logo.png" width="64"><br><b><a href="Brackenside">Brackenside</a></b></div> | Plant the hillside and land the asked number of three-plant patches | Sperner's lemma with the rim showing: one bracken-gorse edge on the boundary forces every patch count odd, swept over all 759 plantings, and one planting in 729 shows eleven |
+| <div align="center"><img src="Tetherdown/assets/logo.png" width="64"><br><b><a href="Tetherdown">Tetherdown</a></b></div> | Rope the posts and knot no triangle | Mantel's fence line at a quarter of the square, matched by pasture arithmetic on every down, with every fullest tethering splitting into two pastures and the seventh rope on five posts knotting all 120 ways |
 
 ## The idea they share
 
@@ -819,6 +820,14 @@ paragraph:
   with never an even step. The Eleven is the needle: one
   planting in 729. The Even Hill ships hopeless: it asks for
   two.
+- **Tetherdown** is Mantel's theorem tied post to post: the
+  census reads every knotted triangle off the down, the pasture
+  arithmetic sets the fence line, a quarter of the square of the
+  posts, and the sweep confirms the counts, the line and the
+  shape: every fullest tethering splits into two pastures with
+  every crossing roped. The Seventh Rope ships hopeless: five
+  posts carry six, and the sweep found a triangle in all 120
+  tetherings of seven.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
