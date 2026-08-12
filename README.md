@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fourteen games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifteen games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -123,6 +123,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Addlemoor/assets/logo.png" width="64"><br><b><a href="Addlemoor">Addlemoor</a></b></div> | Paint the stones so no stone is the sum of two sharing its paint | Schur's walls exactly where he left them: two paints die at the fifth stone, three at the fourteenth, eighteen paintings survive at thirteen and not one of them stretches a stone further |
 | <div align="center"><img src="Marklow/assets/logo.png" width="64"><br><b><a href="Marklow">Marklow</a></b></div> | Number the posts so the lines wear every gap once, one up to the count of lines | Graceful numberings counted whole: four for the path of four, twelve for the star, sixteen for the square, the mirror of a graceful numbering always graceful, and the five-ring barred by parity, asking an odd sum where every ring pays even |
 | <div align="center"><img src="Hamperfen/assets/logo.png" width="64"><br><b><a href="Hamperfen">Hamperfen</a></b></div> | Take baskets from the hamper so no basket swallows another | Sperner's antichain over sixteen baskets: the middle shelf of six is the one and only six, every five is that shelf less a basket, and the LYM twelfths spend the dozen whole exactly when a shelf is taken entire |
+| <div align="center"><img src="Beamsworth/assets/logo.png" width="64"><br><b><a href="Beamsworth">Beamsworth</a></b></div> | Hang weights whose parcels all read different on the beam | Distinct subset sums on a rack of twelve: two hundred and six clean threes narrow to a single clean six, and any seven weights hang a hundred and twenty-seven parcels on readings that stop at a hundred and twenty-five |
 
 ## The idea they share
 
@@ -916,6 +917,14 @@ paragraph:
   exactly twelve just when a shelf is taken whole. The
   Seventh Basket ships hopeless: it asks fourteen twelfths
   of twelve.
+- **Beamsworth** is the distinct-subset-sums puzzle hung on a
+  balance beam: the beam accuses any two parcels reading
+  alike, shared weights stripped before the weighing, the
+  sweep counts 206, 331, 142 and one lone clean pick at
+  three, four, five and six weights, and a seventh weight is
+  barred by pigeonhole, a hundred and twenty-seven parcels
+  against readings that stop at a hundred and twenty-five.
+  The Seventh Weight ships hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
