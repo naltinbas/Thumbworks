@@ -30,7 +30,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Pailsworth Charmstead Hirebeck Skittlemere Notchfield \
          Boardleigh Ferrydale Pegbourne Tanglemere Mottlemoor Mousewold \
          Quirebeck Hurdlecote Marrowden Leystone Peckhollow \
-         Knuckleby Farthingford Tussockmere
+         Knuckleby Farthingford Tussockmere Beadlow
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
