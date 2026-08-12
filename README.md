@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and nine games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ten games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -118,6 +118,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Pigeonwick/assets/logo.png" width="64"><br><b><a href="Pigeonwick">Pigeonwick</a></b></div> | Post every letter to the wrong pigeonhole | Derangements counted three ways that never part, sweep, recurrence and the figure by e: 2, 9 and 44, with exactly three home of four nobody's round since the fourth would hold only its own hole |
 | <div align="center"><img src="Greetley/assets/logo.png" width="64"><br><b><a href="Greetley">Greetley</a></b></div> | Shake hands on the lawn until the asked number of guests are odd-handed | The handshake lemma at a fete: every shake hands out two, so the odd-handed always pair off, the all-even lawns number a power of two, and one lone hand up is nobody's lawn |
 | <div align="center"><img src="Shelfham/assets/logo.png" width="64"><br><b><a href="Shelfham">Shelfham</a></b></div> | Shelve the books with exactly the asked number of steps down | Euler's numbers on a bookshelf: the rows run 1, 11, 11, 1 and 1, 26, 66, 26, 1, read the same both ways by the reversal, and a fourth step wants a gap no shelf of four owns |
+| <div align="center"><img src="Pursewell/assets/logo.png" width="64"><br><b><a href="Pursewell">Pursewell</a></b></div> | Pay every price in Fibonacci coins with no two neighbouring denominations | Zeckendorf's theorem at the counter: every purse from one to a hundred pays exactly one way, the greedy coin finds it every time, and the second way does not exist to find |
 
 ## The idea they share
 
@@ -876,6 +877,13 @@ paragraph:
   is why the rows read the same both ways. The Stair Down has
   exactly one answer. The Fourth Step ships hopeless: four
   steps want four gaps and four books own three.
+- **Pursewell** is Zeckendorf's theorem counted twice: the
+  sweep tries every lawful handful for every purse to a hundred
+  and finds exactly one payment each, and the greedy walk lands
+  on the same coins largest first. The Thirty teaches the trap,
+  the Forty-Seven pays with far coins, and The Second Way ships
+  hopeless: twelve pays as 8 and 3 and 1, and that is the end
+  of it.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
