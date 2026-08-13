@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-three games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -132,6 +132,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wantley/assets/logo.png" width="64"><br><b><a href="Wantley">Wantley</a></b></div> | Tread footpaths till every farm gets the count it wished for | Degree sequences settled three ways at once: the sweep of every treading, Erdos and Gallai's arithmetic, and Havel and Hakimi's build agree on every wish list of four and five farms, and an even wish sum still fails where the top wishes overreach |
 | <div align="center"><img src="Squarholt/assets/logo.png" width="64"><br><b><a href="Squarholt">Squarholt</a></b></div> | Grow two square tiles until they pay the hoard exactly | Fermat's two squares dialled whole: every prime one past a four-times under a hundred writes once, sixty-five writes twice by Brahmagupta's identity one sign each, and three past a four-times never writes at all |
 | <div align="center"><img src="Thrissleton/assets/logo.png" width="64"><br><b><a href="Thrissleton">Thrissleton</a></b></div> | Dial five stones and land the asked count of thirds | Erdos, Ginzburg and Ziv on one hand of stones: the count of triples summing to a three-times lands only on one, four or ten across all 7,776 hands, ten exactly when one remainder rules, and never on nought |
+| <div align="center"><img src="Daisyholme/assets/logo.png" width="64"><br><b><a href="Daisyholme">Daisyholme</a></b></div> | Befriend the circle till every pair shares exactly one friend | The friendship theorem wired whole: every landing is a daisy with somebody at its heart, the count is hearts times pairings on every crowd, and an even crowd never manages it, since anyone's friends pair off around them |
 
 ## The idea they share
 
@@ -996,6 +997,15 @@ paragraph:
   or ten, the ten exactly where one remainder rules. The
   Empty Hand asks nought thirds, which no hand anywhere
   carries: it ships hopeless.
+- **Daisyholme** is the friendship theorem on a village
+  circle: the census counts every pair's common friends, the
+  daisy count multiplies hearts by pairings with no
+  searching, the sweeps run to all 2,097,152 wirings of
+  seven, and the pairing lemma is executed on every landing,
+  each person's friends pairing off around them. The Even
+  Crowd ships hopeless: pairing off means even friend
+  counts, and four people leave only the ring, where
+  neighbours share nobody.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
