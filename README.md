@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -131,6 +131,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Peckthorne/assets/logo.png" width="64"><br><b><a href="Peckthorne">Peckthorne</a></b></div> | Flip who pecks whom and crown exactly the asked kings | Tournament kings held over every pecking there is: the busiest pecker is always crowned, a lone king is always an emperor, four chickens never crown all four, and no yard of any size crowns exactly two |
 | <div align="center"><img src="Wantley/assets/logo.png" width="64"><br><b><a href="Wantley">Wantley</a></b></div> | Tread footpaths till every farm gets the count it wished for | Degree sequences settled three ways at once: the sweep of every treading, Erdos and Gallai's arithmetic, and Havel and Hakimi's build agree on every wish list of four and five farms, and an even wish sum still fails where the top wishes overreach |
 | <div align="center"><img src="Squarholt/assets/logo.png" width="64"><br><b><a href="Squarholt">Squarholt</a></b></div> | Grow two square tiles until they pay the hoard exactly | Fermat's two squares dialled whole: every prime one past a four-times under a hundred writes once, sixty-five writes twice by Brahmagupta's identity one sign each, and three past a four-times never writes at all |
+| <div align="center"><img src="Thrissleton/assets/logo.png" width="64"><br><b><a href="Thrissleton">Thrissleton</a></b></div> | Dial five stones and land the asked count of thirds | Erdos, Ginzburg and Ziv on one hand of stones: the count of triples summing to a three-times lands only on one, four or ten across all 7,776 hands, ten exactly when one remainder rules, and never on nought |
 
 ## The idea they share
 
@@ -987,6 +988,14 @@ paragraph:
   from their factors, one per sign. The Forty-Three ships
   hopeless: it sits three past a four-times, out of every
   reach.
+- **Thrissleton** is the Erdos-Ginzburg-Ziv law dialled on
+  five stones: the census sums every triple face by face,
+  the two-case reading sorts the stones by remainder, a
+  remainder shown thrice or all three shown at once, and
+  the sweep of all 7,776 hands holds the count to one, four
+  or ten, the ten exactly where one remainder rules. The
+  Empty Hand asks nought thirds, which no hand anywhere
+  carries: it ships hopeless.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
