@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -130,6 +130,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Acreford/assets/logo.png" width="64"><br><b><a href="Acreford">Acreford</a></b></div> | Fence the paddock post by post and read the acres two ways | Pick's theorem held on every paddock there is: the rails' crossing sum agrees with the post count on all 2,274, a bare rim of four posts writes only the even half-acres two through ten, and two acres and a half always drops a post onto a rail |
 | <div align="center"><img src="Peckthorne/assets/logo.png" width="64"><br><b><a href="Peckthorne">Peckthorne</a></b></div> | Flip who pecks whom and crown exactly the asked kings | Tournament kings held over every pecking there is: the busiest pecker is always crowned, a lone king is always an emperor, four chickens never crown all four, and no yard of any size crowns exactly two |
 | <div align="center"><img src="Wantley/assets/logo.png" width="64"><br><b><a href="Wantley">Wantley</a></b></div> | Tread footpaths till every farm gets the count it wished for | Degree sequences settled three ways at once: the sweep of every treading, Erdos and Gallai's arithmetic, and Havel and Hakimi's build agree on every wish list of four and five farms, and an even wish sum still fails where the top wishes overreach |
+| <div align="center"><img src="Squarholt/assets/logo.png" width="64"><br><b><a href="Squarholt">Squarholt</a></b></div> | Grow two square tiles until they pay the hoard exactly | Fermat's two squares dialled whole: every prime one past a four-times under a hundred writes once, sixty-five writes twice by Brahmagupta's identity one sign each, and three past a four-times never writes at all |
 
 ## The idea they share
 
@@ -978,6 +979,14 @@ paragraph:
   there is. The Three Threes ships hopeless with an even
   sum: three farms wanting every neighbour hand the last
   one three paths against its wished one.
+- **Squarholt** is Fermat's two-squares law on a pair of
+  dials: the sweep writes every hoard the tiles reach, the
+  remainder reads with no searching at all, squares paying
+  nought or one past a four-times, and Brahmagupta's
+  identity builds both writings of fifty and of sixty-five
+  from their factors, one per sign. The Forty-Three ships
+  hopeless: it sits three past a four-times, out of every
+  reach.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
