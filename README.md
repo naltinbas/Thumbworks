@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -134,6 +134,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Thrissleton/assets/logo.png" width="64"><br><b><a href="Thrissleton">Thrissleton</a></b></div> | Dial five stones and land the asked count of thirds | Erdos, Ginzburg and Ziv on one hand of stones: the count of triples summing to a three-times lands only on one, four or ten across all 7,776 hands, ten exactly when one remainder rules, and never on nought |
 | <div align="center"><img src="Daisyholme/assets/logo.png" width="64"><br><b><a href="Daisyholme">Daisyholme</a></b></div> | Befriend the circle till every pair shares exactly one friend | The friendship theorem wired whole: every landing is a daisy with somebody at its heart, the count is hearts times pairings on every crowd, and an even crowd never manages it, since anyone's friends pair off around them |
 | <div align="center"><img src="Inkfen/assets/logo.png" width="64"><br><b><a href="Inkfen">Inkfen</a></b></div> | Ink the bunting so no two strings share a post in one ink | Edge colouring on the washing lines: paths and even rings take two inks two ways each, the full four takes exactly the six orders of its three matchings, and the odd ring refuses two inks outright, its alternation coming home wrong |
+| <div align="center"><img src="Rackenford/assets/logo.png" width="64"><br><b><a href="Rackenford">Rackenford</a></b></div> | Rack the jars so no rack holds a jar and its divisor | Mirsky's law in a jam pantry: the racks you need are exactly the longest divisor chain, the height racking lands with no searching, and the dozen fits four racks but never three, its chain of one, two, four, eight taking one rack apiece |
 
 ## The idea they share
 
@@ -1015,6 +1016,14 @@ paragraph:
   string of the odd ring hands the rest back to two inks.
   The Odd Ring ships hopeless: two inks can only alternate,
   and five comes home wrong.
+- **Rackenford** is Mirsky's theorem racked with jam jars:
+  the quarrel census links same-rack divisors rust, the
+  height racking builds a landing with no searching, every
+  jar on the rack of its longest chain, and the pruned sweep
+  counts 12, 864, 2,304 and 1,728 clean rackings with none
+  at all one rack down. The Dozen on Three ships hopeless:
+  one, two, four and eight are a chain of four, and a chain
+  never shares a rack.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
