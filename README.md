@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-nine games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -148,6 +148,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Evenholt/assets/logo.png" width="64"><br><b><a href="Evenholt">Evenholt</a></b></div> | Share the tokens two trays even in sums, squares and cubes | Prouhet's doubling pattern held to the sweep of every half-and-half share: the one share of eight that squares and the one of sixteen that cubes are both his, sums agree 1, 4, 29 and 263 ways and his polynomial divides by one less x exactly one time more than the powers that agree, while The Four Squared ships hopeless because the three pairings square to 17 and 13 |
 | <div align="center"><img src="Frogmere/assets/logo.png" width="64"><br><b><a href="Frogmere">Frogmere</a></b></div> | Leap frogs above the reeds, solitaire-wise | Conway's soldiers with the golden ratio done exactly: every road to the first four reaches counted, 1, 1, 8 and 369,106,018 of them, the four landing armies weighing exactly one so every road spends every frog, and The Fifth Reach ships hopeless because the whole pond below the reeds weighs exactly one against it while a frog on the aim weighs one alone |
 | <div align="center"><img src="Setwick/assets/logo.png" width="64"><br><b><a href="Setwick">Setwick</a></b></div> | Pair the dancers off so every pair comes to one over the caller | Wilson's theorem as a set dance: every pairing of every set swept, 3 and 105 and 945 and 135,135 of them, exactly one landing for each prime caller and it is Bezout's pair for pair, the whole set multiplied coming to one less than the caller for every prime to thirty, and The Set of Nine ships hopeless because dancers 3 and 6 come to one with nobody |
+| <div align="center"><img src="Sweetleigh/assets/logo.png" width="64"><br><b><a href="Sweetleigh">Sweetleigh</a></b></div> | Cut the sweet string in few places and share the pieces fair | Necklace splitting swept whole: two kinds share with two cuts on all 70 strings of four and four and all 924 of six and six, the sliding window built for each, three kinds with three cuts on all 90 strings of two, two and two, and The Single Cut ships hopeless because reds-then-blues holds all four reds in any first piece with two blues |
 
 ## The idea they share
 
@@ -1150,6 +1151,17 @@ paragraph:
   Set of Nine ships hopeless because dancers 3 and 6 share a
   factor with the caller and come to one with nobody, and each
   thread wears its product.
+- **Sweetleigh** is necklace splitting: sweets on a string, an
+  even count of every kind, cut in few places and the pieces handed
+  to two children in turn, fair when each holds half of every kind.
+  Every set of cuts of every string is swept: two kinds share with
+  two cuts on all 70 strings of four and four and all 924 of six and
+  six, the sliding window built for each, 36 and 400 of them sharing
+  with one cut; three kinds share with three cuts on all 90 strings
+  of two, two and two, 12 of them needing all three. The Single Cut
+  ships hopeless because reds-then-blues holds all four reds in any
+  first piece with two blues, and the blade is drawn across the
+  string.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
