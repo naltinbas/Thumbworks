@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// The fewest moves each pegging has ever been set in, kept
+/// The fewest moves each slate has ever been played out in, kept
 /// on the phone.
 class Best {
   static SharedPreferences? _kept;
@@ -9,7 +9,7 @@ class Best {
     _kept ??= await SharedPreferences.getInstance();
   }
 
-  static String _key(String name) => 'evenmoor.fewest.$name';
+  static String _key(String name) => 'slateford.fewest.$name';
 
   static int? fewest(String name) => _kept?.getInt(_key(name));
 
