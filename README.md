@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -174,6 +174,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Capwick/assets/logo.png" width="64"><br><b><a href="Capwick">Capwick</a></b></div> | Call the colour of your own cap from what you see ahead and hear behind, and save all but the first man | The hat-line parity plan: the man at the back calls the parity of the black caps ahead and every man after him counts, so all but the first are saved whatever the caps, the plan run down every deal of every line to eight men; the first can never be saved by any plan, every plan of his counted for lines to five and each right on exactly half the deals, and The Five Saved ships hopeless because a warden caps the first man against his word |
 | <div align="center"><img src="Rowsden/assets/logo.png" width="64"><br><b><a href="Rowsden">Rowsden</a></b></div> | Walk the nine schoolgirls out in rows of three, day after day, so every pair walks together once | Kirkman's schoolgirls at nine, the smallest such school: each girl meets two a day and has eight to meet, so the week is four days and no fewer, and four days do it by rows, columns and the two slants of the three-by-three, the affine plane of order three; every filling of every week is swept, 72 whole weeks following the first day, and The Three Days ships hopeless because three days walk 27 pairs at the most |
 | <div align="center"><img src="Cubewick/assets/logo.png" width="64"><br><b><a href="Cubewick">Cubewick</a></b></div> | Tile a hexagon on the triangular grid with lozenges, and see the cubes stacked in a box | MacMahon's lozenge tilings: shade the three leans and every tiling of the hexagon of sides a, b and c is a stack of cubes in an a by b by c box, counted by the product over the box of (i + j + k - 1) over (i + j + k - 2), 2, 6, 20, 175, 980 and 232,848 for the four-box, every tiling swept and every stack walked; The Chipped Box ships hopeless because a lozenge covers one up triangle and one down, and the chipped box has ten and twelve |
+| <div align="center"><img src="Weighwick/assets/logo.png" width="64"><br><b><a href="Weighwick">Weighwick</a></b></div> | Balance a load on a market scale with the weights 1, 3, 9 and 27 on either pan | Bachet's weights: every whole load from one to forty balances with 1, 3, 9 and 27 placed across, beside or off, each in exactly one way, since counting in threes with the digits 1, 0 and -1 writes each number one way; all 81 placings swept and they weigh 81 different amounts, -40 to 40, and the counting names the same placing for every load; The Ten Without the One ships hopeless because the 3, 9 and 27 weigh multiples of three however they stand |
 
 ## The idea they share
 
@@ -1506,6 +1507,19 @@ paragraph:
   one up triangle and one down, and with two ups chipped out the box
   has ten and twelve, every laying that covers the ten leaving two of
   the twelve bare, all 172 tried.
+- **Weighwick** is Bachet's weights: a market scale, a load in a sack
+  on the left pan, and four weights to balance it with, 1, 3, 9 and 27,
+  each of which may go on the pan across from the load, on the pan
+  beside it, or stay on the ground. Bachet set the puzzle in 1612: with
+  those four, every whole load from one to forty balances, and each in
+  exactly one way, since counting in threes with the digits 1, 0 and -1
+  writes every number to forty one way in ones, threes, nines and
+  twenty-sevens, a digit of 1 putting the weight across, -1 beside the
+  load, 0 off. Every placing of the four is swept, 81 of them, and they
+  weigh 81 different amounts, -40 to 40, and the counting names the
+  same placing the sweep finds for every load. The Ten Without the One
+  ships hopeless because the 3, the 9 and the 27 weigh multiples of
+  three however they stand, and ten is not one.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
