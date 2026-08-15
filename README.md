@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -141,6 +141,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Dealstone/assets/logo.png" width="64"><br><b><a href="Dealstone">Dealstone</a></b></div> | Pile stones and deal one from every pile into a new one | Bulgarian solitaire under Brandt's theorem: every hand of a triangular count walks to the staircase and stays, only staircases stand still, the sweep deals all 11, 22 and 42 hands of six, eight and ten, and The Eight Standstill ships hopeless because no stair holds eight |
 | <div align="center"><img src="Starholme/assets/logo.png" width="64"><br><b><a href="Starholme">Starholme</a></b></div> | Walk closed rounds along the lanes of Petersen's star | Petersen's graph counted whole: twelve pentagons, ten hexagons, fifteen eights and twenty nines, never a seven-round, and The Full Round ships hopeless because all ten posts walk as an open trail and the closing lane never exists |
 | <div align="center"><img src="Clinkfield/assets/logo.png" width="64"><br><b><a href="Clinkfield">Clinkfield</a></b></div> | Clink glasses round the feast till the counts stand as asked | The pigeonhole law on clinking: the counts can never all differ, since the wallflower who clinked nobody cannot share a feast with the toast of the table who clinked everyone, swept over all 64 feasts of four and 1,024 of five, and The All Different ships hopeless |
+| <div align="center"><img src="Oddrow/assets/logo.png" width="64"><br><b><a href="Oddrow">Oddrow</a></b></div> | Wind Pascal's wall to a row holding the odd numbers asked | Lucas' law on Pascal's triangle: an entry is odd exactly when its place's bits fit the row's, so the odd count doubles per lit bit and is a power of two always, three voices agreeing on rows nought to fifteen, and The Three Odds ships hopeless |
 
 ## The idea they share
 
@@ -1079,6 +1080,14 @@ paragraph:
   counts is the ceiling at five guests, and The All Different ships
   hopeless because the guest who clinked nobody cannot sit with the
   one who clinked everyone.
+- **Oddrow** is Lucas' law on Pascal's wall: wind to a row and count
+  its odd numbers, Pascal's addition, the bit rule and the doubling
+  agreeing on every row from nought to fifteen, the lit rows drawing
+  Sierpinski's lace by themselves. Two-odd rows are one, two, four
+  and eight, six rows hold four odds and four hold eight, row
+  fifteen alone lights everything, and The Three Odds ships hopeless
+  because the count doubles per lit bit and three is no power of
+  two.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
