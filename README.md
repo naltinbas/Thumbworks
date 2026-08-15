@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -176,6 +176,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Cubewick/assets/logo.png" width="64"><br><b><a href="Cubewick">Cubewick</a></b></div> | Tile a hexagon on the triangular grid with lozenges, and see the cubes stacked in a box | MacMahon's lozenge tilings: shade the three leans and every tiling of the hexagon of sides a, b and c is a stack of cubes in an a by b by c box, counted by the product over the box of (i + j + k - 1) over (i + j + k - 2), 2, 6, 20, 175, 980 and 232,848 for the four-box, every tiling swept and every stack walked; The Chipped Box ships hopeless because a lozenge covers one up triangle and one down, and the chipped box has ten and twelve |
 | <div align="center"><img src="Weighwick/assets/logo.png" width="64"><br><b><a href="Weighwick">Weighwick</a></b></div> | Balance a load on a market scale with the weights 1, 3, 9 and 27 on either pan | Bachet's weights: every whole load from one to forty balances with 1, 3, 9 and 27 placed across, beside or off, each in exactly one way, since counting in threes with the digits 1, 0 and -1 writes each number one way; all 81 placings swept and they weigh 81 different amounts, -40 to 40, and the counting names the same placing for every load; The Ten Without the One ships hopeless because the 3, 9 and 27 weigh multiples of three however they stand |
 | <div align="center"><img src="Cloakwell/assets/logo.png" width="64"><br><b><a href="Cloakwell">Cloakwell</a></b></div> | Sort numbered coats on a row of hooks by swapping neighbours, in the fewest swaps | Inversions: the fewest swaps of neighbours that sort a row is exactly the count of pairs out of order, since a swap mends or breaks the one pair it touches and no other; every row of up to six coats, 873 of them, searched nearest-first and the count is the fewest every time, every sequence of swaps swept for every rail, and the sign of a row by its cycles is the parity of the count; The Five Swaps ships hopeless because six pairs hang askew and one swap mends one pair at the most |
+| <div align="center"><img src="Fusewick/assets/logo.png" width="64"><br><b><a href="Fusewick">Fusewick</a></b></div> | Light uneven hour-long fuses at their ends and strike a given minute | The burning-fuse puzzle: a fuse burns an hour from end to end but unevenly, so only the whole can be trusted, an hour lit at one end and half an hour lit at both, and ends may be lit only at the start or at a burnout; every plan of one, two and three fuses is swept in quarter-minutes, two fuses strike only 30, 45, 60, 90 and 120, three add 52 and a half, 67 and a half, 75, 105, 150 and 180, and every show-me plan is played through the game to the minute; The Twenty ships hopeless because nothing burns out before thirty |
 
 ## The idea they share
 
@@ -1534,6 +1535,20 @@ paragraph:
   checked to move the count by exactly one. The Five Swaps ships
   hopeless because six pairs hang askew, one swap mends one pair at the
   most, and the count's parity flips with every swap.
+- **Fusewick** is the burning-fuse puzzle: fuses that burn an hour from
+  end to end, but unevenly, so nothing along a fuse can be trusted but
+  the whole, an hour lit at one end and half an hour lit at both; you
+  may light an end at the start or at the moment a fuse burns out, and
+  nothing in between, and the game asks for a burnout at a given
+  minute. Every plan of lighting one, two and three fuses is swept in
+  quarter-minutes, and the times they strike are read off every plan:
+  one fuse strikes thirty and sixty and nothing else, two strike 30,
+  45, 60, 90 and 120, nineteen plans in all, and three add 52 and a
+  half, 67 and a half, 75, 105, 150 and 180, 231 plans; the show-me's
+  plan is found by a separate walk and played through the game itself
+  for every time that ships. The Twenty ships hopeless because nothing
+  burns out before thirty, and every burnout after is a whole or a half
+  of what some fuse had left.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
