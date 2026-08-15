@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -159,6 +159,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Steedwick/assets/logo.png" width="64"><br><b><a href="Steedwick">Steedwick</a></b></div> | Ride the four steeds round the nine stalls as a knight moves, and swap the pale for the dark | Guarini's 1512 knight-swap puzzle on the three-by-three paddock, every standing ridden to from home, 280 of the 1,680, and they are exactly the standings that keep home's order round the ring of outer stalls, since a knight's moves there run round in one ring and steeds on a ring cannot pass: the colour swap takes sixteen moves and comes out one way only, sixteen being as far as any standing lies, and The Pale Swap ships hopeless because the two pale steeds can never change places round the ring |
 | <div align="center"><img src="Foldwick/assets/logo.png" width="64"><br><b><a href="Foldwick">Foldwick</a></b></div> | Pass the sheep and the goats to the other ends of the plank, a step or a jump at a time | Lucas's sheep-and-goats crossing of 1883 walked whole, no beast ever going back: with m sheep and n goats the crossing takes m times n plus m plus n moves and exactly that however it is done, one and one in 3, two and two in 8, three and two in 11, three and three in 15, two crossings apiece and mirrors of one another, every crossing taking the sheep times the goats jumps and the sheep plus the goats steps, and The Steps Alone ships hopeless because without a jump the order along the plank never changes and the fold is stuck in two moves |
 | <div align="center"><img src="Stillmere/assets/logo.png" width="64"><br><b><a href="Stillmere">Stillmere</a></b></div> | Light exactly so many lanterns on the mere so that Conway's rule leaves the picture still | Still lifes in Conway's Game of Life swept whole on the mere and the rule run on the whole plane: four lanterns lie still 25 ways in two shapes, sixteen blocks and nine tubs, five 36 ways in the boat's four turnings, six 94 ways in fourteen shapes and seven 76 ways in twenty, and The Three Lights ships hopeless because every light needs two lit neighbours, so three sit in one corner of a square, and the fourth corner has three lit neighbours and lights |
+| <div align="center"><img src="Midford/assets/logo.png" width="64"><br><b><a href="Midford">Midford</a></b></div> | Set four pegs so that the figure joining the midpoints of their cords is a rectangle, a rhombus or a square | Varignon's parallelogram of 1731 swept over every ordered four of pegs on the board, 303,600 of them, the midpoint figure read two ways, off its own corners and off the diagonals: a parallelogram every time, a rectangle 27,952 times, a rhombus 18,384, a square 11,248, flat 27,872, since each side of the midpoint figure is half a diagonal of the four, and The Skew ships hopeless because the midpoint figure is never skew |
 
 ## The idea they share
 
@@ -1283,6 +1284,18 @@ paragraph:
   light needs two lit neighbours, so the three sit in one corner of a
   square, and the fourth corner has three lit neighbours and lights,
   the 64 such lightings swept.
+- **Midford** is Varignon's parallelogram of 1731: four pegs set in
+  order, a cord run from each to the next and back to the first, and
+  the midpoints of the four cords joined in their turn, which is a
+  parallelogram whatever four pegs you set, since the cord from the
+  first midpoint to the second is half the diagonal from the first
+  peg to the third and so is the cord across from it. Every ordered
+  four of pegs on the board is swept, 303,600 of them, the midpoint
+  figure read two ways, off its own corners and off the diagonals: a
+  parallelogram every time, a rectangle 27,952 times, exactly when
+  the diagonals cross square, a rhombus 18,384, exactly when they are
+  of a length, a square 11,248 and flat 27,872. The Skew ships
+  hopeless because the midpoint figure is never skew.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
