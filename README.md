@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -164,6 +164,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Evenmoor/assets/logo.png" width="64"><br><b><a href="Evenmoor">Evenmoor</a></b></div> | Set pegs on a five-by-five moor so that the halfway posts between them land on holes, or keep off them | The pigeonhole in its plainest clothes: halfway between two whole numbers is whole only when both are even or both odd, so a hole is one of four kinds and two pegs of a kind always land their post; every placing of three, four and five pegs is swept, 2,300, 12,650 and 53,130, and every post read two ways, four pegs keeping every post off 1,296 ways, one to a kind, five pegs landing one post 13,608 ways and all ten 138, and The Five Apart ships hopeless because four kinds cannot hold five pegs one apiece |
 | <div align="center"><img src="Slateford/assets/logo.png" width="64"><br><b><a href="Slateford">Slateford</a></b></div> | Play noughts and crosses against a book of eight rules, and draw, or win where the book slipped | The whole tree of noughts and crosses walked, 255,168 games over 5,478 slates, its word on the open slate level, and the book of eight rules, win, block, fork, block the fork, middle, opposite corner, corner, side, held to that tree at every move of every game against it and never losing: 457 games from the open slate with you as crosses, 111 level and none won, and The Cross Wins ships hopeless because if the crosses had a winning way the noughts could take it first, and the tree finds none |
 | <div align="center"><img src="Patchmere/assets/logo.png" width="64"><br><b><a href="Patchmere">Patchmere</a></b></div> | Sew the last two-patch on the quilt against a house that mirrors you across the middle | Cram and the mirror strategy: on a quilt even both ways no patch is its own mirror, so the second sewer answering every patch across the middle can never be the one left without a move, and on a quilt with one side odd the first sewer takes the middle patch and mirrors after; every game against the house is sewn out on every quilt, and the mirror is held to the game tree on every quilt of up to twenty cells, 65,756 and 11,739 games, and The Four by Four ships hopeless because the house mirrors you to the end |
+| <div align="center"><img src="Knotford/assets/logo.png" width="64"><br><b><a href="Knotford">Knotford</a></b></div> | Stand two pegs on a knotted rope so the triangle it stretches round has a square corner | The rope-stretchers' knots and Euclid's formula: every marking of every rope to two hundred knots is swept, and the right triangles it finds are exactly the ones Euclid writes from two numbers, k times m squared less n squared, twice mn and m squared plus n squared, 32 ropes squaring and 43 triangles among them, none shorter than twelve knots, and The Odd Rope ships hopeless because the remainders of squares by four fix the three sides even in sum |
 
 ## The idea they share
 
@@ -1353,6 +1354,20 @@ paragraph:
   quilts and 11,739 on those with one side odd; the tree alone says
   the three-by-three is lost for the first sewer. The Four by Four
   ships hopeless because the house mirrors you to the end.
+- **Knotford** is the rope-stretchers' rope and Euclid's formula: a
+  rope tied in a loop with knots at even gaps, one peg home where
+  the ends meet and two more to stand on knots, so the rope makes a
+  triangle whose sides are counted in gaps, and the corner across
+  from the longest side is square exactly when the two shorter sides
+  squared add to the longest squared. Every marking of every rope to
+  two hundred knots is swept, and the right triangles it finds are
+  exactly the ones Euclid's formula writes down from two numbers, k
+  times m squared less n squared, twice mn and m squared plus n
+  squared: 32 ropes square, 43 triangles among them, six markings to
+  a triangle, none shorter than twelve knots. The Odd Rope ships
+  hopeless because the remainders of squares by four fix the three
+  sides even in sum, so a rope with an odd count of knots never
+  squares.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
