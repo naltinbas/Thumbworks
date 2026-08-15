@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -169,6 +169,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Stilemere/assets/logo.png" width="64"><br><b><a href="Stilemere">Stilemere</a></b></div> | Walk a hedged field from the gate to the mill, right and up only, over the stiles and round the ponds | Lattice paths and Pascal's rule: every route of every field is walked and counted three ways that agree, by the walk, by Pascal's rule at every junction and by the binomial, on every open field to eight by eight; the routes over a stile are the product of the two legs, the routes round a pond are Pascal's rule with the pond struck out, and The Crossed Stiles ships hopeless because from either stile the other lies below or to the left, and the walk never goes back |
 | <div align="center"><img src="Stookwell/assets/logo.png" width="64"><br><b><a href="Stookwell">Stookwell</a></b></div> | Stand the sheaves in stooks, all of different sizes or all odd | Euler's partition theorem: for any harvest the standings in stooks all of different sizes are exactly as many as those in stooks all odd, every partition of every harvest to thirty walked and Euler's two products agreeing with the walk to sixty sheaves, Glaisher's turn of the hand taken both ways on 1,806 partitions and always coming back; The Four Stooks of Nine ships hopeless because four stooks of different sizes hold ten sheaves at the least |
 | <div align="center"><img src="Mitrewick/assets/logo.png" width="64"><br><b><a href="Mitrewick">Mitrewick</a></b></div> | Stand bishops on a small board with none on another's diagonal | The most peaceful bishops on an n by n board is 2n - 2, and never one more: one bishop at most to each of the 2n - 1 rising diagonals, and the two single-square ones sit in corners that share the long falling diagonal; every setting of every board to four a side is swept and the count read again diagonal by diagonal, the settings of the most doubling with every side, 4, 8, 16, 32, 64, 128, and The Seven ships hopeless because the diagonals said so |
+| <div align="center"><img src="Ledgeworth/assets/logo.png" width="64"><br><b><a href="Ledgeworth">Ledgeworth</a></b></div> | Lean books over the desk edge so the top one hangs out as far as it will | The block-stacking problem and the harmonic numbers: the top of a standing stack hangs out at most 1/2 + 1/4 + 1/6 + ..., half the harmonic number, every stack on the twenty-fourths swept to five books, nearly ten million of them, the harmonic stack reaching the sweep's best every time, four books clearing a whole book and The Three shipping hopeless because half, a quarter and a sixth are eleven twelfths |
 
 ## The idea they share
 
@@ -1432,6 +1433,22 @@ paragraph:
   8,008, eight on the five 32 ways of 1,081,575, and every peaceful
   six on the four keeps to the edge. The Seven ships hopeless because
   the diagonals said so first, none of 11,440 settings.
+- **Ledgeworth** is the block-stacking problem and the harmonic
+  numbers: books stacked over the edge of a desk, each resting on the
+  one below, nudged out or back a twenty-fourth of a book at a time,
+  and a pile stands while the weight of the books above every level
+  falls over the edge they rest on. The top book hangs out at most a
+  half, then a quarter more, a sixth, an eighth, half the harmonic
+  number, which is the best a stack can do with each book on the one
+  below; every stack on the twenty-fourths is swept, one to five
+  books, nearly ten million of them, and the harmonic stack reaches
+  the sweep's best every time, 12, 18, 22, 25 and 27 twenty-fourths,
+  exact 1/2, 3/4, 11/12, 25/24 and 137/120 of a book. Four books
+  clear a whole book, 16 ways of 390,625, and every book of the
+  harmonic five topples the stack when pushed one twenty-fourth
+  further. The Three ships hopeless because half, a quarter and a
+  sixth are eleven twelfths, and all 15,625 stacks reach 22
+  twenty-fourths at the most.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
