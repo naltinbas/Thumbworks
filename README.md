@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty-six games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty-seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -155,6 +155,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Trayford/assets/logo.png" width="64"><br><b><a href="Trayford">Trayford</a></b></div> | Fill the egg tray to the count that leaves the asked over | Sun Tzu's problem and the Chinese remainder theorem swept over every count of the tray: by threes and fives, fives and sevens, and threes, fives and sevens each asking is met by exactly one count below the span and it is Sun Tzu's construction to the egg, by fours and sixes only the askings agreeing on the shared two are met at all, and The Odd and Even ships hopeless because one over by fours with two over by sixes is odd against even |
 | <div align="center"><img src="Riffleford/assets/logo.png" width="64"><br><b><a href="Riffleford">Riffleford</a></b></div> | Cut the deck, turn the packet, riffle so every pair is mixed | Gilbreath's principle dealt out riffle by riffle: with the packet turned every one of the 56, 70 and 126 riffles deals every pair or triple mixed, since the piles read the pattern in opposite directions and their tops differ at every pair's start, the even cut unturned lands only 6 riffles of 70, and The Two Reds ships hopeless because no riffle of the turned odd cut ever pairs two reds |
 | <div align="center"><img src="Thirdwell/assets/logo.png" width="64"><br><b><a href="Thirdwell">Thirdwell</a></b></div> | Deal the counters into three columns and walk yours to its place | Gergonne's twenty-seven-card trick dealt out for every counter and every run of three placings, 729 runs, every one landing where the arithmetic says, the placings read as digits in threes with the first deal the units, so each of the 27 places is reached by exactly one run, while two deals reach nine places only, and The Top in Two ships hopeless because counter 17 never reaches the top in two |
+| <div align="center"><img src="Rowsworth/assets/logo.png" width="64"><br><b><a href="Rowsworth">Rowsworth</a></b></div> | Pick a heap of pebbles that lays out in exactly so many even rows | The divisor count of every heap up to a hundred read two ways, by laying the pebbles out in every row length by trial and by the product of the prime powers each raised by one, the two agreeing there and on to a thousand: seven even rows come from sixty-four alone, nine from thirty-six and a hundred, ten from forty-eight and eighty, twelve from sixty first, and The Thirteen Rows ships hopeless because a prime count of rows is a single prime raised, and two to the twelfth is four thousand and ninety-six |
 
 ## The idea they share
 
@@ -1228,6 +1229,18 @@ paragraph:
   because two deals reach nine places only, those whose units are
   the start counted in nines, and counter 17 never reaches the top,
   and the stack is shown place by place after each gather.
+- **Rowsworth** is the divisor count: a heap of pebbles laid out in
+  rows of equal length comes out even, no pebble over, exactly for
+  the row lengths that divide the count, and every heap up to a
+  hundred is laid out in every row length by trial and read again
+  from its primes raised to powers, the count of even rows being
+  the product of the powers each raised by one, the two agreeing
+  there and on to a thousand. Seven even rows come from sixty-four
+  alone, nine from thirty-six and a hundred, ten from forty-eight
+  and eighty, twelve from sixty first and four more, and The
+  Thirteen Rows ships hopeless because thirteen is prime, so it is
+  one power raised by one and nothing else, and two to the twelfth
+  is four thousand and ninety-six.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
