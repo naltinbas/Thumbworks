@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -163,6 +163,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wheelford/assets/logo.png" width="64"><br><b><a href="Wheelford">Wheelford</a></b></div> | Cord three pegs on the rim of a wheel into a triangle with a square corner, or four into a square | Thales' theorem on a wheel five spokes across with twelve pegs on its rim, every three of them corded, 220 triangles, and every corner tested two ways, by the dot product and by whether the cord across runs through the hub: sixty triangles have a square corner and every one looks across at a diameter, forty are sharp all round and a hundred and twenty blunt, three of the 495 fours are squares, and The Off Diameter ships hopeless because no square corner on the wheel ever looks across at anything but a diameter |
 | <div align="center"><img src="Evenmoor/assets/logo.png" width="64"><br><b><a href="Evenmoor">Evenmoor</a></b></div> | Set pegs on a five-by-five moor so that the halfway posts between them land on holes, or keep off them | The pigeonhole in its plainest clothes: halfway between two whole numbers is whole only when both are even or both odd, so a hole is one of four kinds and two pegs of a kind always land their post; every placing of three, four and five pegs is swept, 2,300, 12,650 and 53,130, and every post read two ways, four pegs keeping every post off 1,296 ways, one to a kind, five pegs landing one post 13,608 ways and all ten 138, and The Five Apart ships hopeless because four kinds cannot hold five pegs one apiece |
 | <div align="center"><img src="Slateford/assets/logo.png" width="64"><br><b><a href="Slateford">Slateford</a></b></div> | Play noughts and crosses against a book of eight rules, and draw, or win where the book slipped | The whole tree of noughts and crosses walked, 255,168 games over 5,478 slates, its word on the open slate level, and the book of eight rules, win, block, fork, block the fork, middle, opposite corner, corner, side, held to that tree at every move of every game against it and never losing: 457 games from the open slate with you as crosses, 111 level and none won, and The Cross Wins ships hopeless because if the crosses had a winning way the noughts could take it first, and the tree finds none |
+| <div align="center"><img src="Patchmere/assets/logo.png" width="64"><br><b><a href="Patchmere">Patchmere</a></b></div> | Sew the last two-patch on the quilt against a house that mirrors you across the middle | Cram and the mirror strategy: on a quilt even both ways no patch is its own mirror, so the second sewer answering every patch across the middle can never be the one left without a move, and on a quilt with one side odd the first sewer takes the middle patch and mirrors after; every game against the house is sewn out on every quilt, and the mirror is held to the game tree on every quilt of up to twenty cells, 65,756 and 11,739 games, and The Four by Four ships hopeless because the house mirrors you to the end |
 
 ## The idea they share
 
@@ -1338,6 +1339,20 @@ paragraph:
   ships hopeless because neither side can be forced to lose: if the
   crosses had a winning way the noughts could take it first, and
   the tree finds none.
+- **Patchmere** is Cram on a calico quilt, and the mirror strategy:
+  two sewers take turns sewing a two-patch on any two free
+  neighbouring cells, and whoever sews the last patch wins; the
+  middle of the quilt is pinned, and on a quilt even both ways no
+  patch is its own mirror, so the second sewer can answer every
+  patch with its mirror across the middle and can never be the one
+  left without a move, while on a quilt with one side odd there is
+  exactly one patch that is its own mirror and the first sewer takes
+  it and then mirrors. Every game against the house is sewn out on
+  every quilt, and the mirror is held to the game tree on every
+  quilt of up to twenty cells, 65,756 games on the even-by-even
+  quilts and 11,739 on those with one side odd; the tree alone says
+  the three-by-three is lost for the first sewer. The Four by Four
+  ships hopeless because the house mirrors you to the end.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
