@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -160,6 +160,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Foldwick/assets/logo.png" width="64"><br><b><a href="Foldwick">Foldwick</a></b></div> | Pass the sheep and the goats to the other ends of the plank, a step or a jump at a time | Lucas's sheep-and-goats crossing of 1883 walked whole, no beast ever going back: with m sheep and n goats the crossing takes m times n plus m plus n moves and exactly that however it is done, one and one in 3, two and two in 8, three and two in 11, three and three in 15, two crossings apiece and mirrors of one another, every crossing taking the sheep times the goats jumps and the sheep plus the goats steps, and The Steps Alone ships hopeless because without a jump the order along the plank never changes and the fold is stuck in two moves |
 | <div align="center"><img src="Stillmere/assets/logo.png" width="64"><br><b><a href="Stillmere">Stillmere</a></b></div> | Light exactly so many lanterns on the mere so that Conway's rule leaves the picture still | Still lifes in Conway's Game of Life swept whole on the mere and the rule run on the whole plane: four lanterns lie still 25 ways in two shapes, sixteen blocks and nine tubs, five 36 ways in the boat's four turnings, six 94 ways in fourteen shapes and seven 76 ways in twenty, and The Three Lights ships hopeless because every light needs two lit neighbours, so three sit in one corner of a square, and the fourth corner has three lit neighbours and lights |
 | <div align="center"><img src="Midford/assets/logo.png" width="64"><br><b><a href="Midford">Midford</a></b></div> | Set four pegs so that the figure joining the midpoints of their cords is a rectangle, a rhombus or a square | Varignon's parallelogram of 1731 swept over every ordered four of pegs on the board, 303,600 of them, the midpoint figure read two ways, off its own corners and off the diagonals: a parallelogram every time, a rectangle 27,952 times, a rhombus 18,384, a square 11,248, flat 27,872, since each side of the midpoint figure is half a diagonal of the four, and The Skew ships hopeless because the midpoint figure is never skew |
+| <div align="center"><img src="Wheelford/assets/logo.png" width="64"><br><b><a href="Wheelford">Wheelford</a></b></div> | Cord three pegs on the rim of a wheel into a triangle with a square corner, or four into a square | Thales' theorem on a wheel five spokes across with twelve pegs on its rim, every three of them corded, 220 triangles, and every corner tested two ways, by the dot product and by whether the cord across runs through the hub: sixty triangles have a square corner and every one looks across at a diameter, forty are sharp all round and a hundred and twenty blunt, three of the 495 fours are squares, and The Off Diameter ships hopeless because no square corner on the wheel ever looks across at anything but a diameter |
 
 ## The idea they share
 
@@ -1296,6 +1297,19 @@ paragraph:
   the diagonals cross square, a rhombus 18,384, exactly when they are
   of a length, a square 11,248 and flat 27,872. The Skew ships
   hopeless because the midpoint figure is never skew.
+- **Wheelford** is Thales' theorem, the oldest in the book: twelve
+  pegs on the rim of a wheel five spokes across, at the whole-number
+  places whose squares add to twenty-five, and cords run between
+  them; a corner on the rim is square exactly when the cord across
+  from it is a diameter, straight through the hub. Every three of the
+  twelve is corded, 220 triangles, and every corner tested two ways,
+  by the dot product and by whether the cord across runs through the
+  hub, the two agreeing on every corner: sixty triangles have a
+  square corner, every one across a diameter, forty are sharp all
+  round, a hundred and twenty blunt, and three of the 495 fours are
+  squares, each two diameters crossing square. The Off Diameter
+  ships hopeless because no square corner on the wheel ever looks
+  across at anything but a diameter.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
