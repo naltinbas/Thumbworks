@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-six games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -165,6 +165,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Slateford/assets/logo.png" width="64"><br><b><a href="Slateford">Slateford</a></b></div> | Play noughts and crosses against a book of eight rules, and draw, or win where the book slipped | The whole tree of noughts and crosses walked, 255,168 games over 5,478 slates, its word on the open slate level, and the book of eight rules, win, block, fork, block the fork, middle, opposite corner, corner, side, held to that tree at every move of every game against it and never losing: 457 games from the open slate with you as crosses, 111 level and none won, and The Cross Wins ships hopeless because if the crosses had a winning way the noughts could take it first, and the tree finds none |
 | <div align="center"><img src="Patchmere/assets/logo.png" width="64"><br><b><a href="Patchmere">Patchmere</a></b></div> | Sew the last two-patch on the quilt against a house that mirrors you across the middle | Cram and the mirror strategy: on a quilt even both ways no patch is its own mirror, so the second sewer answering every patch across the middle can never be the one left without a move, and on a quilt with one side odd the first sewer takes the middle patch and mirrors after; every game against the house is sewn out on every quilt, and the mirror is held to the game tree on every quilt of up to twenty cells, 65,756 and 11,739 games, and The Four by Four ships hopeless because the house mirrors you to the end |
 | <div align="center"><img src="Knotford/assets/logo.png" width="64"><br><b><a href="Knotford">Knotford</a></b></div> | Stand two pegs on a knotted rope so the triangle it stretches round has a square corner | The rope-stretchers' knots and Euclid's formula: every marking of every rope to two hundred knots is swept, and the right triangles it finds are exactly the ones Euclid writes from two numbers, k times m squared less n squared, twice mn and m squared plus n squared, 32 ropes squaring and 43 triangles among them, none shorter than twelve knots, and The Odd Rope ships hopeless because the remainders of squares by four fix the three sides even in sum |
+| <div align="center"><img src="Throwsden/assets/logo.png" width="64"><br><b><a href="Throwsden">Throwsden</a></b></div> | Line the wrestlers up so each threw the next, and close them into a ring | Redei and Camion on tournaments: every yard of three to six wrestlers is taken whole, 8 and 64 and 1,024 and 32,768 of them, and a line where each threw the next always exists and always in an odd number of ways, Redei's slotting finding one with no search; a ring closes exactly when every wrestler can reach every other along the throws, and The Champion's Ring ships hopeless because nobody threw Eli, so nobody can stand before him |
 
 ## The idea they share
 
@@ -1368,6 +1369,21 @@ paragraph:
   hopeless because the remainders of squares by four fix the three
   sides even in sum, so a rope with an odd count of knots never
   squares.
+- **Throwsden** is Redei's theorem and Camion's, on the wrestlers at
+  the fair: every pair has had a bout, one throwing the other, and
+  the yard is lined up so that each threw the next. Every yard of
+  three, four, five and six wrestlers is taken whole, 8 and 64 and
+  1,024 and 32,768 of them: a line always exists, the count of lines
+  is odd in every one, 1, 3, 5, 9, 11, 13 or 15 for five wrestlers
+  and never 7, and Redei's slotting finds a line with no search, one
+  wrestler at a time in front of the first he threw. Closing the
+  line into a ring is Camion's rule, and it agrees with the walk on
+  every yard: a ring closes exactly when every wrestler can reach
+  every other along the throws. The four line up three ways of
+  twenty-four, the five five ways of a hundred and twenty, the ring
+  closes two ways round and the six line up twenty-three ways of
+  seven hundred and twenty. The Champion's Ring ships hopeless
+  because nobody threw Eli, so nobody can stand before him.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
