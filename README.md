@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -139,6 +139,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Watchmere/assets/logo.png" width="64"><br><b><a href="Watchmere">Watchmere</a></b></div> | Slide night watches along the mere wall till every pair shares an hour | Helly's law on a line: when every pair of watches overlaps, the latest riser and the earliest sleeper name an hour inside all of them, held over 729 diallings of three and 5,040 of four; the Sundered Watch ships hopeless because that named pair cannot part |
 | <div align="center"><img src="Sortlow/assets/logo.png" width="64"><br><b><a href="Sortlow">Sortlow</a></b></div> | Dial four digits and grind them down to Kaprekar's stone | Kaprekar's constant walked forward and tabled backwards over all 9,990 allowed loads: every one arrives at 6174 by the seventh turn, three turns is the commonest road, and The Eighth Turn ships hopeless because the table stops at seven |
 | <div align="center"><img src="Dealstone/assets/logo.png" width="64"><br><b><a href="Dealstone">Dealstone</a></b></div> | Pile stones and deal one from every pile into a new one | Bulgarian solitaire under Brandt's theorem: every hand of a triangular count walks to the staircase and stays, only staircases stand still, the sweep deals all 11, 22 and 42 hands of six, eight and ten, and The Eight Standstill ships hopeless because no stair holds eight |
+| <div align="center"><img src="Starholme/assets/logo.png" width="64"><br><b><a href="Starholme">Starholme</a></b></div> | Walk closed rounds along the lanes of Petersen's star | Petersen's graph counted whole: twelve pentagons, ten hexagons, fifteen eights and twenty nines, never a seven-round, and The Full Round ships hopeless because all ten posts walk as an open trail and the closing lane never exists |
 
 ## The idea they share
 
@@ -1061,6 +1062,14 @@ paragraph:
   the longest road of six belongs to two-two-one-one alone, and
   The Eight Standstill ships hopeless because a standstill is
   forced into a stair and stairs hold one, three, six or ten.
+- **Starholme** is Petersen's graph walked as closed rounds: the
+  walk refuses strangers and revisits lane by lane while the
+  census sweeps every closed round at every length, five through
+  ten, and pins the counts whole, twelve pentagons, ten hexagons,
+  fifteen eights, one per lane left out, and twenty nines, two per
+  post left out. Seven is nobody's round, and The Full Round ships
+  hopeless because the ten posts walk as an open trail and the
+  closing lane never exists.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
