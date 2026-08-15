@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-nine games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -168,6 +168,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Throwsden/assets/logo.png" width="64"><br><b><a href="Throwsden">Throwsden</a></b></div> | Line the wrestlers up so each threw the next, and close them into a ring | Redei and Camion on tournaments: every yard of three to six wrestlers is taken whole, 8 and 64 and 1,024 and 32,768 of them, and a line where each threw the next always exists and always in an odd number of ways, Redei's slotting finding one with no search; a ring closes exactly when every wrestler can reach every other along the throws, and The Champion's Ring ships hopeless because nobody threw Eli, so nobody can stand before him |
 | <div align="center"><img src="Stilemere/assets/logo.png" width="64"><br><b><a href="Stilemere">Stilemere</a></b></div> | Walk a hedged field from the gate to the mill, right and up only, over the stiles and round the ponds | Lattice paths and Pascal's rule: every route of every field is walked and counted three ways that agree, by the walk, by Pascal's rule at every junction and by the binomial, on every open field to eight by eight; the routes over a stile are the product of the two legs, the routes round a pond are Pascal's rule with the pond struck out, and The Crossed Stiles ships hopeless because from either stile the other lies below or to the left, and the walk never goes back |
 | <div align="center"><img src="Stookwell/assets/logo.png" width="64"><br><b><a href="Stookwell">Stookwell</a></b></div> | Stand the sheaves in stooks, all of different sizes or all odd | Euler's partition theorem: for any harvest the standings in stooks all of different sizes are exactly as many as those in stooks all odd, every partition of every harvest to thirty walked and Euler's two products agreeing with the walk to sixty sheaves, Glaisher's turn of the hand taken both ways on 1,806 partitions and always coming back; The Four Stooks of Nine ships hopeless because four stooks of different sizes hold ten sheaves at the least |
+| <div align="center"><img src="Mitrewick/assets/logo.png" width="64"><br><b><a href="Mitrewick">Mitrewick</a></b></div> | Stand bishops on a small board with none on another's diagonal | The most peaceful bishops on an n by n board is 2n - 2, and never one more: one bishop at most to each of the 2n - 1 rising diagonals, and the two single-square ones sit in corners that share the long falling diagonal; every setting of every board to four a side is swept and the count read again diagonal by diagonal, the settings of the most doubling with every side, 4, 8, 16, 32, 64, 128, and The Seven ships hopeless because the diagonals said so |
 
 ## The idea they share
 
@@ -1417,6 +1418,20 @@ paragraph:
   ten and ten; twelve 77 ways, fifteen and fifteen. The Four Stooks
   of Nine ships hopeless because four stooks of different sizes hold
   1, 2, 3 and 4 at the least, ten sheaves, and nine is one short.
+- **Mitrewick** is the peaceful bishops: on an n by n board the most
+  bishops with none on another's diagonal is two less than twice the
+  side, and never one more, and the reason fits in a sentence: one
+  bishop at most to each of the 2n - 1 rising diagonals, but the
+  first and the last are single squares in corners that share the
+  long falling diagonal, so only one of those two can be used. Every
+  setting of every board to four a side is swept, and the most on
+  five, and the count is read again diagonal by diagonal; the two
+  agree, and the peaceful settings of the most double with every
+  side, 4, 8, 16, 32, 64, 128 from two to seven. Four bishops stand
+  at peace on the three 8 ways of 126, six on the four 16 ways of
+  8,008, eight on the five 32 ways of 1,081,575, and every peaceful
+  six on the four keeps to the edge. The Seven ships hopeless because
+  the diagonals said so first, none of 11,440 settings.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
