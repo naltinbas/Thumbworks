@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -143,6 +143,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Clinkfield/assets/logo.png" width="64"><br><b><a href="Clinkfield">Clinkfield</a></b></div> | Clink glasses round the feast till the counts stand as asked | The pigeonhole law on clinking: the counts can never all differ, since the wallflower who clinked nobody cannot share a feast with the toast of the table who clinked everyone, swept over all 64 feasts of four and 1,024 of five, and The All Different ships hopeless |
 | <div align="center"><img src="Oddrow/assets/logo.png" width="64"><br><b><a href="Oddrow">Oddrow</a></b></div> | Wind Pascal's wall to a row holding the odd numbers asked | Lucas' law on Pascal's triangle: an entry is odd exactly when its place's bits fit the row's, so the odd count doubles per lit bit and is a power of two always, three voices agreeing on rows nought to fifteen, and The Three Odds ships hopeless |
 | <div align="center"><img src="Foursworth/assets/logo.png" width="64"><br><b><a href="Foursworth">Foursworth</a></b></div> | Dial the windows and take differences round the ring till all go dark | Ducci's walk: four windows always go dark by the seventh turn, since four turns leave every face even and evens halve to a smaller game, checked across all 4,096 diallings, while three windows circle for ever unless they start alike, and The Three Turns ships hopeless |
+| <div align="center"><img src="Tablesham/assets/logo.png" width="64"><br><b><a href="Tablesham">Tablesham</a></b></div> | Seat the husbands between the wives so no couple sits together | The menage problem swept and held to Touchard's arithmetic: nought ways for two couples, one for three, two for four, thirteen for five and five with the host held in his chair, and The Two Couples ships hopeless because a circle of four seats both wives beside every husband |
 
 ## The idea they share
 
@@ -1097,6 +1098,15 @@ paragraph:
   all 4,096 diallings, four turns being the commonest road and
   seven the whole reach, while three windows rest only from all
   alike, so The Three Turns ships hopeless on the parity ring.
+- **Tablesham** is the menage problem: wives fixed at every other
+  chair, husbands picked off a bench and seated between them so
+  no couple sits side by side, the sweep of every seating held to
+  Touchard's alternating arithmetic at every size, the whole-table
+  turns counted two ways and the pair of four read as mirrors.
+  Three couples manage it one way, four two, five thirteen and
+  five with the host held in his chair, and The Two Couples ships
+  hopeless because a circle of four seats both wives beside every
+  husband, his own among them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
