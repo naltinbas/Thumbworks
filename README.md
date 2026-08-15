@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -173,6 +173,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Milesworth/assets/logo.png" width="64"><br><b><a href="Milesworth">Milesworth</a></b></div> | Mark a run of two or more milestones along the lane that add to the count asked | Polite numbers: a count is a run of two or more consecutive numbers exactly when it is not a power of two, and the runs are one to each odd divisor past one, since an odd run is its length times its middle stone and an even run is half its length times the sum of its two middle stones; every run on every lane to two hundred is swept and the odd divisors build the same runs one for one, and The Sixteen ships hopeless because a power of two has no odd factor |
 | <div align="center"><img src="Capwick/assets/logo.png" width="64"><br><b><a href="Capwick">Capwick</a></b></div> | Call the colour of your own cap from what you see ahead and hear behind, and save all but the first man | The hat-line parity plan: the man at the back calls the parity of the black caps ahead and every man after him counts, so all but the first are saved whatever the caps, the plan run down every deal of every line to eight men; the first can never be saved by any plan, every plan of his counted for lines to five and each right on exactly half the deals, and The Five Saved ships hopeless because a warden caps the first man against his word |
 | <div align="center"><img src="Rowsden/assets/logo.png" width="64"><br><b><a href="Rowsden">Rowsden</a></b></div> | Walk the nine schoolgirls out in rows of three, day after day, so every pair walks together once | Kirkman's schoolgirls at nine, the smallest such school: each girl meets two a day and has eight to meet, so the week is four days and no fewer, and four days do it by rows, columns and the two slants of the three-by-three, the affine plane of order three; every filling of every week is swept, 72 whole weeks following the first day, and The Three Days ships hopeless because three days walk 27 pairs at the most |
+| <div align="center"><img src="Cubewick/assets/logo.png" width="64"><br><b><a href="Cubewick">Cubewick</a></b></div> | Tile a hexagon on the triangular grid with lozenges, and see the cubes stacked in a box | MacMahon's lozenge tilings: shade the three leans and every tiling of the hexagon of sides a, b and c is a stack of cubes in an a by b by c box, counted by the product over the box of (i + j + k - 1) over (i + j + k - 2), 2, 6, 20, 175, 980 and 232,848 for the four-box, every tiling swept and every stack walked; The Chipped Box ships hopeless because a lozenge covers one up triangle and one down, and the chipped box has ten and twelve |
 
 ## The idea they share
 
@@ -1492,6 +1493,19 @@ paragraph:
   follow, every one walking all 36 pairs, out of 21,952,000 fillings
   swept. The Three Days ships hopeless because three days walk 27
   pairs at the most, all 78,400 fillings tried in full.
+- **Cubewick** is MacMahon's lozenge tilings: a hexagon on the
+  triangular grid, its sides a, b and c, tiled with lozenges, each an
+  up triangle glued to a down triangle along a shared edge, leaning
+  one of three ways; shade the three leans and every tiling turns into
+  cubes stacked in an a by b by c box, seen from a corner. MacMahon
+  counted the stacks in 1912, the product over the box of (i + j + k -
+  1) over (i + j + k - 2): 2, 6, 20, 175, 980 for the boxes here and
+  232,848 for the four-box, and every tiling is swept, every stack of
+  cubes walked, and the product worked out, the three agreeing on
+  every box. The Chipped Box ships hopeless because a lozenge covers
+  one up triangle and one down, and with two ups chipped out the box
+  has ten and twelve, every laying that covers the ten leaving two of
+  the twelve bare, all 172 tried.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
