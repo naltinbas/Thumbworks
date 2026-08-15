@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-six games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -145,6 +145,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Foursworth/assets/logo.png" width="64"><br><b><a href="Foursworth">Foursworth</a></b></div> | Dial the windows and take differences round the ring till all go dark | Ducci's walk: four windows always go dark by the seventh turn, since four turns leave every face even and evens halve to a smaller game, checked across all 4,096 diallings, while three windows circle for ever unless they start alike, and The Three Turns ships hopeless |
 | <div align="center"><img src="Tablesham/assets/logo.png" width="64"><br><b><a href="Tablesham">Tablesham</a></b></div> | Seat the husbands between the wives so no couple sits together | The menage problem swept and held to Touchard's arithmetic: nought ways for two couples, one for three, two for four, thirteen for five and five with the host held in his chair, and The Two Couples ships hopeless because a circle of four seats both wives beside every husband |
 | <div align="center"><img src="Studwell/assets/logo.png" width="64"><br><b><a href="Studwell">Studwell</a></b></div> | Pave the court round the well with elbow flags | L-tromino tilings swept whole: the four-court paves round every one of its sixteen wells exactly once, as Golomb's quartering lays it, the five-court only where the well is a stud, one stud to an elbow, and The Stray Well ships hopeless because nine studs outnumber eight elbows |
+| <div align="center"><img src="Evenholt/assets/logo.png" width="64"><br><b><a href="Evenholt">Evenholt</a></b></div> | Share the tokens two trays even in sums, squares and cubes | Prouhet's doubling pattern held to the sweep of every half-and-half share: the one share of eight that squares and the one of sixteen that cubes are both his, sums agree 1, 4, 29 and 263 ways and his polynomial divides by one less x exactly one time more than the powers that agree, while The Four Squared ships hopeless because the three pairings square to 17 and 13 |
 
 ## The idea they share
 
@@ -1116,6 +1117,16 @@ paragraph:
   stud, 8 ways at a corner, 16 on a wall and 32 in the middle. The
   Stray Well ships hopeless because nine studs outnumber eight
   elbows, and the bare studs glow brass as you lay.
+- **Evenholt** is Prouhet's doubling pattern: tokens 1 to n carried
+  half and half into two trays until the sums, the squares and the
+  cubes agree, the sweep of every share held to the pattern dealt
+  by the count of ones in each number less one written in twos,
+  and to its polynomial, which divides by one less x exactly one
+  time more than the powers that agree. Of 6,435 shares of sixteen,
+  263 agree in sums, 7 in squares too and one in cubes as well,
+  and it is Prouhet's. The Four Squared ships hopeless because the
+  three pairings of four square to 17 and 13, and the trays sum as
+  you carry.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
