@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -136,6 +136,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Inkfen/assets/logo.png" width="64"><br><b><a href="Inkfen">Inkfen</a></b></div> | Ink the bunting so no two strings share a post in one ink | Edge colouring on the washing lines: paths and even rings take two inks two ways each, the full four takes exactly the six orders of its three matchings, and the odd ring refuses two inks outright, its alternation coming home wrong |
 | <div align="center"><img src="Rackenford/assets/logo.png" width="64"><br><b><a href="Rackenford">Rackenford</a></b></div> | Rack the jars so no rack holds a jar and its divisor | Mirsky's law in a jam pantry: the racks you need are exactly the longest divisor chain, the height racking lands with no searching, and the dozen fits four racks but never three, its chain of one, two, four, eight taking one rack apiece |
 | <div align="center"><img src="Slicebury/assets/logo.png" width="64"><br><b><a href="Slicebury">Slicebury</a></b></div> | Set candles on the cake rim and count the slices the knife makes | Moser's circle counted whole: the slices double to sixteen at every pick of five, then six candles cut thirty-one, or thirty where three knife lines clump through a point, and never thirty-two |
+| <div align="center"><img src="Watchmere/assets/logo.png" width="64"><br><b><a href="Watchmere">Watchmere</a></b></div> | Slide night watches along the mere wall till every pair shares an hour | Helly's law on a line: when every pair of watches overlaps, the latest riser and the earliest sleeper name an hour inside all of them, held over 729 diallings of three and 5,040 of four; the Sundered Watch ships hopeless because that named pair cannot part |
 
 ## The idea they share
 
@@ -1033,6 +1034,15 @@ paragraph:
   68 thirties, the clumps drawn fat and gold. The Thirty-Two
   ships hopeless: fifteen lines and fifteen crossings top
   out at thirty-one.
+- **Watchmere** is Helly's theorem in one dimension: night
+  watches slide along a twelve-hour wall, the pair census and
+  the latest-rise-earliest-turn arithmetic agree on every one
+  of the 729 diallings of three watches and 5,040 of four, and
+  the shared hour is washed gold the moment the ring closes.
+  The Pinch narrows it to a single hour 108 ways, The Broken
+  Ring drops one pair and the hour with it, and The Sundered
+  Watch ships hopeless because the two named watches overlap
+  like any pair and hand everybody their hour.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
