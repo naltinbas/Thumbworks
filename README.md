@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-three games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -162,6 +162,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Midford/assets/logo.png" width="64"><br><b><a href="Midford">Midford</a></b></div> | Set four pegs so that the figure joining the midpoints of their cords is a rectangle, a rhombus or a square | Varignon's parallelogram of 1731 swept over every ordered four of pegs on the board, 303,600 of them, the midpoint figure read two ways, off its own corners and off the diagonals: a parallelogram every time, a rectangle 27,952 times, a rhombus 18,384, a square 11,248, flat 27,872, since each side of the midpoint figure is half a diagonal of the four, and The Skew ships hopeless because the midpoint figure is never skew |
 | <div align="center"><img src="Wheelford/assets/logo.png" width="64"><br><b><a href="Wheelford">Wheelford</a></b></div> | Cord three pegs on the rim of a wheel into a triangle with a square corner, or four into a square | Thales' theorem on a wheel five spokes across with twelve pegs on its rim, every three of them corded, 220 triangles, and every corner tested two ways, by the dot product and by whether the cord across runs through the hub: sixty triangles have a square corner and every one looks across at a diameter, forty are sharp all round and a hundred and twenty blunt, three of the 495 fours are squares, and The Off Diameter ships hopeless because no square corner on the wheel ever looks across at anything but a diameter |
 | <div align="center"><img src="Evenmoor/assets/logo.png" width="64"><br><b><a href="Evenmoor">Evenmoor</a></b></div> | Set pegs on a five-by-five moor so that the halfway posts between them land on holes, or keep off them | The pigeonhole in its plainest clothes: halfway between two whole numbers is whole only when both are even or both odd, so a hole is one of four kinds and two pegs of a kind always land their post; every placing of three, four and five pegs is swept, 2,300, 12,650 and 53,130, and every post read two ways, four pegs keeping every post off 1,296 ways, one to a kind, five pegs landing one post 13,608 ways and all ten 138, and The Five Apart ships hopeless because four kinds cannot hold five pegs one apiece |
+| <div align="center"><img src="Slateford/assets/logo.png" width="64"><br><b><a href="Slateford">Slateford</a></b></div> | Play noughts and crosses against a book of eight rules, and draw, or win where the book slipped | The whole tree of noughts and crosses walked, 255,168 games over 5,478 slates, its word on the open slate level, and the book of eight rules, win, block, fork, block the fork, middle, opposite corner, corner, side, held to that tree at every move of every game against it and never losing: 457 games from the open slate with you as crosses, 111 level and none won, and The Cross Wins ships hopeless because if the crosses had a winning way the noughts could take it first, and the tree finds none |
 
 ## The idea they share
 
@@ -1324,6 +1325,19 @@ paragraph:
   pegs land all three posts 128 ways, five pegs land one post 13,608
   ways and all ten 138. The Five Apart ships hopeless because four
   kinds cannot hold five pegs one apiece.
+- **Slateford** is noughts and crosses on a school slate, against a
+  book of eight rules tried in order and no search at all: win if
+  you can, block if you must, make a fork, block a fork, take the
+  middle, take the corner across from theirs, take a corner, take a
+  side. The tree of the game is walked whole, 255,168 games over
+  5,478 slates, 131,184 to the crosses, 77,904 to the noughts and
+  46,080 level, and its word on the open slate is level; the book is
+  held to that tree at every move of every game against it, 457
+  games from the open slate, none lost and 111 level, 140 against
+  its opening in the middle, none lost and 16 level. The Cross Wins
+  ships hopeless because neither side can be forced to lose: if the
+  crosses had a winning way the noughts could take it first, and
+  the tree finds none.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
