@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -140,6 +140,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Sortlow/assets/logo.png" width="64"><br><b><a href="Sortlow">Sortlow</a></b></div> | Dial four digits and grind them down to Kaprekar's stone | Kaprekar's constant walked forward and tabled backwards over all 9,990 allowed loads: every one arrives at 6174 by the seventh turn, three turns is the commonest road, and The Eighth Turn ships hopeless because the table stops at seven |
 | <div align="center"><img src="Dealstone/assets/logo.png" width="64"><br><b><a href="Dealstone">Dealstone</a></b></div> | Pile stones and deal one from every pile into a new one | Bulgarian solitaire under Brandt's theorem: every hand of a triangular count walks to the staircase and stays, only staircases stand still, the sweep deals all 11, 22 and 42 hands of six, eight and ten, and The Eight Standstill ships hopeless because no stair holds eight |
 | <div align="center"><img src="Starholme/assets/logo.png" width="64"><br><b><a href="Starholme">Starholme</a></b></div> | Walk closed rounds along the lanes of Petersen's star | Petersen's graph counted whole: twelve pentagons, ten hexagons, fifteen eights and twenty nines, never a seven-round, and The Full Round ships hopeless because all ten posts walk as an open trail and the closing lane never exists |
+| <div align="center"><img src="Clinkfield/assets/logo.png" width="64"><br><b><a href="Clinkfield">Clinkfield</a></b></div> | Clink glasses round the feast till the counts stand as asked | The pigeonhole law on clinking: the counts can never all differ, since the wallflower who clinked nobody cannot share a feast with the toast of the table who clinked everyone, swept over all 64 feasts of four and 1,024 of five, and The All Different ships hopeless |
 
 ## The idea they share
 
@@ -1070,6 +1071,14 @@ paragraph:
   post left out. Seven is nobody's round, and The Full Round ships
   hopeless because the ten posts walk as an open trail and the
   closing lane never exists.
+- **Clinkfield** is the pigeonhole law at a feast: guests clink in
+  pairs and wear the count of glasses they touched, the census
+  tallying wire by wire while the sweep raises all 64 feasts of
+  four and all 1,024 of five and holds the wallflower law on every
+  one. Fourteen feasts level the table of five, four different
+  counts is the ceiling at five guests, and The All Different ships
+  hopeless because the guest who clinked nobody cannot sit with the
+  one who clinked everyone.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
