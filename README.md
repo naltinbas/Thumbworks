@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -170,6 +170,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Stookwell/assets/logo.png" width="64"><br><b><a href="Stookwell">Stookwell</a></b></div> | Stand the sheaves in stooks, all of different sizes or all odd | Euler's partition theorem: for any harvest the standings in stooks all of different sizes are exactly as many as those in stooks all odd, every partition of every harvest to thirty walked and Euler's two products agreeing with the walk to sixty sheaves, Glaisher's turn of the hand taken both ways on 1,806 partitions and always coming back; The Four Stooks of Nine ships hopeless because four stooks of different sizes hold ten sheaves at the least |
 | <div align="center"><img src="Mitrewick/assets/logo.png" width="64"><br><b><a href="Mitrewick">Mitrewick</a></b></div> | Stand bishops on a small board with none on another's diagonal | The most peaceful bishops on an n by n board is 2n - 2, and never one more: one bishop at most to each of the 2n - 1 rising diagonals, and the two single-square ones sit in corners that share the long falling diagonal; every setting of every board to four a side is swept and the count read again diagonal by diagonal, the settings of the most doubling with every side, 4, 8, 16, 32, 64, 128, and The Seven ships hopeless because the diagonals said so |
 | <div align="center"><img src="Ledgeworth/assets/logo.png" width="64"><br><b><a href="Ledgeworth">Ledgeworth</a></b></div> | Lean books over the desk edge so the top one hangs out as far as it will | The block-stacking problem and the harmonic numbers: the top of a standing stack hangs out at most 1/2 + 1/4 + 1/6 + ..., half the harmonic number, every stack on the twenty-fourths swept to five books, nearly ten million of them, the harmonic stack reaching the sweep's best every time, four books clearing a whole book and The Three shipping hopeless because half, a quarter and a sixth are eleven twelfths |
+| <div align="center"><img src="Milesworth/assets/logo.png" width="64"><br><b><a href="Milesworth">Milesworth</a></b></div> | Mark a run of two or more milestones along the lane that add to the count asked | Polite numbers: a count is a run of two or more consecutive numbers exactly when it is not a power of two, and the runs are one to each odd divisor past one, since an odd run is its length times its middle stone and an even run is half its length times the sum of its two middle stones; every run on every lane to two hundred is swept and the odd divisors build the same runs one for one, and The Sixteen ships hopeless because a power of two has no odd factor |
 
 ## The idea they share
 
@@ -1449,6 +1450,19 @@ paragraph:
   further. The Three ships hopeless because half, a quarter and a
   sixth are eleven twelfths, and all 15,625 stacks reach 22
   twenty-fourths at the most.
+- **Milesworth** is the polite numbers: milestones along a lane,
+  numbered from one, and a run of two or more of them to mark whose
+  numbers add to the count asked. A run of an odd number of stones
+  is that number times its middle stone, and a run of an even number
+  is half that number times the sum of its two middle stones, which
+  is odd, so every run carries an odd factor past one, and the runs
+  of a count are one to each odd divisor of it. Every run on every
+  lane to two hundred is swept, 1,333,300 runs, and the odd divisors
+  build the same runs one for one, none at the powers of two, every
+  odd count the run of two round its half. Fifteen runs three ways of
+  105, twenty-one three ways of 210, thirteen once of 78, forty-five
+  five ways of 990. The Sixteen ships hopeless because a power of two
+  has no odd factor.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
