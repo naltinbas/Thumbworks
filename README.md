@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -150,6 +150,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Setwick/assets/logo.png" width="64"><br><b><a href="Setwick">Setwick</a></b></div> | Pair the dancers off so every pair comes to one over the caller | Wilson's theorem as a set dance: every pairing of every set swept, 3 and 105 and 945 and 135,135 of them, exactly one landing for each prime caller and it is Bezout's pair for pair, the whole set multiplied coming to one less than the caller for every prime to thirty, and The Set of Nine ships hopeless because dancers 3 and 6 come to one with nobody |
 | <div align="center"><img src="Sweetleigh/assets/logo.png" width="64"><br><b><a href="Sweetleigh">Sweetleigh</a></b></div> | Cut the sweet string in few places and share the pieces fair | Necklace splitting swept whole: two kinds share with two cuts on all 70 strings of four and four and all 924 of six and six, the sliding window built for each, three kinds with three cuts on all 90 strings of two, two and two, and The Single Cut ships hopeless because reds-then-blues holds all four reds in any first piece with two blues |
 | <div align="center"><img src="Shiftwell/assets/logo.png" width="64"><br><b><a href="Shiftwell">Shiftwell</a></b></div> | Finish the four-rota from the shifts fixed | Latin square completion swept whole, Evans and Smetaniuk held to it: 576 rotas of four, 24 from a fixed first day, every one of the 25,920 sound fills of three shifts finishing and 13,824 of the 239,760 fills of four never, and The Stuck Shift ships hopeless because one shift has no hand left for it |
+| <div align="center"><img src="Kerbwell/assets/logo.png" width="64"><br><b><a href="Kerbwell">Kerbwell</a></b></div> | Lay the slabs joined inside the shortest kerb | Harary and Harborth's shortest kerb held to the sweep of every joined placing of up to ten slabs, 25 through 39,622 of them, twice the least whole number not below twice the square root of the count, 4, 6, 8, 8, 10, 10, 12, 12, 12 and 14, the box round a placing never kerbed longer than the placing, and The Five in Eight ships hopeless because five slabs need a box of two by three |
 
 ## The idea they share
 
@@ -1172,6 +1173,16 @@ paragraph:
   fills of four never. The Stuck Shift ships hopeless because one
   shift has no hand left for it, and every open shift shows its
   candidate hands.
+- **Kerbwell** is grid isoperimetry, Harary and Harborth's shortest
+  kerb: slabs laid joined in a five-by-five yard and a kerb run
+  round them, one length for every slab edge on bare ground, and
+  every joined placing of one to ten slabs swept, 25 through 39,622
+  of them, the shortest kerb at each count twice the least whole
+  number not below twice the square root of the count, 4, 6, 8, 8,
+  10, 10, 12, 12, 12 and 14, with the kerb round the smallest box
+  never exceeding the kerb itself. The Five in Eight ships hopeless
+  because five slabs need a box of two by three, and the box is
+  chalked live.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
