@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-eight games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -177,6 +177,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Weighwick/assets/logo.png" width="64"><br><b><a href="Weighwick">Weighwick</a></b></div> | Balance a load on a market scale with the weights 1, 3, 9 and 27 on either pan | Bachet's weights: every whole load from one to forty balances with 1, 3, 9 and 27 placed across, beside or off, each in exactly one way, since counting in threes with the digits 1, 0 and -1 writes each number one way; all 81 placings swept and they weigh 81 different amounts, -40 to 40, and the counting names the same placing for every load; The Ten Without the One ships hopeless because the 3, 9 and 27 weigh multiples of three however they stand |
 | <div align="center"><img src="Cloakwell/assets/logo.png" width="64"><br><b><a href="Cloakwell">Cloakwell</a></b></div> | Sort numbered coats on a row of hooks by swapping neighbours, in the fewest swaps | Inversions: the fewest swaps of neighbours that sort a row is exactly the count of pairs out of order, since a swap mends or breaks the one pair it touches and no other; every row of up to six coats, 873 of them, searched nearest-first and the count is the fewest every time, every sequence of swaps swept for every rail, and the sign of a row by its cycles is the parity of the count; The Five Swaps ships hopeless because six pairs hang askew and one swap mends one pair at the most |
 | <div align="center"><img src="Fusewick/assets/logo.png" width="64"><br><b><a href="Fusewick">Fusewick</a></b></div> | Light uneven hour-long fuses at their ends and strike a given minute | The burning-fuse puzzle: a fuse burns an hour from end to end but unevenly, so only the whole can be trusted, an hour lit at one end and half an hour lit at both, and ends may be lit only at the start or at a burnout; every plan of one, two and three fuses is swept in quarter-minutes, two fuses strike only 30, 45, 60, 90 and 120, three add 52 and a half, 67 and a half, 75, 105, 150 and 180, and every show-me plan is played through the game to the minute; The Twenty ships hopeless because nothing burns out before thirty |
+| <div align="center"><img src="Trickmere/assets/logo.png" width="64"><br><b><a href="Trickmere">Trickmere</a></b></div> | Hide one of five dealt cards and lay the other four so a partner names it | Fitch Cheney's five-card trick: of five cards two share a suit, of any two ranks one is within six steps of the other round through the king to the ace, and three cards lie low, middle and high in six orders, so the row always tells the hidden card; every layout of every hand here is swept, the six orders checked on all 22,100 threes of the deck, and the assistant's rule run on all 2,598,960 hands of five; The Lone Club ships hopeless because the card that must be hidden is the only one of its suit, and no club is left to say so |
 
 ## The idea they share
 
@@ -1549,6 +1550,21 @@ paragraph:
   for every time that ships. The Twenty ships hopeless because nothing
   burns out before thirty, and every burnout after is a whole or a half
   of what some fuse had left.
+- **Trickmere** is Fitch Cheney's five-card trick: five cards are dealt
+  from a full deck, you hide one and lay the other four in a row, and
+  your partner, who has seen nothing else, names the hidden card. It
+  always works, and the reason is three small facts: of five cards two
+  share a suit; of any two ranks, one is within six steps of the other
+  going round through the king to the ace; and three cards can be laid
+  low, middle and high in six orders. So hide the one of the pair that
+  is within six steps, show its mate first to tell the suit, and lay
+  the other three in the order that tells the steps. Every layout of
+  every hand here is swept, 120 a hand, the six orders are checked to
+  tell one to six and back on all 22,100 threes of the deck, and the
+  assistant's rule is run on all 2,598,960 hands of five from the whole
+  deck, hiding a card and laying four the partner names on every one.
+  The Lone Club ships hopeless because the 4 of clubs must be hidden,
+  and no club is left to say so.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
