@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-eight games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -137,6 +137,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Rackenford/assets/logo.png" width="64"><br><b><a href="Rackenford">Rackenford</a></b></div> | Rack the jars so no rack holds a jar and its divisor | Mirsky's law in a jam pantry: the racks you need are exactly the longest divisor chain, the height racking lands with no searching, and the dozen fits four racks but never three, its chain of one, two, four, eight taking one rack apiece |
 | <div align="center"><img src="Slicebury/assets/logo.png" width="64"><br><b><a href="Slicebury">Slicebury</a></b></div> | Set candles on the cake rim and count the slices the knife makes | Moser's circle counted whole: the slices double to sixteen at every pick of five, then six candles cut thirty-one, or thirty where three knife lines clump through a point, and never thirty-two |
 | <div align="center"><img src="Watchmere/assets/logo.png" width="64"><br><b><a href="Watchmere">Watchmere</a></b></div> | Slide night watches along the mere wall till every pair shares an hour | Helly's law on a line: when every pair of watches overlaps, the latest riser and the earliest sleeper name an hour inside all of them, held over 729 diallings of three and 5,040 of four; the Sundered Watch ships hopeless because that named pair cannot part |
+| <div align="center"><img src="Sortlow/assets/logo.png" width="64"><br><b><a href="Sortlow">Sortlow</a></b></div> | Dial four digits and grind them down to Kaprekar's stone | Kaprekar's constant walked forward and tabled backwards over all 9,990 allowed loads: every one arrives at 6174 by the seventh turn, three turns is the commonest road, and The Eighth Turn ships hopeless because the table stops at seven |
 
 ## The idea they share
 
@@ -1043,6 +1044,14 @@ paragraph:
   Ring drops one pair and the hour with it, and The Sundered
   Watch ships hopeless because the two named watches overlap
   like any pair and hand everybody their hour.
+- **Sortlow** is Kaprekar's 6174 as a mill: dial four digits and
+  the biggest arrangement less the smallest grinds turn upon
+  turn, the forward walk and a table built backwards from the
+  stone agreeing over all 9,990 allowed loads, every road drawn
+  on the screen as the dials turn. Three turns is the commonest
+  road, seven the whole reach, twenty-six the smallest one-turn
+  load, 6174 the lone standstill, and The Eighth Turn ships
+  hopeless because every allowed number arrives by the seventh.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
