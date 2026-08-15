@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -171,6 +171,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Mitrewick/assets/logo.png" width="64"><br><b><a href="Mitrewick">Mitrewick</a></b></div> | Stand bishops on a small board with none on another's diagonal | The most peaceful bishops on an n by n board is 2n - 2, and never one more: one bishop at most to each of the 2n - 1 rising diagonals, and the two single-square ones sit in corners that share the long falling diagonal; every setting of every board to four a side is swept and the count read again diagonal by diagonal, the settings of the most doubling with every side, 4, 8, 16, 32, 64, 128, and The Seven ships hopeless because the diagonals said so |
 | <div align="center"><img src="Ledgeworth/assets/logo.png" width="64"><br><b><a href="Ledgeworth">Ledgeworth</a></b></div> | Lean books over the desk edge so the top one hangs out as far as it will | The block-stacking problem and the harmonic numbers: the top of a standing stack hangs out at most 1/2 + 1/4 + 1/6 + ..., half the harmonic number, every stack on the twenty-fourths swept to five books, nearly ten million of them, the harmonic stack reaching the sweep's best every time, four books clearing a whole book and The Three shipping hopeless because half, a quarter and a sixth are eleven twelfths |
 | <div align="center"><img src="Milesworth/assets/logo.png" width="64"><br><b><a href="Milesworth">Milesworth</a></b></div> | Mark a run of two or more milestones along the lane that add to the count asked | Polite numbers: a count is a run of two or more consecutive numbers exactly when it is not a power of two, and the runs are one to each odd divisor past one, since an odd run is its length times its middle stone and an even run is half its length times the sum of its two middle stones; every run on every lane to two hundred is swept and the odd divisors build the same runs one for one, and The Sixteen ships hopeless because a power of two has no odd factor |
+| <div align="center"><img src="Capwick/assets/logo.png" width="64"><br><b><a href="Capwick">Capwick</a></b></div> | Call the colour of your own cap from what you see ahead and hear behind, and save all but the first man | The hat-line parity plan: the man at the back calls the parity of the black caps ahead and every man after him counts, so all but the first are saved whatever the caps, the plan run down every deal of every line to eight men; the first can never be saved by any plan, every plan of his counted for lines to five and each right on exactly half the deals, and The Five Saved ships hopeless because a warden caps the first man against his word |
 
 ## The idea they share
 
@@ -1463,6 +1464,21 @@ paragraph:
   105, twenty-one three ways of 210, thirteen once of 78, forty-five
   five ways of 990. The Sixteen ships hopeless because a power of two
   has no odd factor.
+- **Capwick** is the hat-line parity plan: a line of men, a black or
+  white cap on each, each seeing only the caps ahead, and from the
+  back one at a time each calls the colour of his own cap, hearing
+  the calls behind him. The man at the back calls black if he sees an
+  odd number of black caps ahead and white if even, and each man
+  after him counts the black caps ahead and the black caps called
+  behind and calls the colour that brings the line to that parity,
+  so every man but the first is saved whatever the caps; the plan is
+  run down every deal of every line of two to eight men, all but the
+  first right on every deal and the first right on half, which is
+  luck. The first man can never be saved by any plan, since he speaks
+  knowing nothing of his own cap: every plan of his is counted for
+  lines to five, 65,536 for a line of five, and each is right on
+  exactly half the deals. The Five Saved ships hopeless because a
+  warden caps the first man against his word.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
