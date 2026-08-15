@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-eight games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -147,6 +147,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Studwell/assets/logo.png" width="64"><br><b><a href="Studwell">Studwell</a></b></div> | Pave the court round the well with elbow flags | L-tromino tilings swept whole: the four-court paves round every one of its sixteen wells exactly once, as Golomb's quartering lays it, the five-court only where the well is a stud, one stud to an elbow, and The Stray Well ships hopeless because nine studs outnumber eight elbows |
 | <div align="center"><img src="Evenholt/assets/logo.png" width="64"><br><b><a href="Evenholt">Evenholt</a></b></div> | Share the tokens two trays even in sums, squares and cubes | Prouhet's doubling pattern held to the sweep of every half-and-half share: the one share of eight that squares and the one of sixteen that cubes are both his, sums agree 1, 4, 29 and 263 ways and his polynomial divides by one less x exactly one time more than the powers that agree, while The Four Squared ships hopeless because the three pairings square to 17 and 13 |
 | <div align="center"><img src="Frogmere/assets/logo.png" width="64"><br><b><a href="Frogmere">Frogmere</a></b></div> | Leap frogs above the reeds, solitaire-wise | Conway's soldiers with the golden ratio done exactly: every road to the first four reaches counted, 1, 1, 8 and 369,106,018 of them, the four landing armies weighing exactly one so every road spends every frog, and The Fifth Reach ships hopeless because the whole pond below the reeds weighs exactly one against it while a frog on the aim weighs one alone |
+| <div align="center"><img src="Setwick/assets/logo.png" width="64"><br><b><a href="Setwick">Setwick</a></b></div> | Pair the dancers off so every pair comes to one over the caller | Wilson's theorem as a set dance: every pairing of every set swept, 3 and 105 and 945 and 135,135 of them, exactly one landing for each prime caller and it is Bezout's pair for pair, the whole set multiplied coming to one less than the caller for every prime to thirty, and The Set of Nine ships hopeless because dancers 3 and 6 come to one with nobody |
 
 ## The idea they share
 
@@ -1139,6 +1140,16 @@ paragraph:
   Fifth Reach ships hopeless because the whole pond below the
   reeds weighs exactly one against it by the series, and the
   twenty-seven set down weigh 0.679.
+- **Setwick** is Wilson's theorem as a set dance: dancers 1 to
+  n - 1 in a ring partner when their numbers multiplied come to
+  one over the caller's n, and every pairing of every set is
+  swept, 3 and 105 and 945 and 135,135 of them, exactly one
+  landing for each prime caller and it is Bezout's, pair for pair,
+  with the whole set multiplied coming to n - 1 over n for every
+  prime to thirty and to nought for every composite past four. The
+  Set of Nine ships hopeless because dancers 3 and 6 share a
+  factor with the caller and come to one with nobody, and each
+  thread wears its product.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
