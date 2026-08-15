@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and thirty-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and thirty-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -144,6 +144,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Oddrow/assets/logo.png" width="64"><br><b><a href="Oddrow">Oddrow</a></b></div> | Wind Pascal's wall to a row holding the odd numbers asked | Lucas' law on Pascal's triangle: an entry is odd exactly when its place's bits fit the row's, so the odd count doubles per lit bit and is a power of two always, three voices agreeing on rows nought to fifteen, and The Three Odds ships hopeless |
 | <div align="center"><img src="Foursworth/assets/logo.png" width="64"><br><b><a href="Foursworth">Foursworth</a></b></div> | Dial the windows and take differences round the ring till all go dark | Ducci's walk: four windows always go dark by the seventh turn, since four turns leave every face even and evens halve to a smaller game, checked across all 4,096 diallings, while three windows circle for ever unless they start alike, and The Three Turns ships hopeless |
 | <div align="center"><img src="Tablesham/assets/logo.png" width="64"><br><b><a href="Tablesham">Tablesham</a></b></div> | Seat the husbands between the wives so no couple sits together | The menage problem swept and held to Touchard's arithmetic: nought ways for two couples, one for three, two for four, thirteen for five and five with the host held in his chair, and The Two Couples ships hopeless because a circle of four seats both wives beside every husband |
+| <div align="center"><img src="Studwell/assets/logo.png" width="64"><br><b><a href="Studwell">Studwell</a></b></div> | Pave the court round the well with elbow flags | L-tromino tilings swept whole: the four-court paves round every one of its sixteen wells exactly once, as Golomb's quartering lays it, the five-court only where the well is a stud, one stud to an elbow, and The Stray Well ships hopeless because nine studs outnumber eight elbows |
 
 ## The idea they share
 
@@ -1107,6 +1108,14 @@ paragraph:
   five with the host held in his chair, and The Two Couples ships
   hopeless because a circle of four seats both wives beside every
   husband, his own among them.
+- **Studwell** is L-tromino tiling: three flags in an L round a
+  well, the sweep of every paving held to Golomb's quartering on
+  the four-court, which paves round every well exactly once, and
+  to the stud count on the five-court, where an elbow covers one
+  stud at most and eight elbows land only where the well is a
+  stud, 8 ways at a corner, 16 on a wall and 32 in the middle. The
+  Stray Well ships hopeless because nine studs outnumber eight
+  elbows, and the bare studs glow brass as you lay.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
