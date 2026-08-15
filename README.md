@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -154,6 +154,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Loafham/assets/logo.png" width="64"><br><b><a href="Loafham">Loafham</a></b></div> | Cut the share of loaf as unit fractions, no two alike | Egyptian fractions and Fibonacci's greedy cut swept over every set of cuts from a half to a twenty-fourth: two of three only as a half and a sixth, four of five two ways in three cuts, nine of ten one way, five of seven two ways though the greedy cut wants a seventieth, and The Two Cuts ships hopeless because a half leaves three tenths and no half leaves seven twelfths at the most |
 | <div align="center"><img src="Trayford/assets/logo.png" width="64"><br><b><a href="Trayford">Trayford</a></b></div> | Fill the egg tray to the count that leaves the asked over | Sun Tzu's problem and the Chinese remainder theorem swept over every count of the tray: by threes and fives, fives and sevens, and threes, fives and sevens each asking is met by exactly one count below the span and it is Sun Tzu's construction to the egg, by fours and sixes only the askings agreeing on the shared two are met at all, and The Odd and Even ships hopeless because one over by fours with two over by sixes is odd against even |
 | <div align="center"><img src="Riffleford/assets/logo.png" width="64"><br><b><a href="Riffleford">Riffleford</a></b></div> | Cut the deck, turn the packet, riffle so every pair is mixed | Gilbreath's principle dealt out riffle by riffle: with the packet turned every one of the 56, 70 and 126 riffles deals every pair or triple mixed, since the piles read the pattern in opposite directions and their tops differ at every pair's start, the even cut unturned lands only 6 riffles of 70, and The Two Reds ships hopeless because no riffle of the turned odd cut ever pairs two reds |
+| <div align="center"><img src="Thirdwell/assets/logo.png" width="64"><br><b><a href="Thirdwell">Thirdwell</a></b></div> | Deal the counters into three columns and walk yours to its place | Gergonne's twenty-seven-card trick dealt out for every counter and every run of three placings, 729 runs, every one landing where the arithmetic says, the placings read as digits in threes with the first deal the units, so each of the 27 places is reached by exactly one run, while two deals reach nine places only, and The Top in Two ships hopeless because counter 17 never reaches the top in two |
 
 ## The idea they share
 
@@ -1216,6 +1217,17 @@ paragraph:
   riffles of 70, all dealing the deck back as it was. The Two Reds
   ships hopeless because no riffle of the turned odd cut ever pairs
   two reds, and every block is bracketed as it is dealt.
+- **Thirdwell** is Gergonne's twenty-seven-card trick: counters
+  dealt into three columns round and round, the column named, the
+  columns gathered with it on top, in the middle or at the bottom,
+  three times, and every run of three placings dealt out for every
+  one of the 27 counters, 729 runs, every one landing where the
+  arithmetic says, the placings read as digits in threes with the
+  first deal the units, so each of the 27 places is reached by
+  exactly one run from any start. The Top in Two ships hopeless
+  because two deals reach nine places only, those whose units are
+  the start counted in nines, and counter 17 never reaches the top,
+  and the stack is shown place by place after each gather.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
