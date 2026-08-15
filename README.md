@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and sixty-three games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and sixty-four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -172,6 +172,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Ledgeworth/assets/logo.png" width="64"><br><b><a href="Ledgeworth">Ledgeworth</a></b></div> | Lean books over the desk edge so the top one hangs out as far as it will | The block-stacking problem and the harmonic numbers: the top of a standing stack hangs out at most 1/2 + 1/4 + 1/6 + ..., half the harmonic number, every stack on the twenty-fourths swept to five books, nearly ten million of them, the harmonic stack reaching the sweep's best every time, four books clearing a whole book and The Three shipping hopeless because half, a quarter and a sixth are eleven twelfths |
 | <div align="center"><img src="Milesworth/assets/logo.png" width="64"><br><b><a href="Milesworth">Milesworth</a></b></div> | Mark a run of two or more milestones along the lane that add to the count asked | Polite numbers: a count is a run of two or more consecutive numbers exactly when it is not a power of two, and the runs are one to each odd divisor past one, since an odd run is its length times its middle stone and an even run is half its length times the sum of its two middle stones; every run on every lane to two hundred is swept and the odd divisors build the same runs one for one, and The Sixteen ships hopeless because a power of two has no odd factor |
 | <div align="center"><img src="Capwick/assets/logo.png" width="64"><br><b><a href="Capwick">Capwick</a></b></div> | Call the colour of your own cap from what you see ahead and hear behind, and save all but the first man | The hat-line parity plan: the man at the back calls the parity of the black caps ahead and every man after him counts, so all but the first are saved whatever the caps, the plan run down every deal of every line to eight men; the first can never be saved by any plan, every plan of his counted for lines to five and each right on exactly half the deals, and The Five Saved ships hopeless because a warden caps the first man against his word |
+| <div align="center"><img src="Rowsden/assets/logo.png" width="64"><br><b><a href="Rowsden">Rowsden</a></b></div> | Walk the nine schoolgirls out in rows of three, day after day, so every pair walks together once | Kirkman's schoolgirls at nine, the smallest such school: each girl meets two a day and has eight to meet, so the week is four days and no fewer, and four days do it by rows, columns and the two slants of the three-by-three, the affine plane of order three; every filling of every week is swept, 72 whole weeks following the first day, and The Three Days ships hopeless because three days walk 27 pairs at the most |
 
 ## The idea they share
 
@@ -1479,6 +1480,18 @@ paragraph:
   lines to five, 65,536 for a line of five, and each is right on
   exactly half the deals. The Five Saved ships hopeless because a
   warden caps the first man against his word.
+- **Rowsden** is Kirkman's schoolgirls at nine, the smallest such
+  school: nine girls walked out in rows of three, day after day, so
+  that every pair walks together exactly once. Each girl meets two
+  others a day and has eight to meet, so the week is four days and no
+  fewer, and four days do it, by rows, by columns and by the two
+  slants of the girls stood in a three-by-three, which is the affine
+  plane of order three. There are 280 ways to walk nine out in rows
+  of three; after the first day 36 repeat no pair, after rows and
+  columns 2, the two slants, and from the first day 72 whole weeks
+  follow, every one walking all 36 pairs, out of 21,952,000 fillings
+  swept. The Three Days ships hopeless because three days walk 27
+  pairs at the most, all 78,400 fillings tried in full.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
