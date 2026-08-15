@@ -1,0 +1,86 @@
+import 'package:flutter/material.dart';
+
+import '../cellar/play.dart';
+import 'palette.dart';
+
+/// The card that ends a search, either way.
+class ResultCard extends StatelessWidget {
+  const ResultCard({
+    super.key,
+    required this.play,
+    required this.fewest,
+    required this.isRecord,
+    required this.onAgain,
+    required this.onSham,
+  });
+
+  final Play play;
+
+  /// The standing record, after this search counted.
+  final int? fewest;
+  final bool isRecord;
+
+  final VoidCallback onAgain;
+  final VoidCallback onSham;
+
+  @override
+  Widget build(BuildContext context) {
+    final done = play.isDone;
+    final words = done
+        ? 'Cask ${play.from + 1} holds the coin, found in ${play.asked} '
+            'question${play.asked == 1 ? '' : 's'}.'
+            '${isRecord ? ' The fewest yet.' : fewest == null ? '' : ' Fewest yet: $fewest.'}'
+        : play.missed
+            ? 'The questions are spent and ${play.size} casks still might; the '
+                'cellarman kept the bigger part every time, and a cut off the middle '
+                'left him too much.'
+            : 'The questions are spent and ${play.size} casks still might, and they '
+                'always would: three questions have eight answers between them, and '
+                'nine casks are one more, so some two casks get the same three answers '
+                'and are never told apart.';
+    return Card(
+      color: Palette.board,
+      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(14),
+        side: BorderSide(
+            color: done ? Palette.good : Palette.bad, width: 1.4),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              done ? 'Landed.' : play.missed ? 'Not found.' : 'Eight answers, nine casks.',
+              style: TextStyle(
+                color: done ? Palette.good : Palette.bad,
+                fontSize: 20,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(words,
+                style:
+                    const TextStyle(color: Palette.ink, fontSize: 14)),
+            const SizedBox(height: 10),
+            Row(
+              children: [
+                OutlinedButton(
+                  onPressed: onAgain,
+                  child: const Text('Again'),
+                ),
+                const SizedBox(width: 10),
+                OutlinedButton(
+                  onPressed: onSham,
+                  child: const Text('The sham'),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
