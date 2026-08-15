@@ -6,7 +6,7 @@ import '../table/rules.dart';
 import 'tableview.dart';
 
 /// The game's mark: the one seating of three couples, every
-/// husband two places round from his wife.
+/// husband three seats round from his wife.
 class Mark extends StatelessWidget {
   const Mark({super.key, this.onVerge = true});
 
