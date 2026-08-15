@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -161,6 +161,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Stillmere/assets/logo.png" width="64"><br><b><a href="Stillmere">Stillmere</a></b></div> | Light exactly so many lanterns on the mere so that Conway's rule leaves the picture still | Still lifes in Conway's Game of Life swept whole on the mere and the rule run on the whole plane: four lanterns lie still 25 ways in two shapes, sixteen blocks and nine tubs, five 36 ways in the boat's four turnings, six 94 ways in fourteen shapes and seven 76 ways in twenty, and The Three Lights ships hopeless because every light needs two lit neighbours, so three sit in one corner of a square, and the fourth corner has three lit neighbours and lights |
 | <div align="center"><img src="Midford/assets/logo.png" width="64"><br><b><a href="Midford">Midford</a></b></div> | Set four pegs so that the figure joining the midpoints of their cords is a rectangle, a rhombus or a square | Varignon's parallelogram of 1731 swept over every ordered four of pegs on the board, 303,600 of them, the midpoint figure read two ways, off its own corners and off the diagonals: a parallelogram every time, a rectangle 27,952 times, a rhombus 18,384, a square 11,248, flat 27,872, since each side of the midpoint figure is half a diagonal of the four, and The Skew ships hopeless because the midpoint figure is never skew |
 | <div align="center"><img src="Wheelford/assets/logo.png" width="64"><br><b><a href="Wheelford">Wheelford</a></b></div> | Cord three pegs on the rim of a wheel into a triangle with a square corner, or four into a square | Thales' theorem on a wheel five spokes across with twelve pegs on its rim, every three of them corded, 220 triangles, and every corner tested two ways, by the dot product and by whether the cord across runs through the hub: sixty triangles have a square corner and every one looks across at a diameter, forty are sharp all round and a hundred and twenty blunt, three of the 495 fours are squares, and The Off Diameter ships hopeless because no square corner on the wheel ever looks across at anything but a diameter |
+| <div align="center"><img src="Evenmoor/assets/logo.png" width="64"><br><b><a href="Evenmoor">Evenmoor</a></b></div> | Set pegs on a five-by-five moor so that the halfway posts between them land on holes, or keep off them | The pigeonhole in its plainest clothes: halfway between two whole numbers is whole only when both are even or both odd, so a hole is one of four kinds and two pegs of a kind always land their post; every placing of three, four and five pegs is swept, 2,300, 12,650 and 53,130, and every post read two ways, four pegs keeping every post off 1,296 ways, one to a kind, five pegs landing one post 13,608 ways and all ten 138, and The Five Apart ships hopeless because four kinds cannot hold five pegs one apiece |
 
 ## The idea they share
 
@@ -1310,6 +1311,19 @@ paragraph:
   squares, each two diameters crossing square. The Off Diameter
   ships hopeless because no square corner on the wheel ever looks
   across at anything but a diameter.
+- **Evenmoor** is the pigeonhole principle in its plainest clothes:
+  twenty-five holes in a five-by-five moor, pegs to set in them, and
+  between every two pegs a halfway post that either lands on a hole
+  or falls between holes; halfway between two whole numbers is whole
+  only when both are even or both odd, so a hole is one of four
+  kinds, even or odd across and even or odd down, and two pegs of a
+  kind always land their post. Every placing of three, four and five
+  pegs is swept, 2,300, 12,650 and 53,130 of them, and every post
+  read two ways, by whether it lands and by the kinds of its pegs:
+  four pegs keep every post off 1,296 ways, one to a kind, three
+  pegs land all three posts 128 ways, five pegs land one post 13,608
+  ways and all ten 138. The Five Apart ships hopeless because four
+  kinds cannot hold five pegs one apiece.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
