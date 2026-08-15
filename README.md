@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty-nine games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -158,6 +158,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Rowsworth/assets/logo.png" width="64"><br><b><a href="Rowsworth">Rowsworth</a></b></div> | Pick a heap of pebbles that lays out in exactly so many even rows | The divisor count of every heap up to a hundred read two ways, by laying the pebbles out in every row length by trial and by the product of the prime powers each raised by one, the two agreeing there and on to a thousand: seven even rows come from sixty-four alone, nine from thirty-six and a hundred, ten from forty-eight and eighty, twelve from sixty first, and The Thirteen Rows ships hopeless because a prime count of rows is a single prime raised, and two to the twelfth is four thousand and ninety-six |
 | <div align="center"><img src="Steedwick/assets/logo.png" width="64"><br><b><a href="Steedwick">Steedwick</a></b></div> | Ride the four steeds round the nine stalls as a knight moves, and swap the pale for the dark | Guarini's 1512 knight-swap puzzle on the three-by-three paddock, every standing ridden to from home, 280 of the 1,680, and they are exactly the standings that keep home's order round the ring of outer stalls, since a knight's moves there run round in one ring and steeds on a ring cannot pass: the colour swap takes sixteen moves and comes out one way only, sixteen being as far as any standing lies, and The Pale Swap ships hopeless because the two pale steeds can never change places round the ring |
 | <div align="center"><img src="Foldwick/assets/logo.png" width="64"><br><b><a href="Foldwick">Foldwick</a></b></div> | Pass the sheep and the goats to the other ends of the plank, a step or a jump at a time | Lucas's sheep-and-goats crossing of 1883 walked whole, no beast ever going back: with m sheep and n goats the crossing takes m times n plus m plus n moves and exactly that however it is done, one and one in 3, two and two in 8, three and two in 11, three and three in 15, two crossings apiece and mirrors of one another, every crossing taking the sheep times the goats jumps and the sheep plus the goats steps, and The Steps Alone ships hopeless because without a jump the order along the plank never changes and the fold is stuck in two moves |
+| <div align="center"><img src="Stillmere/assets/logo.png" width="64"><br><b><a href="Stillmere">Stillmere</a></b></div> | Light exactly so many lanterns on the mere so that Conway's rule leaves the picture still | Still lifes in Conway's Game of Life swept whole on the mere and the rule run on the whole plane: four lanterns lie still 25 ways in two shapes, sixteen blocks and nine tubs, five 36 ways in the boat's four turnings, six 94 ways in fourteen shapes and seven 76 ways in twenty, and The Three Lights ships hopeless because every light needs two lit neighbours, so three sit in one corner of a square, and the fourth corner has three lit neighbours and lights |
 
 ## The idea they share
 
@@ -1269,6 +1270,19 @@ paragraph:
   Steps Alone ships hopeless because without a jump the order along
   the plank never changes: five planks can be reached and the fold
   is stuck in two moves.
+- **Stillmere** is the still life in Conway's Game of Life: lanterns
+  on the mere burn by the rule of 1970, a lit lantern staying lit
+  with two or three of its eight neighbours lit and going out
+  otherwise, an unlit spot lighting with exactly three lit
+  neighbours, and the picture lies still when nothing changes. Every
+  lighting of the mere is swept for four, five, six and seven
+  lanterns and the rule run on the whole plane: four lie still 25
+  ways in two shapes, sixteen blocks and nine tubs, five 36 ways in
+  the boat's four turnings, six 94 ways in fourteen shapes and seven
+  76 ways in twenty. The Three Lights ships hopeless because each
+  light needs two lit neighbours, so the three sit in one corner of a
+  square, and the fourth corner has three lit neighbours and lights,
+  the 64 such lightings swept.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
