@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and twenty-six games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and twenty-seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -135,6 +135,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Daisyholme/assets/logo.png" width="64"><br><b><a href="Daisyholme">Daisyholme</a></b></div> | Befriend the circle till every pair shares exactly one friend | The friendship theorem wired whole: every landing is a daisy with somebody at its heart, the count is hearts times pairings on every crowd, and an even crowd never manages it, since anyone's friends pair off around them |
 | <div align="center"><img src="Inkfen/assets/logo.png" width="64"><br><b><a href="Inkfen">Inkfen</a></b></div> | Ink the bunting so no two strings share a post in one ink | Edge colouring on the washing lines: paths and even rings take two inks two ways each, the full four takes exactly the six orders of its three matchings, and the odd ring refuses two inks outright, its alternation coming home wrong |
 | <div align="center"><img src="Rackenford/assets/logo.png" width="64"><br><b><a href="Rackenford">Rackenford</a></b></div> | Rack the jars so no rack holds a jar and its divisor | Mirsky's law in a jam pantry: the racks you need are exactly the longest divisor chain, the height racking lands with no searching, and the dozen fits four racks but never three, its chain of one, two, four, eight taking one rack apiece |
+| <div align="center"><img src="Slicebury/assets/logo.png" width="64"><br><b><a href="Slicebury">Slicebury</a></b></div> | Set candles on the cake rim and count the slices the knife makes | Moser's circle counted whole: the slices double to sixteen at every pick of five, then six candles cut thirty-one, or thirty where three knife lines clump through a point, and never thirty-two |
 
 ## The idea they share
 
@@ -1024,6 +1025,14 @@ paragraph:
   at all one rack down. The Dozen on Three ships hopeless:
   one, two, four and eight are a chain of four, and a chain
   never shares a rack.
+- **Slicebury** is Moser's circle cut on a cake: Euler's
+  reckoning and the cut count, one plus a slice per line
+  plus a slice per crossing, agree on all 2,509 picks in
+  exact whole-number arithmetic, the doubling holds at every
+  pick below six, and six candles split 856 thirty-ones and
+  68 thirties, the clumps drawn fat and gold. The Thirty-Two
+  ships hopeless: fifteen lines and fifteen crossings top
+  out at thirty-one.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
