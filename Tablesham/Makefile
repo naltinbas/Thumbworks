@@ -2,7 +2,7 @@
 # there once rather than each one spelling out the full path.
 export PATH := /opt/flutter/bin:$(PATH)
 
-.PHONY: check deps test analyze shots bricks apk ios clean
+.PHONY: check deps test analyze shots tables apk ios clean
 
 # Everything that has to be green. What the pre-push hook runs, because there
 # is no CI here: nothing leaves this machine unless it analyzes and the tests
@@ -18,8 +18,8 @@ test:
 analyze:
 	flutter analyze
 
-# Lays every tiling, reads every seam, counts the crossings, prints the ledger.
-bricks:
+# Runs the checker: every count recomputed both ways, then the ledger.
+tables:
 	dart run tool/check_tables.dart
 
 shots:
