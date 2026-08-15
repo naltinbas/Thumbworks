@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -149,6 +149,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Frogmere/assets/logo.png" width="64"><br><b><a href="Frogmere">Frogmere</a></b></div> | Leap frogs above the reeds, solitaire-wise | Conway's soldiers with the golden ratio done exactly: every road to the first four reaches counted, 1, 1, 8 and 369,106,018 of them, the four landing armies weighing exactly one so every road spends every frog, and The Fifth Reach ships hopeless because the whole pond below the reeds weighs exactly one against it while a frog on the aim weighs one alone |
 | <div align="center"><img src="Setwick/assets/logo.png" width="64"><br><b><a href="Setwick">Setwick</a></b></div> | Pair the dancers off so every pair comes to one over the caller | Wilson's theorem as a set dance: every pairing of every set swept, 3 and 105 and 945 and 135,135 of them, exactly one landing for each prime caller and it is Bezout's pair for pair, the whole set multiplied coming to one less than the caller for every prime to thirty, and The Set of Nine ships hopeless because dancers 3 and 6 come to one with nobody |
 | <div align="center"><img src="Sweetleigh/assets/logo.png" width="64"><br><b><a href="Sweetleigh">Sweetleigh</a></b></div> | Cut the sweet string in few places and share the pieces fair | Necklace splitting swept whole: two kinds share with two cuts on all 70 strings of four and four and all 924 of six and six, the sliding window built for each, three kinds with three cuts on all 90 strings of two, two and two, and The Single Cut ships hopeless because reds-then-blues holds all four reds in any first piece with two blues |
+| <div align="center"><img src="Shiftwell/assets/logo.png" width="64"><br><b><a href="Shiftwell">Shiftwell</a></b></div> | Finish the four-rota from the shifts fixed | Latin square completion swept whole, Evans and Smetaniuk held to it: 576 rotas of four, 24 from a fixed first day, every one of the 25,920 sound fills of three shifts finishing and 13,824 of the 239,760 fills of four never, and The Stuck Shift ships hopeless because one shift has no hand left for it |
 
 ## The idea they share
 
@@ -1162,6 +1163,15 @@ paragraph:
   ships hopeless because reds-then-blues holds all four reds in any
   first piece with two blues, and the blade is drawn across the
   string.
+- **Shiftwell** is Latin square completion, Evans's question and
+  Smetaniuk's answer: four hands, four stations, four days, a rota
+  sound when no hand works two stations in a day or one station on
+  two days, and every finishing of every rota swept, 576 rotas of
+  four in all, 24 from a fixed first day, every one of the 25,920
+  sound fills of three shifts finishing and 13,824 of the 239,760
+  fills of four never. The Stuck Shift ships hopeless because one
+  shift has no hand left for it, and every open shift shows its
+  candidate hands.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
