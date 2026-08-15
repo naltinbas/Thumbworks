@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -156,6 +156,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Riffleford/assets/logo.png" width="64"><br><b><a href="Riffleford">Riffleford</a></b></div> | Cut the deck, turn the packet, riffle so every pair is mixed | Gilbreath's principle dealt out riffle by riffle: with the packet turned every one of the 56, 70 and 126 riffles deals every pair or triple mixed, since the piles read the pattern in opposite directions and their tops differ at every pair's start, the even cut unturned lands only 6 riffles of 70, and The Two Reds ships hopeless because no riffle of the turned odd cut ever pairs two reds |
 | <div align="center"><img src="Thirdwell/assets/logo.png" width="64"><br><b><a href="Thirdwell">Thirdwell</a></b></div> | Deal the counters into three columns and walk yours to its place | Gergonne's twenty-seven-card trick dealt out for every counter and every run of three placings, 729 runs, every one landing where the arithmetic says, the placings read as digits in threes with the first deal the units, so each of the 27 places is reached by exactly one run, while two deals reach nine places only, and The Top in Two ships hopeless because counter 17 never reaches the top in two |
 | <div align="center"><img src="Rowsworth/assets/logo.png" width="64"><br><b><a href="Rowsworth">Rowsworth</a></b></div> | Pick a heap of pebbles that lays out in exactly so many even rows | The divisor count of every heap up to a hundred read two ways, by laying the pebbles out in every row length by trial and by the product of the prime powers each raised by one, the two agreeing there and on to a thousand: seven even rows come from sixty-four alone, nine from thirty-six and a hundred, ten from forty-eight and eighty, twelve from sixty first, and The Thirteen Rows ships hopeless because a prime count of rows is a single prime raised, and two to the twelfth is four thousand and ninety-six |
+| <div align="center"><img src="Steedwick/assets/logo.png" width="64"><br><b><a href="Steedwick">Steedwick</a></b></div> | Ride the four steeds round the nine stalls as a knight moves, and swap the pale for the dark | Guarini's 1512 knight-swap puzzle on the three-by-three paddock, every standing ridden to from home, 280 of the 1,680, and they are exactly the standings that keep home's order round the ring of outer stalls, since a knight's moves there run round in one ring and steeds on a ring cannot pass: the colour swap takes sixteen moves and comes out one way only, sixteen being as far as any standing lies, and The Pale Swap ships hopeless because the two pale steeds can never change places round the ring |
 
 ## The idea they share
 
@@ -1241,6 +1242,18 @@ paragraph:
   Thirteen Rows ships hopeless because thirteen is prime, so it is
   one power raised by one and nothing else, and two to the twelfth
   is four thousand and ninety-six.
+- **Steedwick** is Guarini's knight-swap puzzle of 1512: nine stalls
+  in a square, four steeds in the corners, two pale at the top and
+  two dark at the bottom, each moving as a knight does into an empty
+  stall, and the pale to be swapped for the dark. Every standing is
+  ridden to from home, 280 of the 1,680, and they are exactly the
+  standings that keep home's order round the ring, since a knight's
+  moves on the eight outer stalls run round in a single ring and
+  steeds on a ring cannot pass one another; the colour swap takes
+  sixteen moves and comes out one way only, sixteen being as far
+  from home as any standing lies, and The Pale Swap ships hopeless
+  because the two pale steeds can never change places, the order
+  round the ring never changing.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
