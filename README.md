@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and forty-three games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and forty-four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -152,6 +152,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Shiftwell/assets/logo.png" width="64"><br><b><a href="Shiftwell">Shiftwell</a></b></div> | Finish the four-rota from the shifts fixed | Latin square completion swept whole, Evans and Smetaniuk held to it: 576 rotas of four, 24 from a fixed first day, every one of the 25,920 sound fills of three shifts finishing and 13,824 of the 239,760 fills of four never, and The Stuck Shift ships hopeless because one shift has no hand left for it |
 | <div align="center"><img src="Kerbwell/assets/logo.png" width="64"><br><b><a href="Kerbwell">Kerbwell</a></b></div> | Lay the slabs joined inside the shortest kerb | Harary and Harborth's shortest kerb held to the sweep of every joined placing of up to ten slabs, 25 through 39,622 of them, twice the least whole number not below twice the square root of the count, 4, 6, 8, 8, 10, 10, 12, 12, 12 and 14, the box round a placing never kerbed longer than the placing, and The Five in Eight ships hopeless because five slabs need a box of two by three |
 | <div align="center"><img src="Loafham/assets/logo.png" width="64"><br><b><a href="Loafham">Loafham</a></b></div> | Cut the share of loaf as unit fractions, no two alike | Egyptian fractions and Fibonacci's greedy cut swept over every set of cuts from a half to a twenty-fourth: two of three only as a half and a sixth, four of five two ways in three cuts, nine of ten one way, five of seven two ways though the greedy cut wants a seventieth, and The Two Cuts ships hopeless because a half leaves three tenths and no half leaves seven twelfths at the most |
+| <div align="center"><img src="Trayford/assets/logo.png" width="64"><br><b><a href="Trayford">Trayford</a></b></div> | Fill the egg tray to the count that leaves the asked over | Sun Tzu's problem and the Chinese remainder theorem swept over every count of the tray: by threes and fives, fives and sevens, and threes, fives and sevens each asking is met by exactly one count below the span and it is Sun Tzu's construction to the egg, by fours and sixes only the askings agreeing on the shared two are met at all, and The Odd and Even ships hopeless because one over by fours with two over by sixes is odd against even |
 
 ## The idea they share
 
@@ -1194,6 +1195,16 @@ paragraph:
   less. The Two Cuts ships hopeless because a half leaves three
   tenths and no half leaves seven twelfths at the most, and the
   cuts are measured on the crumb.
+- **Trayford** is Sun Tzu's problem and the Chinese remainder
+  theorem: eggs in a tray of thirty, filled to the count leaving
+  the asked over by threes and fives, or fives and sevens, or all
+  three, every count of the tray swept for every asking, each met
+  by exactly one count below the span and that count Sun Tzu's
+  construction to the egg, while by fours and sixes only the twelve
+  askings of twenty-four whose leftovers agree on the shared two are
+  met at all. The Odd and Even ships hopeless because one over by
+  fours with two over by sixes is odd against even, and the eggs are
+  laid out again in clusters below.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
