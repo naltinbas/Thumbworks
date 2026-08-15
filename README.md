@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -166,6 +166,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Patchmere/assets/logo.png" width="64"><br><b><a href="Patchmere">Patchmere</a></b></div> | Sew the last two-patch on the quilt against a house that mirrors you across the middle | Cram and the mirror strategy: on a quilt even both ways no patch is its own mirror, so the second sewer answering every patch across the middle can never be the one left without a move, and on a quilt with one side odd the first sewer takes the middle patch and mirrors after; every game against the house is sewn out on every quilt, and the mirror is held to the game tree on every quilt of up to twenty cells, 65,756 and 11,739 games, and The Four by Four ships hopeless because the house mirrors you to the end |
 | <div align="center"><img src="Knotford/assets/logo.png" width="64"><br><b><a href="Knotford">Knotford</a></b></div> | Stand two pegs on a knotted rope so the triangle it stretches round has a square corner | The rope-stretchers' knots and Euclid's formula: every marking of every rope to two hundred knots is swept, and the right triangles it finds are exactly the ones Euclid writes from two numbers, k times m squared less n squared, twice mn and m squared plus n squared, 32 ropes squaring and 43 triangles among them, none shorter than twelve knots, and The Odd Rope ships hopeless because the remainders of squares by four fix the three sides even in sum |
 | <div align="center"><img src="Throwsden/assets/logo.png" width="64"><br><b><a href="Throwsden">Throwsden</a></b></div> | Line the wrestlers up so each threw the next, and close them into a ring | Redei and Camion on tournaments: every yard of three to six wrestlers is taken whole, 8 and 64 and 1,024 and 32,768 of them, and a line where each threw the next always exists and always in an odd number of ways, Redei's slotting finding one with no search; a ring closes exactly when every wrestler can reach every other along the throws, and The Champion's Ring ships hopeless because nobody threw Eli, so nobody can stand before him |
+| <div align="center"><img src="Stilemere/assets/logo.png" width="64"><br><b><a href="Stilemere">Stilemere</a></b></div> | Walk a hedged field from the gate to the mill, right and up only, over the stiles and round the ponds | Lattice paths and Pascal's rule: every route of every field is walked and counted three ways that agree, by the walk, by Pascal's rule at every junction and by the binomial, on every open field to eight by eight; the routes over a stile are the product of the two legs, the routes round a pond are Pascal's rule with the pond struck out, and The Crossed Stiles ships hopeless because from either stile the other lies below or to the left, and the walk never goes back |
 
 ## The idea they share
 
@@ -1384,6 +1385,22 @@ paragraph:
   closes two ways round and the six line up twenty-three ways of
   seven hundred and twenty. The Champion's Ring ships hopeless
   because nobody threw Eli, so nobody can stand before him.
+- **Stilemere** is lattice paths and Pascal's rule on a hedged field:
+  the gate at the bottom left, the mill at the top right, and every
+  step along the hedges goes right or up, so the routes are the ways
+  of choosing which steps go right, and Pascal's rule counts them
+  junction by junction, the routes to a junction being the routes to
+  the one on its left plus the routes to the one below. Every route
+  of every field is walked and counted three ways that agree, by the
+  walk, by Pascal's rule and by the binomial, on every open field to
+  eight by eight, 64 fields; the routes over a stile are the product
+  of the two legs, checked at 1,936 stiles, and the routes round a
+  pond are Pascal's rule with the pond struck out. Twenty routes
+  cross the three-by-three, nine over the stile at (1, 2) and eleven
+  round the pond at (2, 1); seventy cross the four-by-four, eighteen
+  over both stiles. The Crossed Stiles ships hopeless because from
+  either stile the other lies below or to the left, and the walk
+  never goes back, all 100 such pairs walked on the four-by-four.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
