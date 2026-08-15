@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and fifty-eight games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and fifty-nine games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -167,6 +167,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Knotford/assets/logo.png" width="64"><br><b><a href="Knotford">Knotford</a></b></div> | Stand two pegs on a knotted rope so the triangle it stretches round has a square corner | The rope-stretchers' knots and Euclid's formula: every marking of every rope to two hundred knots is swept, and the right triangles it finds are exactly the ones Euclid writes from two numbers, k times m squared less n squared, twice mn and m squared plus n squared, 32 ropes squaring and 43 triangles among them, none shorter than twelve knots, and The Odd Rope ships hopeless because the remainders of squares by four fix the three sides even in sum |
 | <div align="center"><img src="Throwsden/assets/logo.png" width="64"><br><b><a href="Throwsden">Throwsden</a></b></div> | Line the wrestlers up so each threw the next, and close them into a ring | Redei and Camion on tournaments: every yard of three to six wrestlers is taken whole, 8 and 64 and 1,024 and 32,768 of them, and a line where each threw the next always exists and always in an odd number of ways, Redei's slotting finding one with no search; a ring closes exactly when every wrestler can reach every other along the throws, and The Champion's Ring ships hopeless because nobody threw Eli, so nobody can stand before him |
 | <div align="center"><img src="Stilemere/assets/logo.png" width="64"><br><b><a href="Stilemere">Stilemere</a></b></div> | Walk a hedged field from the gate to the mill, right and up only, over the stiles and round the ponds | Lattice paths and Pascal's rule: every route of every field is walked and counted three ways that agree, by the walk, by Pascal's rule at every junction and by the binomial, on every open field to eight by eight; the routes over a stile are the product of the two legs, the routes round a pond are Pascal's rule with the pond struck out, and The Crossed Stiles ships hopeless because from either stile the other lies below or to the left, and the walk never goes back |
+| <div align="center"><img src="Stookwell/assets/logo.png" width="64"><br><b><a href="Stookwell">Stookwell</a></b></div> | Stand the sheaves in stooks, all of different sizes or all odd | Euler's partition theorem: for any harvest the standings in stooks all of different sizes are exactly as many as those in stooks all odd, every partition of every harvest to thirty walked and Euler's two products agreeing with the walk to sixty sheaves, Glaisher's turn of the hand taken both ways on 1,806 partitions and always coming back; The Four Stooks of Nine ships hopeless because four stooks of different sizes hold ten sheaves at the least |
 
 ## The idea they share
 
@@ -1401,6 +1402,21 @@ paragraph:
   over both stiles. The Crossed Stiles ships hopeless because from
   either stile the other lies below or to the left, and the walk
   never goes back, all 100 such pairs walked on the four-by-four.
+- **Stookwell** is Euler's partition theorem at harvest: sheaves
+  stood in stooks, a standing being a partition of the harvest, and
+  for any harvest the standings in stooks all of different sizes are
+  exactly as many as the standings in stooks all odd. Every partition
+  of every harvest to thirty is walked, 28,628 of them, and the two
+  counts come level at every harvest; Euler's two products, (1 + x^k)
+  over every k and 1/(1 - x^k) over odd k, agree with the walk and
+  with each other to sixty sheaves, 10,880 ways each at sixty; and
+  Glaisher's turn of the hand, pairing equal stooks into double ones
+  until none match, is taken both ways on 1,806 partitions to
+  twenty-five and always comes back to itself. Seven sheaves stand
+  fifteen ways, five all apart and five all odd; ten stand 42 ways,
+  ten and ten; twelve 77 ways, fifteen and fifteen. The Four Stooks
+  of Nine ships hopeless because four stooks of different sizes hold
+  1, 2, 3 and 4 at the least, ten sheaves, and nine is one short.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
