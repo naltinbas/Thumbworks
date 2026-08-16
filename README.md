@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-nine games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighty games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -188,6 +188,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Crownwick/assets/logo.png" width="64"><br><b><a href="Crownwick">Crownwick</a></b></div> | Set as many kings on a chequered board as will stand with none touching another | The kings problem: the most is half the side rounded up, squared, since the board cuts into two-by-two blocks from a corner and any two squares of a block touch, so each block holds one king at most, while the even squares put one king in every block with none touching; the three by three seats four one way of 126, the corners, the five by five nine one way alone of 2,042,975, the even squares, and every setting is swept on the small boards, 2,049,289 held up one by one, the sweep, the walk and the blocks agreeing on every board from two to seven; The Five ships hopeless because four blocks seat four at most, and the why counts them |
 | <div align="center"><img src="Combwell/assets/logo.png" width="64"><br><b><a href="Combwell">Combwell</a></b></div> | Fill the nineteen cells of the magic hexagon so every line of the comb sums alike | The magic hexagon: the sum can only be thirty-eight, since the five rows take every number from 1 to 19 once and 190 is five 38s, and there is exactly one comb that does it, the one Clifford Adams found in 1957 after forty-seven years of trying, in its six turnings and six reflections; the game fills the comb every way, forced cell by forced cell, and finds those twelve and no more, and none at all for 36, 37, 39 or 40; The Thirty-Seven ships hopeless because the rows say 38, and the why counts them |
 | <div align="center"><img src="Cutlassby/assets/logo.png" width="64"><br><b><a href="Cutlassby">Cutlassby</a></b></div> | Divide ten coins among the pirates so the captain's plan passes the vote | The pirate game: every pirate votes for what pays him against what he would get with the captain gone, reckoned from the crew one smaller down to one pirate alone; two pirates and the captain keeps all ten, three nine, four nine, five eight, the old answer, eight, nought, one, nought, one; every division of the ten coins is swept for crews of one to seven, 12,376 plans, and the best plan is one alone every time, the captain keeping the gold less half the crew rounded down; The Greedy Captain ships hopeless because nine among five never passes, and the why reckons the crew backwards |
+| <div align="center"><img src="Cutmere/assets/logo.png" width="64"><br><b><a href="Cutmere">Cutmere</a></b></div> | Find the coin among the casks in the fewest questions, the cellarman answering to keep you guessing | Binary search against an adversary: three questions find the coin among eight casks, cutting the middle every time, four among sixteen, seven among a hundred, and three never among nine, since three yes-or-no answers tell eight casks apart at most; the game walks the whole game tree for every row up to two hundred casks and finds the fewest questions to be exactly the least k with 2 to the k at least the casks, the middle cut a best first cut on every one; The Nine ships hopeless because eight answers cannot tell nine casks apart, and the why counts the answers |
 
 ## The idea they share
 
@@ -1730,6 +1731,21 @@ paragraph:
   half the crew rounded down and every coin he gives buying an aye from
   a pirate who expects nothing; The Greedy Captain ships hopeless because
   nine among five never passes, and the why reckons the crew backwards.
+- **Cutmere** is binary search against an adversary: one cask of the
+  row holds the coin, and every question cuts the row in two; tap a cask
+  to ask whether the coin is among the casks up to it, and the cellarman
+  answers to keep you guessing, naming the bigger part every time, so
+  what you learn is only that the coin is somewhere in it. Three
+  questions find the coin among eight casks, cutting the middle every
+  time, four among sixteen, seven among a hundred, and three never
+  among nine: three questions have eight answers between them, yes or
+  no three times over, and nine casks are one more than eight, so some
+  two casks get the same three answers and are never told apart. The
+  game walks the whole game tree for every row up to two hundred casks
+  and finds the fewest questions to be exactly that bound, the least k
+  with 2 to the k at least the casks, on every one, the middle cut a
+  best first cut every time; The Nine ships hopeless because eight
+  answers cannot tell nine casks apart, and the why counts the answers.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
