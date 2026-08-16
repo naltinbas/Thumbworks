@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighty-four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighty-five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -193,6 +193,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Halvingham/assets/logo.png" width="64"><br><b><a href="Halvingham">Halvingham</a></b></div> | Keep the rows of the peasant's halving-and-doubling so the doubles kept add to the product | Russian or Egyptian peasant multiplication, as old as the Rhind papyrus: halve one number row by row and double the other beside it, and the doubles beside the odd halves add to the product, since a half is odd exactly when that row's two is in the first number and a number is its twos one way only; the game sweeps every keeping of the rows for every pair to sixty by sixty, 3,600 ledgers and 18,180 rows, and finds the odd rows' keeping the only one that lands every time, thirteen by seven one keeping of sixteen; Thirteen by Seven in Two ships hopeless because thirteen is three twos, not two, and the why spells the twos |
 | <div align="center"><img src="Muxholme/assets/logo.png" width="64"><br><b><a href="Muxholme">Muxholme</a></b></div> | Derive the string asked from MI by Hofstadter's four rules of letters | Hofstadter's MU puzzle: start with MI, add a U after an I, double what follows the M, turn III to U or drop UU, and derive MIU in one step, MUI in three, MUIIU in five, and MU never, since two rules leave the count of I, one doubles it and one takes three away, and from one, doubling and taking three never make a multiple of three; the game walks every string reachable on a sheet of twenty-four letters, 106,389, finds the count of I a multiple of three in none, and finds every string of the right shape up to eight letters among them, 169, and nothing else; MU ships hopeless because MU has nought I and nought is a multiple of three, and the why counts the I |
 | <div align="center"><img src="Turnwick/assets/logo.png" width="64"><br><b><a href="Turnwick">Turnwick</a></b></div> | Cut the pack and turn the top two over as one till the faces asked lie up | Bob Hummer's cut-and-turn principle: the top two cards lie at an even place and an odd one and swap as they flip, so the count of cards face up at even places and the count at odd move together, a cut swaps the two, and from nought and nought they stay equal for ever; the game walks every pack of four, six and eight cards from all face down, 48, 1,440 and 80,640 packs, finds the count holding on every one and the patterns reached exactly those that keep it, 6 of 16, 20 of 64 and 70 of 256; One Card Up ships hopeless because one card up alone breaks the count, and the why counts even against odd |
+| <div align="center"><img src="Watchcombe/assets/logo.png" width="64"><br><b><a href="Watchcombe">Watchcombe</a></b></div> | Post the fewest watchmen in a courtyard of flags so that every flag is watched, each watching his own and the eight round it | Kings domination: the fewest watchmen for an n by n yard is a third of the side rounded up, squared, since the flags in the rows and columns that are multiples of three lie beyond one another's watch and each wants a watchman of its own, while a watchman one in from each of them watches the whole yard; the game sweeps every posting on the four, five and six yards, 80,515 postings, walks every yard from three to nine from the first unwatched flag, and finds the sweep, the walk and the far flags agreeing, the six yard watched by four one way only and the nine yard by nine one way only; The Six Yard with Three ships hopeless because the six yard holds four far flags, and the why counts them |
 
 ## The idea they share
 
@@ -1801,6 +1802,20 @@ paragraph:
   patterns reached exactly those that keep it, 6 of 16, 20 of 64 and 70
   of 256. One Card Up ships hopeless because one card up alone breaks
   the count, and the why counts even against odd.
+- **Watchcombe** is kings domination: watchmen posted in a courtyard of
+  flags by night, each watching his own flag and the eight round it, and
+  every flag to be watched. The fewest that will do is a third of the
+  side rounded up, squared: the flags in the rows and columns that are
+  multiples of three lie beyond one another's watch, so each wants a
+  watchman of its own, and a watchman one in from each of them watches
+  the whole yard with exactly that many. The game sweeps every posting
+  on the four, five and six yards, 80,515 postings held up one by one,
+  walks every yard from three to nine from the first unwatched flag,
+  and finds the sweep, the walk and the far flags agreeing on every one;
+  the six yard is watched by four one way only, one in from each corner,
+  and the nine yard by nine one way only. The Six Yard with Three ships
+  hopeless because the six yard holds four far flags beyond one
+  another's watch, and the why counts them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
