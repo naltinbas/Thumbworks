@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-six games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -185,6 +185,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Farrierstead/assets/logo.png" width="64"><br><b><a href="Farrierstead">Farrierstead</a></b></div> | Set as many knights on a chequered board as will stand with none a knight's move from another | The knights problem: the most is half the board rounded up, since the squares pair off as knight's moves and two knights on one pair attack, so at most one stands on each; the game finds that pairing on every board from three to seven, one colour of squares seats exactly that many since a knight always lands on the other colour, and every setting is swept on the small boards, 5,224,736 held up one by one, the sweep, the pairing and the colour agreeing; The Nine ships hopeless because eight pairs seat eight at most, and the why counts them |
 | <div align="center"><img src="Slantbury/assets/logo.png" width="64"><br><b><a href="Slantbury">Slantbury</a></b></div> | Lay the four pieces of a cut-up square inside a frame that seems a square too big | The missing-square puzzle: an eight-by-eight cut into two triangles and two trapeziums seems to make a thirteen-by-five, sixty-four squares in a frame of sixty-five; the pieces do lie inside with no overlap, two ways of 6,533,136 layings, and each time one square stays bare, a sliver along the slant, since the triangle rises three in eight, the trapezium two in five and the frame five in thirteen; every area is an exact fraction, every laying is swept, and Cassini's identity says why to the fortieth Fibonacci number; The Frame Filled ships hopeless because the areas differ by one, and the why counts the squares |
 | <div align="center"><img src="Brickholme/assets/logo.png" width="64"><br><b><a href="Brickholme">Brickholme</a></b></div> | Pave a square yard with one drain in it using bricks three flags long | Golomb's straight-tromino question of 1954: colour the flags along one slant in three colours and along the other in three again, and every brick covers one of each colour either way, so the drain must wear the odd colour of both slants; the four yard paves round its corners only, the five round its middle, the seven round nine flags and the eight round four, 356 pavings each, and every yard from four to eleven is walked with the drain on every flag, 375 yards, the walk finding a paving exactly when the colouring allows one; The Corner Drain ships hopeless because the corner wears the wrong colour, and the flags left bare are never one of each |
+| <div align="center"><img src="Crownwick/assets/logo.png" width="64"><br><b><a href="Crownwick">Crownwick</a></b></div> | Set as many kings on a chequered board as will stand with none touching another | The kings problem: the most is half the side rounded up, squared, since the board cuts into two-by-two blocks from a corner and any two squares of a block touch, so each block holds one king at most, while the even squares put one king in every block with none touching; the three by three seats four one way of 126, the corners, the five by five nine one way alone of 2,042,975, the even squares, and every setting is swept on the small boards, 2,049,289 held up one by one, the sweep, the walk and the blocks agreeing on every board from two to seven; The Five ships hopeless because four blocks seat four at most, and the why counts them |
 
 ## The idea they share
 
@@ -1681,6 +1682,22 @@ paragraph:
   exactly when the colouring allows one, 43 yards of the 375. The
   Corner Drain ships hopeless because the corner wears the wrong colour,
   and when the yard sticks the flags left bare are never one of each.
+- **Crownwick** is the kings problem: kings on a chequered board, as
+  many as will stand with none touching another, side by side or corner
+  to corner. Tap a square to set one, tap again to lift it, and two that
+  touch are joined in rust. The most is half the side rounded up,
+  squared, and the reason is the blocks: cut the board into two-by-two
+  blocks from a corner, and any two squares of a block touch, so each
+  block holds one king at most; the even squares, every other rank and
+  every other file, put one king in every block with none touching, so
+  that many always stand. The three by three seats four one way of 126,
+  the corners; the four by four four 79 ways of 1,820; the five by five
+  nine one way alone of 2,042,975, the even squares; the six by six nine
+  3,600 ways of 94,143,280, sixty squared. Every setting is swept on the
+  small boards, 2,049,289 held up one by one, and every board walked
+  square by square, and on every board from two to seven the walk, the
+  blocks and the even squares agree; The Five ships hopeless because
+  four blocks seat four at most, and the why counts them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
