@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighty-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighty-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -190,6 +190,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Cutlassby/assets/logo.png" width="64"><br><b><a href="Cutlassby">Cutlassby</a></b></div> | Divide ten coins among the pirates so the captain's plan passes the vote | The pirate game: every pirate votes for what pays him against what he would get with the captain gone, reckoned from the crew one smaller down to one pirate alone; two pirates and the captain keeps all ten, three nine, four nine, five eight, the old answer, eight, nought, one, nought, one; every division of the ten coins is swept for crews of one to seven, 12,376 plans, and the best plan is one alone every time, the captain keeping the gold less half the crew rounded down; The Greedy Captain ships hopeless because nine among five never passes, and the why reckons the crew backwards |
 | <div align="center"><img src="Cutmere/assets/logo.png" width="64"><br><b><a href="Cutmere">Cutmere</a></b></div> | Find the coin among the casks in the fewest questions, the cellarman answering to keep you guessing | Binary search against an adversary: three questions find the coin among eight casks, cutting the middle every time, four among sixteen, seven among a hundred, and three never among nine, since three yes-or-no answers tell eight casks apart at most; the game walks the whole game tree for every row up to two hundred casks and finds the fewest questions to be exactly the least k with 2 to the k at least the casks, the middle cut a best first cut on every one; The Nine ships hopeless because eight answers cannot tell nine casks apart, and the why counts the answers |
 | <div align="center"><img src="Squarebrook/assets/logo.png" width="64"><br><b><a href="Squarebrook">Squarebrook</a></b></div> | Make the number of square flagstones from the mason's rack, the same stone as often as you like | Lagrange's four squares and Legendre's three: every number is four squares at most and 835 of the first thousand are three, exactly the numbers not four to a power times seven more than a multiple of eight, since a square leaves 0, 1 or 4 by eight and no three of those add to 7; the game sweeps every picking of stones for every number on the sham, twelve three squares one way of ten, fifty two squares two ways of twenty-eight, the smallest number that is two squares two ways, and makes every number to a thousand with the fewest squares, holding both theorems to the sweep; Seven in Three ships hopeless because a square leaves 0, 1 or 4 by eight, and the why counts by eight |
+| <div align="center"><img src="Halvingham/assets/logo.png" width="64"><br><b><a href="Halvingham">Halvingham</a></b></div> | Keep the rows of the peasant's halving-and-doubling so the doubles kept add to the product | Russian or Egyptian peasant multiplication, as old as the Rhind papyrus: halve one number row by row and double the other beside it, and the doubles beside the odd halves add to the product, since a half is odd exactly when that row's two is in the first number and a number is its twos one way only; the game sweeps every keeping of the rows for every pair to sixty by sixty, 3,600 ledgers and 18,180 rows, and finds the odd rows' keeping the only one that lands every time, thirteen by seven one keeping of sixteen; Thirteen by Seven in Two ships hopeless because thirteen is three twos, not two, and the why spells the twos |
 
 ## The idea they share
 
@@ -1759,6 +1760,19 @@ paragraph:
   a thousand with the fewest squares, 835 of them three, holding both
   theorems to the sweep. Seven in Three ships hopeless because a square
   leaves 0, 1 or 4 by eight, and the why counts by eight.
+- **Halvingham** is the peasant's multiplication, as old as the Rhind
+  papyrus: halve the first number row by row, dropping the remainder,
+  and double the second beside it, then keep the doubles beside the odd
+  halves and let the rest go, and what you kept adds to the product. The
+  reason is the twos: a half is odd exactly when that row's two is in
+  the first number, so the doubles kept are the second number times the
+  twos that make the first, and a number is its twos one way only. The
+  game sweeps every keeping of the rows for every pair up to sixty by
+  sixty, 3,600 ledgers and 18,180 rows, and finds the odd rows' keeping
+  the only one that lands, every time; thirteen by seven keeps one way
+  of sixteen and ninety-nine by nine one of a hundred and twenty-eight.
+  Thirteen by Seven in Two ships hopeless because thirteen is three twos,
+  eight, four and one, never two, and the why spells the twos.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
