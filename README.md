@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -186,6 +186,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Slantbury/assets/logo.png" width="64"><br><b><a href="Slantbury">Slantbury</a></b></div> | Lay the four pieces of a cut-up square inside a frame that seems a square too big | The missing-square puzzle: an eight-by-eight cut into two triangles and two trapeziums seems to make a thirteen-by-five, sixty-four squares in a frame of sixty-five; the pieces do lie inside with no overlap, two ways of 6,533,136 layings, and each time one square stays bare, a sliver along the slant, since the triangle rises three in eight, the trapezium two in five and the frame five in thirteen; every area is an exact fraction, every laying is swept, and Cassini's identity says why to the fortieth Fibonacci number; The Frame Filled ships hopeless because the areas differ by one, and the why counts the squares |
 | <div align="center"><img src="Brickholme/assets/logo.png" width="64"><br><b><a href="Brickholme">Brickholme</a></b></div> | Pave a square yard with one drain in it using bricks three flags long | Golomb's straight-tromino question of 1954: colour the flags along one slant in three colours and along the other in three again, and every brick covers one of each colour either way, so the drain must wear the odd colour of both slants; the four yard paves round its corners only, the five round its middle, the seven round nine flags and the eight round four, 356 pavings each, and every yard from four to eleven is walked with the drain on every flag, 375 yards, the walk finding a paving exactly when the colouring allows one; The Corner Drain ships hopeless because the corner wears the wrong colour, and the flags left bare are never one of each |
 | <div align="center"><img src="Crownwick/assets/logo.png" width="64"><br><b><a href="Crownwick">Crownwick</a></b></div> | Set as many kings on a chequered board as will stand with none touching another | The kings problem: the most is half the side rounded up, squared, since the board cuts into two-by-two blocks from a corner and any two squares of a block touch, so each block holds one king at most, while the even squares put one king in every block with none touching; the three by three seats four one way of 126, the corners, the five by five nine one way alone of 2,042,975, the even squares, and every setting is swept on the small boards, 2,049,289 held up one by one, the sweep, the walk and the blocks agreeing on every board from two to seven; The Five ships hopeless because four blocks seat four at most, and the why counts them |
+| <div align="center"><img src="Combwell/assets/logo.png" width="64"><br><b><a href="Combwell">Combwell</a></b></div> | Fill the nineteen cells of the magic hexagon so every line of the comb sums alike | The magic hexagon: the sum can only be thirty-eight, since the five rows take every number from 1 to 19 once and 190 is five 38s, and there is exactly one comb that does it, the one Clifford Adams found in 1957 after forty-seven years of trying, in its six turnings and six reflections; the game fills the comb every way, forced cell by forced cell, and finds those twelve and no more, and none at all for 36, 37, 39 or 40; The Thirty-Seven ships hopeless because the rows say 38, and the why counts them |
 
 ## The idea they share
 
@@ -1698,6 +1699,20 @@ paragraph:
   square by square, and on every board from two to seven the walk, the
   blocks and the even squares agree; The Five ships hopeless because
   four blocks seat four at most, and the why counts them.
+- **Combwell** is the magic hexagon: nineteen cells in a comb, rows of
+  three, four, five, four and three, the numbers one to nineteen to go
+  in them, and every line of the comb, five each way, fifteen in all,
+  to sum alike. Tap an empty cell, then a number; a full line goes green
+  when it sums right and rust when it is off. The sum can only be
+  thirty-eight, since the five rows take every number once and 190 is
+  five 38s, and there is exactly one comb that does it, the one Clifford
+  Adams found in 1957 after forty-seven years of trying, 3, 17, 18
+  across the top, in its six turnings and six reflections. The game
+  fills the comb every way, forced cell by forced cell, for the sums 36
+  to 40, and finds those twelve and no more, each held to be Adams'
+  comb carried by a turning or a reflection that keeps every line a
+  line; The Thirty-Seven ships hopeless because the rows say 38, and the
+  why counts them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
