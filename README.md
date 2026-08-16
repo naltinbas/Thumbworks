@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighty-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighty-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -194,6 +194,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Muxholme/assets/logo.png" width="64"><br><b><a href="Muxholme">Muxholme</a></b></div> | Derive the string asked from MI by Hofstadter's four rules of letters | Hofstadter's MU puzzle: start with MI, add a U after an I, double what follows the M, turn III to U or drop UU, and derive MIU in one step, MUI in three, MUIIU in five, and MU never, since two rules leave the count of I, one doubles it and one takes three away, and from one, doubling and taking three never make a multiple of three; the game walks every string reachable on a sheet of twenty-four letters, 106,389, finds the count of I a multiple of three in none, and finds every string of the right shape up to eight letters among them, 169, and nothing else; MU ships hopeless because MU has nought I and nought is a multiple of three, and the why counts the I |
 | <div align="center"><img src="Turnwick/assets/logo.png" width="64"><br><b><a href="Turnwick">Turnwick</a></b></div> | Cut the pack and turn the top two over as one till the faces asked lie up | Bob Hummer's cut-and-turn principle: the top two cards lie at an even place and an odd one and swap as they flip, so the count of cards face up at even places and the count at odd move together, a cut swaps the two, and from nought and nought they stay equal for ever; the game walks every pack of four, six and eight cards from all face down, 48, 1,440 and 80,640 packs, finds the count holding on every one and the patterns reached exactly those that keep it, 6 of 16, 20 of 64 and 70 of 256; One Card Up ships hopeless because one card up alone breaks the count, and the why counts even against odd |
 | <div align="center"><img src="Watchcombe/assets/logo.png" width="64"><br><b><a href="Watchcombe">Watchcombe</a></b></div> | Post the fewest watchmen in a courtyard of flags so that every flag is watched, each watching his own and the eight round it | Kings domination: the fewest watchmen for an n by n yard is a third of the side rounded up, squared, since the flags in the rows and columns that are multiples of three lie beyond one another's watch and each wants a watchman of its own, while a watchman one in from each of them watches the whole yard; the game sweeps every posting on the four, five and six yards, 80,515 postings, walks every yard from three to nine from the first unwatched flag, and finds the sweep, the walk and the far flags agreeing, the six yard watched by four one way only and the nine yard by nine one way only; The Six Yard with Three ships hopeless because the six yard holds four far flags, and the why counts them |
+| <div align="center"><img src="Weaveholme/assets/logo.png" width="64"><br><b><a href="Weaveholme">Weaveholme</a></b></div> | Weave a plaid of light and dark squares so that every two rows agree in exactly half their squares | Hadamard matrices as a plaid: two by two weaves eight ways of sixteen, four by four 768 of 65,536, eight by eight by Sylvester's laying of the four four times with the last quarter turned, and six by six never, since turning whole columns till the first row is all light changes no agreement and against it two other rows agree in an even count; the game sweeps every filling of the two and the four, walks the eight row by row over Sylvester's rows, and sweeps every triple of rows of six, 262,144, none agreeing pairwise in three; The Six ships hopeless because no three rows of six agree pairwise in three squares, and the why turns the columns |
 
 ## The idea they share
 
@@ -1816,6 +1817,20 @@ paragraph:
   and the nine yard by nine one way only. The Six Yard with Three ships
   hopeless because the six yard holds four far flags beyond one
   another's watch, and the why counts them.
+- **Weaveholme** is Hadamard matrices as a plaid: light and dark squares
+  on the loom, and one rule, that every two rows agree in exactly half
+  their squares. Two by two weaves, eight ways of sixteen; four by four
+  weaves, 768 ways of 65,536; eight by eight weaves, and Sylvester showed
+  how, the four laid out four times with the last quarter turned light
+  for dark; and six by six never weaves, since no three rows of six can
+  agree pairwise in three squares: turn whole columns till the first row
+  is all light, which changes no agreement, and against it two other
+  rows agree in an even count. The game sweeps every filling of the two
+  and the four, walks the eight row by row over Sylvester's rows, and
+  sweeps every triple of rows of six, 262,144 triples, none agreeing
+  pairwise in three though 1,280 pairs of 4,096 do. The Six ships
+  hopeless because no three rows of six agree pairwise in three squares,
+  and the why turns the columns.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
