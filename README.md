@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighty-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighty-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -196,6 +196,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Watchcombe/assets/logo.png" width="64"><br><b><a href="Watchcombe">Watchcombe</a></b></div> | Post the fewest watchmen in a courtyard of flags so that every flag is watched, each watching his own and the eight round it | Kings domination: the fewest watchmen for an n by n yard is a third of the side rounded up, squared, since the flags in the rows and columns that are multiples of three lie beyond one another's watch and each wants a watchman of its own, while a watchman one in from each of them watches the whole yard; the game sweeps every posting on the four, five and six yards, 80,515 postings, walks every yard from three to nine from the first unwatched flag, and finds the sweep, the walk and the far flags agreeing, the six yard watched by four one way only and the nine yard by nine one way only; The Six Yard with Three ships hopeless because the six yard holds four far flags, and the why counts them |
 | <div align="center"><img src="Weaveholme/assets/logo.png" width="64"><br><b><a href="Weaveholme">Weaveholme</a></b></div> | Weave a plaid of light and dark squares so that every two rows agree in exactly half their squares | Hadamard matrices as a plaid: two by two weaves eight ways of sixteen, four by four 768 of 65,536, eight by eight by Sylvester's laying of the four four times with the last quarter turned, and six by six never, since turning whole columns till the first row is all light changes no agreement and against it two other rows agree in an even count; the game sweeps every filling of the two and the four, walks the eight row by row over Sylvester's rows, and sweeps every triple of rows of six, 262,144, none agreeing pairwise in three; The Six ships hopeless because no three rows of six agree pairwise in three squares, and the why turns the columns |
 | <div align="center"><img src="Fridayford/assets/logo.png" width="64"><br><b><a href="Fridayford">Fridayford</a></b></div> | Move the first of January along the week, make February short or long, and ring the Fridays that fall on a thirteenth | Every year has a Friday the thirteenth and never more than three: the thirteenth of each month falls a fixed count of days along the week from the first of January, nought, three, three, six, one, four, six, two, five, nought, three and five in a common year and nought, three, four, nought, two, five, nought, three, six, one, four and six in a leap year, and those counts take in every day of the week, none of them more than three times; the game sweeps all fourteen kinds of year and walks the 200 real years from 1901 to 2100 day by day by the phone's own calendar, 86 with one Friday and 29 with three; No Friday ships hopeless because the counts cover the week, and the why counts the days along it |
+| <div align="center"><img src="Loadwick/assets/logo.png" width="64"><br><b><a href="Loadwick">Loadwick</a></b></div> | Pick the die that beats the one the house rolled, from four dice with odd faces | Efron's nontransitive dice: A beats B, B beats C, C beats D and D beats A, 24 rolls of 36 each, so whichever die the house takes there is one that beats it and no die beats all the others; the game counts every roll of every pair, wins, ties and losses coming to thirty-six every time, and sweeps every die of six faces from nought to six against the four, 924 dice, 96 of which beat all four; The Champion ships hopeless because each of the four loses to the one before it round the ring, and the why walks the ring |
 
 ## The idea they share
 
@@ -1844,6 +1845,18 @@ paragraph:
   from 1901 to 2100 day by day by the phone's own calendar, finding 86
   with one Friday and 29 with three. No Friday ships hopeless because
   the counts cover the week, and the why counts the days along it.
+- **Loadwick** is Efron's dice at a fairground stall: four dice with odd
+  faces, A four four times in six and nought twice, B three every time,
+  C six twice and two four times, D five three times and one three
+  times. Two dice rolled together make thirty-six rolls, and the higher
+  face wins. The four run in a ring, A beating B, B beating C, C beating
+  D and D beating A, twenty-four rolls of thirty-six each, so whichever
+  die the house takes there is one that beats it, and none of the four
+  beats all the others. The game counts every roll of every pair, wins,
+  ties and losses coming to thirty-six every time, and sweeps every die
+  of six faces from nought to six against the four, 924 dice, of which
+  96 beat all four. The Champion ships hopeless because each of the four
+  loses to the one before it round the ring, and the why walks the ring.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
