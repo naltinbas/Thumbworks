@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -184,6 +184,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Copperwick/assets/logo.png" width="64"><br><b><a href="Copperwick">Copperwick</a></b></div> | Turn a triangle of pennies upside down by sliding as few as may be | The penny-triangle puzzle: ten pennies turn in three moves and never in two, since however the turned triangle lies over the pennies each of its rows shares at most the shorter of its own length and the row under it, so it takes in at most seven of the ten as they lie; in general the fewest is a third of the pennies rounded down, every placement of the turned triangle swept over every triangle up to twelve rows, and every sequence of moves on the small tables; The Ten in Two ships hopeless because the rows count seven at the most |
 | <div align="center"><img src="Farrierstead/assets/logo.png" width="64"><br><b><a href="Farrierstead">Farrierstead</a></b></div> | Set as many knights on a chequered board as will stand with none a knight's move from another | The knights problem: the most is half the board rounded up, since the squares pair off as knight's moves and two knights on one pair attack, so at most one stands on each; the game finds that pairing on every board from three to seven, one colour of squares seats exactly that many since a knight always lands on the other colour, and every setting is swept on the small boards, 5,224,736 held up one by one, the sweep, the pairing and the colour agreeing; The Nine ships hopeless because eight pairs seat eight at most, and the why counts them |
 | <div align="center"><img src="Slantbury/assets/logo.png" width="64"><br><b><a href="Slantbury">Slantbury</a></b></div> | Lay the four pieces of a cut-up square inside a frame that seems a square too big | The missing-square puzzle: an eight-by-eight cut into two triangles and two trapeziums seems to make a thirteen-by-five, sixty-four squares in a frame of sixty-five; the pieces do lie inside with no overlap, two ways of 6,533,136 layings, and each time one square stays bare, a sliver along the slant, since the triangle rises three in eight, the trapezium two in five and the frame five in thirteen; every area is an exact fraction, every laying is swept, and Cassini's identity says why to the fortieth Fibonacci number; The Frame Filled ships hopeless because the areas differ by one, and the why counts the squares |
+| <div align="center"><img src="Brickholme/assets/logo.png" width="64"><br><b><a href="Brickholme">Brickholme</a></b></div> | Pave a square yard with one drain in it using bricks three flags long | Golomb's straight-tromino question of 1954: colour the flags along one slant in three colours and along the other in three again, and every brick covers one of each colour either way, so the drain must wear the odd colour of both slants; the four yard paves round its corners only, the five round its middle, the seven round nine flags and the eight round four, 356 pavings each, and every yard from four to eleven is walked with the drain on every flag, 375 yards, the walk finding a paving exactly when the colouring allows one; The Corner Drain ships hopeless because the corner wears the wrong colour, and the flags left bare are never one of each |
 
 ## The idea they share
 
@@ -1664,6 +1665,22 @@ paragraph:
   number: a Fibonacci number squared and the product of its neighbours
   differ by one. The Frame Filled ships hopeless because the areas
   differ by one, and the why counts the squares.
+- **Brickholme** is Golomb's straight-tromino question of 1954: a
+  square yard of flags with one drain among them, and bricks three
+  flags long to pave the rest, across or down. Tap a flag to lay a brick
+  from it, tap a brick to lift it. The answer is a colouring: colour the
+  flags along the slant in three colours, and along the other slant in
+  three again; every brick, across or down, covers one flag of each
+  colour either way, so the drain must wear the odd colour of both
+  slants, the one flag more than the others. On the eight yard that
+  leaves four flags, two in from each corner, and 356 pavings round
+  each; on the five yard the middle alone, two pavings; on the four
+  yard the corners, four pavings; on the seven yard nine flags, 258
+  pavings round the middle. Every yard from four to eleven is walked
+  with the drain on every flag, 375 yards, and the walk finds a paving
+  exactly when the colouring allows one, 43 yards of the 375. The
+  Corner Drain ships hopeless because the corner wears the wrong colour,
+  and when the yard sticks the flags left bare are never one of each.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
