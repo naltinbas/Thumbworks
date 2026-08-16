@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighty-nine games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -198,6 +198,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Fridayford/assets/logo.png" width="64"><br><b><a href="Fridayford">Fridayford</a></b></div> | Move the first of January along the week, make February short or long, and ring the Fridays that fall on a thirteenth | Every year has a Friday the thirteenth and never more than three: the thirteenth of each month falls a fixed count of days along the week from the first of January, nought, three, three, six, one, four, six, two, five, nought, three and five in a common year and nought, three, four, nought, two, five, nought, three, six, one, four and six in a leap year, and those counts take in every day of the week, none of them more than three times; the game sweeps all fourteen kinds of year and walks the 200 real years from 1901 to 2100 day by day by the phone's own calendar, 86 with one Friday and 29 with three; No Friday ships hopeless because the counts cover the week, and the why counts the days along it |
 | <div align="center"><img src="Loadwick/assets/logo.png" width="64"><br><b><a href="Loadwick">Loadwick</a></b></div> | Pick the die that beats the one the house rolled, from four dice with odd faces | Efron's nontransitive dice: A beats B, B beats C, C beats D and D beats A, 24 rolls of 36 each, so whichever die the house takes there is one that beats it and no die beats all the others; the game counts every roll of every pair, wins, ties and losses coming to thirty-six every time, and sweeps every die of six faces from nought to six against the four, 924 dice, 96 of which beat all four; The Champion ships hopeless because each of the four loses to the one before it round the ring, and the why walks the ring |
 | <div align="center"><img src="Leechmere/assets/logo.png" width="64"><br><b><a href="Leechmere">Leechmere</a></b></div> | Set how many patients each healer sees in each season, and watch the year turn against the better healer | Simpson's paradox: Ash cures nine in ten in spring and three in ten in autumn, Birch eight and two, so Ash is the better healer in both seasons at every load, and yet Ash cures the smaller share of the year on 154 of the 625 settings, since the year is the seasons weighed by the patients seen; with the loads alike for both healers, 25 settings, Ash is ahead by one in ten exactly, every time; every setting is swept with exact fractions |
+| <div align="center"><img src="Wedgeworth/assets/logo.png" width="64"><br><b><a href="Wedgeworth">Wedgeworth</a></b></div> | Fan regular faces round a point and see which corners close and which lie flat or overlap | The five regular solids, by the angles at a corner: a face of p sides has corners of 180(p - 2)/p degrees, so a corner closes only when the faces at it come to less than a full turn, which happens for three, four or five triangles, three squares and three pentagons and nothing else; three hexagons make 360 exactly and lie flat like a comb, and Euler's corners less edges plus faces coming to two picks out the same five; every angle is kept as an exact fraction of a degree and every setting of face and fan is swept; The Honeycomb Corner ships hopeless because three hexagons already fill the turn |
 
 ## The idea they share
 
@@ -1868,6 +1869,18 @@ paragraph:
   spring puts Ash behind over the year while ahead in each half of it.
   With the loads alike for both healers it never happens, and Ash ends
   one in ten ahead exactly. Every setting is swept with exact fractions.
+- **Wedgeworth** is the five regular solids, built at one corner on a
+  paper-craft bench: pick how many sides a face has and how many faces
+  meet at the point, and the fan lays them flat. A face of p sides has
+  corners of 180(p - 2)/p degrees, so the corner closes only when the
+  angles come to less than a full turn: 180, 240 and 300 for three,
+  four and five triangles, 270 for three squares, 324 for three
+  pentagons, and everything else at 360 or over. That is five corners
+  and five solids, the tetrahedron, octahedron, icosahedron, cube and
+  dodecahedron, and Euler's count, corners less edges plus faces coming
+  to two, picks out the same five. Every angle is an exact fraction of a
+  degree. The Honeycomb Corner ships hopeless because three hexagons
+  make the full 360 and lie flat, as the bees' comb does.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
