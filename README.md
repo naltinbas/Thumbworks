@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -181,6 +181,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Cupwell/assets/logo.png" width="64"><br><b><a href="Cupwell">Cupwell</a></b></div> | Right a tray of cups, some upside down, turning exactly so many at once | The cup-turning parity puzzle: a turn of an even number of cups changes the count down by an even number, so an odd count down never comes right turning an even number at a time, while an odd count turned reaches every tray; every tray of two to six cups is walked from every start with every count turned, every sequence of turns for every tray here is swept, and the parity law is held to the walk; The One of Three ships hopeless because one cup down among three, turned two at a time, stays odd for ever |
 | <div align="center"><img src="Suppermere/assets/logo.png" width="64"><br><b><a href="Suppermere">Suppermere</a></b></div> | Seat quarrelling guests at two tables so no two who quarrel share one | Konig's theorem on bipartite graphs: two tables suffice exactly when no odd ring of quarrels runs through the guests, since round a ring the tables must alternate; every seating of every supper here is swept, a walk seats any hall with no odd ring and traces the ring back where it clashes, and on all 1,024 quarrel maps of five guests the sweep, the walk and the odd ring agree, the seatings then numbering two to the parties; The Five Ring ships hopeless because five in a ring cannot alternate |
 | <div align="center"><img src="Whistlecote/assets/logo.png" width="64"><br><b><a href="Whistlecote">Whistlecote</a></b></div> | Give a shepherd's dog its calls in whistles no call begins another | Kraft's inequality: a prefix code with given lengths exists exactly when the shares 2 to the minus length add to no more than the whole, and the count of codes is the product of the free choices length by length; every marking of every set here is swept, the shepherd's greedy way marks with no search, and on every set of up to six calls of up to four notes, 209 sets, the sweep, the shares and the shepherd agree; The Crowded Calls ships hopeless because its shares come to nine of eight |
+| <div align="center"><img src="Copperwick/assets/logo.png" width="64"><br><b><a href="Copperwick">Copperwick</a></b></div> | Turn a triangle of pennies upside down by sliding as few as may be | The penny-triangle puzzle: ten pennies turn in three moves and never in two, since however the turned triangle lies over the pennies each of its rows shares at most the shorter of its own length and the row under it, so it takes in at most seven of the ten as they lie; in general the fewest is a third of the pennies rounded down, every placement of the turned triangle swept over every triangle up to twelve rows, and every sequence of moves on the small tables; The Ten in Two ships hopeless because the rows count seven at the most |
 
 ## The idea they share
 
@@ -1613,6 +1614,22 @@ paragraph:
   notes, 209 sets, the sweep, the shares and the shepherd agree. The
   Crowded Calls ships hopeless because its shares come to nine of
   eight, and the why counts them.
+- **Copperwick** is the penny-triangle puzzle: pennies laid in a
+  triangle on the table, one atop two atop three atop four, and the old
+  ask is to turn the triangle upside down by sliding as few pennies as
+  may be, to any empty spot on the table. Tap a penny to take it up, tap
+  a spot to slide it there; the triangle may land anywhere so long as
+  its point comes to the bottom. Ten pennies turn in three moves, the
+  top penny down under the bottom row and the two bottom corners up
+  beside the second, and never in two: however the turned triangle lies
+  over the pennies, each of its rows shares at most the shorter of its
+  own length and the coin row under it, so it takes in at most seven of
+  the ten as they lie, and three must move. In general the fewest is a
+  third of the pennies rounded down; the sweep tries every placement of
+  the turned triangle over every triangle up to twelve rows, and on the
+  small tables every sequence of moves as well. The Ten in Two ships
+  hopeless because the rows count seven at the most, and the why counts
+  them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
