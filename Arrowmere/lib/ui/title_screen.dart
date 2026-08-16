@@ -43,8 +43,8 @@ class _TitleScreenState extends State<TitleScreen> {
                 padding: EdgeInsets.fromLTRB(24, 4, 24, 8),
                 child: Text(
                   'Point every street of a village one way and keep every '
-                  'place reachable from every other. Robbins says it can be '
-                  'done exactly when no street is a bridge.',
+                  'place reachable from every other. Robbins says a joined '
+                  'village takes it exactly when no street is a bridge.',
                   textAlign: TextAlign.center,
                   style:
                       TextStyle(color: Palette.inkDim, fontSize: 14),

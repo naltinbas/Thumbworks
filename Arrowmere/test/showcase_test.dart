@@ -13,9 +13,10 @@ import 'support/wayland.dart';
 /// the game for somebody to look at: the real widget tree at real phone
 /// dimensions, drawn by the engine the app uses.
 ///
-/// Every arrow turned in them was turned by a tap on that street, so no
-/// village in the pictures is pointed a way the game could not point
-/// it.
+/// Every arrow on a board in them was turned by a tap on that street,
+/// and the mark on the title shot is the house drawn as the village
+/// lists it, so no village pictured is pointed a way the game could not
+/// point it.
 ///
 /// Run it with: make shots
 void main() {

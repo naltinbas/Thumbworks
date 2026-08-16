@@ -18,7 +18,7 @@ class Level {
   /// How many orientations land it, from the sweep.
   final int ways;
 
-  /// Something worth knowing, computed.
+  /// Something worth knowing, written out by hand.
   final String note;
 
   bool get winnable => ways > 0;

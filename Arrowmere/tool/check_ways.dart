@@ -121,7 +121,7 @@ void main() {
         '${level.name} in ${play.moves} against ${level.fewest}');
   }
 
-  // The hopeless ask, worn down either way it is played.
+  // The hopeless ask, worn down by three best-it-gets orientations.
   final toll = Levels.all.firstWhere((l) => !l.winnable);
   var stuck = Play.of(toll);
   for (var k = 0; k < Play.gaveUpAt && !stuck.gaveUp; k++) {
@@ -176,8 +176,8 @@ void main() {
         ? '${commas(level.ways)} of the '
             '${commas(level.village.orientations)} orientations land it, the '
             'fewest ${level.fewest} turns from the opening'
-        : 'none of the ${commas(level.village.orientations)}, and the lane '
-            'says so on a finger';
+        : 'none of the ${commas(level.village.orientations)}, its lane being '
+            'a bridge';
     stdout.writeln(' ${i + 1} ${level.name.padRight(width)} ${level.task}: $tail');
   }
 }

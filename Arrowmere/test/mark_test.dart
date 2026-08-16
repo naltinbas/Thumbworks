@@ -15,7 +15,9 @@ import 'support/fonts.dart';
 
 /// Draws the logo and the app icons.
 ///
-/// There is no image in this repository that was not produced here.
+/// Every image the app ships is drawn here, bar the shots in docs/, which
+/// come from test/showcase_test.dart, and the three 1x1 launch images
+/// Flutter's iOS template left in ios/Runner/Assets.xcassets.
 void main() {
   const out = 'assets';
   const frame = Key('mark');

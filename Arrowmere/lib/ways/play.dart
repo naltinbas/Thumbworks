@@ -147,12 +147,13 @@ String whyWords(Play play) {
       'bridge is out. The other way is the work of the theorem: build the '
       'village up from one round trip at a time and every new stretch can be '
       'pointed the way it was walked.\n\n'
-      'The sham counts the orientations that work twice over. It tries every '
-      'one of them, ${play.village.orientations} for ${play.village.name}, '
-      'and it works the same count out of the village\'s Tutte polynomial at '
-      '(0, 2), which never points a street at all. The two agree on all five '
+      'The orientations that work are counted twice over. The sham tries '
+      'every one of them, ${play.village.orientations} for '
+      '${play.village.name}. The checker that runs before the build works '
+      'the same count out of the village\'s Tutte polynomial at (0, 2), '
+      'which never points a street at all. The two agree on all five '
       'villages, and on the toll lane both give nought.\n\n'
       'This is ask $number, ${level.name}. ${level.note}\n\n'
-      'The tile\'s counts are the sweep\'s: every orientation of every '
-      'street, tried in full.';
+      'The counts in this note are the sweep\'s: every orientation of every '
+      'street, tried in full before the sham was built.';
 }

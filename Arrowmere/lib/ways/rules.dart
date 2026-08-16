@@ -240,11 +240,13 @@ class Rules {
         return null;
       });
 
-  /// Tutte's polynomial of the village's streets, worked out by
-  /// deleting and contracting one street at a time. At (0, 2) it counts
-  /// the orientations that leave every street on a round trip, which
-  /// for a joined village are exactly the one-way-throughout ones: the
-  /// second voice, which never tries an orientation at all.
+  /// Tutte's polynomial of the village's streets at ([x], [y]), worked
+  /// out by deleting and contracting one street at a time with the
+  /// values already in, so the polynomial itself is never formed. At
+  /// (0, 2) it counts the orientations that leave every street on a
+  /// round trip, which for a joined village are exactly the
+  /// one-way-throughout ones: the second voice, which never tries an
+  /// orientation at all.
   static int tutte(List<Street> streets, int x, int y) {
     final loops = streets.where((s) => s.$1 == s.$2).length;
     if (loops > 0) {
@@ -289,7 +291,8 @@ class Rules {
     return {for (final p in places) find(p)}.length;
   }
 
-  /// The count of one-way-throughout orientations by the polynomial.
+  /// The count of one-way-throughout orientations by the polynomial,
+  /// good for a joined village, which every village here is.
   static int strongByTutte(Village village) => tutte(village.streets, 0, 2);
 
   static final Map<String, List<List<bool>>> _strongs = {};

@@ -1,5 +1,5 @@
 name: arrowmere
-description: "A village of streets to make one-way: every place reachable from every other, which Robbins says can be done exactly when no street is a bridge."
+description: "A village of streets to make one-way: every place reachable from every other, which Robbins says a joined village can do exactly when no street is a bridge."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

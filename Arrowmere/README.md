@@ -7,13 +7,17 @@ one-way. Tap a street and its arrow turns about; the ask is that every
 place can still be reached from every other once all the arrows are
 set. Some villages take it and some cannot, and Robbins' theorem, from
 Herbert Robbins in 1939, says exactly which: a joined village can be
-made one-way throughout when no street is a bridge, a street whose
+made one-way throughout exactly when no street is a bridge, a street
+whose
 closing would cut the village in two. One side of that is plain to
 see. Point a bridge and the side it leaves can never be got back to.
-The other side is the work of the theorem. The game holds five
-villages, from a square of four places to a cube of eight, and it
-points every street of each of them every way it can be pointed, 8,400
-orientations, counting the ones that work twice over.
+The other side is the work of the theorem. Robbins wrote it up in A
+Theorem on Graphs, with an Application to a Problem of Traffic
+Control, American Mathematical Monthly 46, 1939, pages 281 to 283. The
+game holds five villages, from a square of four places to a green of
+nine, and every street of each of them is pointed every way it can be
+pointed, 8,400 orientations, with the ones that work counted twice
+over before the game is built.
 
 ## The asks
 
@@ -28,36 +32,48 @@ them, and 78 of its 4,096 orientations work. The square is the plainest
 case: only two of its sixteen work, the two that send you round and
 round, and every other leaves a place you can enter and never leave or
 leave and never enter. The house is a square with a roof, two rounds
-sharing a street, and six of its 64 work: the shared street may point
-either way, and once it does the two rounds must run with it. The two
+sharing a street, and six of its 64 work: three ways run between C and
+D, the street they share, the roof through E, and the far side of the
+square through B and A, each running one way from end to end, and of
+those eight the two that send all three the same way leave a place
+that can be reached but never left. The two
 rings are the graph of a cube, an outer ring of four places and an
 inner one with four streets between them, and 426 of its 4,096 work,
-more than any other village here. The Toll Lane is washed red on the
-board rather than gold: two hamlets of three places each, joined by
-one lane. Point that lane whichever way you like and the far hamlet
-can be reached and never left, so nine of the thirty ordered pairs go
-one way only and 21 is the most any orientation gets. The sham admits
-it once three orientations have got that far, or after fourteen turns.
+more than any other village here. The Toll Lane never turns gold on the
+board, since the gold comes only when every place can be reached from
+every other: two hamlets of three places each, joined by one lane.
+Point that lane whichever way you like and the far hamlet can be
+reached and never left, so the nine pairs of places across the lane
+can be got between one way only, and 21 of the thirty ordered pairs is
+the most any orientation gets. The sham admits it once turns have
+landed on three different orientations that get that far, or after
+fourteen turns.
 
 ## Two voices
 
-Every number the game says out loud is one it worked out, and the
-count of orientations that work is worked out two ways:
+Every number the game says out loud was worked out here rather than
+guessed. Most of them the game works out as you play; the count of
+orientations that work is written into `lib/ways/levels.dart` and held
+to the sweep by the tests and by `tool/check_ways.dart`, which works
+it out two ways:
 
 * **The walk** points the streets and tries. For each of the 8,400
   orientations it follows the arrows out of every place in turn and
   counts the ordered pairs it can get between; the orientation works
-  when all of them are open. On every one that works it also checks
-  that each street lies on a round trip, so what one street leaves can
-  be come back to by others.
-* **The polynomial** never points a street. It works the village's
-  Tutte polynomial out by deleting and contracting one street at a
-  time, and reads the count off at (0, 2), which counts the
-  orientations leaving every street on a round trip. The two agree on
+  when all of them are open. On every one that works every street lies
+  on a round trip, since every place can be got to from every other,
+  and the checker spells that out street by street.
+* **The polynomial** never points a street. It deletes and contracts
+  one street at a time, the way the Tutte polynomial is built, with 0
+  and 2 already put in for x and y, so the polynomial itself is never
+  formed and what falls out is its value at (0, 2): the count of
+  orientations that leave every street on a round trip. In a joined
+  village those are exactly the orientations the walk counts, so the
+  two voices count one set of orientations by two roads. They agree on
   all five villages and on rings of every length from three to eight,
-  and on the toll lane both give nought, which is Robbins' theorem in
-  arithmetic: the polynomial at (0, 2) vanishes exactly when a street
-  is a bridge.
+  and on the toll lane both give nought. A bridge puts a factor of x
+  into the polynomial, so a village with one gives nought at (0, 2);
+  that a joined village without one never does is Robbins' theorem.
 
 The bridges are found twice as well, once by closing each street in
 turn and asking whether the village falls apart, and once by the
@@ -80,7 +96,7 @@ every way of pointing every street of all five villages tried, 8,400 orientation
  2 The Square    point every street of the square, leaving every place reachable from every other: 2 of the 16 orientations land it, the fewest 2 turns from the opening
  3 The House     point every street of the house, leaving every place reachable from every other: 6 of the 64 orientations land it, the fewest 2 turns from the opening
  4 The Two Rings point every street of the two rings, leaving every place reachable from every other: 426 of the 4,096 orientations land it, the fewest 4 turns from the opening
- 5 The Toll Lane point every street of the toll lane, leaving every place reachable from every other: none of the 128, and the lane says so on a finger
+ 5 The Toll Lane point every street of the toll lane, leaving every place reachable from every other: none of the 128, its lane being a bridge
 ```
 
 ## Screenshots
@@ -95,8 +111,9 @@ every way of pointing every street of all five villages tried, 8,400 orientation
 
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
-every arrow turned in them was turned by a tap on that street, so no
-village pictured is pointed a way the game could not point it. The
+every arrow on a board in them was turned by a tap on that street, and
+the mark on the title shot is the house drawn as the village lists it,
+so no village pictured is pointed a way the game could not point it. The
 logo and every launcher icon come out of `test/mark_test.dart`, drawn
 by the same painter: the mark is the house pointed the way the village
 lists it, one of the six orientations that leave every place reachable

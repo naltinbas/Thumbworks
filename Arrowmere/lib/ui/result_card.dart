@@ -46,8 +46,9 @@ class ResultCard extends StatelessWidget {
           'one hamlet to the other, so pointing it '
           '${Rules.tellPlace(from)} to ${Rules.tellPlace(to)} leaves the far '
           'hamlet reachable and never leavable. That is Robbins\' theorem '
-          'from the easy side: a street whose closing cuts the village in two '
-          'cannot be pointed at all. The sweep of all '
+          'from the easy side: point a street whose closing would cut the '
+          'village in two, and whichever way it goes one side can never be '
+          'got back to. The sweep of all '
           '${village.orientations} orientations gets ${level.bestPairs} of '
           'the ${play.wanted} ways round at best, and you have '
           '${play.pairs} of them.';

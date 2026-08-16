@@ -1,8 +1,9 @@
 import 'level.dart';
 import 'rules.dart';
 
-/// The five asks, first to last. Every count is the sweep's, and the
-/// checker refuses the bake if any drifts.
+/// The five asks, first to last. Each ways count is the sweep's, and the
+/// checker refuses the bake if one drifts. The numbers inside the notes
+/// are the same sweep's, written out by hand.
 class Levels {
   static const all = <Level>[
     Level(
@@ -28,9 +29,12 @@ class Levels {
       village: Rules.house,
       ways: 6,
       note: 'A square with a roof on it: two rounds sharing a street. Six '
-          'of the 64 orientations work. The shared street may point either '
-          'way, and once it does the two rounds have to run with it, which '
-          'is why six and not eight.',
+          'of the 64 orientations work. Three ways run between C and D, the '
+          'street they share, the roof through E, and the far side of the '
+          'square through B and A, and each has to run one way from end to '
+          'end. That is eight, and the two that send all three the same way '
+          'leave a place that can be reached but never left, which is why '
+          'six and not eight.',
     ),
     Level(
       name: 'The Two Rings',
@@ -45,13 +49,14 @@ class Levels {
       name: 'The Toll Lane',
       village: Rules.toll,
       ways: 0,
-      note: 'Hopeless, and the tile says so. Two hamlets of three places '
-          'each, joined by one lane. Point that lane whichever way you like '
-          'and the hamlet at its far end can be reached but never left, so '
-          'nine of the thirty ordered pairs go one way only and 21 is the '
-          'most any orientation gets. Robbins said so in 1939: a village can '
-          'be made one-way throughout exactly when no street is a bridge, '
-          'and this lane is one.',
+      note: 'Hopeless, and the card at the end of the ask says so. Two '
+          'hamlets of three places each, joined by one lane. Point that lane '
+          'whichever way you like and the hamlet at its far end can be '
+          'reached but never left, so the nine pairs of places across the '
+          'lane can be got between one way only, and 21 of the thirty '
+          'ordered pairs is the most any orientation gets. Robbins said so '
+          'in 1939: a joined village can be made one-way throughout exactly '
+          'when no street is a bridge, and this lane is one.',
     ),
   ];
 
