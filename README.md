@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -179,6 +179,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Fusewick/assets/logo.png" width="64"><br><b><a href="Fusewick">Fusewick</a></b></div> | Light uneven hour-long fuses at their ends and strike a given minute | The burning-fuse puzzle: a fuse burns an hour from end to end but unevenly, so only the whole can be trusted, an hour lit at one end and half an hour lit at both, and ends may be lit only at the start or at a burnout; every plan of one, two and three fuses is swept in quarter-minutes, two fuses strike only 30, 45, 60, 90 and 120, three add 52 and a half, 67 and a half, 75, 105, 150 and 180, and every show-me plan is played through the game to the minute; The Twenty ships hopeless because nothing burns out before thirty |
 | <div align="center"><img src="Trickmere/assets/logo.png" width="64"><br><b><a href="Trickmere">Trickmere</a></b></div> | Hide one of five dealt cards and lay the other four so a partner names it | Fitch Cheney's five-card trick: of five cards two share a suit, of any two ranks one is within six steps of the other round through the king to the ace, and three cards lie low, middle and high in six orders, so the row always tells the hidden card; every layout of every hand here is swept, the six orders checked on all 22,100 threes of the deck, and the assistant's rule run on all 2,598,960 hands of five; The Lone Club ships hopeless because the card that must be hidden is the only one of its suit, and no club is left to say so |
 | <div align="center"><img src="Cupwell/assets/logo.png" width="64"><br><b><a href="Cupwell">Cupwell</a></b></div> | Right a tray of cups, some upside down, turning exactly so many at once | The cup-turning parity puzzle: a turn of an even number of cups changes the count down by an even number, so an odd count down never comes right turning an even number at a time, while an odd count turned reaches every tray; every tray of two to six cups is walked from every start with every count turned, every sequence of turns for every tray here is swept, and the parity law is held to the walk; The One of Three ships hopeless because one cup down among three, turned two at a time, stays odd for ever |
+| <div align="center"><img src="Suppermere/assets/logo.png" width="64"><br><b><a href="Suppermere">Suppermere</a></b></div> | Seat quarrelling guests at two tables so no two who quarrel share one | Konig's theorem on bipartite graphs: two tables suffice exactly when no odd ring of quarrels runs through the guests, since round a ring the tables must alternate; every seating of every supper here is swept, a walk seats any hall with no odd ring and traces the ring back where it clashes, and on all 1,024 quarrel maps of five guests the sweep, the walk and the odd ring agree, the seatings then numbering two to the parties; The Five Ring ships hopeless because five in a ring cannot alternate |
 
 ## The idea they share
 
@@ -1580,6 +1581,20 @@ paragraph:
   is held to the walk throughout. The One of Three ships hopeless
   because one cup down among three, turned two at a time, never comes
   right, and the why is a sentence about odd and even.
+- **Suppermere** is Konig's theorem on two-colouring: a supper with two
+  long tables, and guests who quarrel, no two of whom may share a
+  table. Tap a guest for the left table, again for the right; every
+  quarrel is strung between its two guests, and goes rust when they sit
+  together. Konig showed in 1936 when this can be done, exactly when no
+  odd ring of quarrels runs through the guests, since round a ring the
+  tables must alternate, and an odd ring cannot close without the last
+  sitting with the first. Every seating of every supper here is swept;
+  a walk seats any hall that has no odd ring, the first guest of each
+  party left and every quarreller across, and traces the odd ring back
+  where it clashes; and on all 1,024 quarrel maps of five guests the
+  sweep, the walk and the odd ring agree, the seatings numbering two to
+  the power of the parties. The Five Ring ships hopeless because five in
+  a ring cannot alternate, and the why names the ring.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
