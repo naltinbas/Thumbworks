@@ -15,7 +15,8 @@ import 'support/fonts.dart';
 
 /// Draws the logo and the app icons.
 ///
-/// There is no image in this repository that was not produced here.
+/// Every icon and the logo are drawn here. The screenshots in docs/ come
+/// out of showcase_test.dart.
 void main() {
   const out = 'assets';
   const frame = Key('mark');

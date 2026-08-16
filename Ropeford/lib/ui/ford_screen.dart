@@ -140,7 +140,7 @@ class FordScreenState extends State<FordScreen> {
     if (note != null) return 'No hop: $note.';
     final reach = play.inReach;
     final head = 'On stone ${play.at}, the rope out to ${play.rope}: '
-        '${reach.isEmpty ? 'nothing dry left on the ford' : 'the dry stones under it are ${reach.join(', ')}'}.';
+        '${reach.isEmpty ? 'nothing dry left on the ford' : 'the dry stones of the ford under it are ${reach.join(', ')}'}.';
     if (play.gaveUp) return '$head The shallows take no foot.';
     return play.isDone ? 'Across. $head' : head;
   }

@@ -104,7 +104,7 @@ void main() {
   check(queue.length == stones.length, 'the walk left stones unreached');
 
   // The layers of that walk are exactly the chain's steps: everything
-  // dry up to the chain's dth stone, and nothing beyond it.
+  // dry up to where the chain stands after d hops, and nothing beyond.
   for (var i = 0; i < stones.length; i++) {
     final d = far[i];
     check(stones[i] <= chain[d] && (d == 0 || stones[i] > chain[d - 1]),
@@ -217,8 +217,9 @@ void main() {
         'inside the rope\'s reach and given one, the first above it found '
         'twice, by a pointer walking the sieve and, up to ${commas(byHand)}, '
         'by trial division counting up from n + 1, the two agreeing on every '
-        'one: the promise never fails, and the closest it comes is stone 3, '
-        'where the next dry stone is 5 and the rope reaches 6; the strict '
+        'one: the promise never fails, and from stone 2 on the stone that '
+        'uses the most of its rope is 3, where the next dry stone is 5 and '
+        'the rope reaches 6; the strict '
         'form n < p < 2n holds from 2 up and fails at 1 alone, where the '
         'only stone in reach is the rope\'s own end')
     ..write('; the greedy crossing, always the farthest stone the rope '
@@ -227,7 +228,8 @@ void main() {
         'stone by stone and chain unseen, gives the same counts: '
         '${passing(100)} hops to pass a hundred, ${passing(1000)} a thousand, '
         '${passing(10000)} ten thousand, and the stones reachable in d hops '
-        'are exactly the dry ones up to the chain\'s dth')
+        'or fewer are exactly the dry ones up to where the chain stands '
+        'after d hops')
     ..write('; on the ford itself, ${Rules.stones} stones with '
         '${Rules.dryStones.length} dry, sieved and divided out and agreeing '
         'on every one, every dry stone can be reached and none takes more '

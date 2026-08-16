@@ -4,11 +4,13 @@
 /// as far as 2n, and a hop may go to any dry stone past n and no
 /// further than the rope's end.
 ///
-/// Bertrand's postulate, put by Joseph Bertrand in 1845 and proved by
-/// Pafnuty Chebyshev in 1852, is that there is always a dry stone in
-/// reach: for every n greater than 1 there is a prime p with
-/// n < p < 2n. So the ford can never strand you, though it never says
-/// where the next dry stone will be.
+/// Bertrand's postulate, put by Joseph Bertrand in 1845 in the stronger
+/// form n < p < 2n - 2 and proved by Pafnuty Chebyshev in 1850, is that
+/// there is always a dry stone in reach: for every n greater than 1
+/// there is a prime p with n < p < 2n. So the numbers can never strand
+/// you, though the ford still can, since it stops at 120: from stone
+/// 113 the next dry stone, 127, is past its end. What the postulate
+/// never says is where the next dry stone will be.
 class Rules {
   /// The ford's stones, 1 to [stones].
   static const stones = 120;
@@ -93,9 +95,9 @@ class Rules {
   }
 
   /// The crossing that always takes the farthest stone in reach, from
-  /// [from] to the end of the ford. It is the certificate the small
-  /// cases of the postulate are settled with, each stone under twice
-  /// the one before.
+  /// [from] to the end of the ford. It is a certificate of the kind the
+  /// small cases of the postulate are settled with, each stone under
+  /// twice the one before.
   static List<int> chainFrom(int from) {
     final walk = [from];
     for (var far = farthest(from); far != null; far = farthest(walk.last)) {

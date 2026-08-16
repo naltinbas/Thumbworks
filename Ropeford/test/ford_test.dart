@@ -50,8 +50,8 @@ void main() {
       expect(Rules.hops[89], 8);
       for (final stone in Rules.dryStones) {
         final d = Rules.hops[stone]!;
-        // The stones reached in d hops are exactly the dry ones up to
-        // the chain's dth, which is what the chain is a certificate of.
+        // The stones reached in d hops or fewer are exactly the dry ones
+        // up to where the greedy chain stands after d hops.
         expect(stone, lessThanOrEqualTo(Rules.chain[d]), reason: '$stone');
         if (d > 0) expect(stone, greaterThan(Rules.chain[d - 1]), reason: '$stone');
       }
@@ -98,7 +98,7 @@ void main() {
     test('each ask says what it wants', () {
       expect(Levels.at(0).task, 'cross to a dry stone past the hundredth');
       expect(Levels.at(2).task,
-          'cross to a stone whose rope reaches past the ford\'s last');
+          'cross to a dry stone whose rope reaches past the ford\'s last');
       expect(Levels.at(4).task,
           'cross to a stone between the eighty-ninth and the ninety-seventh');
     });

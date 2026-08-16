@@ -44,7 +44,8 @@ class _TitleScreenState extends State<TitleScreen> {
                 child: Text(
                   'A ford of numbered stones, the dry ones prime and the rest '
                   'mossy. The rope from your stone reaches exactly double it, '
-                  'and there is always a dry stone under it.',
+                  'and while it stays on the ford there is always a dry stone '
+                  'under it.',
                   textAlign: TextAlign.center,
                   style:
                       TextStyle(color: Palette.inkDim, fontSize: 14),

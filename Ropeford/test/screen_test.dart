@@ -14,7 +14,8 @@ void main() {
     expect(find.text('stone 2'), findsOneWidget);
     expect(find.text('1 dry in reach'), findsOneWidget);
     expect(find.text('hops 0'), findsOneWidget);
-    expect(find.text('On stone 2, the rope out to 4: the dry stones under it are 3.'),
+    expect(
+        find.text('On stone 2, the rope out to 4: the dry stones of the ford under it are 3.'),
         findsOneWidget);
   });
 
@@ -22,7 +23,8 @@ void main() {
     await open(tester, which: 0);
     await tapStone(tester, 3);
     expect(state(tester).play.at, 3);
-    expect(find.text('On stone 3, the rope out to 6: the dry stones under it are 5.'),
+    expect(
+        find.text('On stone 3, the rope out to 6: the dry stones of the ford under it are 5.'),
         findsOneWidget);
     expect(find.text('hops 1'), findsOneWidget);
     await press(tester, 'Back');

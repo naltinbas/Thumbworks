@@ -13,8 +13,8 @@ import 'support/fordland.dart';
 /// the game for somebody to look at: the real widget tree at real phone
 /// dimensions, drawn by the engine the app uses.
 ///
-/// Every stone in them was hopped to by a tap, so nothing in the
-/// pictures is a crossing the game could not make.
+/// Every hop in them was made by a tap on the stone, so no crossing in
+/// the pictures is one the game could not make.
 ///
 /// Run it with: make shots
 void main() {

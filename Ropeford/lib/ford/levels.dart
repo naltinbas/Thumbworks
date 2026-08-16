@@ -45,13 +45,15 @@ class Levels {
       name: 'The Long Shallows',
       kind: 'shallows',
       ways: 0,
-      note: 'Hopeless, and the tile says so. The seven stones between 89 and '
+      note: 'Hopeless, and the board says so in red. The seven stones '
+          'between 89 and '
           '97 are all mossy: 90, 92, 94 and 96 are even, 93 is 3 times 31, '
           '95 is 5 times 19, and 91, which looks dry enough, is 7 times 13. '
-          'Bertrand promises a dry stone somewhere in the rope\'s reach, '
-          'never one where you happen to want it. From stone 89 the rope '
-          'covers all seven and reaches on to 178, where dry stones are '
-          'plentiful again.',
+          'Bertrand promises a dry stone somewhere in the rope\'s reach and '
+          'never says where it will be. From stone 89 the rope covers all '
+          'seven and reaches on to 178, though the ford stops at 120, and '
+          'the dry stones of the ford under it are 97, 101, 103, 107, 109 '
+          'and 113.',
     ),
   ];
 

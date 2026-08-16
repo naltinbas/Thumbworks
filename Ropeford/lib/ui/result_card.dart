@@ -40,9 +40,9 @@ class ResultCard extends StatelessWidget {
       words = 'No crossing ends between 89 and 97. The seven stones there are '
           'all mossy: 90, 92, 94 and 96 are even, ${Rules.tellMoss(93)}, '
           '${Rules.tellMoss(95)}, and ${Rules.tellMoss(91)}. Bertrand\'s '
-          'postulate promises a dry stone somewhere under the rope, never one '
-          'where you want it: from stone ${play.at} the rope reaches '
-          '${play.rope}, and ${play.inReach.isEmpty ? 'the ford runs out first' : 'the dry stones under it are ${play.inReach.join(', ')}'}.';
+          'postulate promises a dry stone somewhere under the rope and never '
+          'says where: from stone ${play.at} the rope reaches '
+          '${play.rope}, and ${play.inReach.isEmpty ? 'the ford runs out first' : 'the dry stones of the ford under it are ${play.inReach.join(', ')}'}.';
     }
     return Card(
       color: Palette.board,

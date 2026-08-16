@@ -70,7 +70,7 @@ class Level {
       case 'twin':
         return 'cross to a dry stone with another dry stone two behind it';
       case 'far':
-        return 'cross to a stone whose rope reaches past the ford\'s last';
+        return 'cross to a dry stone whose rope reaches past the ford\'s last';
       case 'lonely':
         return 'cross to a dry stone with nothing but moss for four stones either side';
       default:
