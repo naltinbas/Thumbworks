@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -183,6 +183,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Whistlecote/assets/logo.png" width="64"><br><b><a href="Whistlecote">Whistlecote</a></b></div> | Give a shepherd's dog its calls in whistles no call begins another | Kraft's inequality: a prefix code with given lengths exists exactly when the shares 2 to the minus length add to no more than the whole, and the count of codes is the product of the free choices length by length; every marking of every set here is swept, the shepherd's greedy way marks with no search, and on every set of up to six calls of up to four notes, 209 sets, the sweep, the shares and the shepherd agree; The Crowded Calls ships hopeless because its shares come to nine of eight |
 | <div align="center"><img src="Copperwick/assets/logo.png" width="64"><br><b><a href="Copperwick">Copperwick</a></b></div> | Turn a triangle of pennies upside down by sliding as few as may be | The penny-triangle puzzle: ten pennies turn in three moves and never in two, since however the turned triangle lies over the pennies each of its rows shares at most the shorter of its own length and the row under it, so it takes in at most seven of the ten as they lie; in general the fewest is a third of the pennies rounded down, every placement of the turned triangle swept over every triangle up to twelve rows, and every sequence of moves on the small tables; The Ten in Two ships hopeless because the rows count seven at the most |
 | <div align="center"><img src="Farrierstead/assets/logo.png" width="64"><br><b><a href="Farrierstead">Farrierstead</a></b></div> | Set as many knights on a chequered board as will stand with none a knight's move from another | The knights problem: the most is half the board rounded up, since the squares pair off as knight's moves and two knights on one pair attack, so at most one stands on each; the game finds that pairing on every board from three to seven, one colour of squares seats exactly that many since a knight always lands on the other colour, and every setting is swept on the small boards, 5,224,736 held up one by one, the sweep, the pairing and the colour agreeing; The Nine ships hopeless because eight pairs seat eight at most, and the why counts them |
+| <div align="center"><img src="Slantbury/assets/logo.png" width="64"><br><b><a href="Slantbury">Slantbury</a></b></div> | Lay the four pieces of a cut-up square inside a frame that seems a square too big | The missing-square puzzle: an eight-by-eight cut into two triangles and two trapeziums seems to make a thirteen-by-five, sixty-four squares in a frame of sixty-five; the pieces do lie inside with no overlap, two ways of 6,533,136 layings, and each time one square stays bare, a sliver along the slant, since the triangle rises three in eight, the trapezium two in five and the frame five in thirteen; every area is an exact fraction, every laying is swept, and Cassini's identity says why to the fortieth Fibonacci number; The Frame Filled ships hopeless because the areas differ by one, and the why counts the squares |
 
 ## The idea they share
 
@@ -1647,6 +1648,22 @@ paragraph:
   board walked square by square, and the sweep, the pairing and the
   colour agree; The Nine ships hopeless because eight pairs seat eight
   at most, and the why counts them.
+- **Slantbury** is the missing-square puzzle: an eight-by-eight cut
+  into two triangles and two trapeziums, and the four pieces, turned
+  about, seem to make a thirteen-by-five, sixty-four squares of pieces
+  in a frame of sixty-five. Tap a piece in the tray to take it up, turn
+  or flip it, tap the square its corner goes on, and lay the four inside
+  the frame; what two pieces share goes rust, and what stays bare shows
+  through. The pieces do lie inside with no overlap, two ways of
+  6,533,136 layings, and each time one square stays bare, a sliver along
+  the slant, since the triangle rises three in eight, the trapezium two
+  in five and the frame corner to corner five in thirteen, no two the
+  same. Every area is an exact fraction, never an eye's guess, every
+  laying of the four pieces inside every frame is swept, 24,061,920 of
+  them, and Cassini's identity says why to the fortieth Fibonacci
+  number: a Fibonacci number squared and the product of its neighbours
+  differ by one. The Frame Filled ships hopeless because the areas
+  differ by one, and the why counts the squares.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
