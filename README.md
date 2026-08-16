@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and eighty-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and eighty-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -191,6 +191,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Cutmere/assets/logo.png" width="64"><br><b><a href="Cutmere">Cutmere</a></b></div> | Find the coin among the casks in the fewest questions, the cellarman answering to keep you guessing | Binary search against an adversary: three questions find the coin among eight casks, cutting the middle every time, four among sixteen, seven among a hundred, and three never among nine, since three yes-or-no answers tell eight casks apart at most; the game walks the whole game tree for every row up to two hundred casks and finds the fewest questions to be exactly the least k with 2 to the k at least the casks, the middle cut a best first cut on every one; The Nine ships hopeless because eight answers cannot tell nine casks apart, and the why counts the answers |
 | <div align="center"><img src="Squarebrook/assets/logo.png" width="64"><br><b><a href="Squarebrook">Squarebrook</a></b></div> | Make the number of square flagstones from the mason's rack, the same stone as often as you like | Lagrange's four squares and Legendre's three: every number is four squares at most and 835 of the first thousand are three, exactly the numbers not four to a power times seven more than a multiple of eight, since a square leaves 0, 1 or 4 by eight and no three of those add to 7; the game sweeps every picking of stones for every number on the sham, twelve three squares one way of ten, fifty two squares two ways of twenty-eight, the smallest number that is two squares two ways, and makes every number to a thousand with the fewest squares, holding both theorems to the sweep; Seven in Three ships hopeless because a square leaves 0, 1 or 4 by eight, and the why counts by eight |
 | <div align="center"><img src="Halvingham/assets/logo.png" width="64"><br><b><a href="Halvingham">Halvingham</a></b></div> | Keep the rows of the peasant's halving-and-doubling so the doubles kept add to the product | Russian or Egyptian peasant multiplication, as old as the Rhind papyrus: halve one number row by row and double the other beside it, and the doubles beside the odd halves add to the product, since a half is odd exactly when that row's two is in the first number and a number is its twos one way only; the game sweeps every keeping of the rows for every pair to sixty by sixty, 3,600 ledgers and 18,180 rows, and finds the odd rows' keeping the only one that lands every time, thirteen by seven one keeping of sixteen; Thirteen by Seven in Two ships hopeless because thirteen is three twos, not two, and the why spells the twos |
+| <div align="center"><img src="Muxholme/assets/logo.png" width="64"><br><b><a href="Muxholme">Muxholme</a></b></div> | Derive the string asked from MI by Hofstadter's four rules of letters | Hofstadter's MU puzzle: start with MI, add a U after an I, double what follows the M, turn III to U or drop UU, and derive MIU in one step, MUI in three, MUIIU in five, and MU never, since two rules leave the count of I, one doubles it and one takes three away, and from one, doubling and taking three never make a multiple of three; the game walks every string reachable on a sheet of twenty-four letters, 106,389, finds the count of I a multiple of three in none, and finds every string of the right shape up to eight letters among them, 169, and nothing else; MU ships hopeless because MU has nought I and nought is a multiple of three, and the why counts the I |
 
 ## The idea they share
 
@@ -1773,6 +1774,19 @@ paragraph:
   of sixteen and ninety-nine by nine one of a hundred and twenty-eight.
   Thirteen by Seven in Two ships hopeless because thirteen is three twos,
   eight, four and one, never two, and the why spells the twos.
+- **Muxholme** is Hofstadter's MU puzzle: start with MI, and four rules
+  of letters, a U on the end after an I, whatever follows the M doubled,
+  III turned to U, UU dropped, and derive the string asked. MIU comes in
+  one step, MUI in three, MUIIU in five, and MU never: the count of I is
+  what the rules cannot shake, since two of them leave it, one doubles
+  it and one takes three away, and from one, doubling and taking three
+  never make a multiple of three. The game walks every string reachable
+  on a sheet of twenty-four letters, 106,389 of them, finds the count of
+  I a multiple of three in none, and finds every string of the right
+  shape up to eight letters among them, 169, and nothing else; every
+  derivation of six steps is swept, 299, and of eight, 7,873. MU ships
+  hopeless because MU has nought I and nought is a multiple of three,
+  and the why counts the I.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
