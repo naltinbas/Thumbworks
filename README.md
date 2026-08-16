@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and seventy-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and seventy-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -180,6 +180,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Trickmere/assets/logo.png" width="64"><br><b><a href="Trickmere">Trickmere</a></b></div> | Hide one of five dealt cards and lay the other four so a partner names it | Fitch Cheney's five-card trick: of five cards two share a suit, of any two ranks one is within six steps of the other round through the king to the ace, and three cards lie low, middle and high in six orders, so the row always tells the hidden card; every layout of every hand here is swept, the six orders checked on all 22,100 threes of the deck, and the assistant's rule run on all 2,598,960 hands of five; The Lone Club ships hopeless because the card that must be hidden is the only one of its suit, and no club is left to say so |
 | <div align="center"><img src="Cupwell/assets/logo.png" width="64"><br><b><a href="Cupwell">Cupwell</a></b></div> | Right a tray of cups, some upside down, turning exactly so many at once | The cup-turning parity puzzle: a turn of an even number of cups changes the count down by an even number, so an odd count down never comes right turning an even number at a time, while an odd count turned reaches every tray; every tray of two to six cups is walked from every start with every count turned, every sequence of turns for every tray here is swept, and the parity law is held to the walk; The One of Three ships hopeless because one cup down among three, turned two at a time, stays odd for ever |
 | <div align="center"><img src="Suppermere/assets/logo.png" width="64"><br><b><a href="Suppermere">Suppermere</a></b></div> | Seat quarrelling guests at two tables so no two who quarrel share one | Konig's theorem on bipartite graphs: two tables suffice exactly when no odd ring of quarrels runs through the guests, since round a ring the tables must alternate; every seating of every supper here is swept, a walk seats any hall with no odd ring and traces the ring back where it clashes, and on all 1,024 quarrel maps of five guests the sweep, the walk and the odd ring agree, the seatings then numbering two to the parties; The Five Ring ships hopeless because five in a ring cannot alternate |
+| <div align="center"><img src="Whistlecote/assets/logo.png" width="64"><br><b><a href="Whistlecote">Whistlecote</a></b></div> | Give a shepherd's dog its calls in whistles no call begins another | Kraft's inequality: a prefix code with given lengths exists exactly when the shares 2 to the minus length add to no more than the whole, and the count of codes is the product of the free choices length by length; every marking of every set here is swept, the shepherd's greedy way marks with no search, and on every set of up to six calls of up to four notes, 209 sets, the sweep, the shares and the shepherd agree; The Crowded Calls ships hopeless because its shares come to nine of eight |
 
 ## The idea they share
 
@@ -1595,6 +1596,23 @@ paragraph:
   sweep, the walk and the odd ring agree, the seatings numbering two to
   the power of the parties. The Five Ring ships hopeless because five in
   a ring cannot alternate, and the why names the ring.
+- **Whistlecote** is Kraft's inequality: a shepherd on the moor whistles
+  the dog its calls, Come-bye, Away, Walk up, Lie down, in runs of high
+  and low notes, and no call may begin with another whole one, or the
+  dog would go at the first. The whistles of up to three notes hang as
+  a tree from the shepherd, low to the left and high to the right; tap
+  one to give it to the next call wanting that many notes, again to
+  take it back, and a whistle that is the start of another goes rust.
+  Every whistle takes a share of all the tunes that could follow it,
+  half for one note, a quarter for two, an eighth for three, and Kraft
+  showed in 1949 when calls of given lengths can be whistled: exactly
+  when their shares come to no more than the whole. The shepherd's own
+  way marks with no search, shortest calls first and each on the
+  leftmost whistle no marked one begins; every marking of every set
+  here is swept; and on every set of up to six calls of up to four
+  notes, 209 sets, the sweep, the shares and the shepherd agree. The
+  Crowded Calls ships hopeless because its shares come to nine of
+  eight, and the why counts them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
