@@ -41,15 +41,17 @@ class Levels {
       note: 'Two composites to 1,200 pass on every base they share no factor '
           'with: 561, which is 3 times 11 times 17, on the bases 2, 4, 5, 7, '
           '8 and 10, and 1,105, 5 times 13 times 17, on nine bases; '
-          'Carmichael named them in 1910, and there are infinitely many, as '
-          'was proved in 1994.',
+          'Korselt gave the rule for them in 1899, Carmichael found the '
+          'first in 1910 and they carry his name, and there are infinitely '
+          'many, as was proved in 1994.',
     ),
     Level(
       name: 'The Failing Prime',
       kind: 'failing',
       ways: 0,
-      note: 'Hopeless, and the tile says so. Take a prime p and a base a it '
-          'does not divide: the numbers a, 2a, 3a and on to (p - 1)a leave '
+      note: 'Hopeless, and the tile says so. Fermat wrote it to Frenicle in '
+          '1640 and left no proof; Euler published one in 1736. Take a prime '
+          'p and a base a it does not divide: the numbers a, 2a, 3a and on to (p - 1)a leave '
           'the remainders 1 to p - 1 by p once each, since two of them '
           'alike would make p divide a difference ka - ja with both k - j '
           'and a too small or too coprime to carry it; so their product is '

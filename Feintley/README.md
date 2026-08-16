@@ -4,15 +4,20 @@
 
 Fermat's test. A number n is asked to raise a base a to the power
 n - 1, working modulo n all the way, and land on one. Every prime
-passes for every base it does not divide, as Fermat wrote in 1640:
-the multiples a, 2a and on to (p - 1)a leave the remainders 1 to
-p - 1 by p once each, so their product is the product of those
-remainders both times the base raised to p - 1 and plain, and the
-power is one. Composites mostly fail, which is how a computer first
-sorts primes from the rest. Some composites pass anyway. They are
-liars for that base, 341 the first for base two, and a few pass on
-every base they share no factor with. Carmichael named those in
-1910. Step the number and the base on their dials and watch the base
+passes for every base it does not divide. Fermat wrote that to
+Frenicle in 1640 and left no proof; Euler published one in 1736.
+Take a prime p and a base a it does not divide: the multiples a, 2a
+and on to (p - 1)a leave the remainders 1 to p - 1 by p once each,
+since two alike would have p dividing a difference of the
+multipliers, so their product is the product of those remainders
+both times the base raised to p - 1 and plain, and the power is one.
+Composites mostly fail, 10,917 of the 11,033 settings with a
+composite here, which is why a test of this shape is the first thing
+a computer tries on a number, though the tests in use strengthen it.
+Some composites pass anyway. They are liars for that base, 341 the
+first for base two, and a few pass on every base they share no
+factor with. Korselt gave the rule for those in 1899, Carmichael
+found the first in 1910, and they carry his name. Step the number and the base on their dials and watch the base
 squared over and over, the squares the power takes lit in gold. The
 game takes every number from 2 to 1,200 with every base from 2 to
 12, 13,189 settings, works the power by squaring and again taken
@@ -58,8 +63,8 @@ everything at least twice:
   landing on the sham is that ladder's. The primes are found by
   trial division.
 * **The whole power** takes no remainder until the end: it raises
-  the base to n - 1 as one big number, up to hundreds of digits, and
-  brings it down modulo n only then. It agrees with the squaring on
+  the base to n - 1 as one big number, up to the 1,294 digits of
+  twelve raised to 1,199, and brings it down modulo n only then. It agrees with the squaring on
   all 13,189 settings, and the sieve of Eratosthenes agrees with the
   trial division on every number to 1,200.
 
@@ -72,7 +77,7 @@ What `dart run tool/check_tests.dart` printed for the build this
 README shipped with, word for word:
 
 ```
-every number from 2 to 1,200 tried on every base from 2 to 12, 13,189 settings, and the power worked by squaring modulo the number and again taken whole before being brought down, the two agreeing on all 13,189, the primes found by trial division and again by the sieve, agreeing on all 1,199: every one of the 196 primes passes on every base it does not divide, 2,142 settings, and fails on the 14 settings where the base is a multiple of it; 116 settings are liars, composites that pass, four of them on base two, 341, 561, 645 and 1,105, and seven on base three, 91, 121, 286, 671, 703, 949 and 1,105, base two the honestest of the eleven and base eight the loosest with 22; 561, which is 3 times 11 times 17, and 1,105, which is 5 times 13 times 17, pass on every base they share no factor with, the two Carmichael numbers below 1,200; and 91 fails on base two while 341 fails on base three, so a second base catches most liars but not all
+every number from 2 to 1,200 tried on every base from 2 to 12, 13,189 settings, and the power worked by squaring modulo the number and again taken whole before being brought down, the two agreeing on all 13,189, the primes found by trial division and again by the sieve, agreeing on all 1,199: every one of the 196 primes passes on every base it does not divide, 2,142 settings, and fails on the 14 settings where the base is a multiple of it; of the 11,033 settings with a composite, 10,917 fail and 116 pass, the liars, four of them on base two, 341, 561, 645 and 1,105, and seven on base three, 91, 121, 286, 671, 703, 949 and 1,105, base two the honestest of the eleven and base eight the loosest with 22; 561, which is 3 times 11 times 17, and 1,105, which is 5 times 13 times 17, pass on every base they share no factor with, the two Carmichael numbers below 1,200; and 91 fails on base two while 341 fails on base three, so a second base catches most liars but not all
 
  1 The Honest Prime  set a prime above a thousand and a base, and have it pass: 308 of the 13,189 settings land it
  2 The Liar of Two   set a composite that passes on base two: 4 of the 13,189 settings land it

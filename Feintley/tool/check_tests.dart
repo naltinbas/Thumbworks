@@ -21,12 +21,14 @@ void main() {
 
   final sieve = Rules.sieve;
   var settings = 0, primes = 0, primePasses = 0, primeFails = 0, liars = 0, carmichaels = 0;
+  var composites = 0, compositeSettings = 0, compositeFails = 0;
   final liarsByBase = <int, List<int>>{};
   final carmichaelNumbers = <int>[];
   for (var n = Rules.least; n <= Rules.most; n++) {
     check(Rules.isPrime(n) == sieve[n], 'the trial and the sieve differ on $n');
     final composite = !Rules.isPrime(n);
     if (!composite) primes++;
+    if (composite) composites++;
     if (composite) {
       final f = Rules.factor(n)!;
       check(n % f == 0 && f > 1 && f * f <= n, 'the factor of $n is $f');
@@ -47,9 +49,14 @@ void main() {
           check(!passes, 'the prime $n passes on the base $a it divides');
           primeFails++;
         }
-      } else if (passes) {
-        liars++;
-        (liarsByBase[a] ??= []).add(n);
+      } else {
+        compositeSettings++;
+        if (passes) {
+          liars++;
+          (liarsByBase[a] ??= []).add(n);
+        } else {
+          compositeFails++;
+        }
       }
     }
     if (Rules.carmichael(n)) {
@@ -62,6 +69,7 @@ void main() {
   }
   check(settings == 13189 && primes == 196 && primePasses == 2142 && primeFails == 14, 'settings $settings, primes $primes, passes $primePasses, fails $primeFails');
   check(liars == 116, 'liars $liars');
+  check(composites == 1003 && compositeSettings == 11033 && compositeFails == 10917 && compositeFails + liars == compositeSettings, 'composites $composites, their settings $compositeSettings, failing $compositeFails');
   check(liarsByBase[2]!.join(',') == '341,561,645,1105', 'the liars of base two: ${liarsByBase[2]}');
   check(liarsByBase[3]!.join(',') == '91,121,286,671,703,949,1105', 'the liars of base three: ${liarsByBase[3]}');
   check(carmichaels == 2 && carmichaelNumbers.join(',') == '561,1105', 'the Carmichael numbers $carmichaelNumbers');
@@ -107,7 +115,7 @@ void main() {
     exit(1);
   }
 
-  stdout.writeln('every number from 2 to ${commas(Rules.most)} tried on every base from 2 to 12, ${commas(settings)} settings, and the power worked by squaring modulo the number and again taken whole before being brought down, the two agreeing on all ${commas(settings)}, the primes found by trial division and again by the sieve, agreeing on all ${commas(Rules.most - 1)}: every one of the $primes primes passes on every base it does not divide, ${commas(primePasses)} settings, and fails on the $primeFails settings where the base is a multiple of it; $liars settings are liars, composites that pass, four of them on base two, 341, 561, 645 and 1,105, and seven on base three, 91, 121, 286, 671, 703, 949 and 1,105, base two the honestest of the eleven and base eight the loosest with 22; 561, which is 3 times 11 times 17, and 1,105, which is 5 times 13 times 17, pass on every base they share no factor with, the two Carmichael numbers below ${commas(Rules.most)}; and 91 fails on base two while 341 fails on base three, so a second base catches most liars but not all\n');
+  stdout.writeln('every number from 2 to ${commas(Rules.most)} tried on every base from 2 to 12, ${commas(settings)} settings, and the power worked by squaring modulo the number and again taken whole before being brought down, the two agreeing on all ${commas(settings)}, the primes found by trial division and again by the sieve, agreeing on all ${commas(Rules.most - 1)}: every one of the $primes primes passes on every base it does not divide, ${commas(primePasses)} settings, and fails on the $primeFails settings where the base is a multiple of it; of the ${commas(compositeSettings)} settings with a composite, ${commas(compositeFails)} fail and $liars pass, the liars, four of them on base two, 341, 561, 645 and 1,105, and seven on base three, 91, 121, 286, 671, 703, 949 and 1,105, base two the honestest of the eleven and base eight the loosest with 22; 561, which is 3 times 11 times 17, and 1,105, which is 5 times 13 times 17, pass on every base they share no factor with, the two Carmichael numbers below ${commas(Rules.most)}; and 91 fails on base two while 341 fails on base three, so a second base catches most liars but not all\n');
   final width = Levels.all.map((l) => l.name.length).reduce((a, b) => a > b ? a : b);
   for (var i = 0; i < Levels.count; i++) {
     final level = Levels.at(i);
