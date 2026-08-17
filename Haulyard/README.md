@@ -131,8 +131,8 @@ line, and the pocket rule that makes two positions one.
 
 Then the game through the screen: swiping, tapping to walk, tapping to shove,
 undo, starting again, the warning when a yard is ruined, and the one that
-matters: **every yard worked through to the end by pressing Show me and doing
-what it says**, finishing each one in exactly par.
+matters: every yard worked through to the end by pressing **Show me** and
+doing what it says, finishing each one in exactly par.
 
 Screenshots come from `test/showcase_test.dart`, which shoves the crates in
 them by tapping the squares they are in. `test/mark_test.dart` draws the logo

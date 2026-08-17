@@ -19,9 +19,6 @@ back is one stroke the other way.
 
 ## You are never asked to guess
 
-This is the promise the game is built around, and it is enforced rather than
-hoped for.
-
 A grid of random squares produces perfectly valid clues and usually an unfair
 puzzle. There comes a point where nothing more follows from any single line and
 the only way on is to try a square and see what breaks. A player who hits one
@@ -75,8 +72,8 @@ memoised backwards feasibility check, which is linear in the line length times
 the number of runs.
 
 Alongside it in the tests sits the slow obvious version that really does write
-down every arrangement. The two are compared on **every clue and every state of
-knowledge** a line up to eight squares wide can be in. Not a sample, but all
+down every arrangement. The two are compared on every clue and every state of
+knowledge a line up to eight squares wide can be in. Not a sample, but all
 of them: fifty five clues against six and a half thousand states, in about three
 seconds. `make verify` takes it to eleven wide.
 
