@@ -4,8 +4,8 @@ import '../bench/levels.dart';
 import '../bench/play.dart';
 import 'benchview.dart';
 
-/// The game's mark: Belady's own card on a bench of three, part way
-/// through the seven walks.
+/// The game's mark: Belady's own card on a bench of three, two carries
+/// and five walks in.
 class Mark extends StatelessWidget {
   const Mark({super.key, this.onVerge = true});
 
@@ -13,8 +13,9 @@ class Mark extends StatelessWidget {
   /// brings its own.
   final bool onVerge;
 
-  /// The standing the mark draws, real and checked: two carries into
-  /// the card, made the way Belady's rule makes them.
+  /// The standing the mark draws, real and reachable by two taps: two
+  /// carries into the card, the first slot both times, which is not the
+  /// slot Belady's rule would carry back.
   static Play get partWay => Play.standing(Levels.at(2), const [0, 0]);
 
   @override

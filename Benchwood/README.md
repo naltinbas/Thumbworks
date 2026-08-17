@@ -96,8 +96,9 @@ with the app's own painter, then copied into `docs/` as they came out.
 On the board shots every carry was made by a tap on the tool, so no
 standing pictured is one the game could not reach. The logo and every
 launcher icon come out of `test/mark_test.dart`, drawn by the same
-painter: the mark is Belady's card two carries in, which is the mark
-standing rather than a run of taps.
+painter: the mark is Belady's card two carries and five walks in, set
+there by hand rather than tapped, and the carries it shows are the
+first slot both times rather than the ones the rule would make.
 
 ## Building
 

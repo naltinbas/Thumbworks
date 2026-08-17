@@ -1,8 +1,9 @@
 import 'level.dart';
 
-/// The five asks, first to last. Each ways count is the sweep's, and
-/// the checker refuses the bake if one drifts. The numbers inside the
-/// notes are the same sweep's, written out by hand.
+/// The five asks, first to last. Each ways and runs count is the
+/// checker's, counted over every way that ask's card can be played out,
+/// and it refuses the bake if one drifts. The walk counts inside the
+/// notes are written out by hand.
 class Levels {
   static const all = <Level>[
     Level(

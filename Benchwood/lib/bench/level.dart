@@ -25,7 +25,8 @@ class Level {
   /// The walks the ask allows.
   final int walks;
 
-  /// How many ways of playing the card keep to that, from the sweep.
+  /// How many ways of playing the card keep to that, counted over every
+  /// way the card can be played out.
   final int ways;
 
   /// How many ways of playing the card there are at all.

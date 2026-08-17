@@ -185,6 +185,6 @@ String whyWords(Play play) {
       'with three slots and ten with four, while Belady\'s rule walks seven '
       'and six. Belady, Nelson and Shedler wrote that up in 1969.\n\n'
       'This is ask $number, ${level.name}. ${level.note}\n\n'
-      'The counts in this note are the sweep\'s: every job card of ten calls '
-      'on at most four tools, worked in full before the sham was built.';
+      'The counts in this note come from playing this ask\'s own card every '
+      'way it can go, worked in full before the sham was built.';
 }

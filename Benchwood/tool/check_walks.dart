@@ -101,6 +101,10 @@ void main() {
     }
   }
 
+  // The oldest rule on the first ask's card, which its note quotes.
+  check(Rules.walksByOldest(Levels.at(0).card, 2) == 5,
+      'the oldest rule on the first card');
+
   // Belady's own card, and the anomaly on it.
   final anomalyCard = Levels.at(2).card;
   check(Rules.walksByOldest(anomalyCard, 3) == 9, 'the oldest rule on three');
