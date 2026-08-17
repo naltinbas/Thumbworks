@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety-two games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-three games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -201,6 +201,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Wedgeworth/assets/logo.png" width="64"><br><b><a href="Wedgeworth">Wedgeworth</a></b></div> | Fan regular faces round a point and see which corners close and which lie flat or overlap | The five regular solids, by the angles at a corner: a face of p sides has corners of 180(p - 2)/p degrees, so a corner closes only when the faces at it come to less than a full turn, which happens for three, four or five triangles, three squares and three pentagons and nothing else; three hexagons make 360 exactly and lie flat like a comb, and Euler's corners less edges plus faces coming to two picks out the same five; every angle is kept as an exact fraction of a degree and every setting of face and fan is swept; The Honeycomb Corner ships hopeless because three hexagons already fill the turn |
 | <div align="center"><img src="Framley/assets/logo.png" width="64"><br><b><a href="Framley">Framley</a></b></div> | Hang square picture frames, no two alike, edge to edge, to fill a gallery wall exactly | Perfect squared rectangles: Moron's two of 1925, thirty-two by thirty-three hung with the nine frames 1 to 18 and sixty-one by sixty-nine with nine from 2 to 36, and a wall of ten, forty-seven by sixty-five; every hanging of each is found twice, by filling the first bare cell row by row and again column by column, four to a wall and one but for turning and mirroring, and the areas add up to 1,056, 4,209 and 3,055; The One on the Rim ships hopeless because the smallest frame can never touch the rim, where it would sit in a well as wide as itself with nothing narrow enough to cover the cell above it |
 | <div align="center"><img src="Crustleigh/assets/logo.png" width="64"><br><b><a href="Crustleigh">Crustleigh</a></b></div> | Rank the pies on three judges' cards and watch the majority run in a ring | Condorcet's paradox at the village show: every judge ranks the pies straight and still apple beats bramble, bramble beats cherry and cherry beats apple, on twelve of the 216 shows of three pies, exactly the shows whose three ballots are the three turnings of one ranking; with three pies a pie that beats every other head to head is always somebody's first choice, and with four the modest winner comes and so does a winner who loses on points; every show of three ballots is swept and every count read twice; The Modest Winner ships hopeless because a pie first on no ballot cannot beat both the others |
+| <div align="center"><img src="Laneford/assets/logo.png" width="64"><br><b><a href="Laneford">Laneford</a></b></div> | Stand the hamlets on the green so that no two lanes cross | Planarity and Euler's formula: hamlets less lanes plus faces comes to two, so a green of straight lanes with no crossings has at most 3v - 6 lanes, and at most 2v - 4 when the hamlets are of two kinds with lanes only between the kinds; three hamlets each laned to three is nine lanes over six hamlets of two kinds against a ceiling of eight, so the ninth always crosses; every placing of the hamlets on the grid is swept and every crossing judged by whole-number cross products, with Fary's theorem behind the straight lanes; The Three and the Three ships hopeless because Euler will not have it |
 
 ## The idea they share
 
@@ -1905,6 +1906,16 @@ paragraph:
   lies under one of the other two on every card, and beating both takes
   more judges than there are. With four pies both come back, the modest
   winner and the pie that beats every other yet loses on points.
+- **Laneford** is planarity on a village green: hamlets on grid points,
+  straight lanes between them, and lanes that cross turned rust. Every
+  placing is swept and every crossing judged by whole-number cross
+  products, so nothing turns on a pixel. Euler's formula does the
+  refusing: hamlets less lanes plus faces comes to two, every face has
+  three lanes at least and every lane borders two faces, so a clear green
+  has at most 3v - 6 lanes, and 2v - 4 when the hamlets come in two kinds
+  with lanes only between them. Three hamlets each laned to three is nine
+  lanes over six hamlets against a ceiling of eight, which is why The
+  Three and the Three ships hopeless: the ninth lane always crosses.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
