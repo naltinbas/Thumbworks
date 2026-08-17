@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety-four games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -203,6 +203,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Crustleigh/assets/logo.png" width="64"><br><b><a href="Crustleigh">Crustleigh</a></b></div> | Rank the pies on three judges' cards and watch the majority run in a ring | Condorcet's paradox at the village show: every judge ranks the pies straight and still apple beats bramble, bramble beats cherry and cherry beats apple, on twelve of the 216 shows of three pies, exactly the shows whose three ballots are the three turnings of one ranking; with three pies a pie that beats every other head to head is always somebody's first choice, and with four the modest winner comes and so does a winner who loses on points; every show of three ballots is swept and every count read twice; The Modest Winner ships hopeless because a pie first on no ballot cannot beat both the others |
 | <div align="center"><img src="Laneford/assets/logo.png" width="64"><br><b><a href="Laneford">Laneford</a></b></div> | Stand the hamlets on the green so that no two lanes cross | Planarity and Euler's formula: hamlets less lanes plus faces comes to two, so a green of straight lanes with no crossings has at most 3v - 6 lanes, and at most 2v - 4 when the hamlets are of two kinds with lanes only between the kinds; three hamlets each laned to three is nine lanes over six hamlets of two kinds against a ceiling of eight, so the ninth always crosses; every placing of the hamlets on the grid is swept and every crossing judged by whole-number cross products, with Fary's theorem behind the straight lanes; The Three and the Three ships hopeless because Euler will not have it |
 | <div align="center"><img src="Candleford/assets/logo.png" width="64"><br><b><a href="Candleford">Candleford</a></b></div> | Add guests to the party and watch the chance of a shared birthday climb | The birthday paradox as exact fractions: with d days and n guests the chance that no two share is d(d-1)...(d-n+1) over d to the n, so the chance of a share passes a half at twenty-three guests, 50.7297 in a hundred, nine in ten at forty-one, ninety-nine in a hundred at fifty-seven, and certainty at 366 by the pigeonhole while 365 guests can still all differ; every party is worked in whole numbers and checked against a literal count of every way to give the guests a day on the small years; The Certain Party ships hopeless because 365 guests can always be kept apart |
+| <div align="center"><img src="Cornerstow/assets/logo.png" width="64"><br><b><a href="Cornerstow">Cornerstow</a></b></div> | Pave the yard with square flags, one of one, two of two and on, and see the cubes make a square | Nicomachus's theorem as paving: the cubes of one to n added come to the square of one to n added, so k flags of k by k for every k pave a square yard whose side is one plus two plus three and on; the picture proof lays them band by band round the corner, band k running k times k over two plus half a k along each arm, so an odd band lays k whole flags and an even one lays k - 1 whole and two halves, which is why the whole flags alone never pave; every paving of every yard is found twice, row by row and column by column, and Nicomachus's own paving is laid by formula to the thirty-six by thirty-six |
 
 ## The idea they share
 
@@ -1927,6 +1928,15 @@ paragraph:
   ninety-nine in a hundred. The Certain Party ships hopeless because 365
   guests can all be given different days, and it is only the 366th that
   cannot miss.
+- **Cornerstow** is Nicomachus's theorem laid out as a paved yard: one
+  flag of one, two of two, three of three and on, every flag a square,
+  paving a yard whose side is one plus two plus three and on. That is
+  the cubes of one to n adding to the square of one to n added, and the
+  paving is the picture proof: band k round the corner is k wide and its
+  two arms take k times k over two plus half a k, so an odd band lays k
+  whole flags and an even band lays k - 1 whole and two halves. The last
+  even flag has to be cut, which is why the whole flags on their own
+  never pave, and the game turns halves on end to lay them.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
