@@ -21,7 +21,7 @@ The field thins as the row grows: 288 clean paintings at eight
 stones, 186 at eleven, 18 at thirteen, none at fourteen. The two
 clean fours are each other's swap, and not one of the eighteen
 clean thirteens takes a fourteenth stone in any paint: the wall
-is not just there, it is sheer.
+is sheer.
 
 ## Two voices
 

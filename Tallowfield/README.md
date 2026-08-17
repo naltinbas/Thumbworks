@@ -54,7 +54,7 @@ find; two they mistake, and no reading of three tallies can do better.
 
 ## Slips are corrected from the tallies
 
-Name a wrong lantern and the game does not just buzz: it says which
+Name a wrong lantern and the game does more than buzz: it says which
 hedges complain and why that lantern cannot be the one, so the correction
 teaches the code. The score is slips and askings together, and an evening
 read clean says so.

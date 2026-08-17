@@ -9,7 +9,7 @@ nobody promised their own. Each sailor may open half the lockers, alone,
 telling the others nothing. If every sailor finds their own chit, the
 crew comes through; if one fails, the crew fails as one. Guessing, ten
 sailors come through one round in a thousand. There is a better way, and
-it is not magic, it is loops.
+it is loops.
 
 | | | | |
 |---|---|---|---|

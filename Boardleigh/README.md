@@ -17,9 +17,9 @@ counting that owns them in plain view.
 
 The count tries every laying of a room outright: the square parlour
 lays 36 ways, the strips run 1, 2, 3, 5, 8, 13, 21, 34, and on the
-strips the staircase rule stands as a second voice, each count the
-two before it added, met at every length. The checker refuses the
-bake if the count and the rule ever part.
+strips the staircase rule is a second voice, each count the two
+before it added, met at every length. The checker refuses the bake
+if the count and the rule ever part.
 
 ```
 $ make rooms

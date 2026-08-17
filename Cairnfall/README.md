@@ -21,8 +21,7 @@ has already worked the whole thing out.
 
 A row of open cairns is Nim, and Nim is a game people either know the trick to
 or do not. Mix three rules and the position is one nobody has seen, and the
-whole point of what this game will show you is that *the same arithmetic still
-settles it*.
+game shows that *the same arithmetic still settles it*.
 
 Every cairn is worth a number: the size of the plain heap it could be swapped
 for without changing who wins. That is a fact about the cairn rather than a

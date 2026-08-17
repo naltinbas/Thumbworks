@@ -47,9 +47,9 @@ only a way of finding it. There is no other proof available and none needed.
 ![the odds on show](docs/turn.png)
 
 Turn the odds on and every move carries the number the house is using. Not a
-hint, not a nudge, not a difficulty setting: the same table, put where you
-can see it. The whole difference between the two of you is meant to be that
-the house always takes the best one.
+hint, not a difficulty setting: the same table, put where you can see it. The
+whole difference between the two of you is meant to be that the house always
+takes the best one.
 
 At the end it adds up the difference:
 
