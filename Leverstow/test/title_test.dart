@@ -11,6 +11,8 @@ void main() {
   testWidgets('the sham lists every ask by name and task', (tester) async {
     await open(tester);
     expect(find.text('Leverstow'), findsOneWidget);
+    expect(find.textContaining('Two levers, both fair on their own'),
+        findsOneWidget);
     for (final level in Levels.all) {
       expect(find.text(level.name), findsOneWidget);
     }

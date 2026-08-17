@@ -42,10 +42,9 @@ class _TitleScreenState extends State<TitleScreen> {
               const Padding(
                 padding: EdgeInsets.fromLTRB(24, 4, 24, 8),
                 child: Text(
-                  'A ford of numbered stones, the dry ones prime and the rest '
-                  'mossy. The rope from your stone reaches exactly double it, '
-                  'and while it stays on the ford there is always a dry stone '
-                  'under it.',
+                  'Three heirs hold bonds of 12, 24 and 36 coins against '
+                  'an estate too small to cover them. A scale hangs between '
+                  'each pair of purses, and one division levels all three.',
                   textAlign: TextAlign.center,
                   style:
                       TextStyle(color: Palette.inkDim, fontSize: 14),

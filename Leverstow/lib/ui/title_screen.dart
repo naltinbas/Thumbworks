@@ -42,10 +42,9 @@ class _TitleScreenState extends State<TitleScreen> {
               const Padding(
                 padding: EdgeInsets.fromLTRB(24, 4, 24, 8),
                 child: Text(
-                  'A ford of numbered stones, the dry ones prime and the rest '
-                  'mossy. The rope from your stone reaches exactly double it, '
-                  'and while it stays on the ford there is always a dry stone '
-                  'under it.',
+                  'Two levers, both fair on their own, and a loop to run '
+                  'them in. Nearly every loop you can build climbs, which is '
+                  'Parrondo\'s paradox.',
                   textAlign: TextAlign.center,
                   style:
                       TextStyle(color: Palette.inkDim, fontSize: 14),
