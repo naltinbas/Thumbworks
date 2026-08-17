@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety-seven games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-eight games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -206,6 +206,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Cornerstow/assets/logo.png" width="64"><br><b><a href="Cornerstow">Cornerstow</a></b></div> | Pave the yard with square flags, one of one, two of two and on, and see the cubes make a square | Nicomachus's theorem as paving: the cubes of one to n added come to the square of one to n added, so k flags of k by k for every k pave a square yard whose side is one plus two plus three and on; the picture proof lays them band by band round the corner, band k running k times k over two plus half a k along each arm, so an odd band lays k whole flags and an even one lays k - 1 whole and two halves, which is why the whole flags alone never pave; every paving of every yard is found twice, row by row and column by column, and Nicomachus's own paving is laid by formula to the thirty-six by thirty-six |
 | <div align="center"><img src="Goatsbridge/assets/logo.png" width="64"><br><b><a href="Goatsbridge">Goatsbridge</a></b></div> | Pick a door at the fair, watch the host open the goats, and stay or switch | The Monty Hall problem for n doors and k opened: staying wins one game in n, switching wins n - 1 in n and then lands the cart one time in n - 1 - k, since the host opens only goats and leaves the cart among fewer doors; three doors and one opened is two in three, ten and eight is nine in ten, ten and one is nine in eighty, the least switching ever gains and still more than staying; every case of every one of the 72 settings is counted in exact fractions and held to the formula, which counts nothing; The Stay ships hopeless because 1/(n - 1 - k) beats 1/(n - 1) whenever the host opens a door at all |
 | <div align="center"><img src="Baizewell/assets/logo.png" width="64"><br><b><a href="Baizewell">Baizewell</a></b></div> | Shoot a ball across a billiard table at forty-five degrees and watch it find a pocket | Unfolding a billiard path: reflect the table at every cushion and the bouncing path straightens into the diagonal of a grid, so the ball pockets after the least common multiple of the sides in steps, having crossed q/g tables along and p/g up with g the sides' common factor; which pocket is the parity of those two counts, and the bounces are the counts less two; the ball is rolled step by step on all 841 tables to thirty a side and agrees with the rule on every one; The Home Pocket ships hopeless because the two counts have had their common factor divided out and so are never both even |
+| <div align="center"><img src="Fevershaw/assets/logo.png" width="64"><br><b><a href="Fevershaw">Fevershaw</a></b></div> | Set a fever and a test and count how many of the flagged villagers are really ill | Bayes' theorem read as counting heads: the share of the flagged who are ill is the fever times the catch over that plus the rest of the village times the alarm, so a small alarm on the many well outweighs a big catch on the few ill; a fever of one in a hundred with a test right ninety-nine times in a hundred makes a flag right one time in two, and at one in a thousand it drops to eleven times in 122; every setting is counted in whole souls and held to exact fractions of chances; The Sure Flag ships hopeless because a test that ever flags a well villager can never make a flag certain |
 
 ## The idea they share
 
@@ -1958,6 +1959,15 @@ paragraph:
   pocket. Since the common factor has been divided out they are never
   both even, which is why The Home Pocket ships hopeless: the ball
   never comes back to the corner it left.
+- **Fevershaw** is Bayes' theorem with the arithmetic done in whole
+  souls. A fever takes one villager in so many; the test catches the ill
+  so often and wrongly flags the well so often. Of everyone flagged, the
+  share who are really ill is the ill flagged over all flagged, and
+  because the well outnumber the ill a small rate of false alarms on the
+  many can drown a high catch rate on the few. At one in a hundred with
+  a test right ninety-nine times in a hundred, a flag is right half the
+  time. The Sure Flag ships hopeless because as long as the test flags
+  any well villager at all, some flagged villager is well.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
