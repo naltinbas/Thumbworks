@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety-three games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -202,6 +202,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Framley/assets/logo.png" width="64"><br><b><a href="Framley">Framley</a></b></div> | Hang square picture frames, no two alike, edge to edge, to fill a gallery wall exactly | Perfect squared rectangles: Moron's two of 1925, thirty-two by thirty-three hung with the nine frames 1 to 18 and sixty-one by sixty-nine with nine from 2 to 36, and a wall of ten, forty-seven by sixty-five; every hanging of each is found twice, by filling the first bare cell row by row and again column by column, four to a wall and one but for turning and mirroring, and the areas add up to 1,056, 4,209 and 3,055; The One on the Rim ships hopeless because the smallest frame can never touch the rim, where it would sit in a well as wide as itself with nothing narrow enough to cover the cell above it |
 | <div align="center"><img src="Crustleigh/assets/logo.png" width="64"><br><b><a href="Crustleigh">Crustleigh</a></b></div> | Rank the pies on three judges' cards and watch the majority run in a ring | Condorcet's paradox at the village show: every judge ranks the pies straight and still apple beats bramble, bramble beats cherry and cherry beats apple, on twelve of the 216 shows of three pies, exactly the shows whose three ballots are the three turnings of one ranking; with three pies a pie that beats every other head to head is always somebody's first choice, and with four the modest winner comes and so does a winner who loses on points; every show of three ballots is swept and every count read twice; The Modest Winner ships hopeless because a pie first on no ballot cannot beat both the others |
 | <div align="center"><img src="Laneford/assets/logo.png" width="64"><br><b><a href="Laneford">Laneford</a></b></div> | Stand the hamlets on the green so that no two lanes cross | Planarity and Euler's formula: hamlets less lanes plus faces comes to two, so a green of straight lanes with no crossings has at most 3v - 6 lanes, and at most 2v - 4 when the hamlets are of two kinds with lanes only between the kinds; three hamlets each laned to three is nine lanes over six hamlets of two kinds against a ceiling of eight, so the ninth always crosses; every placing of the hamlets on the grid is swept and every crossing judged by whole-number cross products, with Fary's theorem behind the straight lanes; The Three and the Three ships hopeless because Euler will not have it |
+| <div align="center"><img src="Candleford/assets/logo.png" width="64"><br><b><a href="Candleford">Candleford</a></b></div> | Add guests to the party and watch the chance of a shared birthday climb | The birthday paradox as exact fractions: with d days and n guests the chance that no two share is d(d-1)...(d-n+1) over d to the n, so the chance of a share passes a half at twenty-three guests, 50.7297 in a hundred, nine in ten at forty-one, ninety-nine in a hundred at fifty-seven, and certainty at 366 by the pigeonhole while 365 guests can still all differ; every party is worked in whole numbers and checked against a literal count of every way to give the guests a day on the small years; The Certain Party ships hopeless because 365 guests can always be kept apart |
 
 ## The idea they share
 
@@ -1916,6 +1917,16 @@ paragraph:
   with lanes only between them. Three hamlets each laned to three is nine
   lanes over six hamlets against a ceiling of eight, which is why The
   Three and the Three ships hopeless: the ninth lane always crosses.
+- **Candleford** is the birthday paradox, worked as exact fractions
+  rather than a percentage. With a year of d days and n guests the chance
+  that no two share a day is d times d - 1 and on down to d - n + 1, over
+  d to the n, since each guest in turn has to miss the days already
+  taken. The chance of a share grows with the pairs, not the guests: 253
+  pairs at twenty-three, which is where it passes a half at 50.7297 in a
+  hundred. Forty-one guests make nine in ten and fifty-seven make
+  ninety-nine in a hundred. The Certain Party ships hopeless because 365
+  guests can all be given different days, and it is only the 366th that
+  cannot miss.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
