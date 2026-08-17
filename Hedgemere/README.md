@@ -20,12 +20,14 @@ you can see the middle sitting at its halfway mark.
 5. **The Three Middles** - peel the hedge down to three middle posts
 
 378 of the 720 hedges the dials reach come down to one post in two
-rounds, which is the commonest thing a hedge of seven posts does. 32
+rounds, which is the commonest thing among the 720 hedges the dials
+reach. 32
 land the long hedge, and every one of them is the same shape: all seven
 posts in a line, six steps end to end, with the fourth post along
 standing at the halfway mark. 82 come down to two posts in a single
 round. Only two are round bushes, six posts hanging off one, and the
-board opens eight taps away from either. The Three Middles is labeled
+board opens eight taps away from the nearer of them. The Three Middles
+is labeled
 hopeless on its tile, and the card at the end of the ask says why on a
 finger.
 
@@ -90,7 +92,8 @@ every hedge the dials reach taken, 720 of them over 7 posts, and each one found 
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
 every hedge in them was built by taps, so nothing pictured is a hanging
-the game could not reach. The logo and every launcher icon come out of
+the game could not reach. The hedge across the top of the sham shot is
+the mark rather than a run of taps. The logo and every launcher icon come out of
 `test/mark_test.dart` the same way: the mark is post 1 holding two
 posts and each of those holding two more, four steps end to end, with
 the middle lit at the halfway mark of the walk drawn behind it.

@@ -22,7 +22,8 @@ class Levels {
       ways: 32,
       aim: [2, 3, 4, 5, 6],
       note: '32 hangings of the 720 land it, and every one of them is the '
-          'same hedge: all seven posts in a single line. Six steps end to '
+          'same shape, all seven posts in a single line, though the middle '
+          'post is not the same one in each. Six steps end to '
           'end is the longest walk seven posts can make, the fourth post '
           'along stands in the middle, and it takes three rounds to strip '
           'down to it.',
