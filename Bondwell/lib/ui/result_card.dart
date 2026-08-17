@@ -41,13 +41,13 @@ class ResultCard extends StatelessWidget {
     } else {
       words = 'No division of ${level.estate} coins puts the longest bond '
           'ahead of the shortest with every scale level, and none ever will. '
-          'Twelve coins is under every bond, so no heir can concede a coin '
+          'Twelve coins is no more than any bond, so no heir can concede a coin '
           'to another: whatever two of them hold between them, both still '
           'claim the whole of it, and the garment rule halves what is '
           'contested. Even between every pair leaves the three purses equal, '
           'and equal purses put nobody ahead. The sweep of all '
-          '${level.divisions} divisions finds the one that levels the '
-          'scales, four coins each, and it is the same for every heir.';
+          '${level.divisions} divisions, run before the sham was built, '
+          'found the one that levels the scales: four coins each.';
     }
     return Card(
       color: Palette.board,

@@ -13,8 +13,9 @@ import 'support/bondland.dart';
 /// the game for somebody to look at: the real widget tree at real phone
 /// dimensions, drawn by the engine the app uses.
 ///
-/// Every coin in them was put in its purse by a tap, so no division
-/// pictured is one the game could not reach.
+/// On the board shots the coins went into the purses by taps on the
+/// dials, so no division pictured is one the game could not reach. The
+/// sham shots show the mark, standing with no taps behind it.
 ///
 /// Run it with: make shots
 void main() {

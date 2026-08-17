@@ -1,8 +1,9 @@
 import 'level.dart';
 
 /// The five asks, first to last. Each ways count is the sweep's, and
-/// the checker refuses the bake if one drifts. The numbers inside the
-/// notes are the same sweep's, written out by hand.
+/// the checker refuses the bake if one drifts. The shares in the notes
+/// are the sweep's too; the totals of 91, 325, 703 and 1,225 are the
+/// count of ways the coins can fall, which is (n + 1)(n + 2) over 2.
 class Levels {
   static const all = <Level>[
     Level(
@@ -24,9 +25,10 @@ class Levels {
       kind: 'level',
       note: 'Twenty-four coins, the Talmud\'s two hundred zuz. One division '
           'of the 325 levels all three scales: 6, 9 and 9, which is 50, 75 '
-          'and 75 zuz. The short bond is now small enough that the other '
-          'two concede nothing to it and it takes a quarter, while the two '
-          'long bonds still split their own coins evenly.',
+          'and 75 zuz. Each pair holding the short bond now holds more than '
+          'its 12, so it concedes three coins in each pair and takes a '
+          'quarter, while the two long bonds still split their own coins '
+          'evenly.',
     ),
     Level(
       name: 'The Large Estate',
@@ -35,9 +37,9 @@ class Levels {
       kind: 'level',
       note: 'Thirty-six coins, the Talmud\'s three hundred zuz. One division '
           'of the 703 levels all three scales: 6, 12 and 18, which is 50, '
-          '100 and 150 zuz, and here alone the shares run in proportion to '
-          'the bonds. The three rows of the table look like three different '
-          'rules and are one.',
+          '100 and 150 zuz, and of the three rows this is the one where the '
+          'shares run in proportion to the bonds. The three rows look like '
+          'three different rules and are one.',
     ),
     Level(
       name: 'The Fuller Estate',
@@ -46,10 +48,11 @@ class Levels {
       kind: 'level',
       note: 'Forty-eight coins, past the halfway mark of the 72 the bonds '
           'come to, and the rule turns over: below half the claims the '
-          'shares are levelled from the bottom, above it the losses are. '
-          'One division of the 1,225 levels every scale, 6, 15 and 27, so '
-          'the short bond gets no more than it did at thirty-six while the '
-          'other two take the rest.',
+          'shares are levelled from the bottom against half of each bond, '
+          'above it the losses are levelled the same way. One division of '
+          'the 1,225 levels every scale, 6, 15 and 27, so the short bond '
+          'still gets the six coins it got at thirty-six while the other '
+          'two take the rest.',
     ),
     Level(
       name: 'Reward the Long Bond',
@@ -57,7 +60,7 @@ class Levels {
       ways: 0,
       kind: 'long',
       note: 'Hopeless, and the card at the end of the ask says so. Twelve '
-          'coins is under every bond, so no heir can concede a coin to '
+          'coins is no more than any bond, so no heir can concede a coin to '
           'another: whatever two of them hold between them, both still '
           'claim all of it, and the garment rule halves it. Even between '
           'every pair leaves the three purses equal, and equal purses put '

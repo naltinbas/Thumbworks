@@ -84,6 +84,8 @@ void main() {
           'estate $estate: ${winners.first} against $byRule');
       landings[estate] = winners.first;
     }
+    check(Rules.shares(estate).reduce((a, b) => a + b) == Rules.parts * estate,
+        'estate $estate: the shares do not add up');
   }
 
   // The Talmud's three rows, at twenty-five zuz to three coins.
@@ -112,7 +114,7 @@ void main() {
     } else {
       check(aim == null, '${level.name} has an aim');
     }
-    check(level.divisions == Rules.howManyDivisions(level.estate),
+    check(level.divisions == Rules.divisions(level.estate).length,
         '${level.name}: divisions');
   }
 
@@ -133,11 +135,10 @@ void main() {
         '${level.name} in ${play.moves} against ${level.fewest}');
   }
 
-  // The hopeless ask, worn down by three tries with the long bond
-  // ahead.
-  var stuck = Play.of(Levels.all.last);
+  // Three tries at the hopeless ask with the long bond ahead: each
+  // fills the purses, and none of them levels the scales.
   for (final tryOut in [[0, 0, 12], [1, 2, 9], [2, 4, 6]]) {
-    stuck = Play.of(Levels.all.last);
+    var stuck = Play.of(Levels.all.last);
     for (var i = 0; i < Rules.heirs; i++) {
       if (tryOut[i] > 0) stuck = stuck.step(i, tryOut[i]);
     }
@@ -155,7 +156,7 @@ void main() {
         '${commas(most)} on both sides and every estate from nothing up to '
         'the two claims together, ${commas(pairs)} in all, and each one '
         'split twice, once by the Mishnah\'s recipe of conceding what the '
-        'estate passes the other claim and halving the rest, and once by '
+        'estate passes one\'s own claim and halving the rest, and once by '
         'the half-claims rule Aumann and Maschler read the table with, '
         'which never mentions a concession: the two agree on every one, '
         '${commas(halfCoins)} of the splits landing on a half coin and none '
@@ -180,10 +181,11 @@ void main() {
         '$estate coins go ${landings[estate]!.join(', ')}, which is '
             '${landings[estate]!.map(Rules.tellZuz).join(', ')} zuz'
     ].join('; '))
-    ..write('; and with twelve coins on the table, under every bond, no heir '
-        'can concede anything, so every pair splits even and the three '
-        'purses come out equal, which is why no division of that estate '
-        'puts the longest bond ahead of the shortest');
+    ..write('; and with twelve coins on the table, no more than any bond, no '
+        'heir can concede anything, so every pair splits even and the one '
+        'division that levels the scales is four coins each, which is why no '
+        'division of that estate levels every scale with the longest bond '
+        'ahead of the shortest');
   stdout.writeln(ledger);
   stdout.writeln();
   final width =
@@ -193,8 +195,8 @@ void main() {
     final tail = level.winnable
         ? '${level.ways} of the ${commas(level.divisions)} divisions lands '
             'it, in ${level.fewest} taps'
-        : 'none of the ${commas(level.divisions)}, and twelve coins under '
-            'every bond say why';
+        : 'none of the ${commas(level.divisions)}, and twelve coins no more '
+            'than any bond say why';
     stdout.writeln(' ${i + 1} ${level.name.padRight(width)} ${level.task}: $tail');
   }
 }

@@ -1,12 +1,13 @@
 /// A chest of coins and three heirs, each holding a bond the estate
 /// cannot cover.
 ///
-/// The Mishnah's rule for a contested garment (Bava Metzia 1:1) is this:
-/// each claimant concedes whatever the estate exceeds the other's claim,
-/// and what neither concedes is halved. Two men hold a garment, one
-/// claiming all of it and the other half; the second concedes half at
-/// once, and the half that is contested is split, so it goes three
-/// quarters and one quarter.
+/// The Mishnah rules one case of a contested garment (Bava Metzia 1:1):
+/// two men hold it, one claiming all of it and the other half, and it
+/// goes three quarters and one quarter, because the second has conceded
+/// half already and only the other half is in dispute. Aumann and
+/// Maschler read that one case as a rule for any two claims and any
+/// estate: each claimant concedes the amount by which the estate passes
+/// his own claim, and what neither concedes is halved.
 ///
 /// The estate table of Ketubot 93a divides among three widows with bonds
 /// of 100, 200 and 300 zuz: 100 goes equally, 200 goes 50, 75 and 75,
@@ -14,7 +15,11 @@
 /// showed in 1985 what the three rows have in common. Each is the one
 /// division in which every pair of heirs splits the coins the two of
 /// them hold between them by the garment rule, and each is the
-/// nucleolus of the bankruptcy game.
+/// nucleolus of the bankruptcy game, the game in which a set of heirs
+/// is worth whatever the estate leaves once every heir outside it is
+/// paid in full, and nothing when that leaves nothing. Their paper is
+/// Game Theoretic Analysis of a Bankruptcy Problem from the Talmud,
+/// Journal of Economic Theory 36 (1985), pages 195 to 213.
 ///
 /// Here the bonds are 12, 24 and 36 coins, which is the Talmud's 100,
 /// 200 and 300 zuz at twenty-five zuz to three coins, so every share in
@@ -31,24 +36,24 @@ class Rules {
 
   static const names = ['A', 'B', 'C'];
 
-  /// The dials step by these.
-  static const steps = [1, 3];
-
   /// The arithmetic is kept in twelfths of a coin, which is fine enough
   /// for every share the rules can leave: the garment rule halves, and
   /// the half-claims rule can divide a remainder by two or by three.
   static const parts = 12;
 
-  /// The garment rule, in twelfths of a coin: each claimant concedes
-  /// what [estate] exceeds the other's claim, and the rest is halved.
+  /// The garment rule, in twelfths of a coin: each claimant concedes the
+  /// amount by which [estate] passes his own claim, and the rest is
+  /// halved.
   static (int, int) garmentParts(int claimA, int claimB, int estate) {
     final take = estate < claimA + claimB ? estate : claimA + claimB;
-    final concededA = take - claimB > 0 ? take - claimB : 0;
-    final concededB = take - claimA > 0 ? take - claimA : 0;
-    final rest = take - concededA - concededB;
+    // What B concedes goes to A, and it is whatever the estate passes
+    // B's own claim.
+    final toA = take - claimB > 0 ? take - claimB : 0;
+    final toB = take - claimA > 0 ? take - claimA : 0;
+    final rest = take - toA - toB;
     return (
-      parts * concededA + parts ~/ 2 * rest,
-      parts * concededB + parts ~/ 2 * rest,
+      parts * toA + parts ~/ 2 * rest,
+      parts * toB + parts ~/ 2 * rest,
     );
   }
 
@@ -114,11 +119,13 @@ class Rules {
   /// and estate in coins, the answer in twelfths.
   static List<int> halfClaimsParts(List<int> claims, int estate) {
     final total = claims.reduce((a, b) => a + b);
+    // Nothing above the claims is anybody's to divide.
+    final take = estate < total ? estate : total;
     final halves = [for (final claim in claims) parts ~/ 2 * claim];
-    if (2 * estate <= total) {
-      return _equalAwards(halves, parts * estate);
+    if (2 * take <= total) {
+      return _equalAwards(halves, parts * take);
     }
-    final above = _equalAwards(halves, parts * (total - estate));
+    final above = _equalAwards(halves, parts * (total - take));
     return [
       for (var i = 0; i < claims.length; i++) parts * claims[i] - above[i],
     ];
@@ -133,8 +140,9 @@ class Rules {
   }
 
   /// Constrained equal awards in twelfths: everyone gets the same until
-  /// their cap stops them. Every amount it is given divides evenly, and
-  /// the checker sweeps that.
+  /// their cap stops them. Every amount it is given here divides evenly,
+  /// two ways or three, so nothing is lost to the truncating divide, and
+  /// the checker holds the shares to the estate they came from.
   static List<int> _equalAwards(List<int> caps, int amount) {
     final got = List.filled(caps.length, 0);
     var left = amount;
