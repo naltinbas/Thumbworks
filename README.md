@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety-one games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -200,6 +200,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Leechmere/assets/logo.png" width="64"><br><b><a href="Leechmere">Leechmere</a></b></div> | Set how many patients each healer sees in each season, and watch the year turn against the better healer | Simpson's paradox: Ash cures nine in ten in spring and three in ten in autumn, Birch eight and two, so Ash is the better healer in both seasons at every load, and yet Ash cures the smaller share of the year on 154 of the 625 settings, since the year is the seasons weighed by the patients seen; with the loads alike for both healers, 25 settings, Ash is ahead by one in ten exactly, every time; every setting is swept with exact fractions |
 | <div align="center"><img src="Wedgeworth/assets/logo.png" width="64"><br><b><a href="Wedgeworth">Wedgeworth</a></b></div> | Fan regular faces round a point and see which corners close and which lie flat or overlap | The five regular solids, by the angles at a corner: a face of p sides has corners of 180(p - 2)/p degrees, so a corner closes only when the faces at it come to less than a full turn, which happens for three, four or five triangles, three squares and three pentagons and nothing else; three hexagons make 360 exactly and lie flat like a comb, and Euler's corners less edges plus faces coming to two picks out the same five; every angle is kept as an exact fraction of a degree and every setting of face and fan is swept; The Honeycomb Corner ships hopeless because three hexagons already fill the turn |
 | <div align="center"><img src="Framley/assets/logo.png" width="64"><br><b><a href="Framley">Framley</a></b></div> | Hang square picture frames, no two alike, edge to edge, to fill a gallery wall exactly | Perfect squared rectangles: Moron's two of 1925, thirty-two by thirty-three hung with the nine frames 1 to 18 and sixty-one by sixty-nine with nine from 2 to 36, and a wall of ten, forty-seven by sixty-five; every hanging of each is found twice, by filling the first bare cell row by row and again column by column, four to a wall and one but for turning and mirroring, and the areas add up to 1,056, 4,209 and 3,055; The One on the Rim ships hopeless because the smallest frame can never touch the rim, where it would sit in a well as wide as itself with nothing narrow enough to cover the cell above it |
+| <div align="center"><img src="Crustleigh/assets/logo.png" width="64"><br><b><a href="Crustleigh">Crustleigh</a></b></div> | Rank the pies on three judges' cards and watch the majority run in a ring | Condorcet's paradox at the village show: every judge ranks the pies straight and still apple beats bramble, bramble beats cherry and cherry beats apple, on twelve of the 216 shows of three pies, exactly the shows whose three ballots are the three turnings of one ranking; with three pies a pie that beats every other head to head is always somebody's first choice, and with four the modest winner comes and so does a winner who loses on points; every show of three ballots is swept and every count read twice; The Modest Winner ships hopeless because a pie first on no ballot cannot beat both the others |
 
 ## The idea they share
 
@@ -1893,6 +1894,17 @@ paragraph:
   mirroring. The One on the Rim ships hopeless because the smallest frame
   is never on the rim, where it would sit at the bottom of a well as wide
   as itself and nothing left is narrow enough to cover the cell above it.
+- **Crustleigh** is Condorcet's paradox at a village show. Three judges
+  rank the pies and a pie beats another when more judges put it above.
+  Every card runs straight and the majority can still run in a ring:
+  apple over bramble, bramble over cherry, cherry over apple, on twelve
+  of the 216 shows of three pies, which are exactly the shows whose
+  ballots are the three turnings of one ranking. With three pies a pie
+  that beats every other head to head is always somebody's first choice,
+  which is why The Modest Winner ships hopeless: first on no ballot, it
+  lies under one of the other two on every card, and beating both takes
+  more judges than there are. With four pies both come back, the modest
+  winner and the pie that beats every other yet loses on points.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
