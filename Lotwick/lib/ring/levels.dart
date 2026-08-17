@@ -60,10 +60,11 @@ class Levels {
       note: 'Hopeless, and the card at the end of the ask says so. In the '
           'sealed ring your own bid never sets the price, only whether you '
           'win. Push it above the worth and the only beasts it wins for you '
-          'are ones already bid past their worth, bought at a loss. Pull it '
-          'under and the only beasts it loses you are ones you would have '
-          'taken under their worth, a gain thrown away. Both ways lose, so '
-          'the dial has nowhere better to sit than the worth. All 2,197 '
+          'are ones already bid at or past their worth, bought for at least '
+          'what they are worth. Pull it under and the only beasts it loses '
+          'you are ones you would have taken under their worth, a gain '
+          'thrown away. Neither way can gain, so the dial has nowhere better '
+          'to sit than the worth. All 2,197 '
           'settings of the three dials were run before the sham was built, '
           'and a million more besides.',
     ),

@@ -35,12 +35,13 @@ whether you win, and when you win you pay what the best rival bid.
 
 So there are only two things moving the bid can do. Push it above the
 worth and the extra beasts it takes are exactly the ones where the best
-rival bid already sits at or above the worth: you win them and pay more
-than they are worth to you. Pull it under the worth and the beasts it
+rival bid already sits at or above the worth: you pay at least what
+they are worth to you, so you gain nothing, and you lose whenever that
+rival bid is above the worth. Pull it under the worth and the beasts it
 drops are exactly the ones where the best rival bid sits under the
 worth: those you would have taken and been in pocket. Everywhere else
-nothing changes. Both directions lose, so the dial has nowhere better
-to sit than the worth. William Vickrey published this in 1961.
+nothing changes. Neither direction can gain, so the dial has nowhere
+better to sit than the worth. William Vickrey published this in 1961.
 
 The open ring is the other story, and the reason the sealed one was
 invented. There the winner pays what he bid, so the truthful bid buys
@@ -63,7 +64,10 @@ everything at least twice:
   neither of them ever positive.
 
 The two are set against each other on a million settings, a hundred
-crowns on each of the three dials, in both rings.
+crowns on each of the three dials. The window is the sealed ring's
+argument, so that is where the two are compared; the open ring is held
+to its own arithmetic, that a shaded bid beats the truthful one exactly
+when it wins.
 
 `tool/check_ring.dart` runs the lot and refuses the bake on any
 disagreement.
@@ -96,7 +100,8 @@ every setting of the three dials taken at a hundred crowns a dial, what the beas
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
 every dial in them was set by taps, so nothing pictured is a setting
-the game could not reach. The logo and every launcher icon come out of
+the game could not reach. The strip across the top of the sham shot is
+the mark rather than a run of taps. The logo and every launcher icon come out of
 `test/mark_test.dart` the same way: the mark is a beast worth eight
 crowns with a bid of twelve, so the strip climbs while the rivals bid
 low and drops below the line the moment they bid past what the beast
