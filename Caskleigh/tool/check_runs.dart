@@ -42,6 +42,23 @@ void main() {
     // And that is what makes the bottom even.
     check(byCask.d.isEven,
         'the run ${Rules.tellRun(first, last)} came out over an odd bottom');
+    // The argument is made before anything cancels: over the smallest
+    // common bottom the top comes out odd and the bottom even.
+    final bottom = Rules.commonBottom(first, last);
+    final top = Rules.commonTop(first, last);
+    check(Frac(top, bottom) == byCask,
+        'the run ${Rules.tellRun(first, last)}: $top over $bottom against $byCask');
+    check(bottom.isEven && top.isOdd,
+        'the run ${Rules.tellRun(first, last)}: $top over $bottom');
+    for (var k = first; k <= last; k++) {
+      final goes = bottom ~/ BigInt.from(k);
+      check(bottom % BigInt.from(k) == BigInt.zero,
+          'cask $k does not divide the common bottom of '
+          '${Rules.tellRun(first, last)}');
+      check(goes.isOdd == (k == deepest.first),
+          'cask $k goes into the common bottom of '
+          '${Rules.tellRun(first, last)} $goes times');
+    }
     for (final level in Levels.all) {
       if (!level.meets(first, last)) continue;
       ways[level.name] = ways[level.name]! + 1;
@@ -127,6 +144,11 @@ void main() {
         '${Rules.most} casks, and each added twice, once cask by cask in '
         'exact fractions and once over the smallest common bottom in whole '
         'numbers alone: the two agree on every run')
+    ..write('; over the smallest common bottom, before anything cancels, '
+        'the deepest cask goes in an odd number of times and every other '
+        'cask an even number, so the top comes out odd and the bottom even '
+        'on all ${commas(runs)} runs: the first six casks go over 60, coming '
+        'to 147, which is the 49/20 the board reduces it to')
     ..write('; not one of the ${commas(runs)} comes to a whole barrel, and '
         'the reason is on the board: every run has exactly one cask with more '
         'twos in its number than any other, ${commas(oneDeepest)} runs out of '

@@ -1,5 +1,5 @@
 name: caskleigh
-description: "Casks holding a half, a third, a quarter and on: pour a run of them together and the total is never a whole barrel, because exactly one of them has the most twos in its bottom."
+description: "Casks holding a whole barrel, a half, a third and on: pour a run of them together and the total is never a whole barrel, because exactly one of them has the most twos in its bottom."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev

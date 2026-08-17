@@ -45,8 +45,8 @@ class _TitleScreenState extends State<TitleScreen> {
               const Padding(
                 padding: EdgeInsets.fromLTRB(24, 4, 24, 8),
                 child: Text(
-                  'Casks holding a half, a third, a quarter and on: pour a '
-                  'run of them together and the total is never a whole '
+                  'Casks holding a whole barrel, a half, a third and on: '
+                  'pour a run of them together and the total is never a whole '
                   'barrel, because one cask of the run has the most twos in '
                   'it and no other does.',
                   textAlign: TextAlign.center,
@@ -74,7 +74,7 @@ class _TitleScreenState extends State<TitleScreen> {
                       ),
                       subtitle: Text(
                         '${level.task[0].toUpperCase()}${level.task.substring(1)}'
-                        '${fewest == null ? '' : '. Fewest: $fewest'}',
+                        '${!level.winnable ? '. Hopeless.' : fewest == null ? '' : '. Fewest: $fewest'}',
                         style: const TextStyle(
                             color: Palette.inkDim, fontSize: 13),
                       ),

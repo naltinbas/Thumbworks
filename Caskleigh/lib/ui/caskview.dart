@@ -145,13 +145,13 @@ class CaskView extends CustomPainter {
         right: true);
     // The second voice, under the barrels: the same run over a common
     // bottom, where the deepest cask is what leaves the top odd.
-    final total = play.total;
-    final digits = total.d.toString().length;
+    final bottom = Rules.commonBottom(play.first, play.last);
+    final digits = bottom.toString().length;
     _word(
         canvas,
         digits <= 12
-            ? 'over a common bottom of ${total.d} the run comes to '
-                '${total.n}, odd over even'
+            ? 'over a common bottom of $bottom the run comes to '
+                '${Rules.commonTop(play.first, play.last)}, odd over even'
             : 'over a common bottom of $digits digits the run comes out odd '
                 'over even',
         Offset(size.width / 2, strip.bottom + 15),

@@ -48,9 +48,10 @@ while the bottom is even, and an odd over an even is not a whole
 number.
 
 Jozsef Kurschak published this in 1918. Paul Erdos gave another proof
-in 1932, in his first paper, using Bertrand's postulate: the run
-contains a prime that appears in no other cask, which does the same
-work the twos do here.
+in 1932, in his second paper, using Bertrand's postulate, which he had
+proved by hand in his first that same year: the run contains a prime
+that appears in no other cask, which does the same work the twos do
+here.
 
 ## Two voices
 
@@ -64,9 +65,13 @@ everything at least twice:
   smallest number every cask of the run divides into, adds up how many
   times each one goes in, and only then makes a fraction of it.
 
-The two are compared on all 1,770 runs the cellar allows, along with
-the count of twos in each cask, whether any run comes to a whole
-barrel, and whether the deepest cask is ever anything but one cask.
+The two are compared on all 1,770 runs the cellar allows. So is the
+argument itself, cask by cask: over the smallest common bottom, the
+deepest cask goes in an odd number of times and every other cask an
+even number, so the top is odd and the bottom even before anything
+cancels. The checker also counts how many runs come to a whole barrel,
+which is none, and how many have more than one deepest cask, which is
+none either.
 
 `tool/check_runs.dart` runs the lot and refuses the bake on any
 disagreement.
@@ -77,7 +82,7 @@ What `dart run tool/check_runs.dart` printed for the build this README
 shipped with, word for word:
 
 ```
-every run of casks the cellar allows taken, from a first cask to a last with at least two of them, 1,770 runs over the 60 casks, and each added twice, once cask by cask in exact fractions and once over the smallest common bottom in whole numbers alone: the two agree on every run; not one of the 1,770 comes to a whole barrel, and the reason is on the board: every run has exactly one cask with more twos in its number than any other, 1,770 runs out of 1,770, and every total lands over an even bottom, 1,770 out of 1,770; the shortest runs past the marks are a 1st to a 2nd for 1, coming to 3/2, a 1st to a 4th for 2, coming to 25/12, a 1st to an 11th for 3, coming to 83711/27720; a run from the first cask has to reach the 2nd to pass a barrel, the 4th to pass two, the 11th to pass three and the 31st to pass four, and one starting at the second cask has to reach the 4th and the 11th; and one run alone comes out in halves exactly, the first two casks at 3/2
+every run of casks the cellar allows taken, from a first cask to a last with at least two of them, 1,770 runs over the 60 casks, and each added twice, once cask by cask in exact fractions and once over the smallest common bottom in whole numbers alone: the two agree on every run; over the smallest common bottom, before anything cancels, the deepest cask goes in an odd number of times and every other cask an even number, so the top comes out odd and the bottom even on all 1,770 runs: the first six casks go over 60, coming to 147, which is the 49/20 the board reduces it to; not one of the 1,770 comes to a whole barrel, and the reason is on the board: every run has exactly one cask with more twos in its number than any other, 1,770 runs out of 1,770, and every total lands over an even bottom, 1,770 out of 1,770; the shortest runs past the marks are a 1st to a 2nd for 1, coming to 3/2, a 1st to a 4th for 2, coming to 25/12, a 1st to an 11th for 3, coming to 83711/27720; a run from the first cask has to reach the 2nd to pass a barrel, the 4th to pass two, the 11th to pass three and the 31st to pass four, and one starting at the second cask has to reach the 4th and the 11th; and one run alone comes out in halves exactly, the first two casks at 3/2
 
  1 Past One         pour a run of casks that passes 1 barrel: 683 of the 1,770 runs land it, the cheapest in 1 tap
  2 Past Two         pour a run of casks that passes 2 barrels: 251 of the 1,770 runs land it, the cheapest in 2 taps
@@ -99,7 +104,8 @@ every run of casks the cellar allows taken, from a first cask to a last with at 
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
 every run in them was set by taps, so nothing pictured is a pouring
-the game could not reach. The logo and every launcher icon come out of
+the game could not reach. The barrels across the top of the sham shot
+are the mark rather than a run of taps. The logo and every launcher icon come out of
 `test/mark_test.dart` the same way: the mark is the first eleven
 casks, three barrels full and a sliver over, with the eighth cask lit
 because it holds three twos and nothing else in the run holds as many.

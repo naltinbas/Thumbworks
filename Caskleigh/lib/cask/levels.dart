@@ -47,10 +47,11 @@ class Levels {
       aim: (1, 11),
       note: '90 runs of the 1,770 pour more than three barrels, and the '
           'shortest is the first eleven casks. The total grows like the '
-          'logarithm, so each barrel costs nearly three times what the one '
-          'before it did: from the first cask it takes a run to the 2nd to '
-          'pass a barrel, to the 4th to pass two, to the 11th to pass three '
-          'and to the 31st to pass four.',
+          'logarithm, so the casks a barrel costs keep multiplying: from the '
+          'first cask it takes a run to the 2nd to pass a barrel, to the 4th '
+          'to pass two, to the 11th to pass three and to the 31st to pass '
+          'four, which is twice, then near three times, then near three '
+          'times again.',
     ),
     Level(
       name: 'The Whole Barrel',

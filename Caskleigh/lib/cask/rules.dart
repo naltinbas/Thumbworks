@@ -48,6 +48,27 @@ class Rules {
 
   static BigInt _lcm(BigInt a, BigInt b) => a ~/ a.gcd(b) * b;
 
+  /// The smallest number every cask of the run divides into.
+  static BigInt commonBottom(int first, int last) {
+    var bottom = BigInt.one;
+    for (var k = first; k <= last; k++) {
+      bottom = _lcm(bottom, BigInt.from(k));
+    }
+    return bottom;
+  }
+
+  /// How many times the casks of the run go into that bottom, added
+  /// up. This is the total before anything is cancelled, which is the
+  /// form the argument is made in: odd on top, even underneath.
+  static BigInt commonTop(int first, int last) {
+    final bottom = commonBottom(first, last);
+    var top = BigInt.zero;
+    for (var k = first; k <= last; k++) {
+      top += bottom ~/ BigInt.from(k);
+    }
+    return top;
+  }
+
   /// How many twos are in [n].
   static int twos(int n) {
     var count = 0, left = n;
