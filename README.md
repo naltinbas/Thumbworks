@@ -1,6 +1,6 @@
 # Thumbworks
 
-Two hundred and one games for phones, in Flutter, for Android and iOS. One repository,
+Two hundred and two games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -210,6 +210,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Bakerley/assets/logo.png" width="64"><br><b><a href="Bakerley">Bakerley</a></b></div> | Turn and flip gingerbread fours and lay them so the baking tray fills exactly | The tetromino colouring argument: chequer the tray and every four but the tee covers two dark and two light whichever way it lies, while the tee covers three of one shade and one of the other, so a tray of equal dark and light needs an even number of tees; one of each of the five fours therefore never fills the five-by-four, eleven and nine against ten and ten; every filling of every tray is found twice, row by row over the first bare cell and again column by column, and six tees on the six-by-four pass the colouring and still fill nothing, which only the search can say; The Five ships hopeless because the colouring forbids it |
 | <div align="center"><img src="Mootbury/assets/logo.png" width="64"><br><b><a href="Mootbury">Mootbury</a></b></div> | Size the shire moot and watch a hamlet lose the seat it already had | The Alabama paradox: sharing seats by largest remainders gives each hamlet its quota rounded down and the leftovers to the largest fractions, so growing the moot by one seat can take a seat away, as with hamlets of 6, 6 and 2 hundred where ten seats share 4, 4, 2 and eleven share 5, 5, 1; dealing one seat at a time never does that, since a seat once dealt is never taken back, but dealing can hand a hamlet more than its quota rounded up, which largest remainders never do; every moot to sixty is shared both ways on five sets of hamlets, the dealing held to the divisor reading and largest remainders held within the quota; The Jefferson Paradox ships hopeless |
 | <div align="center"><img src="Almsford/assets/logo.png" width="64"><br><b><a href="Almsford">Almsford</a></b></div> | Share grain between five bins, a measure at a time, and watch the fullest bin only fall | Majorization and the Robin Hood transfer: a share moves one measure from a bin at least two ahead of another, so it can never raise the fullest bin, nor the two fullest together, nor the three, and a shape can be reached from another exactly when every one of those running totals is no greater; all 1,001 arrangements are walked in full and held against the totals on all 30,030 pairs, the level field is under every shape and is the one arrangement where nothing can move, and The One Heap ships hopeless because once grain has been spread it cannot be gathered |
+| <div align="center"><img src="Arrowmere/assets/logo.png" width="64"><br><b><a href="Arrowmere">Arrowmere</a></b></div> | Turn every street of the village one-way and still be able to get anywhere from anywhere | Robbins' theorem, from Herbert Robbins in 1939: a joined village can be made one-way throughout exactly when no street is a bridge, a street whose closing would cut the village in two; one side is plain, since a bridge pointed one way strands whatever is behind it, and the other is the work of the theorem; every pointing of every village on the sham is walked in full and held against the bridge count, and The Toll Lane ships hopeless because its one street is a bridge |
 
 ## The idea they share
 
@@ -2000,6 +2001,14 @@ paragraph:
   another exactly when every running total is no greater. So the level
   field can always be reached and never left, and The One Heap ships
   hopeless because spread grain cannot be gathered.
+- **Arrowmere** is Robbins' theorem from 1939. A village of places
+  joined by streets, every street to be made one-way, and the ask is
+  that every place still be reachable from every other. It can be done
+  exactly when no street is a bridge. Half of that is easy to see: point
+  a bridge one way and whatever sat behind it is stranded. The other
+  half is the theorem, and the game holds it to a walk over every
+  pointing of every village it ships. The Toll Lane ships hopeless
+  because its one street is a bridge.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
