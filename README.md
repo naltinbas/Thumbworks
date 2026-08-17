@@ -1,6 +1,6 @@
 # Thumbworks
 
-Two hundred and three games for phones, in Flutter, for Android and iOS. One repository,
+Two hundred and four games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -212,6 +212,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Almsford/assets/logo.png" width="64"><br><b><a href="Almsford">Almsford</a></b></div> | Share grain between five bins, a measure at a time, and watch the fullest bin only fall | Majorization and the Robin Hood transfer: a share moves one measure from a bin at least two ahead of another, so it can never raise the fullest bin, nor the two fullest together, nor the three, and a shape can be reached from another exactly when every one of those running totals is no greater; all 1,001 arrangements are walked in full and held against the totals on all 30,030 pairs, the level field is under every shape and is the one arrangement where nothing can move, and The One Heap ships hopeless because once grain has been spread it cannot be gathered |
 | <div align="center"><img src="Arrowmere/assets/logo.png" width="64"><br><b><a href="Arrowmere">Arrowmere</a></b></div> | Turn every street of the village one-way and still be able to get anywhere from anywhere | Robbins' theorem, from Herbert Robbins in 1939: a joined village can be made one-way throughout exactly when no street is a bridge, a street whose closing would cut the village in two; one side is plain, since a bridge pointed one way strands whatever is behind it, and the other is the work of the theorem; every pointing of every village on the sham is walked in full and held against the bridge count, and The Toll Lane ships hopeless because its one street is a bridge |
 | <div align="center"><img src="Beadmere/assets/logo.png" width="64"><br><b><a href="Beadmere">Beadmere</a></b></div> | String beads light and dark so the strip repeats two ways at once and no shorter way | The Fine and Wilf periodicity theorem of 1965: a strip carrying repeats p and q and running to p plus q less their greatest common divisor must carry that divisor as a repeat as well, so for repeats with nothing in common every bead comes out the same colour; the length is sharp, and one bead shorter there are strips with both repeats and not the divisor, which for neighbouring Fibonacci numbers are the Fibonacci strips; every strip the board can hold is swept and every repeat read twice; One Too Long ships hopeless because seven beads is exactly the length the theorem bites at |
+| <div align="center"><img src="Beamsley/assets/logo.png" width="64"><br><b><a href="Beamsley">Beamsley</a></b></div> | Set three pegs about a lantern and cast a shadow triangle from it, then find where matching sides meet | Desargues from 1639: two triangles in perspective from a point have their three pairs of matching sides meeting on one line, the axis, whatever the pegs and whatever the multiples; where matching sides run parallel the meeting runs off to infinity and the theorem still holds, which is why it is stated in the projective plane; every triangle of the field and every casting is swept, 511,488 settings, the meetings found once as homogeneous whole numbers and once as plain fractions; The Crooked Axis ships hopeless because the axis is never crooked |
 
 ## The idea they share
 
@@ -2019,6 +2020,16 @@ paragraph:
   shorter and counterexamples exist, and for neighbouring Fibonacci
   numbers they are the Fibonacci strips. One Too Long ships hopeless
   because seven beads is where the theorem bites.
+- **Beamsley** is Desargues from 1639. Put a lantern down, set three
+  pegs about it, and cast each peg out along its own ray by a whole
+  multiple to make a shadow triangle. Take matching sides in pairs and
+  mark where each pair meets: the three marks lie on one line however
+  the pegs stand and however far the shadows are cast. When two matching
+  sides come out parallel their meeting runs off to infinity, and the
+  line is still there, which is the reason the theorem is stated in the
+  projective plane rather than the ordinary one. The Crooked Axis ships
+  hopeless because the three meetings are never off the line.
+
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
