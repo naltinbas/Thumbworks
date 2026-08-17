@@ -33,7 +33,16 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Knuckleby Farthingford Tussockmere Beadlow \
          Braidfell Copestone Wardhall Scoreham Gapstile Borrowfen Chainhurst Sashmoor Wickthorn Stackholt Brackenside Tetherdown Stitchfen Crookmarsh Wirecombe Pigeonwick Greetley Shelfham Pursewell Fanleigh Addlemoor Marklow Hamperfen Beamsworth Noughtsmill Matchcote Coursewell Acreford Peckthorne Wantley Squarholt Thrissleton Daisyholme Inkfen Rackenford Slicebury Watchmere Sortlow Dealstone Starholme Clinkfield Oddrow Foursworth Tablesham Studwell Evenholt Frogmere Setwick Sweetleigh Shiftwell Kerbwell Loafham Trayford Riffleford Thirdwell Rowsworth Steedwick Foldwick Stillmere Midford Wheelford Evenmoor Slateford Patchmere Knotford Throwsden Stilemere Stookwell Mitrewick Ledgeworth Milesworth Capwick Rowsden Cubewick Weighwick Cloakwell Fusewick Trickmere Cupwell Suppermere Whistlecote Copperwick Farrierstead Slantbury Brickholme Crownwick Combwell Cutlassby Cutmere Squarebrook Halvingham Muxholme Turnwick Watchcombe Weaveholme \
   Fridayford Loadwick Leechmere Wedgeworth Framley Crustleigh Laneford Candleford Cornerstow Goatsbridge Baizewell Fevershaw Bakerley Mootbury Almsford Arrowmere Beadmere \
-         Beamsley Benchwood Bondwell Bubbleford
+         Beamsley Benchwood Bondwell Bubbleford \
+         Beatstow Cantlemere Caskleigh Cellarwick Chimewell Chordwell Cofferwick Cogsley \
+         Cornerwick Crossleigh Ellwick Evenholme Feintley Feltmere Flagstead Flitwell Footbury \
+         Gablewick Halfstead Haltwick Hedgemere Hookmere Hoopwell Hustingsby Kitewick Kithwell \
+         Knaveley Knowsley Ladderby Lampfield Leverstow Linesby Lotwick Meetingham Mintcombe \
+         Ninebury Oddsworth Onesby Penfold Pennyford Pippinstow Pumpwick Pursebury Queenscote \
+         Reckonby Rickmere Rimsbury Ringfold Rodwell Roostwick Rootley Ropeford Roundhithe \
+         Sackford Sevenby Sharewick Shortcombe Shuntbury Skeinwell Sliverton Squarewell \
+         Stickerwick Stubwick Sunderby Tabormere Threadwick Threefold Tithebury Tosswell \
+         Trebleworth Truckleford Tuesleigh Wardsby Yardwick
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

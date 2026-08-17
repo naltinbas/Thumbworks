@@ -1,6 +1,6 @@
 # Thumbworks
 
-Two hundred and seven games for phones, in Flutter, for Android and iOS. One repository,
+Two hundred and eighty one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -216,6 +216,80 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Benchwood/assets/logo.png" width="64"><br><b><a href="Benchwood">Benchwood</a></b></div> | Work a job card at a joiner's bench, choosing which tool to carry back when the bench is full | Belady 1966: carrying back the tool whose next call is furthest off cannot be beaten, proved by an exchange that takes any way of working the card, mends its first disagreement with the rule, and never raises the walks; it needs the whole card in advance, which is why a real bench cannot follow it, and the screen writes each tool's next call over it so the rule is something to see; Belady's own 1969 card shows the anomaly, seven walks on three slots and six on four by the rule but nine then ten by carrying back the oldest; The Three Walks ships hopeless because three tools need three fetches and the bench holds two |
 | <div align="center"><img src="Bondwell/assets/logo.png" width="64"><br><b><a href="Bondwell">Bondwell</a></b></div> | Divide an estate among three heirs whose bonds come to more than it holds, until every pair of scales hangs level | Aumann and Maschler 1985 read the Talmud's three-widow table at Ketubot 93a as one rule rather than three: each row is the division where every pair of heirs splits what the two of them hold by the contested-garment rule of Bava Metzia 1:1, and each is the nucleolus of the bankruptcy game; each of the four estates has exactly one division that levels all three scales, out of 91, 325, 703 and 1,225; Reward the Long Bond ships hopeless because twelve coins is no more than any bond, so nobody can concede and every pair must split dead even |
 | <div align="center"><img src="Bubbleford/assets/logo.png" width="64"><br><b><a href="Bubbleford">Bubbleford</a></b></div> | Step the bends of three kissing bubbles and watch the two fourths that kiss all three | Descartes 1643, in a letter to Princess Elisabeth of Bohemia, and Soddy's verse of 1936: the four bends of four kissing bubbles satisfy the sum squared equalling twice the sum of the squares, so the fourth bend is a plus b plus c give or take twice the root of ab plus bc plus ca; every setting of the three dials from 1 to 20 is swept, 8,000 of them, both fourths worked by the formula and each checked against every whole bend; 27 settings ring the three with a unit bubble and 33 flatten the outer one to a straight line; The Twin Fourths ships hopeless because the two fourths differ by four times a root that is never nothing |
+| <div align="center"><img src="Beatstow/assets/logo.png" width="64"><br><b><a href="Beatstow">Beatstow</a></b></div> | Lay five throws on a ring of five beats so no two balls come down together | A throw of height h laid on beat i comes down at beat i plus h, counted round the ring, so a laying juggles exactly when the five landing beats are all different, and when a rack juggles the balls in the air come to the plain average of the throws, a whole number every time; every rack of five single-figure throws is walked before the bake, 2,002 of them, and every laying of every one, 100,000 layings, with three voices agreeing on all of them and 3,840 juggling; 402 racks of the 2,002 both juggle some way and have a total that goes round the beats evenly, with no rack doing one and not the other; The Raised Throw ships hopeless because 3, 3, 3, 3 and 4 add to 16, 16 into 5 will not go, and four throws go down ten different ways before the fifth is refused from every free beat |
+| <div align="center"><img src="Cantlemere/assets/logo.png" width="64"><br><b><a href="Cantlemere">Cantlemere</a></b></div> | Tap three pegs at a time to cut a nine acre field into plots | Monsky 1970: a square cannot be cut into an odd number of plots of equal size, and he proved it for every cut of a square, not only for cuts with their corners on pegs; every cut of the nine acre field with corners on the 16 pegs is walked before the bake, all 26,822,326 of them, laid over the 624 cells that the 62 lines through the pegs cut the field into, with a second voice that knows nothing of cells agreeing on all 10,830 cuts into six plots or fewer; the pegs take 4 red, 8 blue and 4 green, the rim steps between red and blue 3 times, an odd number, so every cut has a plot wearing all three colours, and every one of the 128 such plots is an odd number of half acres; The Even Three ships hopeless because each of the 32 three-plot cuts comes out 3, 6 and 9 half acres, half is not a third, and a third of 18 is 6, which is not odd |
+| <div align="center"><img src="Caskleigh/assets/logo.png" width="64"><br><b><a href="Caskleigh">Caskleigh</a></b></div> | Move the two ends of a run of casks and watch the casks fill the barrels | Jozsef Kurschak 1918, with another proof from Paul Erdos in 1932, in his second paper, by Bertrand's postulate: the casks hold a whole barrel, a half, a third and on down to a sixtieth, and no run of two or more of them adds to a whole barrel, since exactly one cask of any run holds more twos in its number than the rest, so over the smallest common bottom that one goes in an odd number of times and every other an even number, leaving an odd top over an even bottom; every run the cellar allows is walked, 1,770 of them over the 60 casks, each added twice, once cask by cask in exact fractions and once over the smallest common bottom in whole numbers; 683 runs pass a barrel, 251 pass two, 90 pass three, and one alone comes out in halves exactly, the first two casks at 3/2; The Whole Barrel ships hopeless because an odd over an even is not a whole number |
+| <div align="center"><img src="Cellarwick/assets/logo.png" width="64"><br><b><a href="Cellarwick">Cellarwick</a></b></div> | Set the glasses and the spoon, then carry a spoon of wine across and a spoon back | Carry a spoon of wine into the water and a spoon of the mixture back, and the wine glass ends holding just what it began with, so the water in it fills exactly the room the missing wine left and every drop of that missing wine is in the water glass, which makes the two amounts equal whatever the stirring; every setting of the two glasses and the spoon is poured in exact fractions, one to ten units in each glass and one to five in the spoon, 500 settings, the spoon too big for the wine in 100 of them and the other 400 poured three ways, well stirred, unstirred with the wine afloat and unstirred with the wine sunk, 1,200 pourings; well stirred the spoon back carries spoon times water over water plus spoon units of water home, one unit comes back 9 ways of the 500, whole units 24 ways, and the water glass ends half wine 40 ways; The Unequal ships hopeless because the wine the first glass lost is exactly the water that took its place, and that lost wine is all in the other glass |
+| <div align="center"><img src="Chimewell/assets/logo.png" width="64"><br><b><a href="Chimewell">Chimewell</a></b></div> | Stack fifths and octaves on the coil and watch the note climb | A fifth is three halves of a note and an octave twice it, so every note the two dials reach is 3 to the fifths over 2 to something; twelve fifths up climb 531,441/4,096 and seven octaves down leave 531,441/524,288, the comma, 23.46 cents sharp of the start, which is why the piano's fifths are all a shade flat, 700 cents to the pure 701.96, the comma spread over the twelve; every setting of the two dials is swept as exact fractions and held against the cents, fifths from twelve down to twelve up and octaves from eight down to eight up, 425 settings, and only twelve fifths, up or down, come within a twentieth of home, 2 settings of the 425; The Return ships hopeless because 3 to any power is odd and 2 to any power even, so no stack with a fifth in it ever comes home |
+| <div align="center"><img src="Chordwell/assets/logo.png" width="64"><br><b><a href="Chordwell">Chordwell</a></b></div> | Tap four pegs of the wheel, two to a chord, and watch what the pieces multiply to | Euclid, the thirty-fifth of his third book: two chords of a circle cross at a point P and PA times PB is PC times PD, since joining A to C and B to D gives triangles PAC and PDB with the same angles, the angles at A and D standing on the same arc, so their sides are in proportion; the amount is the power of the point, the radius squared less its distance from the middle squared; the twelve whole points on the circle of radius five are the pegs, 66 chords run between them, and every four pegs give exactly one pair of chords that cross, 495 crossings, each worked as an exact point with both products taken and held against 25 less the distance from the middle squared, agreeing on all 495; 15 crossings fall at the middle, 4 multiply to 9, 48 to 20 and 64 cut a chord in half away from the middle; The Odd Cross ships hopeless because those two triangles make the two products equal at every crossing |
+| <div align="center"><img src="Cofferwick/assets/logo.png" width="64"><br><b><a href="Cofferwick">Cofferwick</a></b></div> | Turn coins gold or silver in three coffers and watch the six draws | Bertrand 1889: pick one of three coffers at random, two gold in one, two silver in another, a gold and a silver in the third, draw a coin at random and find it gold, and the chance its mate is gold is two in three, not the ready half, because the draw picks a coin and not a coffer, and of the three gold coins that might have come out two are the pair and have a gold mate; every laying of the six coins is swept, 64 of them, each chance worked twice, once by the six draws and once by Bayes with each coffer a third, the two agreeing on all 64; the chances that come are 0 on 26 layings, a half on 12, two thirds on 12, four fifths on 6 and certainty on 7, and nothing else; The Half of Three ships hopeless because three gold coins fill one coffer at most, giving 2 in 3 if they do and 0 if they do not, and a half never |
+| <div align="center"><img src="Cogsley/assets/logo.png" width="64"><br><b><a href="Cogsley">Cogsley</a></b></div> | Set gears on the pegs so the crank turns the mill | Two gears mesh when their pegs lie the sum of their radii apart exactly, and every mesh turns the next gear the other way, so a gear an even count of meshes from the crank turns with it and an odd count against, and a ring of gears turns only when its count is even, since round an odd ring the direction would have to be both; a gear that turns makes as many turns as the crank times the crank's radius over its own, whatever lies between, so an idler changes nothing but the way; every placing of every train is swept on its pegboard, the turning walked mesh by mesh from the crank and the speeds held to the formula on every turning gear, 5 placings for the idler, 275 for the turn against, 11 for the twice and 159 for the ring of four, one landing it in each; The Ring of Three ships hopeless because the gears of two and three ring a crank of one three, four and five apart, a right triangle of pegs, in 2 placings of 8, and both jam, as every ring of three gears of one to three round a crank at the middle of the nine-by-nine does, 16 rings, while all 4 rings of four gears of one turn |
+| <div align="center"><img src="Cornerwick/assets/logo.png" width="64"><br><b><a href="Cornerwick">Cornerwick</a></b></div> | Tap four pegs in order, watch the four squares go up outward, and read the two joins of opposite centres | Van Aubel 1878: build a square outward on each side of any four pegs taken in order and the join from the centre on AB to the centre on CD matches the join from the centre on BC to the centre on DA in length and crosses it at a right angle, convex, dented or crossed over, with Thebault's 1937 addition that a parallelogram of pegs makes a square of the four centres; every ordered four of pegs on the five-by-five board is swept, 303,600 of them, the four centres found and the joins read for length and angle, and the first join turned a right angle worked out from the pegs alone; of the 227,952 fours with no three pegs in a line, 18,528 put all four centres on peg places, 5,192 make a square of the centres, 31,480 cross the joins on a peg place and 2,960 have joins five long; The Skew Cross ships hopeless because the turned join comes out as the second join letter for letter on every one of the 303,600 |
+| <div align="center"><img src="Crossleigh/assets/logo.png" width="64"><br><b><a href="Crossleigh">Crossleigh</a></b></div> | Tap two pegs of the field and cut the triangle with the line through them | Menelaus of Alexandria, around the year 100: a straight line across triangle ABC cuts the side-lines AB, BC and CA at F, D and E, and the ratios AF:FB, BD:DC and CE:EA multiply to -1, a ratio counting negative when its cut falls outside the side, so an odd number of the cuts lie outside; every line through two pegs of the thirteen-by-thirteen field is taken, 6,460 of them, and the 6,140 that cross all three side-lines have their cuts found exactly and their ratios read again off the corners' distances from the line, the two agreeing every time; 5,572 lines cut two sides inside and 568 none, 152 cut all three side-lines at pegs, 90 cut AB at its middle and 74 cut BC twice as far from B as from C; The Three Inside ships hopeless because a line that goes into the triangle at one side comes out at another and cannot come back for the third |
+| <div align="center"><img src="Ellwick/assets/logo.png" width="64"><br><b><a href="Ellwick">Ellwick</a></b></div> | Step the side and the diagonal, or climb a rung of the ladder, and watch the miss turn over | The Greek ladder of side and diagonal numbers: from a side and a diagonal the next side is the two added and the next diagonal is twice the side plus the diagonal, and each rung misses twice the side squared by one, over and under in turn, so 3/2, 7/5, 17/12, 41/29 and 99/70 close on the square root of two; every side and diagonal to 120 is swept with whole numbers, 14,400 pairs, and the misses of one are exactly the six rungs, three over at (2, 3), (12, 17) and (70, 99) and three under at (1, 1), (5, 7) and (29, 41); seven pairs come within a thousandth of the true diagonal, (70, 99) nearest at 0.00007, and the pairs that come nearer the root than every smaller side does are those same six rungs and no other; The True Diagonal ships hopeless because a whole side with a whole diagonal halves to a smaller pair of the same kind and the halving cannot go on for ever |
+| <div align="center"><img src="Evenholme/assets/logo.png" width="64"><br><b><a href="Evenholme">Evenholme</a></b></div> | Tap a number on the slate and watch its partner light, hunting a pick where both parts are prime | Goldbach to Euler, 1742: every even number past two seems to be two primes added together, and nobody has found one that is not, nor proved that none exists; the primes to 2,000 are sifted with Eratosthenes' sieve and again by trial division, 303 of them and the two agreeing number for number, and every even number from 4 to 2,000 is split into two primes every way it can, every one of them splitting, 4, 6, 8 and 12 one way alone, no even number above 100 fewer than three ways, 128 the first with just three, and 1,890 the most with 91; twenty splits as 3 + 17 and 7 + 13, sixty six ways with 29 + 31 the twins, and a hundred six ways from 3 + 97 to 47 + 53; The Odd ships hopeless because two odd primes add to an even number, so an odd number splits only with a 2 in it, and 51 less 2 is 49, seven sevens |
+| <div align="center"><img src="Feintley/assets/logo.png" width="64"><br><b><a href="Feintley">Feintley</a></b></div> | Step the number and the base on their dials and watch the squares the power takes light up in gold | Fermat to Frenicle, 1640, proved by Euler in 1736: raise a base to one less than a prime, working modulo that prime all the way, and it lands on one for every base the prime does not divide; every number from 2 to 1,200 is tried on every base from 2 to 12, 13,189 settings, the power worked by repeated squaring and again taken whole before being brought down, the two agreeing throughout; all 196 primes pass on every base they do not divide, 10,917 of the 11,033 composite settings fail and 116 pass as liars, four on base two starting at 341, where the old guess that passing on two makes a prime fails first, as Sarrus found in 1819, and seven on base three starting at 91, while 561 and 1,105 pass on every base they share no factor with, the two Carmichael numbers below 1,200, Korselt having given the rule for them in 1899 and Carmichael having found the first in 1910; The Failing Prime ships hopeless because the multiples of the base run through every remainder once each, which forces the power to one |
+| <div align="center"><img src="Feltmere/assets/logo.png" width="64"><br><b><a href="Feltmere">Feltmere</a></b></div> | Set each villager's say for each of the four sights they can have, then try it against all eight hattings | Todd Ebert, 1998: three villagers in a ring each get a black or a white hat by the toss of a coin, each sees the other two and never their own, and all speak at once, each naming a colour or holding their tongue, the village winning when at least one names a colour and every colour named is right; every agreement the three can come to is taken, all 531,441, each tried against all eight hattings, and the words an agreement calls for are counted against the wrong words it risks, the two equal every time since a word is right on one of the two hattings its sight allows and wrong on the other; 23,270 agreements win four with nobody silent throughout, 2,652 win four with a villager silent throughout, 624 win five and 4 win six, the plainest of the four being to speak only when the two hats you see match and then name the other colour; The Seven ships hopeless because a hatting the village loses swallows at most three wrong words, so winning seven allows three words in all, and three words win at most three hattings |
+| <div align="center"><img src="Flagstead/assets/logo.png" width="64"><br><b><a href="Flagstead">Flagstead</a></b></div> | Set the hall on its dials, stand the peg anywhere at all, and add the squared distances in opposite pairs | The British flag theorem, named for the four lines from the peg to the corners: square the distance from a peg to each of the four corner posts of a hall and the opposite pairs, A with C against B with D, add to the same thing, wherever the peg stands and whatever the hall's shape, so long as the corners are square; every hall from 2 by 2 to 8 by 8 is taken with the peg on every point of the field, 11,025 standings, the sums worked once from the four distances and once by multiplying the brackets out, which takes no distance at all, and the two agree on every standing; all four distances come out whole on 26 standings and on 2 of those the peg is inside the hall, the six by eight and its turn about with the peg three paces along and four up, every post five off and both sums fifty; all four come out alike on 16, the halls of even sides with the peg at the middle, and a pair adds to fifty on 90; The Leaning Hall ships hopeless because a far wall leaned over by two parts the sums by four times the width wherever the peg goes, and no hall the dials allow has a width of nought |
+| <div align="center"><img src="Flitwell/assets/logo.png" width="64"><br><b><a href="Flitwell">Flitwell</a></b></div> | Tap two tenants to swap their cottages and hunt the lane no group of them can better | Shapley and Scarf, 1974, crediting the rings to Gale: four tenants each own the cottage they start in, any group may walk out and share out only the cottages that group owns, and exactly one lane is ever firm, meaning no group can leave with one of its members better off and nobody worse; that lane is found without trying a lane at all, each tenant pointing at whoever owns the cottage they want most, the pointing closing into rings because everybody points at exactly one person, and each ring taking what it points at and leaving; every street four tenants can have is walked, all 331,776 of them, with all 24 lanes of each held against every group, 7,962,624 lanes tried, and on every street the rings' lane is the firm one and there is never a second; a lane no group can beat is a weaker thing and a street can have several, up to seven, which 72 streets reach; The Better Lane ships hopeless because the tenants in the first ring already hold the cottage they want most out of all four, and a lane that beats another has to better everybody in it |
+| <div align="center"><img src="Footbury/assets/logo.png" width="64"><br><b><a href="Footbury">Footbury</a></b></div> | Tap three rim pegs for the triangle, then any peg for the point, and watch its three feet drop | Wallace 1799, the finding carrying Simson's name, with Euler's measure of 1763: the three feet dropped from a point onto the side-lines of a triangle set on a circle lie in a line exactly when the point is on the circle, and the feet's triangle is to the whole as the square of the radius less the square of the point's distance from the middle is to four times the square of the radius; every triangle of three rim pegs is taken, 220, with every point of the field but its corners, 118 each, 25,960 settings, and the share is measured both by the feet themselves and by Euler's rule, the two agreeing on all 25,960; the feet lie in a line on the 1,980 rim settings and on none of the 23,980 others, through the middle on 156, level on 114 and along a side of the triangle on 540; The Line Off the Rim ships hopeless because Euler's share is nought on the rim and nowhere else |
+| <div align="center"><img src="Gablewick/assets/logo.png" width="64"><br><b><a href="Gablewick">Gablewick</a></b></div> | Step the three sides a tap at a time and see the gable drawn to scale with its area under | Heron of Alexandria's formula: sixteen times the area squared is the perimeter times the perimeter less twice each side in turn, so a triangle with whole sides has an area that is whole or a square root that is not; every triangle with whole sides to fifteen is swept, 372 of them, its area worked twice, once by Heron and once by the height with the foot of the perpendicular found in whole numbers, the two agreeing on every one; ten come out whole, 3-4-5 with 6, 5-5-6 and 5-5-8 with 12, 4-13-15 and 6-8-10 with 24, 5-12-13 with 30, 10-10-12 with 48, 9-12-15 with 54, 10-13-13 with 60 and 13-14-15 with 84, every area a multiple of six and every one with an even side; The Three Odds ships hopeless because three odd sides make the perimeter and the perimeter less twice each side all odd, and an odd product is never sixteen times anything |
+| <div align="center"><img src="Halfstead/assets/logo.png" width="64"><br><b><a href="Halfstead">Halfstead</a></b></div> | Set the share and the steps and watch the runner near the wall | Zeno's runner, set as a paradox in the fifth century BC: covering half of what is left at every step, the sum of the first n steps is 1 less 1/2 to the n, which comes as near to 1 as you please, so the endless steps add up to exactly the whole though no step is the last; five shares are walked, half, a third, two thirds, three quarters and nine tenths, with one to forty steps of each, 200 settings, the steps added as exact fractions and set against 1 less the rest to the n, the two agreeing on all 200; seven halvings come within a hundredth, 127/128 covered, ten within a thousandth and twenty within a millionth, 1/1,048,576 left; The Wall ships hopeless because the rest of something is something, so what is left is never nothing |
+| <div align="center"><img src="Haltwick/assets/logo.png" width="64"><br><b><a href="Haltwick">Haltwick</a></b></div> | Step the first two gaps up and down, the third what is left of the hour, and watch the average wait | Feller 1966, the paradox of the wait: with three buses an hour and the gaps between them adding to sixty minutes, a passenger arriving at any minute of the hour waits 9 1/2 minutes on average when the gaps are equal, half a gap less half a minute, and longer whenever they are not, since a wide gap catches more passengers and keeps each of them longer; every timetable is taken, 1,711, and the average wait found twice, gap by gap from the sum of each gap's waits and minute by minute from the wait at every minute of the hour, the two agreeing on all 1,711; the least is 9 1/2 from the gaps 20, 20 and 20 alone and the most 27 11/20 from 1, 1 and 58 in its three orders, with 555 timetables waiting a quarter hour or more and 165 twenty minutes or more; The Short Wait ships hopeless because the average of squares is never below the square of the average, so three gaps adding to sixty square to 1,200 at least and the waiting in an hour comes to 570 minutes at least |
+| <div align="center"><img src="Hedgemere/assets/logo.png" width="64"><br><b><a href="Hedgemere">Hedgemere</a></b></div> | Hang each post off an earlier one on the five dials and peel the hedge ring by ring | Camille Jordan 1869, in "Sur les assemblages de lignes": stripping every post that has a single path left, round after round, leaves what lies halfway along the longest walk, one post when that walk is an even number of steps and two when it is odd; every hedge the dials reach is done twice, 720 of them over 7 posts, once by the stripping and once by walking outward from every post and keeping the ones whose worst walk is shortest, the two naming the same posts on every hedge, and again on every labelled hedge from two posts up to eight, one for each Prufer word, 280,392 in all; 412 of the 720 come down to one post and 308 to two, none to three, and not one of the 280,392 to three either; The Three Middles ships hopeless because a walk has one halfway post or two and a line has no third place to stand halfway |
+| <div align="center"><img src="Hookmere/assets/logo.png" width="64"><br><b><a href="Hookmere">Hookmere</a></b></div> | Tap a row to lift a box off its corner and another row to put it down, reshaping the staircase | Frame, Robinson and Thrall 1954: every box of a staircase carries a hook, itself with the boxes to its right in its row and the boxes below it in its column, and 40,320 divided by the eight hooks multiplied together is exactly how many fillings the staircase has, a filling being a numbering 1 to 8 that rises along every row and down every column; all 22 staircases of eight boxes are counted twice, once by the hooks, which count no fillings at all, and once by the definition worked out in full, taking the largest number off a corner and counting what is left, and the two agree on every one, as they do from one box up to ten, where the counts squared and added come to the factorial of the boxes; the most is 90 at 4, 2, 1, 1, whose hooks multiply to 448, and the fewest is 1 at the single row and the single column; Against the Hooks ships hopeless because the hooks and the full count agree on all 22 staircases and on those of nine boxes and ten as well |
+| <div align="center"><img src="Hoopwell/assets/logo.png" width="64"><br><b><a href="Hoopwell">Hoopwell</a></b></div> | Lay dark stones and pale stones in the seven holes and see which holes light | Cauchy 1813, proved again by Davenport in 1935 without his knowing of it and traced back to Cauchy by him in 1947: with seven holes round a hoop and counting past 6 coming back to 0, the holes that are a dark hole plus a pale hole come to at least the two stone counts added with one taken off, or the whole hoop if that is fewer, seven being a prime being the whole of it; every board the hoop allows is laid, all 16,384, the lamps lit twice, once by turning the pale ring round by each dark hole and piling the copies up and once by multiplying the rings out hole by hole, with the floor read a third way off the divisors of seven, and the voices agree every time; 9,857 boards sit exactly on the floor, and the 147 of them with two dark stones and four pale are each a run of dark stones and a run of pale stones at one shared step, which Vosper proved in 1956 they have to be; Four Alight ships hopeless because two dark stones and four pale leave five lamps at least on all 735 boards of theirs |
+| <div align="center"><img src="Hustingsby/assets/logo.png" width="64"><br><b><a href="Hustingsby">Hustingsby</a></b></div> | Draw the ballots one at a time, Ash or Birch, and watch the lead | Bertrand 1887, ballots counted one at a time: with Ash polling a ballots and Birch b, a more than b, the orders that keep Ash ahead after every single ballot are the majority over the poll of them all, (a - b)/(a + b) of the C(a+b, a) orders, which the reflection gives again as C(a+b-1, a-1) less C(a+b-1, a); every order of every poll to eight and eight is read through ballot by ballot, 81 polls and 48,619 orders, and the sweep agrees with Bertrand and with the reflection on every one, nought on every level poll, and with (a - b + 1)/(a + 1) of the whole for the orders that never put Ash behind, Catalan's numbers down the level polls; The Level Poll ships hopeless because four Ash and four Birch end level, so no order keeps Ash ahead after the last ballot |
+| <div align="center"><img src="Kitewick/assets/logo.png" width="64"><br><b><a href="Kitewick">Kitewick</a></b></div> | Tap two cells side by side to lay a two-cell slate and slate the kite whole | The kite of order n is the Aztec diamond, the cells within n of the middle by the taxi-cab measure, 2n(n+1) of them, and its slatings by two-cell slates come to two to the n(n+1)/2; every slating is laid out from the first bare cell on, orders one to five, 4, 12, 24, 40 and 60 cells, giving 2, 8, 64, 1,024 and 32,768 slatings, and the formula agrees with the sweep at every order; the slatings sort by the count of slates lying across along a row of Pascal's triangle, 1, 3, 3, 1 for the order two; The One Across ships hopeless because every row of the kite is even, so the count of slates lying across is always even and one is not |
+| <div align="center"><img src="Kithwell/assets/logo.png" width="64"><br><b><a href="Kithwell">Kithwell</a></b></div> | Tap one person then another to make them friends and watch the two averages part | Feld 1991: your friends have more friends than you do, on average, and never fewer, since a person with k friends is named k times, so the friends' average is the sum of the squares of the counts over the sum of the counts, which is the plain average plus the spread of the counts over the average; every plan of friendships among six people is swept, 32,768 of them, and the friends' average found two ways on each of the 32,767 with a friendship in it, the two agreeing on all; the friends named are level on the 171 plans where everyone has the same number of friends and ahead on the rest, the gap widest at 1 1/3 on the six stars; The Popular Few ships hopeless because a spread is never below nought |
+| <div align="center"><img src="Knaveley/assets/logo.png" width="64"><br><b><a href="Knaveley">Knaveley</a></b></div> | Tap each villager to call them knight or knave until every telling holds | Raymond Smullyan's knights and knaves, from What Is the Name of This Book? in 1978: a knight says nothing but the truth and a knave nothing but falsehood, and a naming holds when every villager's kind matches the truth of that villager's telling; every naming of every ask is tried, 52 in all, each read twice, once whole and once as the list of villagers caught out; every set of tellings three villagers could make from the fourteen this island allows is taken as well, 2,744 sets, of which 1,361 are held by no naming, 1,048 by exactly one, 323 by two, 10 by three and 2 by four; The Paradox ships hopeless because Alder says "I am a knave", which a knight would be saying falsely and a knave truly, and every one of the 547 sets in which somebody says it is held by none |
+| <div align="center"><img src="Knowsley/assets/logo.png" width="64"><br><b><a href="Knowsley">Knowsley</a></b></div> | Step the two numbers up and down and watch what S and P can say | Freudenthal 1969, the puzzle Gardner called the impossible puzzle: S is told the sum of two whole numbers and P their product, each 2 or more, the smaller below the larger and the two adding to 100 at most, and they speak in turn, P not knowing them, S knowing he did not, P then knowing, S then knowing too; every pair is taken, 2,352 of them, the four things asked of each and the whole set narrowed again by each thing said in turn, the two agreeing at every step: 1,747 leave P in the dark, 145 add to one of the ten sums S could speak for, 86 let P then know, and one lets S know too, 4 and 13, sum 17 and product 52; The Even Sum ships hopeless because every even sum from 8 to 100 splits into two different primes whose product tells P at once |
+| <div align="center"><img src="Ladderby/assets/logo.png" width="64"><br><b><a href="Ladderby">Ladderby</a></b></div> | Tap three pegs on each rail to draw the six cross-joins and watch the three crossings fall in a line | Pappus of Alexandria, around the year 340, taken by Hilbert in 1899 as a foundation stone of geometry: pick three pegs on each of two rails and the six cross-joins cross in three points that lie on one line, whatever pegs were picked, with no lengths or angles in it; every ordering of three pegs on each rail is swept, 112,896 of them, each crossing found by the general meeting of two lines and again by the closed form for parallel rails, the two agreeing on all 85,008 orderings whose joins cross, 14,168 hexagons counted once each, and the three crossings lying in a line on every one; The Bent Line ships hopeless because Pappus said so first and no hexagon of the 14,168 bends |
+| <div align="center"><img src="Lampfield/assets/logo.png" width="64"><br><b><a href="Lampfield">Lampfield</a></b></div> | Tap a lamp to light it or put it out and keep the sum at nothing over nine | Varshamov and Tenengolts 1965, with Levenshtein showing the same year that the code mends a lost lamp: a message of eight lamps is in the code when the places of the lit lamps add to nothing over nine, and then any one lamp can go out and the reader still gets the message back, told neither which lamp went nor whether it had been lit; all 256 messages are sorted by that sum, 30 landing in the code, more than any of the other eight sums manages, and each of the 30 is sent with each of its eight lamps put out in turn, 240 readings, each read once by the reader's arithmetic and once by going through all 256 messages; Fool the Reader ships hopeless because no two messages in the code look the same with a lamp out |
+| <div align="center"><img src="Leverstow/assets/logo.png" width="64"><br><b><a href="Leverstow">Leverstow</a></b></div> | Turn each slot of the loop to lever A or lever B and watch the purse climb | Parrondo's paradox, put by Juan Parrondo in 1996 and written up by Harmer and Abbott in Nature in 1999: lever A is a plain coin toss and lever B pays one time in ten when three divides the purse and three times in four otherwise, resting on the remainders in the shares 5/13, 2/13 and 6/13, so both levers are fair on their own, and yet a loop of them climbs; every loop of twelve slots or fewer is taken, 8,190 of them, each one's climb solved once folded onto the three remainders and once on the long chain of remainder and slot, the two agreeing on every loop of six slots or fewer, which is as far as the long chain is small enough to solve; 8,154 climb, 36 stand still and none sinks, the loop Parrondo told it with, A once and B twice, gaining 2416/35601 of a coin a round and the best of all 3613392/47747645; One Lever Forever ships hopeless because A is a coin toss and B on its own cancels itself, five times four fifths against eight times a half |
+| <div align="center"><img src="Linesby/assets/logo.png" width="64"><br><b><a href="Linesby">Linesby</a></b></div> | Lift a peg of the triangle, set it down elsewhere, and watch the three centres slide along their line | Euler 1765: the centroid, the circumcentre and the orthocentre of a triangle lie on one line, the centroid a third of the way from the circumcentre to the orthocentre, so that H = A + B + C - 2O; every triangle of the seven-by-seven field is swept, 17,600 of them, three pegs not in a line, every centre kept as an exact fraction, the orthocentre worked from the altitudes and again from that identity, the two agreeing on all 17,600, the centres lying in a line on all 17,600 with the orthocentre twice as far from the centroid, and the nine-point centre sitting halfway from O to H on every one; The One Point ships hopeless because one point for all three centres makes the triangle equilateral, and none stands on pegs, the tangent of an angle between peg lines being a fraction while the tangent of sixty degrees is the square root of three |
+| <div align="center"><img src="Lotwick/assets/logo.png" width="64"><br><b><a href="Lotwick">Lotwick</a></b></div> | Set what the beast is worth, what you bid and the best bid against you, and watch your earnings against the truthful bid | William Vickrey, 1961: in the sealed ring the highest bid takes the beast and the winner pays the second bid, not his own, so your bid never sets the price, only whether you win, and no bid earns more than bidding what the beast is worth to you; every setting of the three dials is swept at a hundred crowns a dial, what the beast is worth, what you bid and the best bid against you, 1,000,000 in all, each run in both rings and held to the window, which runs no auction, and the two agree on every setting; on the 2,197 settings the sham's dials reach, 286 buy a beast for more than it is worth, 650 win one for less and 364 pass up a sale the truthful bid would have taken; in the open ring, where the winner pays what he bid, 161,700 of the million settings beat the truthful bid and every one of them is shaded under the worth; Outbid the Truth ships hopeless because raising the bid only takes beasts whose best rival bid already sits at or above the worth and lowering it only drops beasts that were in pocket |
+| <div align="center"><img src="Meetingham/assets/logo.png" width="64"><br><b><a href="Meetingham">Meetingham</a></b></div> | Tap a post on a side to move that side's gate there and watch whether the three lanes meet at one point | Ceva, 1678: the three lanes, each from a corner to the gate on the far side, meet at one point exactly when the three ratios the gates cut their sides in, BD to DC, CE to EA and AF to FB, multiply to one; every setting of the three gates at whole paces on the field of twelve is swept, 1,331 of them, the lanes from A and B crossed in whole-number arithmetic and the lane from C tried on the crossing, with Ceva's product worked beside it, and the two say meet or miss alike on all 1,331; 31 settings meet, the medians at (4, 4) and thirty more, and every one of the 31 has a gate at a middle, two gates at middles forcing the third there; The Thirds ships hopeless because a gate a third of the way along each side, the same way round, gives 1:2 times 1:2 times 1:2, which is 1:8 one way and 8:1 the other and never one |
+| <div align="center"><img src="Mintcombe/assets/logo.png" width="64"><br><b><a href="Mintcombe">Mintcombe</a></b></div> | Tap coins from the rack onto the counter to pay a price with no two coins side by side | Lekkerkerker showed it in 1952 and Zeckendorf in 1972, and the theorem carries his name: with coins of 1, 2, 3, 5, 8, 13, 21, 34, 55 and 89, each the two before it added, every price from nought to 143 is paid in exactly one tidy way, no two coins neighbours on the rack, and the tidy way is the greedy one, the dearest coin not over what is left, again and again; every picking of the purse's ten coins is swept, 1,024 of them, and the 144 tidy pickings pay the 144 prices from nought to 143 once each and none higher, while the greedy purse lands the sweep's tidy picking on every price to 143 with the fewest coins any picking uses and pays every price from 144 to 231 untidily; The Held-Back Coin ships hopeless because every other coin from a coin down adds to one short of the coin above it, so without the 89 the tidy purse reaches 88 at most and 90 is out of reach |
+| <div align="center"><img src="Ninebury/assets/logo.png" width="64"><br><b><a href="Ninebury">Ninebury</a></b></div> | Turn the three dials and watch the digits walk the nine-hour face until the hand rests on the root | Casting out nines, the old check on sums and products: adding a number's digits down to one digit gives its remainder by nine, with nine standing for nought, because 10, 100 and 1,000 are each one more than a multiple of nine, so a digit in any place counts for itself alone, and the root of a sum is the root of the roots added while the root of a product is the root of the roots multiplied; every number of three digits, 0 to 999, has its digits added down and its remainder by nine taken and the two agree on all 1,000, every pair is added and multiplied, 1,000,000 pairs, and the roots keep step, with the 32 squares to 961 and the ten cubes to 729 swept for the roots they can bear; The Square Five ships hopeless because a square's root is the root of its root squared, and 1 to 9 squared root 1, 4, 9, 7, 7, 9, 4, 1 and 9, so five never comes |
+| <div align="center"><img src="Oddsworth/assets/logo.png" width="64"><br><b><a href="Oddsworth">Oddsworth</a></b></div> | Set the first odd number and how many follow it, and see the run laid as bands of dots round a square | The odd numbers from 1 add to squares, each new odd number an L of dots laid round the last square to make the next, and a run that starts higher is one square less another, the smaller square being the odd numbers left off, so 5 + 7 + 9 is 25 less 4 and every run of consecutive odd numbers is a difference of two squares; every run on the dials is swept, the first odd number 1 to 99 and the count 1 to 20, 1,000 runs, each added out and set against the outer square less the inner, and the two agree on all 1,000, the runs from 1 coming to the count squared every time; of the numbers to a hundred, 45, 48, 72 and 80 have three runs each and 96 has four, the most, while the twenty-five numbers two past a multiple of four have none; The Thirty ships hopeless because an odd count of odd numbers is odd and an even count pairs off, each pair of neighbours a multiple of four, so 30 is out of reach though 28 and 32 are runs |
+| <div align="center"><img src="Onesby/assets/logo.png" width="64"><br><b><a href="Onesby">Onesby</a></b></div> | Wind the length of the row of ones up or down and see the row told prime or not | Mersenne's numbers, p ones in binary standing for 2 to the p less 1: a prime row needs a prime length, since the row of a ones divides the row of p ones when p is a times b, and a prime length is not enough, eleven ones being 2,047, which is 23 times 89; every exponent from 2 to 31 is swept and its row told twice, by trial division to the square root and by the Lucas-Lehmer chain, 4 and then each the last squared less two cut down by the row, which ends at 0 exactly for the prime rows, and the two agree on all thirty; the eight prime rows make the perfect numbers 6, 28, 496, 8,128, 33,550,336, 8,589,869,056, 137,438,691,328 and 2,305,843,008,139,952,128, as Euclid showed, and Euler showed every even perfect number comes so, while the row of thirty-one ones, 2,147,483,647, is prime, as Euler showed in 1772; The Composite Row ships hopeless because the row of a shorter length divides it, four ones being 3 times 5 and nine ones 7 times 73 |
+| <div align="center"><img src="Penfold/assets/logo.png" width="64"><br><b><a href="Penfold">Penfold</a></b></div> | Blow the two whistles in any order until all four sheep stand in one field | Jan Cerny, 1964: a fold can be gathered, every sheep whistled into one field, exactly when every two sheep can be brought together; all 65,536 folds of four fields and two whistles are walked twice, once over the flock itself, all sixteen ways it can stand, and once over the pairs alone, which never looks at more than two sheep, and the two agree on every fold, 51,520 gathering and 14,016 not, with 2,032 gathered by a single whistle and 96 needing nine whistles, which none of the 51,520 goes past; Cerny built the fold of four fields that needs that longest call and guessed a fold of n fields never needs more than n less one, squared, which nobody has proved; The Turning Fold ships hopeless because both its whistles send each field to a field of its own, so no two sheep ever land together and the flock stays four wide however long you whistle, and 576 folds are like it |
+| <div align="center"><img src="Pennyford/assets/logo.png" width="64"><br><b><a href="Pennyford">Pennyford</a></b></div> | Size the middle coin and the ring coins a step a tap, one to six each, and see how many fit round | Six pennies fit round a penny and a seventh never: a ring coin the size of the middle coin makes a triangle of equal sides with the middle centre and the centre of the next coin round, so it takes sixty degrees of the turn as seen from the middle, and seven sixties are more than a turn; a smaller ring coin takes twice the arcsine of its radius over the two radii added, and as many fit as that goes into a full turn, twelve ones round a three and twenty-one round a six; every setting of the middle coin and the ring coins is swept, one to six each, 36 settings, worked by the angle and again by the measure, the coins set at equal angles with neighbours held apart by twice the ring's radius, and the two agree on all 36, six equal coins being the one tie and decided exactly; The Seven Pennies ships hopeless because a ring coin as big as the middle takes a sixth of the turn and a bigger one takes more |
+| <div align="center"><img src="Pippinstow/assets/logo.png" width="64"><br><b><a href="Pippinstow">Pippinstow</a></b></div> | Tap a tree and see the line of sight from the gate drawn to it, with what stands in the way | Euclid's orchard: ten rows and ten files with a tree at every crossing, and the tree at file a and row b is in sight from the gate exactly when a and b share no factor, since a nearer tree stands on the line to it only when its file and row are a fraction of a and b, which is a common factor at work, and a tree in sight hides its multiples; every tree of the hundred is asked two ways, once by the factor of its file and row and once by looking along the line for a tree in the way, and the two agree on all a hundred, 63 in sight and 37 hidden, thinning towards six in ten by Cesaro's count as the orchard grows; The Hidden Edge ships hopeless because a tree one step up has nothing on the line to it, anything in the way standing less than one step up |
+| <div align="center"><img src="Pumpwick/assets/logo.png" width="64"><br><b><a href="Pumpwick">Pumpwick</a></b></div> | Roll the pump a spot at a time along the lane and watch the walking add up | The walking to a pump on a lane is least at the middle house, the median and not the average, because rolling the pump one spot changes the total by the houses at or behind it less the houses ahead, so the total falls while houses lie ahead and rises once they lie behind; every row of houses on the lane is swept, from one house to seven over the 13 spots, 77,519 rows, with the pump stood at every spot of each and the best spots found again by taking the middle house without adding anything up, and the two agree on every row, 57,044 rows with an odd count having one best spot alone and 13,819 of the 20,475 even rows a run of them between the two middle houses; standing the pump at the average instead is never better and is worse on 47,692 rows; Beat the Middle ships hopeless because it asks for less walking than the least there is |
+| <div align="center"><img src="Pursebury/assets/logo.png" width="64"><br><b><a href="Pursebury">Pursebury</a></b></div> | Fill the two purses a coin a tap, turn the coin over, and toss until one purse is empty | Two purses and a coin tossed a coin at a time until one purse is empty: with a fair coin Ash takes the whole pot exactly as often as his share of it, since his chance from any purse is the average of his chances a coin up and a coin down, so it climbs in a straight line from nothing at an empty purse to everything at the whole pot, and the duel lasts the two purses multiplied on average, while a coin against him sags that line and a coin for him bows it, to 1 less r to his purse over 1 less r to the pot, r the odds against him on a toss; every setting of the purses and the coin is swept, one to six coins each with the coin against Ash, fair or for him, 108 settings, each duel solved twice, as a chain of purses eliminated in exact fractions and by the formula, chance and length agreeing on all 108; The Even Duel Against the Coin ships hopeless because Ash's chance against the coin is 2 to his purse less 1 over 2 to the pot less 1, and an odd number under is never twice the number over |
+| <div align="center"><img src="Queenscote/assets/logo.png" width="64"><br><b><a href="Queenscote">Queenscote</a></b></div> | Tap a square to set a queen, tap her to lift her, and see what the queens see | How few queens see every square of a board, with no short reason for the four, so the sweep is the reason and it is done twice: every placing of the queens asked is tried as masks of the squares seen, and every watching set is found again by picking a queen for the first unseen square in turn, the two counts agreeing on every board; the fewest that watch run 2, 3, 3, 4, 5 from the four by four to the chessboard, and one fewer never does, leaving 4, 2, 6, 4 and 2 squares unseen at best; two watch the four by four 12 ways of 120, three watch the six by six 4 ways of 7,140, five watch the chessboard 4,860 ways of 7,624,512, and four queens on the chessboard leave two squares unseen in 64 placings of 635,376; The Lone Queen ships hopeless because one queen sees 12 of the sixteen squares at the most, from the middle four, and 10 from a corner |
+| <div align="center"><img src="Reckonby/assets/logo.png" width="64"><br><b><a href="Reckonby">Reckonby</a></b></div> | Turn a wheel a notch a tap and watch what the counting house reads | The factorial number system: five wheels turning 0 to 1, 0 to 2, 0 to 3, 0 to 4 and 0 to 5, worth 1, 2, 6, 24 and 120, the house reading them added up; all 720 settings are taken and read twice, once by adding each wheel times the factorial of its place and once by counting the house up a tick at a time from nothing and carrying as an odometer does, which adds nothing at all, and the tick a setting falls on is what it adds to on every one of the 720; the settings read the 720 numbers from nothing to 719, each exactly once, because the wheels under the kth, even at their tops, come to one less than the kth is worth; Seven Hundred and Twenty ships hopeless because k times k factorial is (k + 1) factorial less k factorial, so the wheels at their tops fold up to 6 factorial less 1, which is 719, and there is nothing above it to read |
+| <div align="center"><img src="Rickmere/assets/logo.png" width="64"><br><b><a href="Rickmere">Rickmere</a></b></div> | Tap a post to lift it and a peg to stand it on, and watch the ring of three rick markers keep its shape | Napoleon's theorem, printed by Rutherford in The Ladies' Diary in 1825: raise an even triangle outward on each side of a field and the middles of the three make an even triangle exactly; every field the 5 by 5 green holds is taken, 2,148 of them, with the ricks raised outward and then inward, 4,296 raisings, each measured two ways, once by taking the three gaps between the markers and comparing them and once by turning one marker sixty degrees about another to ask whether it lands on the third, the two agreeing on all 4,296, and all of it done in numbers of the form a and b roots of three with a and b exact fractions rather than decimals; The Uneven Three ships hopeless because the root of three is not a fraction, so two such places are the same only when both halves match, and equal means equal |
+| <div align="center"><img src="Rimsbury/assets/logo.png" width="64"><br><b><a href="Rimsbury">Rimsbury</a></b></div> | Size the hoop and the roller a step a tap and send the roller round the outside or the inside | A coin rolled once round another of the same size turns twice, not once: its rim unrolls along the hoop's for one turn and the carrying round the hoop is a turn more, so the turns are the hoop over the roller and one more round the outside, or one less round the inside, where the carrying goes against the rolling; every setting of the hoop and the roller is swept, one to six each round both sides, 72 settings with the roller too big for the inside in 21 of them, and every trip that fits, 51, is rolled as well as worked out, the roller pivoting about its point of contact a hair at a time, 36,000 pivots to the trip, the pivots agreeing with the formula to within two millionths of a turn on every one; The Once ships hopeless because round the outside the turns are one and the hoop over the roller, always more than one, the nearest a hoop of one and a roller of six at 7/6 of a turn |
+| <div align="center"><img src="Ringfold/assets/logo.png" width="64"><br><b><a href="Ringfold">Ringfold</a></b></div> | Wind the clock up or down and watch the Fibonacci numbers walk round it and home | The Pisano period, seen by Lagrange in 1774: cut the Fibonacci numbers down to their hour on a clock of m hours and the run comes back to 0, 1 and repeats, since there are only m times m pairs of hours so some pair comes twice, and the walk runs backwards too, each number the next less the one before, so the first pair to come twice is 0, 1 itself; every clock from two to two hundred hours is walked until 0, 1 comes round, 199 of them and the dial holding the first 39, each period found again as the least divisor of a bound read off the clock's prime factors that brings the Fibonacci matrix, 1 1 over 1 0, back to the identity by squaring, the two agreeing on all 199 with Cassini's identity holding on every one, the periods running 3, 8, 6, 20, 24, 16, 12, 24, 60 for two to ten hours; The Odd Period ships hopeless because Cassini's identity turns its sign every step and comes back to plus one at the period, so the period is even on every clock past two, six on the four-hour clock the shortest |
+| <div align="center"><img src="Rodwell/assets/logo.png" width="64"><br><b><a href="Rodwell">Rodwell</a></b></div> | Tap between the hands to cut the rod into whole parts and multiply them together | the whole-number face of the old rule that a fixed sum multiplies best when its parts are equal, with e the size the parts would take if they could be any length at all and three the whole number nearest it; every rod from 2 hands to 20 has its biggest product found three ways, by cutting it every way there is, 65,534 cuttings over the rods of sixteen hands and under, by the rule of threes, which cuts nothing at all, and by working up from the short rods, and the three agree on every rod: the best cutting is threes with a four or a two over, 10 to 36, 12 to 81, 16 to 324; Beat the Threes ships hopeless because none of the 32,768 cuttings of the rod of sixteen passes 324, a part of five or more doing better cut into a three and the rest, a one multiplying nothing, and nine beating eight |
+| <div align="center"><img src="Roostwick/assets/logo.png" width="64"><br><b><a href="Roostwick">Roostwick</a></b></div> | Tap birds along their tethers until every bird sits in a hollow of its own | cuckoo hashing, which Pagh and Rodler published in 2001, read as the cuckoo graph: birds tethered between two of six hollows make the hollows fall into patches, and the wood settles exactly when no patch holds more birds than hollows, a patch with a hollow to spare settling one way for each hollow it can leave empty and a patch carrying a ring settling two, the wood's count being its patches multiplied together; every wood of six hollows and six or fewer birds is walked, 12,204,240 of them, collapsed to 54,263 boards, each counted by walking all its seatings and counted again off its patches without walking any, the two agreeing 54,263 times out of 54,263, and 5,971,950 woods settle; The Shared Tether ships hopeless because the patch A B holds more birds than hollows |
+| <div align="center"><img src="Rootley/assets/logo.png" width="64"><br><b><a href="Rootley">Rootley</a></b></div> | Turn the clock and the base a tap at a time and watch which hours the walk touches | the primitive root, as Euler named it, and Gauss's rule of 1801, that the clocks with a full base are 2, 4, a power of an odd prime, or twice one, and no other, every prime clock having phi of one less of them; every base of every clock from three to a hundred hours is walked, 4,949 walks, and set against a reckoning that never walks, Carmichael's lambda from the clock's prime factors with the base raised to lambda's divisors by squaring, the two agreeing on the steps home of all 4,949 while Gauss's rule names exactly the 48 clocks of the 98 the walk finds a full base on; The Eight ships hopeless because every odd number squared is one more than a multiple of eight, so 3, 5 and 7 come home on the second step and no base touches more than two of the eight-hour clock's four odd hours |
+| <div align="center"><img src="Ropeford/assets/logo.png" width="64"><br><b><a href="Ropeford">Ropeford</a></b></div> | Hop from dry stone to dry stone with a rope that reaches from stone n as far as 2n | Bertrand's postulate, stated by Joseph Bertrand in 1845 after checking the numbers up to three million, proved by Pafnuty Chebyshev in 1850 and printed in 1852, with a simpler proof from Srinivasa Ramanujan in 1919 and a short elementary one from Paul Erdos in 1932: for every n above 1 there is a prime p with n < p < 2n; every number from 1 to 200,000 is asked for a dry stone inside its rope and given one, the ford's 120 stones are sieved and divided out to the same 30 dry ones, and the fewest hops off the hop graph match the greedy chain 2, 3, 5, 7, 13, 23, 43, 83 and on, 8 hops to pass a hundred, 11 a thousand, 15 ten thousand; The Long Shallows ships hopeless because the seven stones from 90 to 96 are all mossy, 91 being 7 times 13 and 93 being 3 times 31, the first run of seven anywhere |
+| <div align="center"><img src="Roundhithe/assets/logo.png" width="64"><br><b><a href="Roundhithe">Roundhithe</a></b></div> | Tap two villages to lay the road between them until a round trip goes through all six | Dirac's rule of 1952, that a round trip is there whatever the roads when every village has half the others as neighbours at least, three of the five here, and Ore's widening of 1960, that it is enough for any two villages not joined to have six roads between them; every road-plan on the six villages is taken, 32,768, and a round trip looked for on each two ways, by walking every order of the villages from A and by a table of what sets of villages a walk from A can end where, the two agreeing on all 32,768: 10,078 plans have a round trip, among them every one of the 1,858 with three roads or more at every village and every one of the 1,978 meeting Ore's rule; The Three Each ships hopeless because Dirac said so first and no plan of the 32,768 has three roads at every village and no round trip |
+| <div align="center"><img src="Sackford/assets/logo.png" width="64"><br><b><a href="Sackford">Sackford</a></b></div> | Tap a sack to move it to the next cart until the load fits the fewest carts | bin packing at the carrier's yard, with the weight over ten rounded up as a floor no loading beats and Johnson's bound on the carrier's rule, heaviest first into the first cart with room, which never needs more than eleven ninths of the fewest carts and two thirds of a cart besides; every loading of every yard is searched, sack by sack into a cart in use or the next fresh one with no cart past ten stone and the loadings told by the weights each cart carries, and on every load of six sacks of one to nine stone, 3,003 loads, the search's fewest never beats the floor, meets it on 2,201, and the carrier's rule needs a cart too many on four; The Thirty-One ships hopeless because its eight, seven, six, five, three and two weigh thirty-one stone and three carts carry thirty |
+| <div align="center"><img src="Sevenby/assets/logo.png" width="64"><br><b><a href="Sevenby">Sevenby</a></b></div> | Dial the prime and the number over it and watch the long division come round | the repeating decimal of k over p, whose period is how many steps 10 takes to come back to 1 on the p-hour clock, a divisor of p - 1 and never more since only p - 1 remainders exist and one must come again, with Midy's theorem that the two halves of an even block add to nines, 142 plus 857 being 999; every fraction on the dial is divided the long way, the thirteen odd primes from 3 to 47 but 5 and every k under each, 308 fractions, and each period set against the steps 10 takes round the clock, the two agreeing on all 308, every block of digits times p coming to k rows of nines, and to a hundred the full-turn primes are 7, 17, 19, 23, 29, 47, 59, 61 and 97; The Long Turn ships hopeless because the remainders are the hours 1 to p - 1, so one comes again within p - 1 steps |
+| <div align="center"><img src="Sharewick/assets/logo.png" width="64"><br><b><a href="Sharewick">Sharewick</a></b></div> | Tap trios of six friends until every two you have picked share a friend | Erdos, Ko and Rado, 1961: among the k-sets of n things, n at least 2k, a family in which every two meet has at most as many sets as hold one fixed thing, the star, and for n above 2k the star is the only family that large; here n is twice k, six friends and their twenty trios, which fall into ten missing pairs since two trios miss each other only when one is the other three, so a sharing family takes one of each pair at most; every family of the twenty trios is taken, 1,048,576, once by looking at every pair of trios for a shared friend and once by asking only whether it takes both trios of a missing pair, the two agreeing on all 1,048,576, and 59,049 families share throughout, 1,024 of them ten trios and none eleven; The Eleven ships hopeless because there are only ten missing pairs to draw one trio from |
+| <div align="center"><img src="Shortcombe/assets/logo.png" width="64"><br><b><a href="Shortcombe">Shortcombe</a></b></div> | Turn the crowd up or down, two hundred a tap, open or shut the shortcut, and see where the drivers settle | Braess 1968, a road added and everyone slower: with the shortcut shut the crowd splits evenly and takes 45 plus half the crowd, and with it open every driver under forty-five hundred goes top, across and bottom, since that way costs the two variable roads and no fixed one whatever the others do, so forty hundred go from 65 minutes each to 80 and nobody can do better alone; every crowd from two hundred to sixty hundred, two hundred a step, is settled with the shortcut shut and with it open, 60 settings, by cases and again by the least potential over every whole split of the crowd, the two agreeing on all 60; The Big Crowd Helped ships hopeless because the shortcut helps 14 crowds, all under thirty hundred, makes no odds at thirty, 60 minutes either way, and hurts the other 15 |
+| <div align="center"><img src="Shuntbury/assets/logo.png" width="64"><br><b><a href="Shuntbury">Shuntbury</a></b></div> | Slide the wagons one at a time into the empty berth and shunt the yard back home | Sam Loyd offered a thousand dollars for the yard with two wagons swapped and never paid: the count of pairs of wagons out of order, read row by row, stays even or stays odd whatever is shunted, since a sideways shunt changes nothing in that order and an up-or-down shunt jumps one wagon over the two between it and the gap, changing the count by two or by nought; the walk goes out from home breadth first through every yard the shunts can reach, 181,440 of the 362,880 arrangements, with the fewest shunts to each and 31 the most any needs, and the count of pairs out of order is read off all 362,880 with no walk at all and is even on exactly those 181,440 and odd on the rest; The Swapped Pair ships hopeless because 1 2 3 / 4 5 6 / 8 7 _ has one pair out of order, odd, and no shunt makes it even |
+| <div align="center"><img src="Skeinwell/assets/logo.png" width="64"><br><b><a href="Skeinwell">Skeinwell</a></b></div> | Tap lanes in and out between five greens and watch each lane's share of the stringings move | Ronald Foster 1949, published about electrical networks: a stringing joins all five greens without closing a loop and always takes four lanes, so adding every lane's share, the fraction of the village's stringings that run along it, counts the four lanes of every stringing once each and comes to four however the lanes lie; all 1,024 ways the ten lanes can lie are taken, 728 of them joining every green up, and every lane's share is found twice, once by listing the stringings that run along it and once by putting a unit of traffic in at one end of the lane and out at the other and reading the difference across it in exact fractions, the two agreeing on every lane and the shares adding to 4 on all 728; More Than Four ships hopeless because every stringing uses four lanes and no other number |
+| <div align="center"><img src="Sliverton/assets/logo.png" width="64"><br><b><a href="Sliverton">Sliverton</a></b></div> | Step the three marks along the sides of the field and watch the sliver the cuts leave in the middle | Routh's rule, from Edward Routh's statics treatise of 1891: cut from each corner of a triangle field to a mark on the far side and the sliver in the middle takes the square of xyz less one, over (xy + x + 1)(yz + y + 1)(zx + z + 1), where x, y and z are the ratios the marks divide the sides in, so the two-thirds mark on every side leaves a seventh; every setting of the three marks is taken, 1,331, and the sliver measured twice, once by crossing the cuts in exact fractions and taking the area off its three corners and once by Routh's rule with no crossing in sight, the two agreeing on all 1,331; the sliver comes to nothing on 31 settings, exactly the ones where the three cuts meet, which is Ceva from 1678; The Sly Vanishing ships hopeless because a sliver with no area has its three corners at one point and that point sits on all three cuts |
+| <div align="center"><img src="Squarewell/assets/logo.png" width="64"><br><b><a href="Squarewell">Squarewell</a></b></div> | Turn the base and the clock and watch a base and its opposite square to the same hour | Euler 1748: raise an hour on a prime clock to the (p - 1) / 2 and it comes to 1 if the hour is a square and to one short of the clock if not, never anything else, and since a base and its opposite always land together and no third base joins them, exactly half the hours but 0 are squares; every base on every prime clock to a hundred is squared, 24 clocks and 1,034 hours, with Euler's test set against the squares hour by hour and the two agreeing everywhere, one short of the clock a square on exactly the 11 clocks one more than a multiple of four and two a square on exactly the 11 one more or one less than a multiple of eight; The Two of Eleven ships hopeless because the squares on eleven are 1, 3, 4, 5 and 9, so 2 is nobody's square, and 2 to the fifth is 32, one short of three elevens |
+| <div align="center"><img src="Stickerwick/assets/logo.png" width="64"><br><b><a href="Stickerwick">Stickerwick</a></b></div> | Set the stickers in the set and the packets bought and read off the average and the chance of a full album | The sticker album: once k of the n stickers are held a new one comes with chance (n - k)/n, so it takes n/(n - k) packets on average and the whole set takes n/n + n/(n - 1) + ... + n/1, which is n times the n-th harmonic number, 14.7 for six and 29.28 for ten, growing like n times the log of n, the last sticker alone taking n packets and being the slowest by far; every set of one to twelve stickers is worked in exact fractions, its average by the stages and again by the tail summed, and the chance of a full album after every count of packets to sixty by counting the ways with the signs turning and again by walking the packets one at a time, the voices agreeing on all 720 settings; The Certain Album ships hopeless because the same sticker could come every time, so a set of two or more is never certain, a set of six still short after sixty packets one time in ten thousand |
+| <div align="center"><img src="Stubwick/assets/logo.png" width="64"><br><b><a href="Stubwick">Stubwick</a></b></div> | Turn the five dials of a ticket and watch Luhn's sum and the stamp | Hans Peter Luhn of IBM, 1954, the rule that sits on bank cards to this day: from the right, double every second digit, take nine off a double past nine, add the lot, and the ticket passes when the sum ends in nought; every ticket of five digits is taken, 100,000, summed by the doubling and again by the table of doubles, 10,000 passing, one check digit for every run of four, and on every passing ticket the sweep tries every single slip of a digit, 450,000, every swap of two unlike neighbours, 36,000, and every turn of a twin pair, 36,000, finding no slip passing, 800 swaps passing, every one a 0 and a 9, and 2,400 twin turns, 800 a kind; The Slip Unseen ships hopeless because the doubling takes the ten digits to 0, 2, 4, 6, 8, 1, 3, 5, 7 and 9, every digit once, so no two digits double alike and one slip always moves the sum |
+| <div align="center"><img src="Sunderby/assets/logo.png" width="64"><br><b><a href="Sunderby">Sunderby</a></b></div> | Tap sizes off the shelf to sunder the number asked into the kind of parts asked | Euler 1748: a number sunders into parts all different in exactly as many ways as into parts all odd, and Glaisher's folding says why, since merging two equal parts of an all-odd partition into one part twice the size until no two are alike lands on an all-different partition, and every all-different partition unfolds from exactly one all-odd one; every partition of every number to thirty is laid out, 28,628 in all and 5,604 for thirty alone, the all-different and the all-odd counted on each and found equal on all thirty numbers, 296 and 296 at the top, every all-odd partition folded and landing on the all-different ones once each, and every partition turned on its side to swap its count of parts for its largest part; The Odd Evens ships hopeless because even parts add up to an even number however many there are, and nine is odd |
+| <div align="center"><img src="Tabormere/assets/logo.png" width="64"><br><b><a href="Tabormere">Tabormere</a></b></div> | Tap the steps of the ring to set hits and read the gaps | Toussaint's finding of 2005: hits spread round a ring of steps as evenly as they can go land exactly where Euclid's rule puts them, hit i at the floor of i n/k, along with its turnings, n over the greatest common divisor of n and k of them; every pattern of every ring to twelve steps with every count of hits is tried, 90 rings and 8,190 patterns, and the 474 even ones are Euclid's rhythm and its turnings on every ring, with equal gaps exactly when the hits divide the steps; the tresillo lands 8 patterns of the 56, the cinquillo 8 of 56, the bossa 16 of 4,368 and the bembe 12 of 792; The Even Tresillo ships hopeless because three equal gaps would have to add up to eight, and eight into three won't go |
+| <div align="center"><img src="Threadwick/assets/logo.png" width="64"><br><b><a href="Threadwick">Threadwick</a></b></div> | Set the nails and the skip and follow the thread from nail to nail until it comes home | A thread that skips the same count round a hoop of nails comes home after the count of nails over the greatest factor the count and the skip share, so it takes as many strokes as that greatest common divisor and each stroke touches the count over it; every thread is walked nail by nail on every ring from three nails to twelve with every skip, 65 settings, and the walk agrees with the divisor on all 65, skip k and skip count less k draw the same lines, and the one-stroke stars of each ring are Euler's count of the skips sharing nothing with the count less the two that run round the rim, each star drawn by two skips; the pentagram, the two squares, the three triangles and the twelve each land 2 settings of the 60; The Star of David ships hopeless because six is two threes and every skip that could make a star of six shares one of them |
+| <div align="center"><img src="Threefold/assets/logo.png" width="64"><br><b><a href="Threefold">Threefold</a></b></div> | Tap a point of the green to stand there and read the three distances in rungs | Viviani, who saw it in the 1600s: the three distances from any point of an equilateral green to its three sides add up to the height, because the three triangles the point makes with the sides fill the green exactly and each is half a side times a distance; every point of the lattice on the green of side twelve is walked, 91 of them, 36 on the sides and 3 at the corners, the rungs read off the lattice adding to twelve on every one and the three triangles worked as whole numbers of cells filling the green of 288 on every one, each triangle its rung's twelfth; the middle stands 4, 4 and 4 with triangles of 96 each, six points stand 1, 2 and 9, three stand on a side six from each of the others, and six stand 2, 4 and 6; The Longer Walk ships hopeless because those triangles fill the green and nothing more, so the distances add to the height wherever the walker stands |
+| <div align="center"><img src="Tithebury/assets/logo.png" width="64"><br><b><a href="Tithebury">Tithebury</a></b></div> | Wind the number up or down, by one or by ten a tap, and see its divisors laid end to end against it | Euclid's perfect numbers: add up every divisor of a number but the number itself and three of the first five hundred get exactly themselves, 6, 28 and 496, each a power of two times one less than the next power with that odd number prime, 2 by 3, 4 by 7 and 16 by 31; every number to 500 is swept, the divisors added up by trying each in turn and by the formula from the prime factors, and the two agree on all 500 and on their tithes; 220 and 284 pay each other and no other number under 500 has a partner, 121 of the 500 get more than themselves back, every one even with the first odd one at 945, and 120 gets exactly twice itself, 240 from fifteen divisors; The Power of Two ships hopeless because nine numbers of the 500 come one short and they are exactly the powers of two from 1 to 256 |
+| <div align="center"><img src="Tosswell/assets/logo.png" width="64"><br><b><a href="Tosswell">Tosswell</a></b></div> | Tap the standings you would leave at and set your own rule for walking away | Doob's optional stopping theorem, for a rule that has to stop by the fifth toss: whatever standings you mark to walk away at, the 32 runs of the fair coin average nothing, since at any standing the two tosses that leave it are worth one more and one less and are equally likely, so the standing is worth exactly what it holds and so is leaving there; all 32,768 ways the 15 standings can be marked are taken, 802 rules that differ in what they do, each worked once by walking all 32 runs and once by folding the standings backward from the last row, and the two agree on every marking with every standing folding to what it holds; the most any rule is ahead is 22 runs of the 32, eleven in sixteen; The Sure Thing ships hopeless because a rule that never went behind could only average nothing by ending at nothing on every run |
+| <div align="center"><img src="Trebleworth/assets/logo.png" width="64"><br><b><a href="Trebleworth">Trebleworth</a></b></div> | Take heaps from the shelf into the slots and make the number asked | Gauss in 1796, written in his diary as Eureka, num = triangle + triangle + triangle: every whole number is three triangular numbers added, nought allowed, because eight times k(k+1)/2 plus one is (2k+1) squared, so n is three triangular numbers exactly when 8n + 3 is three odd squares, and it always is; every number from 0 to 500 is swept for its heaps of three and of two, and the three-heap ways of each n match the odd-square ways of 8n + 3 one for one by the roots 2k + 1 on all 501; 406 has the most ways with sixteen, twelve numbers have a single way, and two heaps miss 212 of the 501; The Five ships hopeless because below five the triangular numbers are 0, 1 and 3, and their pairs add to 0, 1, 2, 3, 4 and 6, never five |
+| <div align="center"><img src="Truckleford/assets/logo.png" width="64"><br><b><a href="Truckleford">Truckleford</a></b></div> | Work the three levers to shunt six wagons through one siding into the order asked | Knuth set this down in 1968, in the first volume of The Art of Computer Programming: one siding makes 132 of the 720 orders six wagons can stand in, because only the wagon at the points can be sent out, so no out-train holds a wagon, then a smaller one, then one lying between them, nothing of the shape 3, 1, 2; every order of every train from one wagon to eight is taken, 46,233 orders, each read once by running it through the yard and once by looking through the order for that shape, and the two agree on all of them, the counts from one wagon to eight being 1, 2, 5, 14, 42, 132, 429, 1430, the Catalan numbers; the six-wagon out-trains take 6 to 11 taps, 1 at 6, 15 at 7, 50 at 8, 50 at 9, 15 at 10 and 1 at 11, which are the Narayana numbers; Three, One, Two ships hopeless because it is exactly the shape the points forbid |
+| <div align="center"><img src="Tuesleigh/assets/logo.png" width="64"><br><b><a href="Tuesleigh">Tuesleigh</a></b></div> | Wind the tags up or down and see the families that hold a boy of the first tag | Two children, and one thing told about them: told a family of two has a boy, the chance both are boys is a third, and told the boy carries the first of k tags it is 2k - 1 in 4k - 1, so seven days give the Tuesday boy's 13 in 27, twenty-seven of the 196 families alike holding one and thirteen of those being two boys; every family is counted out for every tag count from one to thirty, 4k squared families each, and the count agrees with the form on all 30, the chance rising with every tag, a third at one, 3/7 at two, 5/11 at three, 9/19 at five, 25/51 at thirteen and 59/119 at thirty, while the same count told which child is the tagged boy comes to a half every time; The Half ships hopeless because twice 2k - 1 is one short of 4k - 1, so the chance falls short of a half by one part in twice 4k - 1 at every tag count |
+| <div align="center"><img src="Wardsby/assets/logo.png" width="64"><br><b><a href="Wardsby">Wardsby</a></b></div> | Tap a household to move it round the wards until one side holds three of the five wards | Packing and cracking on a five-by-five parish: a ward of five goes to the side with three or more of its five, and the vestry to the side with three or more of the five wards, so a ward is won only with three votes in it and a side with v votes wins at most a third of v wards; every drawing of the twenty-five households into five wards of five in one piece is walked, 4,006 of them, each checked sound and none twice, and every one told for the wards each side wins; ten Blues in the two left columns win three wards in 276 drawings, and fifteen Blues in the top three rows lose three wards to ten Reds in 276; The Eight ships hopeless because three wards take nine votes and eight Blues have eight |
+| <div align="center"><img src="Yardwick/assets/logo.png" width="64"><br><b><a href="Yardwick">Yardwick</a></b></div> | Step the two counts on their dials and watch the longest yardstick that measures both hedges | Lucas 1876: two Fibonacci numbers share exactly the factors their counts share, so the longest yardstick measuring the mth and nth hedges is the Fibonacci number of the common measure of m and n, the reason being that the (m + n)th is the (m - 1)th times the nth plus the mth times the (n + 1)th, which lets Euclid run on the counts as it runs on the hedges; every pair of counts from one to thirty is taken, 900 settings, the yardstick found by Euclid on the two hedges themselves and again from the counts, the two agreeing on all 900; the yardstick is five on 23 settings, eight on 19, and 55 or longer on 37, with 832,040 the longest at both counts thirty; The Odd Share ships hopeless because counts that share no factor have one for their common measure and the first Fibonacci number is one, so the yardstick is one, and Euclid on the counts said so first |
 
 ## The idea they share
 
@@ -2067,6 +2141,870 @@ paragraph:
   straight line, and positive when it sits in the far gap. The Twin
   Fourths ships hopeless because the two fourths are that root apart and
   the root is never nothing.
+
+- **Beatstow** is five throws laid on a ring of five beats. A throw
+  of height h laid on beat i sends its ball up to come down at beat
+  i plus h, counted round the ring, so a laying juggles exactly when
+  the five landing beats are all different. When a rack juggles, the
+  balls in the air come to the plain average of the throws, every
+  time, and that average has to be a whole number. So the rack
+  settles the matter before a throw is laid: add the throws up, and
+  if the total does not go round the beats evenly, no arrangement of
+  them juggles at all. The Raised Throw ships hopeless because 3, 3,
+  3, 3 and 4 add to 16, and 16 into 5 will not go.
+
+- **Cantlemere** is Monsky from 1970. A square field of nine acres
+  has a peg at every whole point of its three by three grid, and
+  three taps lay a plot. Sizes are in half acres, so the field is
+  18. Six equal plots of 3 can be had 68 ways, but three equal plots
+  cannot be had at all, nor any other odd number of equal plots, and
+  Monsky proved that for every cut of a square, not only for cuts
+  with corners on pegs. Here the reason shows twice: each of the 32
+  three-plot cuts comes out 3, 6 and 9 half acres, and every plot
+  wearing all three peg colours is an odd number of half acres. The
+  Even Three ships hopeless because half is not a third and 6 is not
+  odd.
+
+- **Caskleigh** is Kurschak from 1918. The cellar's first cask holds
+  a whole barrel, the second a half, the third a third, on down to
+  the sixtieth, and pouring a run of them together never comes to a
+  whole barrel. The reason is the twos: among any run of whole
+  numbers exactly one has more twos in it than any other, so over
+  the smallest common bottom that cask goes in an odd number of
+  times and every other an even number, leaving an odd top over an
+  even bottom. Erdos gave another proof in 1932, in his second
+  paper, using Bertrand's postulate: the run holds a prime that
+  appears in no other cask. The Whole Barrel ships hopeless because
+  an odd over an even is not a whole number.
+
+- **Cellarwick** is the wine and water swap. Carry a spoon of wine
+  into the water glass, then a spoon of whatever is now in the water
+  glass back into the wine, and there is exactly as much water in
+  the wine as wine in the water. The stirring does not matter. The
+  wine glass ends holding just what it began with, so the water in
+  it fills the room the missing wine left, and every drop of that
+  missing wine is in the water glass. Well stirred, the spoon back
+  carries spoon times water over water plus spoon units of water
+  home, but the account holds with the wine afloat or the wine sunk
+  too. The Unequal ships hopeless because the wine the first glass
+  lost is exactly the water that took its place.
+
+- **Chimewell** is the comma that a stack of fifths leaves behind. A
+  fifth is three halves of a note and an octave twice it, so every
+  note the two dials reach is 3 to the fifths over 2 to something.
+  Twelve fifths up climb 531,441/4,096, and seven octaves down leave
+  531,441/524,288, 23.46 cents sharp of the start. That hair is why
+  the piano's fifths are all a shade flat, 700 cents to the pure
+  701.96, the comma spread over the twelve. Only twelve fifths, up
+  or down, come within a twentieth of home. The Return ships
+  hopeless because 3 to any power is odd and 2 to any power even, so
+  no stack with a fifth in it comes home.
+
+- **Chordwell** is Euclid, the thirty-fifth of his third book. Two
+  chords of a circle cross at a point P, and the pieces of the one
+  multiply to the same amount as the pieces of the other: PA times
+  PB is PC times PD. Join A to C and B to D, and the triangles PAC
+  and PDB have the same angles, since the angles at A and D stand on
+  the same arc, so their sides are in proportion. The amount is the
+  power of the point, the radius squared less its distance from the
+  middle squared, so on this wheel of radius five a crossing at the
+  middle gives 25 and one near the rim gives little. The Odd Cross
+  ships hopeless because those two triangles make the two products
+  equal at every crossing.
+
+- **Cofferwick** is Bertrand from 1889. Three coffers hold two coins
+  each: two gold in one, two silver in another, a gold and a silver
+  in the third. Pick a coffer at random, take out a coin at random,
+  and it is gold. The ready answer for its mate, a half, since the
+  coffer is one of two, is wrong. The draw picks a coin, not a
+  coffer: three gold coins might have come out, and two of them, the
+  pair, have a gold mate. Two in three. The Half of Three ships
+  hopeless because three gold coins fill one coffer at most, and if
+  they do then two of the three have a gold mate, 2 in 3, and if
+  they do not then none has, 0.
+
+- **Cogsley** is gear trains on a pegboard. Two gears mesh when their
+  pegs lie the sum of their radii apart exactly, and every mesh turns
+  the next gear the other way, so a gear an even count of meshes from
+  the crank turns with it and an odd count against. A gear that turns
+  makes as many turns as the crank times the crank's radius over its
+  own, whatever lies between, so an idler changes nothing but the
+  way. A ring of gears turns only when its count is even, because
+  round an odd ring the direction would have to be both. The Ring of
+  Three ships hopeless because a gear of two and a gear of three ring
+  a crank of one three, four and five apart, a right triangle of
+  pegs, and an odd ring jams.
+
+- **Cornerwick** is Van Aubel from 1878. Set four pegs in order, build
+  a square outward on each of the four sides, and mark the centre of
+  each square. The join from the centre on AB to the centre on CD and
+  the join from the centre on BC to the centre on DA are always the
+  same length and always cross at right angles, whether the four pegs
+  are convex, dented or crossed over. Thebault added in 1937 that a
+  parallelogram of pegs makes a square of the four centres. Write the
+  first join out from the four pegs alone and turn it a right angle
+  and it comes out as the second join, letter for letter. The Skew
+  Cross ships hopeless because that turning holds on all 303,600
+  fours, so no four pegs give unequal joins or a crossing off square.
+
+- **Crossleigh** is Menelaus of Alexandria from around the year 100.
+  Draw a straight line across a triangle ABC and let it cut the three
+  side-lines at F on AB, D on BC and E on CA. The ratios AF:FB, BD:DC
+  and CE:EA multiply to -1, where a ratio counts negative when its cut
+  falls outside the side itself, so an odd number of the cuts lie
+  outside. The reason is distances: a line divides a side in the ratio
+  of the two ends' distances from it, so the three ratios are the
+  distances of A, B and C taken round in a ring and everything cancels
+  but the sign. The Three Inside ships hopeless because a line that
+  goes into the triangle at one side comes out at another and cannot
+  come back for the third, so it cuts two sides inside or none.
+
+- **Ellwick** is the Greek ladder of side and diagonal numbers. A
+  square's diagonal is its side times the square root of two, and no
+  whole side has a whole diagonal. The Greeks climbed towards it
+  instead: from a side and a diagonal, the next side is the two added
+  and the next diagonal is twice the side plus the diagonal, and every
+  rung misses twice the side squared by exactly one, over and under in
+  turn, so 3/2, 7/5, 17/12, 41/29 and 99/70 close on the root. Of all
+  14,400 whole pairs to 120 the six rungs are the only ones missing by
+  one, and the only ones nearer the root than every smaller side gets.
+  The True Diagonal ships hopeless because a whole pair would halve to
+  a smaller pair of the same kind, and that cannot go on for ever.
+
+- **Evenholme** is Goldbach writing to Euler in 1742. He said every
+  even number past two seems to be two primes added together. Nobody
+  has found one that is not, and nobody has proved that none exists,
+  so the game sifts the primes to 2,000 two ways, by Eratosthenes'
+  sieve and by trial division, gets 303 both times, and then splits
+  every even number from 4 to 2,000 into two primes every way it can.
+  Every one of them splits. Four, six, eight and twelve manage it one
+  way alone, no even number above 100 manages it fewer than three
+  ways, and 1,890 manages it 91 ways. The Odd ships hopeless because
+  two odd primes add to an even number, so an odd number splits only
+  with a 2 in it, and 51 less 2 is 49, which is seven sevens.
+
+- **Feintley** is Fermat's test, written to Frenicle in 1640 with no
+  proof and proved by Euler in 1736. A number n raises a base a to the
+  power n - 1 modulo n, and a prime lands on one for every base it
+  does not divide, because the multiples a, 2a and on to (p - 1)a
+  leave the remainders 1 to p - 1 once each, so their product forces
+  the power to one. Composites mostly fail, but 116 of the settings
+  here pass and are liars for that base, 341 the first on base two,
+  and a few pass on every base they share no factor with: Korselt gave
+  the rule for those in 1899 and Carmichael found the first in 1910,
+  so they carry his name. The Failing Prime ships hopeless because
+  that count of remainders leaves no prime out.
+
+- **Feltmere** is Todd Ebert's hat question from 1998. Three villagers
+  in a ring get a black or a white hat by the toss of a coin, each
+  seeing the other two hats and never their own. At a word they all
+  speak at once, each naming a colour or holding their tongue, and the
+  village wins if at least one names a colour and every colour named
+  is right. Six in eight is the best any agreement does, and four of
+  the 531,441 agreements manage it; the plainest of those four is to
+  speak only when the two hats you see match, then name the other
+  colour. The Seven ships hopeless because a word is wrong on one of
+  the two hattings its sight allows, so a lost hatting swallows at
+  most three wrong words, and three words win at most three hattings.
+
+- **Flagstead** is the British flag theorem, named for the four lines
+  from the peg to the corners. A hall has a post at each corner and a
+  peg stands anywhere, inside the hall or well outside it. Square the
+  distance from the peg to each post and add the opposite pairs, A
+  with C against B with D: the two sums come to the same thing every
+  time. It wants square corners and nothing else. Multiply the
+  brackets out and the two sums are one expression, because what the
+  near wall takes off one pair the far wall gives back to the other.
+  The Leaning Hall ships hopeless because a far wall leaned over by
+  two parts the sums by four times the width wherever the peg stands,
+  and no hall the dials allow has a width of nought.
+
+- **Flitwell** is Shapley and Scarf from 1974, who credited the rings
+  to Gale. Four tenants live on a lane, each owning the cottage they
+  start in and each with an order they would rather live in. Any group
+  may walk out and share out the cottages that group owns and no
+  others. Exactly one lane is firm, meaning no group can leave with
+  one member better off and nobody worse, and it is found without
+  trying a lane: everybody points at whoever owns the cottage they
+  want most, the pointing closes into rings, and each ring takes what
+  it points at and leaves. The Better Lane ships hopeless because the
+  first ring already holds the cottage its tenants want most of all
+  four, and beating a lane means bettering every tenant in it.
+
+- **Footbury** is Wallace from 1799, a finding that goes under
+  Simson's name, with Euler's measure from 1763. Set a triangle's
+  three corners on a circle, pick any point of the field, and drop a
+  foot from it onto each of the three side-lines, the nearest point
+  of the line. The three feet lie in a line exactly when the point is
+  on the circle. Euler had the size of it: the triangle of the feet
+  is to the big triangle as the square of the radius less the square
+  of the point's distance from the middle is to four times the square
+  of the radius, a quarter at the middle and nought on the rim. The
+  Line Off the Rim ships hopeless because that share is nought on the
+  rim and nowhere else, so a point off the rim has its feet apart.
+
+- **Gablewick** is Heron of Alexandria on triangles with whole sides
+  and a whole area. Heron wrote the area in the sides alone: sixteen
+  times the area squared is the perimeter times the perimeter less
+  twice each side in turn. A triangle with whole sides therefore has
+  an area that is whole or a square root that is not, and only ten of
+  the 372 triangles to fifteen come out whole, 3-4-5 with 6 up to
+  13-14-15 with 84. Every whole area is a multiple of six and every
+  whole-area triangle has an even side. The Three Odds ships hopeless
+  because three odd sides leave the perimeter and the perimeter less
+  twice each side all odd, and an odd product is never sixteen times
+  anything.
+
+- **Halfstead** is Zeno, who set the paradox in the fifth century BC.
+  A runner covers half of what is left at every step: half, then a
+  quarter, then an eighth, and on. After seven steps 127/128 is
+  behind and 1/128 ahead; after twenty, 1/1,048,576 ahead. The sum of
+  the first n steps is 1 less 1/2 to the n, which comes as near to 1
+  as you please, so the endless steps add up to exactly the whole
+  though no step is the last. Any share does the same: nine tenths of
+  what is left each time leaves a tenth, a hundredth, a thousandth.
+  The Wall ships hopeless because the rest of something is something,
+  so what is left is never nothing.
+
+- **Haltwick** is the paradox of the wait, which Feller set down in
+  1966. Three buses an hour, the gaps between them adding to sixty
+  minutes, and a passenger arriving at any minute of the hour waits for
+  the next bus. With the gaps equal, twenty apiece, the average wait is
+  9 1/2 minutes, half a gap less half a minute; bunch the buses and it
+  grows, up to 27 11/20 minutes with two of them a minute apart, though
+  the buses are three an hour still, since a wide gap catches more
+  passengers and keeps each of them longer. The Short Wait ships
+  hopeless because the average of squares is never below the square of
+  the average, so three gaps adding to sixty square to 1,200 at least
+  and the waiting in an hour comes to 570 minutes at least.
+
+- **Hedgemere** is Camille Jordan from 1869, published in "Sur les
+  assemblages de lignes". Seven posts are joined by paths, no path
+  running in a loop and no post cut off. Strip every post that has a
+  single path left, all at once, and the hedge shrinks inward a ring;
+  keep going and it comes down to one post standing, or to two. Walk
+  from one end of the longest path to the other: every round takes a
+  post off each end of that walk, so what survives is what lies
+  halfway along it. The Three Middles ships hopeless because a walk
+  of an even number of steps has one post at its halfway mark and a
+  walk of an odd number has two, and a line has no third place to
+  stand halfway.
+
+- **Hookmere** is Frame, Robinson and Thrall from 1954. Eight boxes
+  lie in a staircase, rows left aligned and each row no longer than
+  the one above it, and a filling numbers the boxes 1 to 8 so the
+  numbers rise along every row and down every column. Every box
+  carries a hook: itself, the boxes to its right in its row, and the
+  boxes below it in its column. Multiply the eight hooks, divide
+  40,320 by the answer, and that is exactly how many fillings the
+  staircase has. Against the Hooks ships hopeless because the hooks
+  and the count worked out in full agree on all 22 staircases of
+  eight boxes, and on the staircases of nine boxes and ten as well.
+
+- **Hoopwell** is Cauchy from 1813, proved again by Davenport in 1935
+  without his knowing of it; Davenport found Cauchy's proof in 1947.
+  Seven holes sit round a hoop, numbered 0 to 6, with counting past 6
+  coming back to 0. Lay dark stones in some holes and pale stones in
+  some holes, and a lamp lights at every hole that is a dark hole
+  plus a pale hole. However the stones are laid, the lamps come to at
+  least the two stone counts added with one taken off, or the whole
+  hoop if that is fewer. Seven being a prime is the whole of it:
+  stepping round by the gap between two dark stones passes through
+  every hole before it comes back. Four Alight ships hopeless because
+  two dark stones and four pale have a floor of five lamps.
+
+- **Hustingsby** is Bertrand from 1887. Ash polls a ballots and Birch
+  polls b, a more than b, and the ballots come out of the box in some
+  order: in how many orders is Ash ahead after every single ballot?
+  The answer is the majority over the poll of them, (a - b)/(a + b)
+  of the C(a+b, a) orders. The reflection says why: a good order must
+  start with an Ash ballot, and of the orders that start so, the ones
+  that touch level later mirror one to one onto the orders starting
+  with Birch. Level allowed, the orders that never put Ash behind are
+  (a - b + 1)/(a + 1) of the whole, Catalan's numbers when the poll
+  is level. The Level Poll ships hopeless because four Ash and four
+  Birch end level, so no order keeps Ash ahead after the last ballot.
+
+- **Kitewick** is the Aztec diamond and its slatings. The kite of order
+  n holds the cells within n of the middle by the taxi-cab measure,
+  2n(n+1) of them, and you lay two-cell slates over pairs of cells side
+  by side until the kite is covered. The number of ways is two to the
+  n(n+1)/2: 2, 8, 64, 1,024 and 32,768 for the orders one to five, and
+  the game lays every one of them out from the first bare cell on
+  rather than taking the formula's word for it. Sorted by how many
+  slates lie across rather than hang down, the slatings fall along a
+  row of Pascal's triangle, 1, 3, 3, 1 for the order two. The One
+  Across ships hopeless because every row of the kite is even, so the
+  count of slates lying across is even too, and one is not.
+
+- **Kithwell** is Feld from 1991. Average everyone's number of friends
+  among six people, then name every friendship from both ends and
+  average the friends named. The second is never below the first,
+  because a person with k friends is named k times, so the friends'
+  average is the sum of the squares of the counts over their sum,
+  which is the plain average plus the spread of the counts over the
+  average. The game sweeps all 32,768 plans and finds the friends'
+  average twice on each of the 32,767 with a friendship. The two are
+  level on the 171 plans where everyone has the same number of
+  friends, and widest apart at 1 1/3 on the six stars. The Popular Few
+  ships hopeless because a spread is never below nought.
+
+- **Knaveley** is Raymond Smullyan's knights and knaves, from What Is
+  the Name of This Book? in 1978. A knight says nothing but the truth
+  and a knave nothing but falsehood, each villager makes a telling
+  about the others, and a naming holds when every villager's kind
+  matches the truth of that villager's telling. Some sets of tellings
+  are held by one naming, some by several, some by none: of every set
+  three villagers could make from the fourteen this island allows,
+  2,744 in all, 1,361 are held by none, 1,048 by exactly one, 323 by
+  two, 10 by three and 2 by four. The Paradox ships hopeless because
+  Alder says "I am a knave", which a knight would be saying falsely
+  and a knave truly.
+
+- **Knowsley** is Freudenthal's puzzle from 1969, which Gardner called
+  the impossible puzzle. Two whole numbers, each 2 or more, the
+  smaller below the larger and the two adding to 100 at most; S is
+  told the sum, P the product, and they speak in turn: P does not know
+  the numbers, S knew he did not, P now does, S now does too. The game
+  takes all 2,352 pairs, asks the four things of each, then sieves the
+  whole set again by each thing said in turn: 1,747 leave P in the
+  dark, 145 add to one of the ten sums S could speak for, 86 let P
+  then know, and one lets S know too, 4 and 13, sum 17 and product 52.
+  The Even Sum ships hopeless because every even sum from 8 to 100
+  splits into two different primes, whose product tells P at once.
+
+- **Ladderby** is Pappus of Alexandria from around the year 340, which
+  Hilbert took in 1899 as a foundation stone of geometry. Pick three
+  pegs on each of two rails, draw the six cross-joins, A to b with a
+  to B and the same for the other two pairs, and the three crossings
+  lie on one line whatever pegs were picked. It cares only about
+  points and lines, never about lengths or angles. The game takes all
+  112,896 orderings of three pegs on each rail, finds each crossing by
+  the general meeting of two lines and again by a closed form for
+  parallel rails, and gets the same answer on all 85,008 orderings
+  whose joins cross, 14,168 hexagons counted once each. The Bent Line
+  ships hopeless because no hexagon of the 14,168 bends.
+
+- **Lampfield** is the Varshamov and Tenengolts code from 1965, which
+  Levenshtein showed the same year will mend a lost lamp. Eight lamps
+  stand down a valley, lit or dark, and a message is in the code when
+  the places of the lit lamps add to nothing over nine. Then any one
+  lamp can go out and the reader still gets the message back, without
+  being told which lamp went or whether it had been lit: the shortfall
+  in the sum says both. 30 of the 256 messages are in the code, more
+  than any of the other eight sums manages, and the game sends each of
+  the 30 with each of its eight lamps put out in turn, 240 readings.
+  Fool the Reader ships hopeless because no two messages in the code
+  look the same with a lamp out, so the reader never has a choice.
+
+- **Leverstow** is Parrondo's paradox, put by Juan Parrondo in 1996 and
+  written up by Harmer and Abbott in Nature in 1999. Lever A is a
+  plain coin toss; lever B pays one time in ten when three divides the
+  purse and three times in four otherwise, and on its own it rests on
+  the remainders in the shares 5/13, 2/13 and 6/13, so it is fair too.
+  Yet a loop of the two climbs. The game takes every loop of twelve
+  slots or fewer, 8,190, and solves each climb twice: 8,154 climb, 36
+  stand still, none sinks. The loop Parrondo told it with, A once and
+  B twice, gains 2416/35601 of a coin a round. One Lever Forever ships
+  hopeless because A is a coin toss and B on its own cancels itself,
+  five times four fifths against eight times a half.
+
+- **Linesby** is Euler from 1765. A triangle's centroid, where its
+  medians cross, its circumcentre, the middle of the circle through
+  its corners, and its orthocentre, where its altitudes cross, lie on
+  one line, the centroid a third of the way from the circumcentre to
+  the orthocentre, so that H = A + B + C - 2O. The game keeps every
+  centre as an exact fraction and sweeps all 17,600 triangles of the
+  seven-by-seven field, working the orthocentre from the altitudes and
+  again from that identity; the two agree on all of them. The One
+  Point ships hopeless because one point for all three centres makes
+  the triangle equilateral, and none stands on pegs: the tangent of
+  sixty degrees is the square root of three, which is no fraction.
+
+- **Lotwick** is Vickrey from 1961. A beast goes to the highest sealed
+  bid, but the winner pays the second bid rather than his own, so your
+  own bid never sets the price. It settles only whether you win. Push it
+  above what the beast is worth to you and the extra beasts it takes are
+  exactly the ones where the best rival bid already sits at or above the
+  worth, so you gain nothing, and you lose whenever that rival bid is
+  above the worth. Pull it under the worth and the beasts it drops are
+  exactly the ones you would have taken and been in pocket on. Outbid
+  the Truth ships hopeless because neither direction can gain, so the
+  dial has nowhere better to sit than the worth.
+
+- **Meetingham** is Ceva from 1678. A field has corners A, B and C, a
+  gate on each side, and a lane from each corner to the gate on the far
+  side. The three lanes meet at one point exactly when the three ratios
+  the gates cut their sides in, BD to DC, CE to EA and AF to FB,
+  multiply to one. The medians do it, 1 times 1 times 1, and meet a
+  third of the way up and across, at (4, 4) on the field of twelve. Of
+  the 1,331 settings of the gates at whole paces, 31 meet, and every one
+  of the 31 has a gate at the middle of its side. The Thirds ships
+  hopeless because three gates a third along, the same way round, give
+  1:2 times 1:2 times 1:2, which is 1:8 and not one.
+
+- **Mintcombe** is Lekkerkerker from 1952 and Zeckendorf from 1972. The
+  mint strikes coins of 1, 2, 3, 5, 8, 13, 21, 34, 55 and 89, each the
+  two before it added, and the purse holds one of each. A picking is
+  tidy when no two of its coins sit side by side on the rack. Every
+  price from nought to 143 is paid tidily in exactly one way, and the
+  way is the greedy one: the dearest coin not over what is left, again
+  and again. The reason is a run of alternate coins, 55, 21, 8, 3 and 1
+  adding to 88, one short of the 89 above them. The Held-Back Coin ships
+  hopeless because with the 89 kept back the tidy purse pays 88 at most,
+  and the price asked for is 90.
+
+- **Ninebury** is casting out nines. Add the digits of a number, then
+  the digits of that, until one digit is left: 738 gives 7 + 3 + 8 = 18
+  and 1 + 8 = 9, its root. That root is the remainder by nine, with nine
+  standing for nought, because 10, 100 and 1,000 are each one more than
+  a multiple of nine, so a digit in any place counts for itself alone.
+  The old check on sums and products is just this: the root of a sum is
+  the root of the roots added, the root of a product the root of the
+  roots multiplied, and a slip that changes the root shows. The Square
+  Five ships hopeless because a square's root is the root of its root
+  squared, and 1 to 9 squared root 1, 4, 9, 7, 7, 9, 4, 1 and 9, so five
+  never comes.
+
+- **Oddsworth** is the odd numbers and the squares. Add them from 1 and
+  squares come out: 1, then 1 + 3 = 4, then 1 + 3 + 5 = 9, each new odd
+  number an L of dots laid round the last square to make the next. Start
+  the run higher and the sum is one square less another, the smaller
+  square being the odd numbers left off, so 5 + 7 + 9 is 25 less 4,
+  which makes every run of consecutive odd numbers a difference of two
+  squares. The Thirty ships hopeless because an odd count of odd numbers
+  is odd and an even count pairs off, each pair of neighbours a multiple
+  of four, so no run reaches a number two past a multiple of four; 28
+  and 32 are runs, two either side of it.
+
+- **Onesby** is Mersenne's numbers. Write p ones in binary and you have
+  2 to the p less 1: three ones are 7, five ones 31, seven ones 127, all
+  prime. If p is a times b then the row of a ones divides the row of p
+  ones, since 2 to the ab less 1 is 2 to the a less 1 times a sum of
+  powers, so a prime row needs a prime length. A prime length is not
+  enough, eleven ones being 2,047, which is 23 times 89. Every prime row
+  makes a perfect number, 2 to one less than p, times the row, as Euclid
+  showed, and Euler showed every even perfect number comes so. The
+  Composite Row ships hopeless because the row of a shorter length
+  divides it, four ones being 3 times 5 and nine ones 7 times 73.
+
+- **Penfold** is Cerny from 1964. Four fields hold four sheep, and a
+  whistle moves every sheep at once, each by where that whistle points
+  its field; two sheep that land in the same field stay together from
+  then on, so a flock only ever gets smaller. A fold can be gathered
+  into one field exactly when every two sheep can be brought together.
+  One way round is plain, since gathering four gathers any two; the
+  other goes by bringing two together, treating the pair as one sheep,
+  and bringing that to a third. Cerny also built the fold of four fields
+  that needs the longest call, nine whistles. The Turning Fold ships
+  hopeless because both its whistles send each field to a field of its
+  own, so no two sheep ever land together.
+
+- **Pennyford** is six pennies round a penny. Set a coin against a
+  middle coin of the same size and the two centres with the centre of
+  the next coin round make a triangle of equal sides, so each ring coin
+  takes sixty degrees of the turn as seen from the middle. Six fit
+  exactly, touching all round, and a seventh never, since seven sixties
+  are more than a turn. A smaller ring coin takes less, twice the
+  arcsine of its radius over the two radii added, and as many fit as
+  that goes into a full turn: twelve ones round a three, twenty-one
+  round a six. The Seven Pennies ships hopeless because a ring coin as
+  big as the middle takes a sixth of the turn and a bigger one takes
+  more.
+
+- **Pippinstow** is Euclid's orchard: ten rows and ten files, a tree at
+  every crossing, a watcher at the gate. A tree is in sight when no
+  other tree stands on the straight line to it. The tree at file a and
+  row b is in sight exactly when a and b share no factor, because a
+  nearer tree sits on that line only when its file and row are a
+  fraction of a and b, which is a common factor at work, and a tree in
+  sight hides its multiples. Of the hundred trees 63 are in sight and 37
+  hidden, thinning towards six in ten by Cesaro's count as the orchard
+  grows. The Hidden Edge ships hopeless because a tree one step up has
+  nothing on the line to it: anything in the way would stand less than
+  one step up.
+
+- **Pumpwick** is houses along a lane and a pump to stand somewhere on
+  it. Everybody walks to the pump, so what counts is the distances added
+  up, and that total is least at the middle house rather than at the
+  average of the houses. The reason is a step: roll the pump one spot
+  along and every house behind it is a spot further off while every
+  house ahead is a spot nearer, so the total changes by the houses
+  behind less the houses ahead. It falls while more houses lie ahead and
+  rises once more lie behind, so the least sits where the two counts
+  even out. Beat the Middle ships hopeless because it asks for less
+  walking than the least there is.
+
+- **Pursebury** is two purses and a coin, tossed a coin at a time until
+  one purse is empty. With a fair coin Ash takes the whole pot exactly
+  as often as his share of it: his chance from any purse is the average
+  of his chances a coin up and a coin down, so it climbs in a straight
+  line from nothing at an empty purse to everything at the whole pot,
+  and the duel lasts the two purses multiplied on average. A coin
+  against him sags that line and a coin for him bows it. The Even Duel
+  Against the Coin ships hopeless because his chance against the coin is
+  2 to his purse less 1 over 2 to the pot less 1, and an odd number
+  underneath is never twice the number over it.
+
+- **Queenscote** is queens set to watch a board. A queen sees her own
+  square and every square along her row, her column and her two slants,
+  and the question is how few queens see every square. Two do it on the
+  four by four, three on the five and the six, four on the seven, five
+  on the chessboard; five watch the chessboard in 4,860 ways and four
+  never do, every one of their 635,376 placings leaving a square unseen
+  and the best of them two. There is no short reason for the four, so
+  the sweep is the reason, and it is done twice over. The Lone Queen
+  ships hopeless because one queen sees 12 of the sixteen squares at
+  most, from the middle four, and 10 from a corner.
+
+- **Reckonby** is a counting house with five wheels, no two the same
+  size: the first turns 0 or 1, the second 0 to 2, and on to the fifth
+  turning 0 to 5, and a turn of each is worth 1, 2, 6, 24 and 120, the
+  factorials. The 720 settings read the 720 numbers from nothing to 719,
+  each of them exactly once, because the wheels under any one wheel,
+  even at their tops, come to one less than that wheel is worth, so they
+  can never make up a difference. Seven Hundred and Twenty ships
+  hopeless because k times k factorial is (k + 1) factorial less k
+  factorial, so the wheels at their tops fold up to 6 factorial less 1,
+  which is 719, and there is nothing above it to read.
+
+- **Rickmere** is Napoleon's theorem, which Rutherford printed in The
+  Ladies' Diary in 1825. Three posts on a green make a field, an even
+  triangle is raised outward on each of its three sides, and a marker
+  goes at the middle of each one. The three markers always make an even
+  triangle: not nearly even, exactly even, wherever the posts stand.
+  Raising an even triangle on a side means turning that side by sixty
+  degrees, and the sine of sixty is half the root of three, so every
+  marker sits at a place of the form a plus b roots of three with a and
+  b exact fractions. The Uneven Three ships hopeless because the root of
+  three is not a fraction, so two such places agree only when both
+  halves agree, and equal means equal.
+
+- **Rimsbury** is a coin rolled round another. Roll a coin once round
+  one of the same size and it turns twice, not once: its rim unrolls
+  along the hoop's, the two rims being the same length, and that is one
+  turn, but the coin has also been carried once round the hoop, and the
+  carrying is a turn more. So the turns are the hoop over the roller and
+  one more round the outside, or one less round the inside, where the
+  carrying goes against the rolling. The Once ships hopeless because
+  round the outside the turns are one and the hoop over the roller,
+  always more than one, and the nearest setting on the dials is a hoop
+  of one and a roller of six at 7/6 of a turn.
+
+- **Ringfold** is the Pisano period, which Lagrange saw in 1774. Write
+  the Fibonacci numbers and cut every one down to its hour on a clock of
+  m hours: on the three-hour clock they run 0, 1, 1, 2, 0, 2, 2, 1, and
+  then 0, 1 comes round and the run repeats. It must repeat, since there
+  are only m times m pairs of hours, so some pair comes twice, and the
+  walk can be run backwards, each number the next less the one before,
+  so the first pair to come twice is 0, 1 itself. The period is 3, 8, 6,
+  20, 24, 16, 12, 24, 60 for two to ten hours. The Odd Period ships
+  hopeless because Cassini's identity turns its sign every step and
+  comes back to plus one at the period, so the period is even on every
+  clock past two.
+
+- **Rodwell** is the whole-number face of an old rule: a fixed sum
+  multiplies best when its parts are all equal. A rod marked off in
+  hands is cut into whole parts and the parts multiplied together, and
+  the best cutting is always threes, with a four or a two left over when
+  the rod does not divide by three. Three lines of arithmetic settle it:
+  a part of five or more does better cut into a three and the rest, a
+  one is wasted because it multiplies nothing, and three twos should be
+  two threes because nine beats eight. If the parts could be any length
+  at all they would each be e long, and three is the whole number
+  nearest that. Beat the Threes ships hopeless because none of the
+  32,768 cuttings of the rod of sixteen gets past 324.
+
+- **Roostwick** is cuckoo hashing, which Pagh and Rodler published in
+  2001, drawn as a graph. Six hollows in a bank, and each bird is
+  tethered between two of them and sits in one; tapping a bird sends it
+  along its tether to the other hollow. Whether every bird can get a
+  hollow of its own is settled by looking rather than by trying: follow
+  the tethers, let the hollows fall into patches, and the wood settles
+  exactly when no patch holds more birds than hollows. A patch with a
+  hollow to spare settles one way for each hollow it can leave empty; a
+  patch carrying a ring fills every hollow it touches and settles two
+  ways, the ring turning one way or the other. The Shared Tether ships
+  hopeless because the patch A B holds more birds than hollows.
+
+- **Rootley** is the primitive root, as Euler named it, and a rule Gauss
+  proved in 1801. Start at 1 on a clock of so many hours, multiply by
+  the base, read the hour the product lands on, and go round again: on
+  the seven-hour clock the base 3 walks 1, 3, 2, 6, 4, 5 and comes home
+  on the sixth step, having touched every hour but 0. The base 2 walks
+  1, 2, 4 and is home in three, and a base sharing a factor with the
+  clock never comes home at all. Gauss settled which clocks have a full
+  base: 2, 4, a power of an odd prime, or twice one, and no other. The
+  Eight ships hopeless because every odd number squared is one more than
+  a multiple of eight, so 3, 5 and 7 come home on the second step and no
+  base touches more than two of the clock's four odd hours.
+
+- **Ropeford** is Bertrand's postulate: for every n above 1 there is a
+  prime p with n < p < 2n. Joseph Bertrand stated it in 1845 after
+  checking the numbers up to three million; Pafnuty Chebyshev proved it
+  in 1850 and printed the proof in 1852; Srinivasa Ramanujan gave a
+  simpler proof in 1919, and Paul Erdos a short elementary one in 1932.
+  So on a ford whose dry stones are the primes, crossed with a rope
+  reaching from stone n as far as 2n, the numbers never strand you; the
+  ford still can, since it stops at 120 and the next dry stone above 113
+  is 127. What the postulate does not say is where the dry stone will
+  be. The Long Shallows ships hopeless because the seven stones from 90
+  to 96 are all mossy, 91 being 7 times 13 and 93 being 3 times 31.
+
+- **Roundhithe** is a theorem Dirac proved in 1952. Six villages,
+  fifteen possible roads, and a round trip goes through every village
+  once and comes home. Dirac's rule is that if every village has half
+  the others as neighbours at least, three of the five here, a round
+  trip is there whatever the roads: take a longest walk that repeats no
+  village, every neighbour of either end is on it or the walk could be
+  longer, and with three neighbours each the two ends have roads enough
+  to close the walk into a ring, which could then be opened and
+  stretched to take in any village it missed. Ore widened it in 1960: it
+  is enough that any two villages not joined have six roads between
+  them. The Three Each ships hopeless because Dirac's rule forbids it.
+
+- **Sackford** is bin packing. Sacks of so many stone go into carts that
+  carry ten, and the ask is the fewest carts that take them. No quick
+  rule always finds the fewest, so the game searches every loading, sack
+  by sack into a cart in use or a fresh one, telling them apart by the
+  weights each cart carries. The weight over ten, rounded up, is a floor
+  no loading beats. The carrier's rule, heaviest first into the first
+  cart with room, is quick and never needs more than eleven ninths of
+  the fewest carts and two thirds of a cart besides, Johnson's bound,
+  but it slips: on four of the 3,003 loads of six sacks of one to nine
+  stone it needs a cart too many. The Thirty-One ships hopeless because
+  its sacks weigh thirty-one stone and three carts carry thirty.
+
+- **Sevenby** is the arithmetic of repeating decimals and Midy's
+  theorem. Divide 1 by 7 the long way and the digits come 1, 4, 2, 8, 5,
+  7 and then round again, since the remainders run 1, 3, 2, 6, 4, 5 and
+  come back to 1. Every fraction over a prime other than 2 and 5 repeats
+  so, and the block's length is how many steps 10 takes to come back to
+  1 on the p-hour clock, a divisor of p - 1. When the block is the whole
+  p - 1, as for 7, 17, 19, 23, 29 and 47, the block times p is a row of
+  nines and every k over p reads the same digits from another start.
+  Whenever the block is even, Midy's theorem says the two halves add to
+  nines: 142 plus 857 is 999. The Long Turn ships hopeless because only
+  p - 1 remainders exist, so one must come again inside p - 1 steps.
+
+- **Sharewick** is a law Erdos, Ko and Rado proved in 1961. Six friends
+  have twenty trios among them, and the ask is to pick trios so that
+  every two of them share a friend. Two trios of six friends miss each
+  other only when one is the other three, so the twenty trios fall into
+  ten missing pairs, and a sharing family takes one trio of each pair at
+  most, which stops it at ten. The general law is that among the k-sets
+  of n things, n at least 2k, a family in which every two meet has at
+  most as many sets as hold one fixed thing, the star, and for n above
+  2k the star is the only family that large. Here n is twice k, so the
+  stars are six of 1,024 families as large. The Eleven ships hopeless
+  because there are only ten missing pairs to draw one trio from.
+
+- **Shortcombe** is Braess from 1968. Two roads run from Start to End,
+  one over the top junction and one under the bottom, and the crowd
+  splits evenly and takes 45 minutes plus half the crowd. Then a
+  shortcut opens from top to bottom taking no time at all, and every
+  driver under forty-five hundred takes it, since top, across and
+  bottom costs the two variable roads and no fixed one whatever the
+  others do. Forty hundred drivers go from 65 minutes each to 80, and
+  nobody can do better alone. The Big Crowd Helped ships hopeless
+  because the shortcut only speeds a crowd up under thirty hundred,
+  makes no odds at thirty and hurts every crowd past it, by 22 minutes
+  at forty-six, the most.
+
+- **Shuntbury** is Sam Loyd's unpaid thousand dollars. Eight wagons sit
+  on a three-by-three yard with one empty berth, and the only move is a
+  shunt: a wagon beside the gap slides into it. Count the pairs of
+  wagons out of order, reading the yard row by row. A sideways shunt
+  leaves that count alone, and an up-or-down shunt jumps one wagon over
+  the two between it and the gap, changing the count by two or by
+  nought, so the count stays even or stays odd whatever is shunted.
+  Home has nought pairs out of order, so only the even yards can ever
+  get there, 181,440 of the 362,880 arrangements. The Swapped Pair
+  ships hopeless because two wagons swapped leave one pair out of
+  order, an odd count, and no shunt makes it even.
+
+- **Skeinwell** is Ronald Foster from 1949. Five greens have lanes laid
+  between them, and a stringing is a set of lanes that joins every
+  green up without closing a loop; it always takes four lanes, because
+  four is what it takes to join five greens that way. A lane's share is
+  the fraction of the village's stringings that run along it. Add the
+  shares over all the lanes and you have counted the lanes of every
+  stringing once each, four apiece, over the number of stringings, so
+  the sum is four however the lanes lie. Foster wrote it about one ohm
+  wires, where a lane's share is the resistance across it. More Than
+  Four ships hopeless because every stringing uses four lanes, so the
+  shares can only add to four.
+
+- **Sliverton** is Edward Routh, from his statics treatise of 1891. A
+  triangle field is marked off in twelfths and a cut runs from each
+  corner to a mark on the far side. The three cuts cross in three
+  places and leave a sliver in the middle, whose share of the field
+  depends only on the ratios the marks divide the sides in: the square
+  of xyz less one, over (xy + x + 1)(yz + y + 1)(zx + z + 1). Cut to
+  the two-thirds mark on every side and the share is a seventh. The
+  sliver comes to nothing on 31 of the 1,331 settings, exactly the ones
+  where the three cuts meet at a point, which is Ceva from 1678. The
+  Sly Vanishing ships hopeless because a sliver with no area has its
+  three corners at one point, and that point sits on all three cuts.
+
+- **Squarewell** is Euler from 1748. Square every base on a prime clock
+  and read the hour it lands on: on the seven-hour clock 1, 2, 3, 4, 5
+  and 6 square to 1, 4, 2, 2, 4 and 1. A base and its opposite always
+  land together and no third base joins them, so exactly half the hours
+  but 0 are squares. Euler's test needs no squaring: raise the hour to
+  the (p - 1) / 2 and it comes to 1 if the hour is a square and to one
+  short of the clock if not, never anything else. From it come the
+  rules that one short of the clock is a square only on clocks one more
+  than a multiple of four, and two only on clocks one more or one less
+  than a multiple of eight. The Two of Eleven ships hopeless because
+  the squares on eleven are 1, 3, 4, 5 and 9, and 2 is not among them.
+
+- **Stickerwick** is the sticker album. Stickers come one to a packet
+  at random, each as likely as the rest. The first packet is always
+  new; once k of the n are held, a new one comes with chance
+  (n - k)/n, so it takes n/(n - k) packets on average, and the whole
+  set takes n/n + n/(n - 1) + ... + n/1, which is n times the n-th
+  harmonic number: 14.7 packets for six stickers, 29.28 for ten, and it
+  grows like n times the log of n. The last sticker alone takes n
+  packets on average, the slowest by far. The Certain Album ships
+  hopeless because no count of packets makes a set of two or more
+  certain: the same sticker could come every time, and a set of six is
+  still short after sixty packets one time in ten thousand.
+
+- **Stubwick** is Hans Peter Luhn of IBM, 1954. A ticket of five digits
+  ends in a check digit: from the right, double every second digit,
+  take nine off a double past nine, add the lot, and the ticket passes
+  when the sum ends in nought. It sits on bank cards to this day. One
+  slip of a digit is always caught, since in a plain place the sum
+  moves by the difference of the digits and in a doubled place the
+  doubling takes the ten digits to 0, 2, 4, 6, 8, 1, 3, 5, 7 and 9,
+  every digit once. Two neighbours swapped are caught unless they are 0
+  and 9, and a twin pair 22, 33 or 44 turned to 55, 66 or 77 slips
+  through. The Slip Unseen ships hopeless because no two digits double
+  alike, so turning one dial always moves the sum.
+
+- **Sunderby** is Euler from 1748, with Glaisher's folding for the why.
+  Sunder a number into parts with the order set aside: 4 is 4, 3 + 1,
+  2 + 2, 2 + 1 + 1 and 1 + 1 + 1 + 1, five ways. Euler found that a
+  number sunders into parts all different in exactly as many ways as
+  into parts all odd. Glaisher's folding says why: take an all-odd
+  partition, merge two equal parts into one part twice the size, and go
+  on until no two are alike, and the parts end all different; unfold
+  the other way and every all-different partition comes from exactly
+  one all-odd one. The Odd Evens ships hopeless because even parts add
+  up to an even number however many there are, and nine is odd.
+
+- **Tabormere** is Toussaint from 2005. Hits spread round a ring of
+  steps as evenly as they can go: when the steps are a multiple of the
+  hits every gap comes out the same, and when they are not the gaps come
+  in two sizes a step apart, and so do the spans of two gaps, of three,
+  and of every count round. That is what even means here, and the
+  rhythms that manage it are exactly the ones Euclid's rule lays down,
+  hit i at the floor of i n/k, together with their turnings. The
+  tresillo, the cinquillo, the bossa clave and the bembe bell are all of
+  them Euclid's. The Even Tresillo ships hopeless because three equal
+  gaps would have to add up to eight, and eight into three won't go.
+
+- **Threadwick** is nails round a hoop and a thread that skips. The
+  thread goes from nail to nail skipping the same count each time until
+  it comes home, and it comes home the first time its skips add up to
+  whole rounds, which is after the count of nails over the greatest
+  factor the count and the skip share. Share nothing and one stroke
+  touches every nail; share a factor and the thread comes home early,
+  and it takes as many strokes as the factor to touch them all. The Star
+  of David ships hopeless because six is two threes, and every skip that
+  could make a star of six shares one of them, so the six-pointed star
+  is two triangles and never one stroke.
+
+- **Threefold** is Viviani, who saw it in the 1600s. Stand anywhere on
+  an equilateral green and measure your distance to each of the three
+  sides: they add up to the height, wherever you stand. The reason is
+  that the three triangles you make with the sides fill the green
+  exactly, each is half a side times a distance, and the sides are all
+  alike, so the distances add to twice the area over the side, which is
+  the height. The Longer Walk ships hopeless because those triangles
+  fill the green and nothing more, so the distances add to the height
+  and never past it.
+
+- **Tithebury** is a number and the sum of its proper divisors. Add up
+  every divisor of a number but the number itself and you have its
+  tithe: most numbers get less than themselves back, some get more, and
+  three of the first five hundred get exactly themselves, 6, 28 and 496.
+  Those are the perfect numbers, each a power of two times one less than
+  the next power with that odd number prime, as Euclid built them. Two
+  numbers can also pay each other, 220 and 284. The Power of Two ships
+  hopeless because 1 + 2 + 4 and on up to half of a power of two is one
+  less than it, so a power of two always comes one short.
+
+- **Tosswell** is Doob's optional stopping theorem. Five tosses of a
+  fair coin take the purse a shilling up on heads and a shilling down on
+  tails, and before each toss you may walk away with what you have; the
+  rule for walking away is yours to mark on the lattice of standings.
+  Work back from the last row: at any standing the two tosses that leave
+  it are worth one more and one less and they are equally likely, so the
+  standing is worth what it holds, and walking away there is worth what
+  it holds as well. Marking a standing changes nothing, back to the
+  start where the purse holds nothing. The Sure Thing ships hopeless
+  because a rule that never went behind could only average nothing by
+  ending at nothing on every run, so it could never be ahead on any.
+
+- **Trebleworth** is Gauss from 1796, who wrote it in his diary as
+  Eureka: num = triangle + triangle + triangle. The triangular numbers
+  are the heaps of a triangle of stones, 0, 1, 3, 6, 10, 15, 21 and on,
+  each the last plus one more row, and every whole number is three of
+  them added, nought allowed. The reason runs through squares: eight
+  times a triangular number k(k+1)/2 plus one is (2k+1) squared, so n is
+  three triangular numbers exactly when 8n + 3 is three odd squares, and
+  it always is. The Five ships hopeless because below five the
+  triangular numbers are 0, 1 and 3, and their pairs add to 0, 1, 2, 3,
+  4 and 6, never five.
+
+- **Truckleford** is Knuth from 1968, in the first volume of The Art of
+  Computer Programming. Six wagons stand on the main line and there is
+  one siding: a wagon can roll straight past it and out, or be shunted
+  onto it, and a wagon on the siding can be sent out only if it is the
+  one at the points, which is the last one shunted. Say some wagon
+  leaves, then a smaller one, then one lying between them. When the
+  first left, the other two had already been shunted, the smaller of
+  them first, which leaves the middle one nearer the points and bound to
+  go out ahead of it. So the yard makes 132 of the 720 orders six wagons
+  can stand in, the Catalan number. Three, One, Two ships hopeless
+  because it is exactly that shape.
+
+- **Tuesleigh** is a family of two children and one thing told about
+  them. Told that one of them is a boy, the chance that both are boys is
+  not a half but a third, since boy-boy, boy-girl and girl-boy are three
+  families alike with a boy in them and one of the three has two. Told
+  that one of them is a boy born on a Tuesday, the chance is 13 in 27:
+  with seven days each child is one of fourteen kinds, 196 families
+  alike, twenty-seven of them have a Tuesday boy, and thirteen of those
+  are two boys, since two boys are two chances of a Tuesday. The Half
+  ships hopeless because with k tags the chance is 2k - 1 in 4k - 1, and
+  twice 2k - 1 is one short of 4k - 1.
+
+- **Wardsby** is gerrymandering worked out in full. Twenty-five
+  households sit on a five-by-five, each Blue or Red, and get drawn into
+  five wards of five, every ward in one piece; a ward goes to the side
+  with three or more of its five, and the vestry to the side with three
+  or more of the five wards. The game walks every drawing there is,
+  4,006 of them, and tells each one for the wards each side wins.
+  Packing the other side into wards it wins by five to nought, and
+  cracking your own across wards you win by three to two, is how ten
+  Blues in the two left columns win three wards in 276 drawings. The
+  Eight ships hopeless because a ward is won only with three votes in
+  it, so three wards take nine and eight Blues have eight.
+
+- **Yardwick** is Lucas from 1876. Two hedges grow, the first of the
+  mth Fibonacci length and the second of the nth, 1, 1, 2, 3, 5, 8, 13
+  and on, each the two before it added, and the game looks for the
+  longest yardstick that measures both without remainder. It is the
+  Fibonacci number of the common measure of the two counts, because
+  two Fibonacci numbers share exactly the factors their counts share:
+  the (m + n)th is the (m - 1)th times the nth plus the mth times the
+  (n + 1)th, so Euclid runs on the counts as it runs on the hedges.
+  Every pair of counts from one to thirty is taken, 900 settings. The
+  Odd Share ships hopeless because counts sharing no factor have one
+  for their common measure, and the first Fibonacci number is one.
 
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
