@@ -13,8 +13,9 @@ import 'support/foldland.dart';
 /// the game for somebody to look at: the real widget tree at real phone
 /// dimensions, drawn by the engine the app uses.
 ///
-/// Every whistle in them was blown by a tap on its button, so no
-/// standing pictured is one the game could not reach.
+/// Every whistle on an ask screen was blown by a tap on its button. The
+/// fold across the top of the sham shot is the mark, set four whistles
+/// into the long fold's call by hand rather than tapped.
 ///
 /// Run it with: make shots
 void main() {

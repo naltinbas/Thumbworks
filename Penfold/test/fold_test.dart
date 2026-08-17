@@ -134,13 +134,13 @@ void main() {
       expect(Rules.tellCall(play.call), 'R L L L R L L L R');
     });
 
-    test('the turning fold admits it after four standings', () {
+    test('the turning fold admits it after twelve whistles', () {
       var play = Play.of(Levels.at(4));
       for (var k = 0; k < 4; k++) {
         play = play.blow(0);
-        expect(play.spread, 4);
+        expect(play.spread, 4, reason: 'a turn never narrows the flock');
       }
-      expect(play.seen.length, greaterThanOrEqualTo(1));
+      expect(play.gaveUp, isFalse);
       var wander = Play.of(Levels.at(4));
       for (var k = 0; k < Play.gaveUpAt && !wander.gaveUp; k++) {
         wander = wander.blow(k % 2);

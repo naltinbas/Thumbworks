@@ -9,14 +9,12 @@ class Play {
     required this.level,
     required this.call,
     required this.flock,
-    required this.seen,
     required this.before,
   });
 
   Play.of(this.level)
       : call = const [],
         flock = 15,
-        seen = const {},
         before = null;
 
   /// A go standing part way through a call, no whistles counted: what
@@ -27,7 +25,6 @@ class Play {
           Rules.whole,
           call,
         ),
-        seen = const {},
         before = null;
 
   final Level level;
@@ -38,17 +35,13 @@ class Play {
   /// Which fields the sheep stand in.
   final int flock;
 
-  /// The places the flock has stood while still four wide.
-  final Set<int> seen;
-
   final Play? before;
 
   /// The whistles a hopeless ask runs to before the sham admits it.
+  /// There is nothing else to wait for: a fold whose whistles only turn
+  /// the fields round leaves the flock in the one standing it began in,
+  /// so the sham speaks when the whistles run out.
   static const gaveUpAt = 12;
-
-  /// How many standings a hopeless ask lets the player find before the
-  /// sham admits it.
-  static const enough = 4;
 
   int get moves => call.length;
 
@@ -60,15 +53,10 @@ class Play {
   /// Blows whistle [which].
   Play blow(int which) {
     if (isOver || which < 0 || which >= Rules.whistles.length) return this;
-    final next = Rules.after(whistles, flock, which);
-    final nowSeen = !level.winnable && Rules.spread(next) == Rules.fields
-        ? {...seen, next}
-        : seen;
     return Play._(
       level: level,
       call: [...call, which],
-      flock: next,
-      seen: nowSeen,
+      flock: Rules.after(whistles, flock, which),
       before: this,
     );
   }
@@ -77,10 +65,9 @@ class Play {
 
   bool get isDone => level.meets(flock);
 
-  /// A hopeless ask, admitted: the flock found standing [enough] ways
-  /// and still four wide, or [gaveUpAt] whistles blown.
-  bool get gaveUp =>
-      !level.winnable && (seen.length >= enough || moves >= gaveUpAt);
+  /// A hopeless ask, admitted: [gaveUpAt] whistles blown with the flock
+  /// no narrower than it started.
+  bool get gaveUp => !level.winnable && moves >= gaveUpAt;
 
   bool get isOver => isDone || gaveUp;
 

@@ -11,7 +11,7 @@ class Levels {
       length: 2,
       ways: 2,
       note: 'Two whistles are enough here, and two of the four calls of that '
-          'length do it: left then right, or right then left. One whistle '
+          'length do it: left then right, or right then right. One whistle '
           'never does here, since neither of them sends every field to the '
           'same one, and that is the only way a fold is gathered at a single '
           'blow. Of all 65,536 folds, 2,032 have such a whistle.',

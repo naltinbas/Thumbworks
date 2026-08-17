@@ -122,7 +122,7 @@ void main() {
         '${level.name} in ${play.moves} against ${level.length}');
   }
 
-  // The hopeless ask, worn down by the flock standing four ways.
+  // The hopeless ask, worn down by twelve whistles.
   var stuck = Play.of(Levels.all.last);
   for (var k = 0; k < Play.gaveUpAt && !stuck.gaveUp; k++) {
     stuck = stuck.blow(k % 2);

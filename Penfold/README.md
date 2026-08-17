@@ -36,8 +36,9 @@ to a field of its own, so no two sheep ever land together and the
 flock stays four wide however long you whistle. There are 576 folds
 like that, and all of them sit among the 14,016. Cerny's test says the
 same from the other end, since the sheep in fields 1 and 3 can never
-be brought together. The sham admits it once the flock has stood four
-different ways while still four wide, or after twelve whistles.
+be brought together. The sham admits it after twelve whistles: a fold
+of two turning whistles leaves the flock in the one standing it began
+in, so there is nothing else to wait for.
 
 ## Two voices
 
@@ -90,16 +91,17 @@ every fold of four fields and two whistles taken, 65,536 of them, and each one w
 
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
-every whistle in them was blown by a tap on its button, so no standing
-pictured is one the game could not reach. The logo and every launcher
-icon come out of `test/mark_test.dart`, drawn by the same painter: the
-mark is Cerny's own fold four whistles into its one call of nine, with
-the flock down to three fields.
+every whistle on an ask screen was blown by a tap on its button. The
+fold across the top of the sham shot is the mark, and the logo and
+every launcher icon come out of `test/mark_test.dart`, drawn by the
+same painter: the mark is Cerny's own fold set four whistles into its
+one call of nine, with the flock down to three fields, put there by
+hand rather than tapped.
 
 ## Building
 
 ```
-flutter test          # 42 tests, the sweep among them
-dart run tool/check_folds.dart
+flutter test          # 42 tests, the asks and the screens
+dart run tool/check_folds.dart   # the sweep of all 65,536, and the ledger
 flutter build apk     # or: flutter build ios
 ```
