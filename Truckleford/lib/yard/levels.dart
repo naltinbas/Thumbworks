@@ -19,8 +19,9 @@ class Levels {
       kind: 'last',
       ways: 42,
       aim: [2, 3, 4, 5, 6, 1],
-      note: '42 out-trains of the 132 leave wagon 1 until last, which is a '
-          'third of them, and 42 is the Catalan number for five wagons. That '
+      note: '42 out-trains of the 132 leave wagon 1 until last, a shade '
+          'under a third of them, and 42 is the Catalan number for five '
+          'wagons. That '
           'is no accident: shunt wagon 1 onto the siding at the start and the '
           'other five can then leave in any order that same siding can make.',
     ),

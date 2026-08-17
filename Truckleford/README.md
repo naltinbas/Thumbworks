@@ -23,7 +23,7 @@ shunted, and the only out-train the yard makes in six. The Reversal is
 the dearest, eleven taps, five wagons on the siding and the sixth
 rolled past them. 42 of the 132 out-trains leave wagon 1 until last,
 which is the Catalan number for the five wagons that then go out ahead
-of it. Three of them send 1, 3 and 5 out before 2, 4 and 6, and all
+of it. Three of the 132 send 1, 3 and 5 out before 2, 4 and 6, and all
 three begin 1, 3, 5. Three, One, Two is labeled hopeless on its tile,
 and the card at the end of the ask says why on a finger.
 
@@ -32,10 +32,10 @@ and the card at the end of the ask says why on a finger.
 Say some wagon a leaves, and later a smaller wagon c leaves, and later
 still a wagon b lying between them. When a left, b and c were both
 still to come and both smaller than a, so both had already been shunted
-onto the siding, b before c, since wagons are shunted in the order they
-stand. That leaves c nearer the points than b, so c has to go out
-first, and it does. But b is bigger than c and went out after it, which
-is exactly what the yard has just been shown to forbid.
+onto the siding, c before b, since wagons are shunted in the order they
+stand and c is the smaller number. That leaves b nearer the points than
+c, and only the wagon at the points can be sent, so b has to go out
+before c. But the out-train has c going out first. It cannot.
 
 So no out-train holds a wagon, then a smaller one, then one in between:
 nothing of the shape 3, 1, 2. Every other order the siding can make.
@@ -89,7 +89,8 @@ every order of every train from one wagon to eight taken, 46,233 orders in all, 
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
 every wagon in them was moved by working a lever, so nothing pictured
-is a yard the game could not reach. The logo and every launcher icon
+is a yard the game could not reach. The yard across the top of the sham
+shot is the mark rather than a run of levers. The logo and every launcher icon
 come out of `test/mark_test.dart` the same way: the mark is four taps
 into a run, wagons 1, 2 and 3 on the siding and wagon 4 rolled straight
 out.
