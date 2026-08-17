@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety-five games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-six games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -204,6 +204,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Laneford/assets/logo.png" width="64"><br><b><a href="Laneford">Laneford</a></b></div> | Stand the hamlets on the green so that no two lanes cross | Planarity and Euler's formula: hamlets less lanes plus faces comes to two, so a green of straight lanes with no crossings has at most 3v - 6 lanes, and at most 2v - 4 when the hamlets are of two kinds with lanes only between the kinds; three hamlets each laned to three is nine lanes over six hamlets of two kinds against a ceiling of eight, so the ninth always crosses; every placing of the hamlets on the grid is swept and every crossing judged by whole-number cross products, with Fary's theorem behind the straight lanes; The Three and the Three ships hopeless because Euler will not have it |
 | <div align="center"><img src="Candleford/assets/logo.png" width="64"><br><b><a href="Candleford">Candleford</a></b></div> | Add guests to the party and watch the chance of a shared birthday climb | The birthday paradox as exact fractions: with d days and n guests the chance that no two share is d(d-1)...(d-n+1) over d to the n, so the chance of a share passes a half at twenty-three guests, 50.7297 in a hundred, nine in ten at forty-one, ninety-nine in a hundred at fifty-seven, and certainty at 366 by the pigeonhole while 365 guests can still all differ; every party is worked in whole numbers and checked against a literal count of every way to give the guests a day on the small years; The Certain Party ships hopeless because 365 guests can always be kept apart |
 | <div align="center"><img src="Cornerstow/assets/logo.png" width="64"><br><b><a href="Cornerstow">Cornerstow</a></b></div> | Pave the yard with square flags, one of one, two of two and on, and see the cubes make a square | Nicomachus's theorem as paving: the cubes of one to n added come to the square of one to n added, so k flags of k by k for every k pave a square yard whose side is one plus two plus three and on; the picture proof lays them band by band round the corner, band k running k times k over two plus half a k along each arm, so an odd band lays k whole flags and an even one lays k - 1 whole and two halves, which is why the whole flags alone never pave; every paving of every yard is found twice, row by row and column by column, and Nicomachus's own paving is laid by formula to the thirty-six by thirty-six |
+| <div align="center"><img src="Goatsbridge/assets/logo.png" width="64"><br><b><a href="Goatsbridge">Goatsbridge</a></b></div> | Pick a door at the fair, watch the host open the goats, and stay or switch | The Monty Hall problem for n doors and k opened: staying wins one game in n, switching wins n - 1 in n and then lands the cart one time in n - 1 - k, since the host opens only goats and leaves the cart among fewer doors; three doors and one opened is two in three, ten and eight is nine in ten, ten and one is nine in eighty, the least switching ever gains and still more than staying; every case of every one of the 72 settings is counted in exact fractions and held to the formula, which counts nothing; The Stay ships hopeless because 1/(n - 1 - k) beats 1/(n - 1) whenever the host opens a door at all |
 
 ## The idea they share
 
@@ -1937,6 +1938,15 @@ paragraph:
   whole flags and an even band lays k - 1 whole and two halves. The last
   even flag has to be cut, which is why the whole flags on their own
   never pave, and the game turns halves on end to lay them.
+- **Goatsbridge** is the Monty Hall problem with the doors turned into
+  a dial: n doors, k of them opened by a host who knows where the cart
+  is and opens only goats. Staying wins the games where the first pick
+  was right, one in n. Switching wins the other n - 1 in n and then has
+  to land on the cart among the n - 1 - k doors still shut, so it wins
+  (n - 1)/n times 1/(n - 1 - k). Opening more doors is what makes
+  switching better, not the switch itself, and The Stay ships hopeless
+  because staying can never win more than switching once the host has
+  opened anything.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
