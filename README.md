@@ -1,6 +1,6 @@
 # Thumbworks
 
-Two hundred and four games for phones, in Flutter, for Android and iOS. One repository,
+Two hundred and five games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -213,6 +213,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Arrowmere/assets/logo.png" width="64"><br><b><a href="Arrowmere">Arrowmere</a></b></div> | Turn every street of the village one-way and still be able to get anywhere from anywhere | Robbins' theorem, from Herbert Robbins in 1939: a joined village can be made one-way throughout exactly when no street is a bridge, a street whose closing would cut the village in two; one side is plain, since a bridge pointed one way strands whatever is behind it, and the other is the work of the theorem; every pointing of every village on the sham is walked in full and held against the bridge count, and The Toll Lane ships hopeless because its one street is a bridge |
 | <div align="center"><img src="Beadmere/assets/logo.png" width="64"><br><b><a href="Beadmere">Beadmere</a></b></div> | String beads light and dark so the strip repeats two ways at once and no shorter way | The Fine and Wilf periodicity theorem of 1965: a strip carrying repeats p and q and running to p plus q less their greatest common divisor must carry that divisor as a repeat as well, so for repeats with nothing in common every bead comes out the same colour; the length is sharp, and one bead shorter there are strips with both repeats and not the divisor, which for neighbouring Fibonacci numbers are the Fibonacci strips; every strip the board can hold is swept and every repeat read twice; One Too Long ships hopeless because seven beads is exactly the length the theorem bites at |
 | <div align="center"><img src="Beamsley/assets/logo.png" width="64"><br><b><a href="Beamsley">Beamsley</a></b></div> | Set three pegs about a lantern and cast a shadow triangle from it, then find where matching sides meet | Desargues from 1639: two triangles in perspective from a point have their three pairs of matching sides meeting on one line, the axis, whatever the pegs and whatever the multiples; where matching sides run parallel the meeting runs off to infinity and the theorem still holds, which is why it is stated in the projective plane; every triangle of the field and every casting is swept, 511,488 settings, the meetings found once as homogeneous whole numbers and once as plain fractions; The Crooked Axis ships hopeless because the axis is never crooked |
+| <div align="center"><img src="Benchwood/assets/logo.png" width="64"><br><b><a href="Benchwood">Benchwood</a></b></div> | Work a job card at a joiner's bench, choosing which tool to carry back when the bench is full | Belady 1966: carrying back the tool whose next call is furthest off cannot be beaten, proved by an exchange that takes any way of working the card, mends its first disagreement with the rule, and never raises the walks; it needs the whole card in advance, which is why a real bench cannot follow it, and the screen writes each tool's next call over it so the rule is something to see; Belady's own 1969 card shows the anomaly, seven walks on three slots and six on four by the rule but nine then ten by carrying back the oldest; The Three Walks ships hopeless because three tools need three fetches and the bench holds two |
 
 ## The idea they share
 
@@ -2029,6 +2030,17 @@ paragraph:
   line is still there, which is the reason the theorem is stated in the
   projective plane rather than the ordinary one. The Crooked Axis ships
   hopeless because the three meetings are never off the line.
+
+- **Benchwood** is Belady from 1966. A bench with a few tool slots, a
+  store down the yard, and a card calling for tools one at a time. The
+  only choice is which tool to carry back when the bench is full, and
+  one rule cannot be beaten: send back the one whose next call is
+  furthest off. The proof is an exchange. Take any way of working the
+  card, find the first place it disagrees with the rule, change that
+  carry and mend what follows, and the walks never go up. The rule needs
+  to see the whole card before it starts, which is why no real bench can
+  use it. The Three Walks ships hopeless because three tools want three
+  fetches and a bench of two can only hold two of them.
 
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
