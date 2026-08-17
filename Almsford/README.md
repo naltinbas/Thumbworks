@@ -92,7 +92,8 @@ every arrangement of the 10 measures over the 5 bins taken, 1,001 of them standi
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
 every measure in them was moved by a tap on a bin, so nothing pictured
-is an arrangement the game could not reach. The logo and every launcher
+is an arrangement the game could not reach. The bins across the top of
+the sham shot are the mark rather than a run of shares. The logo and every launcher
 icon come out of `test/mark_test.dart` the same way: the mark is the
 staircase, 0, 1, 2, 3, 4.
 

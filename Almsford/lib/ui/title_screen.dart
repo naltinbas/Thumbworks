@@ -73,7 +73,7 @@ class _TitleScreenState extends State<TitleScreen> {
                       ),
                       subtitle: Text(
                         '${level.task[0].toUpperCase()}${level.task.substring(1)}'
-                        '${fewest == null ? '' : '. Fewest: $fewest'}',
+                        '${!level.winnable ? '. Hopeless.' : fewest == null ? '' : '. Fewest: $fewest'}',
                         style: const TextStyle(
                             color: Palette.inkDim, fontSize: 13),
                       ),

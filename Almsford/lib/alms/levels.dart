@@ -21,8 +21,9 @@ class Levels {
       fewest: 4,
       note: '10 of the 1,001 arrangements stand in this shape. Four shares '
           'from the opening, all of them out of the same bin and into the '
-          'same one, which is as direct as a share-out gets. Three empty '
-          'bins stay empty because nothing in them can pull.',
+          'same one, which is as direct as a share-out gets. The other three '
+          'bins are never given anything, though nothing stops them: a bin '
+          'holding two or more can always give to an empty one.',
     ),
     Level(
       name: 'The Staircase',
