@@ -94,7 +94,8 @@ every village the board can hold taken, all 1,024 ways the ten lanes can lie, of
 Screenshots are drawn by `test/showcase_test.dart` at real phone sizes
 with the app's own painter, then copied into `docs/` as they came out;
 every lane in them was laid by a tap on the board, so nothing pictured
-is a village the game could not reach. The logo and every launcher icon
+is a village the game could not reach. The village across the top of
+the sham shot is the mark rather than a run of taps. The logo and every launcher icon
 come out of `test/mark_test.dart` the same way: the mark is the ring
 that runs through all five greens, every lane taking 4/5 of the
 stringings, with the lanes it does not lay drawn as dashes.
