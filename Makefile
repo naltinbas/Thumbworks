@@ -33,7 +33,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Knuckleby Farthingford Tussockmere Beadlow \
          Braidfell Copestone Wardhall Scoreham Gapstile Borrowfen Chainhurst Sashmoor Wickthorn Stackholt Brackenside Tetherdown Stitchfen Crookmarsh Wirecombe Pigeonwick Greetley Shelfham Pursewell Fanleigh Addlemoor Marklow Hamperfen Beamsworth Noughtsmill Matchcote Coursewell Acreford Peckthorne Wantley Squarholt Thrissleton Daisyholme Inkfen Rackenford Slicebury Watchmere Sortlow Dealstone Starholme Clinkfield Oddrow Foursworth Tablesham Studwell Evenholt Frogmere Setwick Sweetleigh Shiftwell Kerbwell Loafham Trayford Riffleford Thirdwell Rowsworth Steedwick Foldwick Stillmere Midford Wheelford Evenmoor Slateford Patchmere Knotford Throwsden Stilemere Stookwell Mitrewick Ledgeworth Milesworth Capwick Rowsden Cubewick Weighwick Cloakwell Fusewick Trickmere Cupwell Suppermere Whistlecote Copperwick Farrierstead Slantbury Brickholme Crownwick Combwell Cutlassby Cutmere Squarebrook Halvingham Muxholme Turnwick Watchcombe Weaveholme \
   Fridayford Loadwick Leechmere Wedgeworth Framley Crustleigh Laneford Candleford Cornerstow Goatsbridge Baizewell Fevershaw Bakerley Mootbury Almsford Arrowmere Beadmere \
-         Beamsley Benchwood Bondwell
+         Beamsley Benchwood Bondwell Bubbleford
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 

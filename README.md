@@ -1,6 +1,6 @@
 # Thumbworks
 
-Two hundred and six games for phones, in Flutter, for Android and iOS. One repository,
+Two hundred and seven games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -215,6 +215,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Beamsley/assets/logo.png" width="64"><br><b><a href="Beamsley">Beamsley</a></b></div> | Set three pegs about a lantern and cast a shadow triangle from it, then find where matching sides meet | Desargues from 1639: two triangles in perspective from a point have their three pairs of matching sides meeting on one line, the axis, whatever the pegs and whatever the multiples; where matching sides run parallel the meeting runs off to infinity and the theorem still holds, which is why it is stated in the projective plane; every triangle of the field and every casting is swept, 511,488 settings, the meetings found once as homogeneous whole numbers and once as plain fractions; The Crooked Axis ships hopeless because the axis is never crooked |
 | <div align="center"><img src="Benchwood/assets/logo.png" width="64"><br><b><a href="Benchwood">Benchwood</a></b></div> | Work a job card at a joiner's bench, choosing which tool to carry back when the bench is full | Belady 1966: carrying back the tool whose next call is furthest off cannot be beaten, proved by an exchange that takes any way of working the card, mends its first disagreement with the rule, and never raises the walks; it needs the whole card in advance, which is why a real bench cannot follow it, and the screen writes each tool's next call over it so the rule is something to see; Belady's own 1969 card shows the anomaly, seven walks on three slots and six on four by the rule but nine then ten by carrying back the oldest; The Three Walks ships hopeless because three tools need three fetches and the bench holds two |
 | <div align="center"><img src="Bondwell/assets/logo.png" width="64"><br><b><a href="Bondwell">Bondwell</a></b></div> | Divide an estate among three heirs whose bonds come to more than it holds, until every pair of scales hangs level | Aumann and Maschler 1985 read the Talmud's three-widow table at Ketubot 93a as one rule rather than three: each row is the division where every pair of heirs splits what the two of them hold by the contested-garment rule of Bava Metzia 1:1, and each is the nucleolus of the bankruptcy game; each of the four estates has exactly one division that levels all three scales, out of 91, 325, 703 and 1,225; Reward the Long Bond ships hopeless because twelve coins is no more than any bond, so nobody can concede and every pair must split dead even |
+| <div align="center"><img src="Bubbleford/assets/logo.png" width="64"><br><b><a href="Bubbleford">Bubbleford</a></b></div> | Step the bends of three kissing bubbles and watch the two fourths that kiss all three | Descartes 1643, in a letter to Princess Elisabeth of Bohemia, and Soddy's verse of 1936: the four bends of four kissing bubbles satisfy the sum squared equalling twice the sum of the squares, so the fourth bend is a plus b plus c give or take twice the root of ab plus bc plus ca; every setting of the three dials from 1 to 20 is swept, 8,000 of them, both fourths worked by the formula and each checked against every whole bend; 27 settings ring the three with a unit bubble and 33 flatten the outer one to a straight line; The Twin Fourths ships hopeless because the two fourths differ by four times a root that is never nothing |
 
 ## The idea they share
 
@@ -2054,6 +2055,18 @@ paragraph:
   scales at once. Reward the Long Bond ships hopeless because at twelve
   coins nobody can concede anything, so every pair splits dead even and
   the purses come out equal whatever you do.
+
+- **Bubbleford** is Descartes from 1643 and Soddy from 1936. Three
+  bubbles kiss, each touching the other two, and there are always two
+  more that kiss all three: one in the gap between them and one round
+  the outside. Write a bubble's bend as one over its radius and the four
+  bends obey a single equation, so the fourth is the three added give or
+  take twice the root of their pairwise products. The plus gives the
+  bubble in the gap. The minus gives the outer one, whose bend counts
+  negative when it wraps the three, nought when it flattens to a
+  straight line, and positive when it sits in the far gap. The Twin
+  Fourths ships hopeless because the two fourths are that root apart and
+  the root is never nothing.
 
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
