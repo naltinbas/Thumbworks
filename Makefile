@@ -42,7 +42,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Reckonby Rickmere Rimsbury Ringfold Rodwell Roostwick Rootley Ropeford Roundhithe \
          Sackford Sevenby Sharewick Shortcombe Shuntbury Skeinwell Sliverton Squarewell \
          Stickerwick Stubwick Sunderby Tabormere Threadwick Threefold Tithebury Tosswell \
-         Trebleworth Truckleford Tuesleigh Wardsby Yardwick
+         Trebleworth Truckleford Tuesleigh Wardsby Yardwick Glintmere
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
