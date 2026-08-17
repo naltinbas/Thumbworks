@@ -1,6 +1,6 @@
 # Thumbworks
 
-A hundred and ninety games for phones, in Flutter, for Android and iOS. One repository,
+A hundred and ninety-one games for phones, in Flutter, for Android and iOS. One repository,
 one folder each, and every commit each of them was built with.
 
 They have almost nothing in common as games. There is a nonogram, a siege, a
@@ -199,6 +199,7 @@ is why they live together: **each one proves the thing it promises.**
 | <div align="center"><img src="Loadwick/assets/logo.png" width="64"><br><b><a href="Loadwick">Loadwick</a></b></div> | Pick the die that beats the one the house rolled, from four dice with odd faces | Efron's nontransitive dice: A beats B, B beats C, C beats D and D beats A, 24 rolls of 36 each, so whichever die the house takes there is one that beats it and no die beats all the others; the game counts every roll of every pair, wins, ties and losses coming to thirty-six every time, and sweeps every die of six faces from nought to six against the four, 924 dice, 96 of which beat all four; The Champion ships hopeless because each of the four loses to the one before it round the ring, and the why walks the ring |
 | <div align="center"><img src="Leechmere/assets/logo.png" width="64"><br><b><a href="Leechmere">Leechmere</a></b></div> | Set how many patients each healer sees in each season, and watch the year turn against the better healer | Simpson's paradox: Ash cures nine in ten in spring and three in ten in autumn, Birch eight and two, so Ash is the better healer in both seasons at every load, and yet Ash cures the smaller share of the year on 154 of the 625 settings, since the year is the seasons weighed by the patients seen; with the loads alike for both healers, 25 settings, Ash is ahead by one in ten exactly, every time; every setting is swept with exact fractions |
 | <div align="center"><img src="Wedgeworth/assets/logo.png" width="64"><br><b><a href="Wedgeworth">Wedgeworth</a></b></div> | Fan regular faces round a point and see which corners close and which lie flat or overlap | The five regular solids, by the angles at a corner: a face of p sides has corners of 180(p - 2)/p degrees, so a corner closes only when the faces at it come to less than a full turn, which happens for three, four or five triangles, three squares and three pentagons and nothing else; three hexagons make 360 exactly and lie flat like a comb, and Euler's corners less edges plus faces coming to two picks out the same five; every angle is kept as an exact fraction of a degree and every setting of face and fan is swept; The Honeycomb Corner ships hopeless because three hexagons already fill the turn |
+| <div align="center"><img src="Framley/assets/logo.png" width="64"><br><b><a href="Framley">Framley</a></b></div> | Hang square picture frames, no two alike, edge to edge, to fill a gallery wall exactly | Perfect squared rectangles: Moron's two of 1925, thirty-two by thirty-three hung with the nine frames 1 to 18 and sixty-one by sixty-nine with nine from 2 to 36, and a wall of ten, forty-seven by sixty-five; every hanging of each is found twice, by filling the first bare cell row by row and again column by column, four to a wall and one but for turning and mirroring, and the areas add up to 1,056, 4,209 and 3,055; The One on the Rim ships hopeless because the smallest frame can never touch the rim, where it would sit in a well as wide as itself with nothing narrow enough to cover the cell above it |
 
 ## The idea they share
 
@@ -1881,6 +1882,17 @@ paragraph:
   to two, picks out the same five. Every angle is an exact fraction of a
   degree. The Honeycomb Corner ships hopeless because three hexagons
   make the full 360 and lie flat, as the bees' comb does.
+- **Framley** is perfect squared rectangles, hung on a gallery wall: square
+  frames, no two alike, edge to edge, filling the wall exactly. The walls
+  are the real ones, Moron's thirty-two by thirty-three of 1925 with the
+  nine frames 1, 4, 7, 8, 9, 10, 14, 15 and 18, his sixty-one by
+  sixty-nine with nine more, and a wall of ten, forty-seven by
+  sixty-five. Every hanging is found by covering the first bare cell,
+  since whatever covers it must have its top left corner there, and found
+  again column by column: four hangings a wall, one but for turning and
+  mirroring. The One on the Rim ships hopeless because the smallest frame
+  is never on the rim, where it would sit at the bottom of a well as wide
+  as itself and nothing left is narrow enough to cover the cell above it.
 - **Tallyloom**, **Fanwright**, **Vaultline** and **Wirewend** each do the
   same for their own shape of content: nothing reaches a player that a solver
   has not finished first.
