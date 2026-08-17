@@ -1,0 +1,283 @@
+import 'package:flutter/material.dart';
+
+import '../best.dart';
+import '../rick/level.dart';
+import '../rick/play.dart';
+import 'palette.dart';
+import 'result_card.dart';
+import 'rickview.dart';
+
+/// One ask, the village laid to it.
+class RickScreen extends StatefulWidget {
+  const RickScreen({super.key, required this.level});
+
+  final Level level;
+
+  @override
+  State<RickScreen> createState() => RickScreenState();
+}
+
+class RickScreenState extends State<RickScreen> {
+  late Play play;
+
+  /// The post the show-me points at and the peg it wants, or null.
+  (int, (int, int))? pointing;
+
+  /// What the last tap did, when it did nothing.
+  String? refused;
+
+  int? fewest;
+  bool isRecord = false;
+  bool _counted = false;
+
+  @override
+  void initState() {
+    super.initState();
+    play = Play.of(widget.level);
+    Best.ready().then((_) {
+      if (mounted) {
+        setState(() => fewest = Best.fewest(widget.level.name));
+      }
+    });
+  }
+
+  void _tap((int, int) peg) {
+    if (play.isOver) return;
+    final was = play;
+    final lifted = play.lifted;
+    setState(() {
+      play = play.tap(peg);
+      pointing = null;
+      refused = identical(play, was) && lifted != null
+          ? 'A post cannot stand there: the three would fall in a line, or '
+              'two would share a peg.'
+          : null;
+    });
+    if (identical(play, was)) return;
+    if (play.isDone && !_counted) {
+      _counted = true;
+      Best.landed(widget.level.name, play.moves).then((record) {
+        if (mounted) {
+          setState(() {
+            isRecord = record;
+            fewest = Best.fewest(widget.level.name);
+          });
+        }
+      });
+    }
+  }
+
+  void _back() {
+    if (play.before == null) return;
+    setState(() {
+      play = play.back;
+      pointing = null;
+      refused = null;
+      _counted = false;
+      isRecord = false;
+    });
+  }
+
+  void _show() {
+    setState(() {
+      pointing = play.next;
+      refused = null;
+    });
+  }
+
+  void _why() {
+    showModalBottomSheet<void>(
+      context: context,
+      backgroundColor: Palette.board,
+      builder: (context) => Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Why',
+              style: TextStyle(
+                color: Palette.ink,
+                fontSize: 20,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Flexible(
+              child: SingleChildScrollView(
+                child: Text(
+                  whyWords(play),
+                  style: const TextStyle(
+                      color: Palette.ink, fontSize: 14, height: 1.5),
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _again() {
+    setState(() {
+      play = Play.of(widget.level);
+      pointing = null;
+      refused = null;
+      _counted = false;
+      isRecord = false;
+    });
+  }
+
+  /// What the sham says of itself, as it stands.
+  String verdict() {
+    final aim = pointing;
+    if (aim != null) return play.pointed(aim);
+    final held = refused;
+    if (held != null) return held;
+    if (play.gaveUp) {
+      return 'Every marker sits at a place of the form a and b roots of '
+          'three, and the three gaps come out the same however the posts '
+          'stand.';
+    }
+    final head = 'The three markers stand the same distance apart, that '
+        'distance squared being ${play.markerSides.first}.';
+    return play.isDone ? 'As asked. $head' : head;
+  }
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+        backgroundColor: Palette.night,
+        appBar: AppBar(
+          backgroundColor: Palette.night,
+          foregroundColor: Palette.ink,
+          title: Text(widget.level.name),
+        ),
+        body: SafeArea(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Text(
+                  'Tap a post to lift it and a peg to stand it on: '
+                  '${widget.level.task}.',
+                  style: const TextStyle(color: Palette.inkDim, fontSize: 14),
+                ),
+              ),
+              Expanded(
+                child: LayoutBuilder(
+                  builder: (context, room) => GestureDetector(
+                    behavior: HitTestBehavior.opaque,
+                    onTapUp: (touch) {
+                      final peg = Metrics(play,
+                              Size(room.maxWidth, room.maxHeight))
+                          .pegNear(touch.localPosition);
+                      if (peg != null) _tap(peg);
+                    },
+                    child: CustomPaint(
+                      key: const Key('board'),
+                      painter: RickView(
+                        play: play,
+                        pointing: pointing,
+                        labels: const TextStyle(fontFamily: 'Roboto'),
+                      ),
+                      child: const SizedBox.expand(),
+                    ),
+                  ),
+                ),
+              ),
+              if (!play.isOver)
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 4,
+                  alignment: WrapAlignment.center,
+                  children: [
+                    Chip(
+                      backgroundColor: Palette.board,
+                      side: BorderSide(
+                          color: play.isDone ? Palette.good : Palette.line),
+                      label: Text(
+                        play.halfAcres.isEven
+                            ? 'acres ${play.halfAcres ~/ 2}'
+                            : 'acres ${play.halfAcres} halves',
+                        style: const TextStyle(
+                            color: Palette.field, fontSize: 13),
+                      ),
+                    ),
+                    Chip(
+                      backgroundColor: Palette.board,
+                      side: const BorderSide(color: Palette.line),
+                      label: Text(
+                        play.squareCorner ? 'a square corner' : 'no square corner',
+                        style:
+                            const TextStyle(color: Palette.ink, fontSize: 13),
+                      ),
+                    ),
+                    Chip(
+                      backgroundColor: Palette.board,
+                      side: const BorderSide(color: Palette.line),
+                      label: Text(
+                        'posts ${play.moves}',
+                        style: const TextStyle(
+                            color: Palette.inkDim, fontSize: 13),
+                      ),
+                    ),
+                  ],
+                ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(20, 4, 20, 2),
+                child: Text(
+                  verdict(),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: pointing != null
+                        ? Palette.shown
+                        : refused != null
+                            ? Palette.misfit
+                            : play.isDone
+                                ? Palette.good
+                                : Palette.ink,
+                    fontSize: 14,
+                  ),
+                ),
+              ),
+              if (play.isOver)
+                // The card runs long on a small phone, so it is given
+                // room to scroll rather than pushing the buttons off.
+                Flexible(
+                  child: SingleChildScrollView(
+                    child: ResultCard(
+                      play: play,
+                      fewest: fewest,
+                      isRecord: isRecord,
+                      onAgain: _again,
+                      onSham: () => Navigator.of(context).pop(),
+                    ),
+                  ),
+                ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(12, 4, 12, 10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    TextButton(
+                      onPressed: play.before == null ? null : _back,
+                      child: const Text('Back'),
+                    ),
+                    TextButton(
+                      onPressed: play.isOver ? null : _show,
+                      child: const Text('Show me'),
+                    ),
+                    TextButton(
+                      onPressed: _why,
+                      child: const Text('Why'),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+}
