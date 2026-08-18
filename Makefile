@@ -43,7 +43,7 @@ GAMES := Wirewend Slingwell Latchword Tallyloom Thornguard Emberlane \
          Sackford Sevenby Sharewick Shortcombe Shuntbury Skeinwell Sliverton Squarewell \
          Stickerwick Stubwick Sunderby Tabormere Threadwick Threefold Tithebury Tosswell \
          Trebleworth Truckleford Tuesleigh Wardsby Yardwick Glintmere Trestlemere Yokemere \
-         Palingford
+         Palingford Plaitwell
 
 .PHONY: check test analyze deps shots apk clean list one scratch images
 
