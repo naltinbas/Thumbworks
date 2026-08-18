@@ -64,12 +64,30 @@ full, and the walk came to six less the palings that keep their
 order every time. That is the count on the moves chip, and the
 fewest on each tile rests on it.
 
-Evenmoor in this collection is the pigeonhole in its plainest
-clothes: four pegs can take the four kinds of hole one apiece and
-five cannot. This is the same shape of argument with the holes
-hidden. Nobody hands you nine pigeonholes here. You have to notice
-that the tag on a paling is one, and that two palings can never
-share theirs.
+Crookmarsh in this collection comes out of the same paper. Erdos and
+Szekeres wrote it in 1935 about points in the plane, asking how many
+you need before four of them stand at the corners of a quadrilateral
+with nothing tucked inside; the five-point case Crookmarsh turns on
+was Esther Klein's, and it is what set the two of them off. The
+monotone runs here are the other result in that paper. The two
+proofs share nothing at all. Crookmarsh's is geometry, and this one
+is nine tags and ten palings.
+
+Staplemere works the same raw material and gets
+something else out of it. Bales come up a lane in an order the carter
+chose and go into piles, a pile read from the ground up is a falling
+run, and the fewest piles the morning allows is exactly the longest
+rising run, which is Dilworth's theorem in a farmyard. There the two
+kinds of run are counted against each other and the answer comes out
+exact. Here neither is being counted. The question is only how short
+both can be made at once, and the answer is that on ten palings one
+of them reaches four.
+
+Evenmoor is the pigeonhole in its plainest clothes: four pegs can
+take the four kinds of hole one apiece and five cannot. This is the
+same shape of argument with the holes hidden. Nobody hands you nine
+pigeonholes here. You have to notice that the tag on a paling is
+one, and that two palings can never share theirs.
 
 ## The checker's ledger
 
